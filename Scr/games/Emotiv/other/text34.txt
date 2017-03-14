@@ -1,0 +1,4 @@
+[test]
+text="ich bin einne kartoffel."
+text3="ich bin einne kartoffel."
+text2="ich bin einne kartoffel."

@@ -1,0 +1,7 @@
+author=Emotiv Group
+description=
+name=Emotiv
+screen_height=600
+screen_width=800
+script=game.js
+
