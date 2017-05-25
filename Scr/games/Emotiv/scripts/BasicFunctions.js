@@ -59,6 +59,7 @@ function Load_Game(){
 	
 	//RequireScript(filename1);
 	if(IsMapEngineRunning() == false){
+       // DestroyPerson(main_char, "detective.rss", false);
 		CreatePerson(main_char, "detective.rss", false);
 		SetPersonSpeed(main_char,GetPersonSpeedX(main_char)*1.5); 
 		AttachInput(main_char); 

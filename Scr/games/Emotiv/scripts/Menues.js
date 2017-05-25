@@ -46,7 +46,7 @@ function main_menu()
 			{
 				if (mode=="main")
 				{
-					if (yfinger < 162) yfinger += 30;
+					if (yfinger < 192) yfinger += 30;
 					else yfinger = 18;
 				}
 				break;
@@ -56,12 +56,12 @@ function main_menu()
 				if (mode=="main")
 				{
 					if (yfinger > 18) yfinger -= 30;
-					else yfinger = 168;
+					else yfinger = 198;
 				}
 				break;
 			}
 			
-			// picks the next menu window to show with ENTER
+			// picks the next menu window to show with SPACE
 			case key_talk:
 			{
 				if (mode == "main")
@@ -72,7 +72,7 @@ function main_menu()
 					else if (yfinger == 103) { redraw = true; control(); yfinger2 = 108;}
 					else if (yfinger == 133) { Save_Game();}
 					else if (yfinger == 163) { Load_Game();}
-					else if (yfinger == 133) { Exit();}
+					else if (yfinger == 193) { Exit();}
 					else;	//uh oh.
 				}
 				// handles different modes on main menu
@@ -110,7 +110,7 @@ function main_menu()
 //-----------------------------------------lyc
 
 function control(){
-	var pic = "emo2.png";
+	var pic = "menues/Steuerung.png";
 	var key=0;
 	while(key!=key_cancel){
 		RenderMap();

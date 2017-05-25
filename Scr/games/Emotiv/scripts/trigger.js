@@ -1,5 +1,5 @@
 /*
-Questfortschrittzähler  (trigger_progress[0]==0) für Gebiete unterteilt:
+Questfortschrittzï¿½hler  (trigger_progress[0]==0) fï¿½r Gebiete unterteilt:
 ab
 001 -Stadt
 1001- Wohngebiet
@@ -13,7 +13,7 @@ Feld [1-x]=nebenquest
 /*
 Triggernamen:
 triggerXYZ_SinnvollerName
-XYZ siehe Questfortschrittzähler
+XYZ siehe Questfortschrittzï¿½hler
 SinnvollerName=Was macht der Trigger (UpperCamelCase)
 */
 
@@ -68,7 +68,7 @@ var picture1=saveTilePicture(2,18,3,4,4);
 setTileArray(2,18,3,4,4,1649);
 UpdateMapEngine();
 map_sound = LoadSound("MAPgallery.mp3");
-map_sound.setVolume(75);
+map_sound.setVolume(10);
 map_sound.play(true);
 RenderMap();
 personAlign("Galerist Hubert",GetPersonX("Galerist Hubert"),GetPersonY("Galerist Hubert"),GetPersonX("Galerist Hubert"),GetPersonY("Galerist Hubert")+10);
@@ -121,7 +121,7 @@ trigger_progress[0]=trigger_progress[0]+1;
 //-----------------------------------------------------Stadt Quark
 //Port Polizei Stadt
 function trigger006_PolizeizuStadt (){
-MapChange("Detektei_Polizei_Büro.rmp",248,281,"MAPcity.wav");
+MapChange("Detektei_Polizei_Buero.rmp",248,281,"MAPcity.wav");
 };
 
 //Port Stadt Detektei
@@ -218,7 +218,7 @@ trigger_progress[0]=trigger_progress[0]+1;
 
 //Port Detektei zu Stadt
 function trigger013_DetekteizuStadt (){
-MapChange("Detektei_Polizei_Büro.rmp",670,950,"MAPcity.wav");
+MapChange("Detektei_Polizei_Buero.rmp",670,950,"MAPcity.wav");
 };
 
 //Get Emolex
@@ -236,7 +236,7 @@ Dialog("dialog_015");
 moveTo("Prof",136,233);
 DestroyPerson("Prof");
 //schalte Dorf und Einkaufscenter
-//Todo: EMolex ins Menü
+//Todo: EMolex ins Menue
 }
 };
 
@@ -268,67 +268,67 @@ oberwelt_karte();
 //FlipScreen();
 };
 
-//Port Büro
-function trigger019_InsBüro (){
-MapChange("büro.rmp",24,137,"MAPdorf2.mp3");
+//Port Bï¿½ro
+function trigger019_InsBuero (){
+MapChange("buero.rmp",24,137,"MAPdorf2.mp3");
 FlipScreen();
 };
 
-//Port aus Büro
-function trigger020_BüroInStadt (){
-MapChange("Detektei_Polizei_Büro.rmp",1159,654,"MAPcity.wav");
+//Port aus Bï¿½ro
+function trigger020_BueroInStadt (){
+MapChange("Detektei_Polizei_Buero.rmp",1159,654,"MAPcity.wav");
 FlipScreen();
 };
 
 //Port Dorf zu Stadt - Oberwelt
 function trigger020_DorfInStadt (){
 oberwelt_karte();
-//MapChange("Detektei_Polizei_Büro.rmp",1566,1146,"MAPcity.wav");
+//MapChange("Detektei_Polizei_Buero.rmp",1566,1146,"MAPcity.wav");
 //FlipScreen();
 };
 
-//Port Stadt zu Einkaufstraße - Oberwelt
-function trigger021_StadtzuEinkaufsstraße (){
+//Port Stadt zu Einkaufstrasse - Oberwelt
+function trigger021_StadtzuEinkaufsstrasse (){
 oberwelt_karte();
 //MapChange("einkauf-kulturzentrum_strasse.rmp",1643,524,"MAPcity.wav");
 //FlipScreen();
 };
 
-//Port Einkaufsstraße in Stadt
-function trigger022_EinkaufsstraßeInStadt (){
+//Port Einkaufsstrasse in Stadt
+function trigger022_EinkaufsstrasseInStadt (){
 oberwelt_karte();
-//MapChange("Detektei_Polizei_Büro.rmp",35,1149,"MAPcity.wav");
+//MapChange("Detektei_Polizei_Buero.rmp",35,1149,"MAPcity.wav");
 //FlipScreen();
 };
 
 //Port in Kaufhaus
-function trigger023_EinkaufsstraßeInsKaufhaus (){
+function trigger023_EinkaufsstrasseInsKaufhaus (){
 MapChange("Einkaufzentrum_EG.rmp",334,604,"MAPshopping.mp3");
 FlipScreen();
 };
 
-//Port Kaufhaus zu Straße
-function trigger024_KaufhauszuEinkaufsstraße (){
+//Port Kaufhaus zu Strasse
+function trigger024_KaufhauszuEinkaufsstrasse (){
 MapChange("einkauf-kulturzentrum_strasse.rmp",1320,490,"MAPcity.wav");
 FlipScreen();
 };
 
 //Port aus Galerie
-function trigger025_GaleriezuEinkaufsstraße (){
+function trigger025_GaleriezuEinkaufsstrasse (){
 MapChange("einkauf-kulturzentrum_strasse.rmp",249,411,"MAPcity.wav");
 FlipScreen();
 };
 
 //Port in Galerie
-function trigger026_EinkaufsstraßezuGalerie (){
+function trigger026_EinkaufsstrassezuGalerie (){
 MapChange("kulturzentrum_eingang.rmp",280,475,"MAPgallery.mp3");
 DestroyPerson("Polizeichef Rick Bury");
 personAlign("Galerist Hubert",GetPersonX("Galerist Hubert"),GetPersonY("Galerist Hubert"),GetPersonX("Galerist Hubert"),GetPersonY("Galerist Hubert")+10);
 FlipScreen();
 };
 
-// Quest Büro
-function trigger027_BüroQuest (){
+// Quest Buero
+function trigger027_BueroQuest (){
 if (trigger_progress[0]==12){
 trigger_progress[0]=trigger_progress[0]+1; //13
 Dialog("dialog_017");
@@ -388,13 +388,13 @@ getQuest(4);
 };
 
 //Port Kaufhaus 1S zu EG
-function trigger029_EinkaufsstraßeInsKaufhaus (){
+function trigger029_EinkaufsstrasseInsKaufhaus (){
 MapChange("Einkaufzentrum_EG.rmp",416,202,"MAPshopping.mp3");
 FlipScreen();
 };
 
 //Port Kaufhaus 1S zu 2S
-function trigger030_EinkaufsstraßeInsKaufhaus (){
+function trigger030_EinkaufsstrasseInsKaufhaus (){
 MapChange("Einkaufzentrum_2S.rmp",416,182,"MAPshopping.mp3");
 FlipScreen();
 };
@@ -443,7 +443,7 @@ Dialog("dialog_027");
 
 //Port Wohnviertel zu Stadt
 function trigger034_WohngebietzuSadt (){
-MapChange("Detektei_Polizei_Büro.rmp",982,40,"MAPcity.wav");
+MapChange("Detektei_Polizei_Buero.rmp",982,40,"MAPcity.wav");
 FlipScreen();
 };
 
@@ -560,7 +560,7 @@ oberwelt_karte();
 //FlipScreen();
 };
 
-//-------------------------------------------------------Tunnel
+/*//-------------------------------------------------------Tunnel
 
 function trigger401_Minenarbeiterkommt (){
 //if (trigger_progress[0]){
@@ -607,14 +607,14 @@ Dialog("dialog_402");
 //trigger_progress[0]=trigger_progress[0]+1;
 }
 
-//Itemget für erste Hilfe Kasten
+//Itemget fï¿½r erste Hilfe Kasten
 function trigger_4003_ErsteHilfe (){
 if (trigger_progress[1]>=0){
 getItem(11);
 }
 };
 
-//Itemget für Bohrmaschine
+//Itemget fï¿½r Bohrmaschine
 function trigger_4005_Bohrmaschine (){
 if (trigger_progress[1]>=0){
 getItem(12);
@@ -626,9 +626,9 @@ function trigger4004_DorfzuCave (){
 MapChange("cave.rmp",361,440,"MAPcave.mp3");
 FlipScreen();
 };
+*/
 
-
-//------------------------------------------------------------------- Park Danny
+/*//------------------------------------------------------------------- Park Danny
 
 function trigger3000_mapChangePark(){
 	MapChange("Park.rmp",872,1576,"MAPpark.ogg");
@@ -644,7 +644,7 @@ function trigger3001_profRuns(){
 }
 
 function trigger3002_einlass(){
-	giveItem(301);//Eintrittskarte, ##############################löschen! muss vorher im Spiel gefunden werden
+	giveItem(301);//Eintrittskarte, ##############################lï¿½schen! muss vorher im Spiel gefunden werden
 	if( isInInventory(301) ){ //Eintrittskarte
 		if(trigger_progress[0]==1){
 			closeQuest(301);
@@ -674,7 +674,7 @@ function trigger3003_Regisseur(){
 		
 		if(persons_progress[2]==2){
 			Dialog("dialog_3021");
-			closeQuest(303); //QuestComplete Mädchen
+			closeQuest(303); //QuestComplete Mï¿½dchen
 			
 			//replace
 			SetPersonX("Lenard Cabrio", 250);
@@ -733,7 +733,7 @@ function trigger3003_Regisseur(){
 				Dialog("dialog_3009");
 				
 				closeQuest(302);
-				getQuest(304);//Suche den Professornördlich des Labyrinths
+				getQuest(304);//Suche den Professornï¿½rdlich des Labyrinths
 				getEmotion(35) //Verzweifelt 35
 				
 				//NQuest
@@ -819,7 +819,7 @@ function trigger3006_professor(){
 		//Quiz
 		videoMiniGame('profquiz_zuversichtlich',"empty.ogg","puzzleProf1");
 		videoMiniGame('profquiz_verliebt',"empty.ogg","puzzleProf2");
-		videoMiniGame('profquiz_überrascht',"empty.ogg","puzzleProf3");
+		//videoMiniGame('profquiz_ï¿½berrascht',"empty.ogg","puzzleProf3");
 		videoMiniGame('profquiz_traurig',"empty.ogg","puzzleProf4");
 		videoMiniGame('profquiz_angstvoll',"empty.ogg","puzzleProf5");
 		videoMiniGame('profquiz_heiter',"empty.ogg","puzzleProf6");
@@ -846,14 +846,14 @@ function trigger3007_professor(){
 	getQuest(306); //Stelle das Bild des Professors in der Gallerie auf. Gallerie: closeQuest(305)
 	 
 }
-function trigger3007_mädchen(){
+function trigger3007_mï¿½dchen(){
 	if(trigger_progress[1]==1 ){
 		persons_progress[2]+=1;
 		FollowPerson("Kind","Indiana Ford",16);
 	}
 }
 
-function trigger3008_könig(){
+function trigger3008_kï¿½nig(){
 	Dialog("dialog_3022");
 
 	//#Soundquiz
@@ -867,7 +867,7 @@ function trigger3008_könig(){
 	
 	Dialog("dialog_3023");
 	giveItem(302); //Krone
-	getEmotion(17); //gekränkt
+	getEmotion(17); //gekrï¿½nkt
 }
 
 function trigger3009_changeToFinal(){
@@ -881,3 +881,4 @@ function trigger3010_bildAufstellen(){
 	
 	Dialog("dialog_3024");	
 }
+*/
