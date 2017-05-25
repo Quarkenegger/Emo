@@ -21,12 +21,20 @@ var main=false;
 var w = GetScreenWidth();
 var h = GetScreenHeight();
 var oberwelt_karte_array= [1,1,1,0,0,0];
-//var key_map = KEY_SPACE;
 var time=0;
 var points=0;
+
+//key bindings
 var key_talk = KEY_SPACE;
 var key_cancel = KEY_TAB;
 var key_menu = KEY_TAB;
+var key_help = KEY_H;
+var key_emolex = KEY_E;
+var key_map = KEY_M;
+var key_quest = KEY_Q;
+var key_inventory = KEY_I;
+var key_sprint = KEY_SHIFT;
+
 var persons_progress=[0];
 var trigger_progress=[0];
 var volume=0;

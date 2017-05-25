@@ -45,7 +45,7 @@ function main_menu()
 				if (mode=="main")
 				{
 					if (yfinger < 192) yfinger += 30;
-					else yfinger = 18;
+					else yfinger = 13;
 				}
 				break;
 			}
@@ -54,7 +54,7 @@ function main_menu()
 				if (mode=="main")
 				{
 					if (yfinger > 18) yfinger -= 30;
-					else yfinger = 198;
+					else yfinger = 193;
 				}
 				break;
 			}
