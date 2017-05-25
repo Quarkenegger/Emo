@@ -121,7 +121,7 @@ function soundMenu(song){
 		{
 			if (entry_highlighted<entrys) entry_highlighted=entry_highlighted+1;
 		}
-		if (key==KEY_ENTER)
+		if (key==key_talk)
 		{
 		volume=entry_highlighted/10;
 		var save = OpenFile("INI.ini");	
@@ -131,8 +131,8 @@ function soundMenu(song){
 		song.stop();
 		showGameMenu();
 		}
-	ShowPicture2("menues/buchmenü.png",0,0,800,600);
-	font.drawTextBox(200,200,200,80,0,"Lautstärke");
+	ShowPicture2("menues/buchmenÃ¼.png",0,0,800,600);
+	font.drawTextBox(200,200,200,80,0,"LautstÃ¤rke");
 	Rectangle(150,300,450,30,CreateColor(80,80,80));
 	Rectangle(150+((entry_highlighted-1)*1.6*30),300,30,30,CreateColor(0,0,0));
 	displayEntry(300,350,150,50,"Enter",false,"menues/wood_grain.gif",false)
@@ -141,7 +141,7 @@ function soundMenu(song){
 	}
 }
 
-//zeigt das spielmenü am anfang
+//zeigt das spielmen? am anfang
 function showGameMenu(){
 	var song=instantSoundRepeat("MENUoverworld.wav"); 
 	var entry_highlighted=1;
@@ -164,7 +164,7 @@ function showGameMenu(){
 			if (entry_highlighted===4) {song.stop(); Exit();}
 			if (entry_highlighted===5) ;//credits();
 			}
-ShowPicture2("menues/buchmenü2.png",0,0,800,600);
+ShowPicture2("menues/buchmenue2.png",0,0,800,600);
 ShowPicture("menues/minik-mini-bleistift.png",300,160,400,400);
 ShowPicture("menues/kaffee.png",-30,200,300,400);
 //ShowPicture("menues/schwarz.png",670,40,150,400);
@@ -187,7 +187,7 @@ displayEntry(250,i*80+130,200,60,textarray[i], false,"menues/wood_grain.gif",fal
 }
 }
 
-function displayEntrys(y_entry,x_entry,mark,progress)//zeichnet entrys und markiert sie(für emolex)
+function displayEntrys(y_entry,x_entry,mark,progress)//zeichnet entrys und markiert sie(f?r emolex)
 {
 mark=mark-1;
 var maxentrys=5;
@@ -208,7 +208,7 @@ for(var i = mul*maxentrys; i < maxdisplay;i=i+1)
   Rectangle(GetScreenWidth()/5*4-100,((5*(y_entry+5))+40)*(mark/progress.length)+110,15,25,CreateColor(0, 0,0));}
 }
 
-function displayEmotion(entry_highlighted)//für die anzeige eines bestimmten eintrags(+emonummer)
+function displayEmotion(entry_highlighted)//f?r die anzeige eines bestimmten eintrags(+emonummer)
 {
 font.setColorMask( CreateColor(0, 0,0));
 displayEntry(GetScreenWidth()/5+55,100,GetScreenWidth()/5*2+25,330,"",true,"emotions/"+eval("emotions.emotion"+progress[entry_highlighted-1]+".picture"),false);
@@ -311,7 +311,7 @@ function showInventory()//zeigt ds inventar
 }
 
 //-------------------------------------christian
-function questEntry(x,y,width,height,text, marked,picture,textbool)//soll einzelnen eintrag darstellen(für questbook)
+function questEntry(x,y,width,height,text, marked,picture,textbool)//soll einzelnen eintrag darstellen(f?r questbook)
 {
 var font2=font;
 font2.setColorMask(CreateColor(200, 200,0));
@@ -326,7 +326,7 @@ font2 = LoadFont("tahoma11.rfn");
 drawOffsetText(x+45,y+30,width-45,height+10,6,text,font2);
 }
 
-function questEntrys(y_entry,x_entry,mark,quests2)//zeichnet entrys und markiert sie(für questbook)
+function questEntrys(y_entry,x_entry,mark,quests2)//zeichnet entrys und markiert sie(f?r questbook)
 {
 if (quests2==true){
 var progress=questlist[0];

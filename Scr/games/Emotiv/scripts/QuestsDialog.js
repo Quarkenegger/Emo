@@ -29,7 +29,7 @@ var font2=LoadFont("tahoma12fett.rfn");
 	rewards(number,true);}
 }
 
-//speichert einen bereich an tiles in einem array(+layer,+xpos,+ypos,+breite,+höhe)
+//speichert einen bereich an tiles in einem array(+layer,+xpos,+ypos,+breite,+hï¿½he)
 function saveTilePicture(layer,x,y,sizex,sizey){
 var pictureArray=[];
 for (i=x;i<=x+sizex;i++)
@@ -40,7 +40,7 @@ pictureArray.push(GetTile(i, i2, layer));
 return pictureArray;
 }
 
-//zeigt ein gespeichertes tilearray(+layer,+xpos,+ypos,+breite,+höhe)
+//zeigt ein gespeichertes tilearray(+layer,+xpos,+ypos,+breite,+hï¿½he)
 function showTilePicture(layer,tilearray,x,y,sizex,sizey){
 var picture=0;
 for (i=x;i<=x+sizex;i++)
@@ -51,7 +51,7 @@ picture++;
 }
 }
 
-//setzt ein tilearray auf einen tile(+layer,+xpos,+ypos,+breite,+höhe,+tilenummer)
+//setzt ein tilearray auf einen tile(+layer,+xpos,+ypos,+breite,+hï¿½he,+tilenummer)
 function setTileArray(layer,x,y,sizex,sizey,tile){
 var i2=y;
 for (i=x;i<=x+sizex;i++)
@@ -61,7 +61,7 @@ SetTile(i, i2, layer, tile);
 };
 }
 
-//schließt quest ab(+questnummer)
+//schlieï¿½t quest ab(+questnummer)
 function closeQuest(number)
 {
 var font2=LoadFont("tahoma12fett.rfn");
@@ -79,7 +79,7 @@ var font2=LoadFont("tahoma12fett.rfn");
 	return succ;
 }
 
-//prüft ob [number] item im inventar ist(+itemnummer)
+//prï¿½ft ob [number] item im inventar ist(+itemnummer)
 function isInInventory(number){
 for (i=0;i<inventory.length;i++){
 if (inventory[i]==number) return true;}
@@ -131,7 +131,7 @@ var success=true;
 	return success;
 }
 
-//soll auswahlmöglichkeiten beiten und den dialog je nach auswahl fortsetzen, die dialoge sind über die stelle im array zugeordnet.(+frage/begrüßung,+auswahlmöglichkeiten(array),+verknüpfte dialognummern(array))
+//soll auswahlmï¿½glichkeiten beiten und den dialog je nach auswahl fortsetzen, die dialoge sind ï¿½ber die stelle im array zugeordnet.(+frage/begrï¿½ï¿½ung,+auswahlmï¿½glichkeiten(array),+verknï¿½pfte dialognummern(array))
 function choiceDialog(question,choicearray,dialogarray)
 {
 var entry_highlighted=1;
@@ -166,7 +166,7 @@ function videoMiniGame(video_path,sound_path,name)
  VideoPlayer(video_path,sound_path,eval("puzzles."+name+".question"));
  //VideoPlayer(name,name_sound,frames);
  var key=0
-	while (key!=KEY_ENTER){
+	while (key!=key_talk){
 		RenderMap();
 		if (key==77){
 		if (entry_highlighted>1) (entry_highlighted=(entry_highlighted-1));} 
@@ -188,7 +188,7 @@ function videoMiniGame(video_path,sound_path,name)
 }
 
 //------------------------------lyc
-//ändert die Map, setzt den Spieler an Position X,Y und spielt den neuen Mapsound ab 
+//ï¿½ndert die Map, setzt den Spieler an Position X,Y und spielt den neuen Mapsound ab 
 function MapChange(map,x,y,sound_path){
 	if (map_sound.isPlaying()){
 		map_sound.stop();
@@ -262,7 +262,7 @@ function lightning(picture_path){
  }
 }
 
-//für minigame
+//fï¿½r minigame
 function displayPictures(name, marked){
  var pictures = [];
  var teiler = 4;
@@ -335,6 +335,6 @@ function miniGame(pname){
   debugText("Gut gemacht!");
   }else{
    RenderMap();
-  debugText("Schade, vielleicht beim nächsten mal.");
+  debugText("Schade, vielleicht beim nï¿½chsten mal.");
   }
 }

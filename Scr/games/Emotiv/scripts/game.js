@@ -22,9 +22,9 @@ var h = GetScreenHeight();
 var oberwelt_karte_array= [1,1,1,0,0,0];
 //var key_map = KEY_SPACE;
 var points=0;
-var key_talk = KEY_ENTER;
-var key_cancel = KEY_BACKSPACE;
-var key_menu = KEY_SHIFT;
+var key_talk = KEY_SPACE;
+var key_cancel = KEY_ESCAPE;
+var key_menu = KEY_TAB;
 var persons_progress=[0];
 var trigger_progress=[0];
 var volume=1;
@@ -87,7 +87,7 @@ function updation()
 
 //-----------------------------------------------------------------------klops
 
-//funktion wird für time ausgeführt-gameengine läuft weiter
+//funktion wird f?r time ausgef?hrt-gameengine l?uft weiter
 function activeWait(time)
 {
 	stop=timeseconds;
@@ -104,7 +104,7 @@ function activeWait(time)
 	}
 }
 
-//ruft das soundmenü auf
+//ruft das soundmen? auf
 
 function persons()//testfunction
 {
@@ -122,7 +122,7 @@ function wait(time)//wartet time-millisekunden
 }
 
 
-//soll auswahlmöglichkeiten beiten und den dialog je nach auswahl fortsetzen, die dialoge sind über die stelle im array zugeordnet.(+frage/begrüßung,+auswahlmöglichkeiten(array),+verknüpfte dialognummern(array))
+//soll auswahlm?glichkeiten beiten und den dialog je nach auswahl fortsetzen, die dialoge sind ?ber die stelle im array zugeordnet.(+frage/begr??ung,+auswahlm?glichkeiten(array),+verkn?pfte dialognummern(array))
 function choiceDialog(question,choicearray,dialogarray)
 {
 var entry_highlighted=1;
@@ -176,7 +176,7 @@ function videoMinigame(name)//name des puzzles/videos-videoplayer muss noch sinn
 	else  return false;
 }
 
-function checkresults(table,number,name)//überprüft antworten, liefert bool(+varname in data,+gewählteantwortnummer,+fragenname)
+function checkresults(table,number,name)//?berpr?ft antworten, liefert bool(+varname in data,+gew?hlteantwortnummer,+fragenname)
 {
 	if (eval(table+"."+name+".correct")==number) 
 		return true;
@@ -184,7 +184,7 @@ function checkresults(table,number,name)//überprüft antworten, liefert bool(+var
 		return false; 
 }
 
-function displayAnswers(name, marked,answerfield)//anzeigen von verschiedenen antworten für puzzles mit markierung(+fragenname(wird in puzzles nachgeschaut),+istmarkiert(bool))
+function displayAnswers(name, marked,answerfield)//anzeigen von verschiedenen antworten f?r puzzles mit markierung(+fragenname(wird in puzzles nachgeschaut),+istmarkiert(bool))
 {
 	var font = GetSystemFont();
 	font.setColorMask( CreateColor(0, 0,0));

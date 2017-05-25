@@ -1,11 +1,11 @@
 //---------------------------------------------lyc
-function ShowPicture2(picture_path,x,y,width,height)//zeigt bild an x,y mit veränderter größe/höhe an-verzerrt das bild zur not(+bildname,+posx,posy,breite,höhe)
+function ShowPicture2(picture_path,x,y,width,height)//zeigt bild an x,y mit ver?nderter gr??e/h?he an-verzerrt das bild zur not(+bildname,+posx,posy,breite,h?he)
 {
   var img = LoadImage(picture_path);
   img.transformBlit(x, y, x+width, y, x+width, y+height, x, y+height)
 }
 
-function ShowPicture(picture_path,x,y,width,height)//zeigt bild an x,y mit veränderter größe/höhe an-behält größenverhältnisse bei(+bildname,+posx,posy,breite,höhe)
+function ShowPicture(picture_path,x,y,width,height)//zeigt bild an x,y mit ver?nderter gr??e/h?he an-beh?lt gr??enverh?ltnisse bei(+bildname,+posx,posy,breite,h?he)
 {
   var img = LoadImage(picture_path);
   var factor = Math.min(width / img.width, height / img.height);
@@ -21,7 +21,7 @@ function TextBox(text)
   GetKey();
 }
 
-//checkt, ob member in array vorhanden ist. gibt true zurück, wenn das element nicht vorhanden ist. ansonsten false, falls es vorhanden ist
+//checkt, ob member in array vorhanden ist. gibt true zur?ck, wenn das element nicht vorhanden ist. ansonsten false, falls es vorhanden ist
 function isMemberDouble(array,entry){
 if (array.length==0) {return true;}
 for (i=0;i<array.length;i++){
@@ -39,7 +39,7 @@ function TextBox_W(text,width)
   GetKey();
 }
 
-//lädt das Spiel und setzt globale Variablen aus der Datei ein
+//l?dt das Spiel und setzt globale Variablen aus der Datei ein
 function Load_Game(){
 	var list = GetFileList("save");
 	var filename1="1.js";
@@ -142,7 +142,7 @@ function Conversation(text,picture_path){
  FlipScreen();
  
  while (AreKeysLeft()) GetKey();
- while (GetKey() != KEY_ENTER);
+ while (GetKey() != key_talk);
 }
 
 
@@ -262,10 +262,10 @@ function VideoConversation(text,video_path){
  }
  
  while (AreKeysLeft()) GetKey();
- while (GetKey() != KEY_ENTER);
+ while (GetKey() != key_talk);
 }
 
-//lädt die bilder für ein video
+//l?dt die bilder f?r ein video
 function LoadVideo(list,video_path,sound_path,frames){
   var i = 0;
 
@@ -274,7 +274,7 @@ function LoadVideo(list,video_path,sound_path,frames){
 		while(list[i] != null){
 			bilder[i] = LoadImage(video_path+"/"+list[i]);
 			
-			// Text: video lädt
+			// Text: video l?dt
 			font.drawText(GetScreenWidth()-460,GetScreenHeight()-400,"Lade Video.");
 			
 			//Fortschrittsbalken
@@ -309,7 +309,7 @@ function PlayVideo(x,y,width,height,frames,display_text_bottom){
 			//Texte + Zeiten
 			font.drawText(GetScreenWidth()-70,p_height*factor+20,"0:"+(frames/25));
 			font.drawText(30,p_height*factor+20,Math.round(i/25));
-			if(i >= (frames-5)) font.drawText(310,p_height*factor+33,"Zum wiederholen 'R' drücken.");
+			if(i >= (frames-5)) font.drawText(310,p_height*factor+33,"Zum wiederholen 'R' dr?cken.");
 			if(display_text_bottom != "") font.drawText(15,p_height*factor+80,display_text_bottom);
 			
 			//Fortschrittsbalken
@@ -325,7 +325,7 @@ function PlayVideo(x,y,width,height,frames,display_text_bottom){
 
 //------------------------------------------------------klops
 
-function checkresults(table,number,name)//überprüft antworten, liefert bool(+varname in data,+gewählteantwortnummer,+fragenname)
+function checkresults(table,number,name)//?berpr?ft antworten, liefert bool(+varname in data,+gew?hlteantwortnummer,+fragenname)
 {
 	if (eval(table+"."+name+".correct")==number) 
 		return true;
@@ -333,7 +333,7 @@ function checkresults(table,number,name)//überprüft antworten, liefert bool(+var
 		return false; 
 }
 
-function displayAnswers(name, marked,answerfield)//anzeigen von verschiedenen antworten für puzzles mit markierung(+fragenname(wird in puzzles nachgeschaut),+istmarkiert(bool))
+function displayAnswers(name, marked,answerfield)//anzeigen von verschiedenen antworten f?r puzzles mit markierung(+fragenname(wird in puzzles nachgeschaut),+istmarkiert(bool))
 {
 	var font = GetSystemFont();
 	font.setColorMask( CreateColor(0, 0,0));
@@ -359,7 +359,7 @@ function displayAnswers(name, marked,answerfield)//anzeigen von verschiedenen an
 	
 }
 
-function getTheFuckingKeys()//wartet auf eingaben und gibt integer zurück
+function getTheFuckingKeys()//wartet auf eingaben und gibt integer zur?ck
 {
   while (AreKeysLeft()) 
   {
@@ -368,7 +368,7 @@ function getTheFuckingKeys()//wartet auf eingaben und gibt integer zurück
   return GetKey();
 }
 
-//soll einzelnen eintrag darstellen, größe, rahmen einstellbar(posx,posy,breite,höhe,istmarkiert(bool),bildname,isttext(bool))
+//soll einzelnen eintrag darstellen, gr??e, rahmen einstellbar(posx,posy,breite,h?he,istmarkiert(bool),bildname,isttext(bool))
 function displayEntry(x,y,width,height,text, marked,picture,textbool)
 {
 	font.setColorMask( CreateColor(0, 0,0));
@@ -403,7 +403,7 @@ function VideoPlayer(video_path,sound_path,display_text_bottom){
   map_sound.play(true);
 }
 
-//lädt die bilder für ein video
+//l?dt die bilder f?r ein video
 function LoadVideo(list,video_path,sound_path,frames){
   var i = 0;
 
@@ -412,7 +412,7 @@ function LoadVideo(list,video_path,sound_path,frames){
 		while(list[i] != null){
 			bilder[i] = LoadImage(video_path+"/"+list[i]);
 			
-			// Text: video lädt
+			// Text: video l?dt
 			font.drawText(GetScreenWidth()-460,GetScreenHeight()-400,"Lade Video.");
 			
 			//Fortschrittsbalken
@@ -433,7 +433,7 @@ function debugText(text)// zum anzeigen von vars zwecks debug(+text)
 	GetKey();
 }
 
-//verbindet 2 arrays zu einem, gibt das zurück(+1.array,+2.array)
+//verbindet 2 arrays zu einem, gibt das zur?ck(+1.array,+2.array)
 function concatArray(array1,array2)
 {
 	var temp=array1;
@@ -442,7 +442,7 @@ function concatArray(array1,array2)
 	return temp;
 }
 
-//löscht eine nummer aus einem array(nur die nummer, nicht die zelle, die mit nummer bezeichnet)(+array,+integer)
+//l?scht eine nummer aus einem array(nur die nummer, nicht die zelle, die mit nummer bezeichnet)(+array,+integer)
 function deleteFromArray(array1,number)
 {
 	var test=[];
@@ -453,12 +453,12 @@ function deleteFromArray(array1,number)
 	return test;
 }
 
-//zählt die zeit
+//z?hlt die zeit
 function timeCount(){
 timeseconds++;
 }
 
-//function für textanzeige in umrahmten rechteck. text wird mit offset in y und y achse dargestellt(xposition,yposition,größex,größey,randgröße,text,font)
+//function f?r textanzeige in umrahmten rechteck. text wird mit offset in y und y achse dargestellt(xposition,yposition,gr??ex,gr??ey,randgr??e,text,font)
 function drawOffsetText(x,y,spacex,spacey,offset,text,font)
 {
 font.drawTextBox(x+offset, y+offset,spacex-2*offset, spacey-2*offset,0, text);
