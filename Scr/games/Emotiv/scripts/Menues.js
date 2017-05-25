@@ -131,7 +131,7 @@ function soundMenu(song){
 		song.stop();
 		showGameMenu();
 		}
-	ShowPicture2("menues/buchmenü.png",0,0,800,600);
+	ShowPicture2("menues/buchmenue.png",0,0,800,600);
 	font.drawTextBox(200,200,200,80,0,"Lautstärke");
 	Rectangle(150,300,450,30,CreateColor(80,80,80));
 	Rectangle(150+((entry_highlighted-1)*1.6*30),300,30,30,CreateColor(0,0,0));
