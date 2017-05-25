@@ -121,7 +121,7 @@ trigger_progress[0]=trigger_progress[0]+1;
 //-----------------------------------------------------Stadt Quark
 //Port Polizei Stadt
 function trigger006_PolizeizuStadt (){
-MapChange("Detektei_Polizei_B�ro.rmp",248,281,"MAPcity.wav");
+MapChange("Detektei_Polizei_Buero.rmp",248,281,"MAPcity.wav");
 };
 
 //Port Stadt Detektei
@@ -218,7 +218,7 @@ trigger_progress[0]=trigger_progress[0]+1;
 
 //Port Detektei zu Stadt
 function trigger013_DetekteizuStadt (){
-MapChange("Detektei_Polizei_B�ro.rmp",670,950,"MAPcity.wav");
+MapChange("Detektei_Polizei_Buero.rmp",670,950,"MAPcity.wav");
 };
 
 //Get Emolex
@@ -236,7 +236,7 @@ Dialog("dialog_015");
 moveTo("Prof",136,233);
 DestroyPerson("Prof");
 //schalte Dorf und Einkaufscenter
-//Todo: EMolex ins Men�
+//Todo: EMolex ins Menue
 }
 };
 
@@ -270,34 +270,34 @@ oberwelt_karte();
 
 //Port B�ro
 function trigger019_InsBuero (){
-MapChange("b�ro.rmp",24,137,"MAPdorf2.mp3");
+MapChange("buero.rmp",24,137,"MAPdorf2.mp3");
 FlipScreen();
 };
 
 //Port aus B�ro
 function trigger020_BueroInStadt (){
-MapChange("Detektei_Polizei_B�ro.rmp",1159,654,"MAPcity.wav");
+MapChange("Detektei_Polizei_Buero.rmp",1159,654,"MAPcity.wav");
 FlipScreen();
 };
 
 //Port Dorf zu Stadt - Oberwelt
 function trigger020_DorfInStadt (){
 oberwelt_karte();
-//MapChange("Detektei_Polizei_B�ro.rmp",1566,1146,"MAPcity.wav");
+//MapChange("Detektei_Polizei_Buero.rmp",1566,1146,"MAPcity.wav");
 //FlipScreen();
 };
 
-//Port Stadt zu Einkaufstra�e - Oberwelt
+//Port Stadt zu Einkaufstrasse - Oberwelt
 function trigger021_StadtzuEinkaufsstrasse (){
 oberwelt_karte();
 //MapChange("einkauf-kulturzentrum_strasse.rmp",1643,524,"MAPcity.wav");
 //FlipScreen();
 };
 
-//Port Einkaufsstra�e in Stadt
+//Port Einkaufsstrasse in Stadt
 function trigger022_EinkaufsstrasseInStadt (){
 oberwelt_karte();
-//MapChange("Detektei_Polizei_B�ro.rmp",35,1149,"MAPcity.wav");
+//MapChange("Detektei_Polizei_Buero.rmp",35,1149,"MAPcity.wav");
 //FlipScreen();
 };
 
@@ -307,7 +307,7 @@ MapChange("Einkaufzentrum_EG.rmp",334,604,"MAPshopping.mp3");
 FlipScreen();
 };
 
-//Port Kaufhaus zu Stra�e
+//Port Kaufhaus zu Strasse
 function trigger024_KaufhauszuEinkaufsstrasse (){
 MapChange("einkauf-kulturzentrum_strasse.rmp",1320,490,"MAPcity.wav");
 FlipScreen();
@@ -327,7 +327,7 @@ personAlign("Galerist Hubert",GetPersonX("Galerist Hubert"),GetPersonY("Galerist
 FlipScreen();
 };
 
-// Quest B�ro
+// Quest Buero
 function trigger027_BueroQuest (){
 if (trigger_progress[0]==12){
 trigger_progress[0]=trigger_progress[0]+1; //13
@@ -443,7 +443,7 @@ Dialog("dialog_027");
 
 //Port Wohnviertel zu Stadt
 function trigger034_WohngebietzuSadt (){
-MapChange("Detektei_Polizei_B�ro.rmp",982,40,"MAPcity.wav");
+MapChange("Detektei_Polizei_Buero.rmp",982,40,"MAPcity.wav");
 FlipScreen();
 };
 
@@ -560,7 +560,7 @@ oberwelt_karte();
 //FlipScreen();
 };
 
-//-------------------------------------------------------Tunnel
+/*//-------------------------------------------------------Tunnel
 
 function trigger401_Minenarbeiterkommt (){
 //if (trigger_progress[0]){
@@ -626,7 +626,7 @@ function trigger4004_DorfzuCave (){
 MapChange("cave.rmp",361,440,"MAPcave.mp3");
 FlipScreen();
 };
-
+*/
 
 /*//------------------------------------------------------------------- Park Danny
 
