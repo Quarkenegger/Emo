@@ -1,6 +1,4 @@
 
-
-
 	var ob_karte = LoadImage("menues/ob_karte.png");
 	var galerie_mini_colors = LoadImage("menues/galerie_mini_colors.png");
 	var galerie_mini_grayscale = LoadImage("menues/galerie_mini_grayscale.png");
@@ -71,7 +69,7 @@ function oberwelt_karte()
 		}
 		else{
 			uni_mini_colors.blit(30,150);
-			font.drawText(110, 126, "Universit�t");
+			font.drawText(110, 126, "Universitaet");
 		}
 		if(oberwelt_karte_array[4] == 0){
 			wohnviertel_mini_grayscale.blit(580,60);

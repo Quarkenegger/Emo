@@ -89,6 +89,7 @@ function newGame(){
 
 function updation()
 {
+	//timecount
 	if (time<1000){
 		time++;
 	}else
@@ -96,8 +97,9 @@ function updation()
 		time=0;
 	}
 
-//timeCount()
- //if (IsKeyPressed(key_menu) && eventsareclean() && !talkmode && !textdraw) main_menu()
+	//tastenabfangen
+    if(IsKeyPressed(key_sprint)) SetPersonSpeed(main_char,3); else SetPersonSpeed(main_char,1.5);
+
  if((IsKeyPressed(key_menu))&&(!main)) {over=main_menu(); timeseconds=time;};
  if ((Math.abs(timeseconds-time)>=50)&&(over==false)){
 	main=false;
