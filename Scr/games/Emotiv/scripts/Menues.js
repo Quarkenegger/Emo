@@ -110,7 +110,7 @@ function main_menu()
 //-----------------------------------------lyc
 
 function control(){
-	var pic = "emo2.png";
+	var pic = "menues/Steuerung.png";
 	var key=0;
 	while(key!=key_cancel){
 		RenderMap();
