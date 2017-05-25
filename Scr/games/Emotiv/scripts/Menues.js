@@ -27,9 +27,10 @@ function main_menu()
 			font.drawText(25, 12, "Emolex");
 			font.drawText(25, 42, "Items" );
 			font.drawText(25, 72, "Tagebuch ");
-			font.drawText(25, 102, "Speichern");
-			font.drawText(25, 132, "Loaden");
-			font.drawText(25, 162, "Exit");
+			font.drawText(25, 102, "Steuerung ");
+			font.drawText(25, 132, "Speichern");
+			font.drawText(25, 162, "Laden");
+			font.drawText(25, 192, "Exit");
 		}
 		ShowPicture2("menues/dreieck.png",(mode=="main")?6:5,yfinger,20,16);
 		//finger.blit((mode=="main")?6:5, yfinger);
@@ -68,9 +69,10 @@ function main_menu()
 					if	  (yfinger ==  13)  {redraw = true; emolex(progress); yfinger2 = 18;}
 					else if (yfinger == 43) { redraw = true; showInventory();   yfinger2 = 48;}
 					else if (yfinger == 73) { redraw = true; questi(); yfinger2 = 78;}
-					else if (yfinger == 103) { Save_Game();}
-					else if (yfinger == 133) { Load_Game();}
-					else if (yfinger == 163) { Exit();}
+					else if (yfinger == 103) { redraw = true; control(); yfinger2 = 108;}
+					else if (yfinger == 133) { Save_Game();}
+					else if (yfinger == 163) { Load_Game();}
+					else if (yfinger == 133) { Exit();}
 					else;	//uh oh.
 				}
 				// handles different modes on main menu
@@ -104,6 +106,18 @@ function main_menu()
 		}
 		}
 	}while(!quit)
+}
+//-----------------------------------------lyc
+
+function control(){
+	var pic = "emo2.png";
+	var key=0;
+	while(key!=key_cancel){
+		RenderMap();
+		ShowPicture(pic,130,130,300,300);
+		FlipScreen();
+		key=getTheFuckingKeys();
+	}	
 }
 
 //-----------------------------------------klops
