@@ -61,7 +61,7 @@ function main_menu()
 				break;
 			}
 			
-			// picks the next menu window to show with ENTER
+			// picks the next menu window to show with SPACE
 			case key_talk:
 			{
 				if (mode == "main")
@@ -72,7 +72,7 @@ function main_menu()
 					else if (yfinger == 103) { redraw = true; control(); yfinger2 = 108;}
 					else if (yfinger == 133) { Save_Game();}
 					else if (yfinger == 163) { Load_Game();}
-					else if (yfinger == 133) { Exit();}
+					else if (yfinger == 193) { Exit();}
 					else;	//uh oh.
 				}
 				// handles different modes on main menu
