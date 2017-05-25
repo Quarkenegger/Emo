@@ -87,10 +87,9 @@ var dialog_006 = {
 var dialog_007 ={
   dialog:[
   'Polizeichef Rick Bury: Wie sie wissen, gab es heute Abend einen seltsamen Zwischenfall in der Galerie. Seitdem fuehlen sich alle Gaeste komisch und haben Probleme Emotionen anderer Leute zu erkennen. Als Detektiv sind sie fuer diesen Fall besser geeignet als unsere Leute, deshalb uebertrage ich ihnen den Fall. Suchen sie nach Hinweisen um den Taeter ausfindig zu machen und helfen sie den Betroffenen. ','Rick_Bury.jpg',
-	'Polizeichef Rick Bury: Dafuer sollten sie ihre 2 Gehilfen Sam und Max einbeziehen.','Rick_Bury.jpg',
+	'Polizeichef Rick Bury: Dafuer sollten sie ihre 2 Gehilfen Sam und Max einbeziehen. Die beiden muessten sich in ihrer Detektei befinden. Um dort hin zu gelangen gehen sie von hier aus in den Sueden. Im Zentrum der Stadt befindet sich ihre Detektei, aber das wissen sie ja.','Rick_Bury.jpg',
 	'Polizeichef Rick Bury: ... ','Rick_Bury.jpg',
-	'Polizeichef Rick Bury: Um ihre Aufgaben und deren Fortschritt einsehen zu koennen, oeffnen sie das Menue mit [Tabulator] und lesen im Questbuch nach. Mit [Backspace] werden die Menues wieder verlassen. ','Rick_Bury.jpg',
-      'Polizeichef Rick Bury:  . ','Rick_Bury.jpg',
+	'Polizeichef Rick Bury: Um ihre Aufgaben und deren Fortschritt einsehen zu koennen, oeffnen sie das Menue mit [Tabulator] und lesen im Questbuch nach oder drücken sie im Spiel [Q]. Mit [Tabulator] werden die Menues wieder verlassen. ','Rick_Bury.jpg',
 	  'Polizeichef Rick Bury:  Viel Erfolg!!. ','Rick_Bury.jpg',
 
   ]
@@ -125,7 +124,7 @@ var dialog_011 = {
 var dialog_012 = {
   dialog:[
 	'Hausmeister Billy: Du denkst Max ist im Fahrstuhl eingesperrt? Also ich werden den nicht reparieren. Die Leute koennten ja auch die Treppen benutzen, aber das faellt niemandem ein.','Billy.jpg',
-	'Hausmeister Billy: Da ist eine Sicherung raus. Kein Wunder, in diesem Saftladen wird vor allem an der Technik gespart. �berbr�ckt die Sicherung. Saugef�hrlich, aber die Leute wollen vermutlich nicht warten, bis ich eine neue Sicherung gesucht habe.','Billy.jpg',
+	'Hausmeister Billy: Da ist eine Sicherung raus. Kein Wunder, in diesem Saftladen wird vor allem an der Technik gespart. ueberbrueckt die Sicherung. Saugefaehrlich, aber die Leute wollen vermutlich nicht warten, bis ich eine neue Sicherung gesucht habe.','Billy.jpg',
 	'Hausmeister Billy: Hier ein Schraubenschluessel zur Reparatur. Fuer sowas werd ich zu schlecht bezahlt.','Billy.jpg',
 	'Hausmeister Billy: Du willst wiessen ob ich bei der Ausstellung war?! Doofe Frage, sieht man mir das nicht an?!','Billy.jpg',
 		]
@@ -144,15 +143,16 @@ var dialog_014 = {
 	'Sam: Erzaehl uns ueber den Fall Chef','Sam.jpg',
 	'Sam: ...','Sam.jpg',
 	'Sam: So ist das also. Wir sollen den Taeter finden und dabei den Leuten helfen. Wir werden dir mit unserer Faehigkeiten helfen. Wenn du fragen zu Quest oder Tipps hast frage mich. Bei Fragen zu Emotionen rede mit Max.','Sam.jpg',
-		]
+      'Sam: Wenn du weite Wege in der Stadt ueberbruecken willst oder eine Uebersicht haben willst, sieh dir die [Map] im [Menue] an oder oeffne sie mit [M] mitten im Spiel.','Sam.jpg',
+
+  ]
 }
 
 var dialog_015 = {
 dialog:[
 	'Professor Kiefer Bauer: Guten Abend, ich habe gehoert du ermittelst im Galeriefall. Bei diesem Fall sollst du nicht nur den Taeter finden sondern auch den Leuten helfen.','Professor.jpg',
 	'Professor Kiefer Bauer: Deshalb bin ich zu dir gekommen um dir mit meiner neusten Erfindung bei dieser Aufgabe zu helfen: dem [Emolex]. In dem Emolex kannst du dir nochmal Emotionen ansehen, die du bereits erkannt hast. Das hilft dir diese beim n�chsten mal leichter zu erkennen und ich kann weitere Informationen sammeln.','Professor.jpg',
-	'Professor Kiefer Bauer: Den Emolex findest du in deinem [Menue] wenn du [Tabulator] drueckst.','Professor.jpg',
-    'Professor Kiefer Bauer: .','Professor.jpg',
+	'Professor Kiefer Bauer: Den Emolex findest du in deinem [Menue] wenn du [Tabulator] drueckst oder wenn du mitten im Spiel [E] druckst.','Professor.jpg',
     'Professor Kiefer Bauer: Falls du noch Fragen hast besuche mich im Labor oder druecke [H]','Professor.jpg',
 ]
 }
@@ -169,7 +169,7 @@ var dialog_017 = {
 	'Jace: Dafuer haben wir keine Zeit.','Jace.jpg',
 	'Jace: Du kannst uns natuerlich helfen indem du [Bueromaterial] einkaufen gehst.','Jace.jpg',
 	'Jace: Besorge [Tacker], [Bueroklammern], [Aktenordner] und [Stifte].','Jace.jpg',
-	'Jace: Wenn du alles hast, kann die Befragung starten.','Jace.jpg',
+	'Jace: Wenn du alles hast, kann die Befragung starten. Deine Items werden uebrigens im Inventar angezeigt, welches du im [Menue] findest oder wenn du [I] im Spiel drueckst','Jace.jpg',
 		]
 }
 
