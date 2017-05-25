@@ -68,6 +68,7 @@ function Load_Game(){
 		SetPersonX(main_char,savegame2.person_x);
 		SetPersonY(main_char,savegame2.person_y);
 		map_sound = LoadSound("MAPgallery.mp3");
+		map_sound.setVolume(volume*255)
 	//	MapChange(savegame2.map,savegame2.person_x,savegame2.person_y,"MAPdorf.ogg");
 		MapEngine(savegame2.map, 60);
 	}else{
@@ -295,6 +296,7 @@ function PlayVideo(x,y,width,height,frames,display_text_bottom){
 	
 	i = 0;
 	p_height = bilder[0].height
+    //sound.setVolume
 	sound.play(false);
 	while(i < frames){
 		var factor = Math.min(width / bilder[i].width, height / bilder[i].height);
@@ -359,6 +361,13 @@ function displayAnswers(name, marked,answerfield)//anzeigen von verschiedenen an
 		if (i==(marked-1))  Triangle(GetScreenWidth()/2-10,offset+i*abstand+10,GetScreenWidth()/2-5, offset+i*abstand+15, GetScreenWidth()/2-10, offset+i*abstand+20, CreateColor(204, 0, 0));
 	}}
 	
+}
+
+function getTheFuckingKeys2()//wartet auf eingaben und gibt integer zur?ck
+{
+    if (AreKeysLeft())
+        return GetKey();
+
 }
 
 function getTheFuckingKeys()//wartet auf eingaben und gibt integer zur?ck

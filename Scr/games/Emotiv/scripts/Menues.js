@@ -11,17 +11,16 @@ function main_menu()
 	// in the previous menu window
 	var yfinger = 18-5, yfinger2 = 18;
 	var redraw = true;
-	var mode = "main";
+	main=true;
+	mode="main";
 	var quit = false;
 	//var font = LoadFont("tahoma_22.rfn");
 	//var Cyan 		=CreateColor(0,   255, 255, 255);
 	var Black 		=CreateColor(0,   0,   0,   255);
 	//var White		=CreateColor(255, 255, 255, 255);
-	do
-	{
-		if (redraw)
-		{
-			RenderMap();
+	key=0;
+    while (key!=(key_cancel)){
+        RenderMap();
 			window.drawWindow(xbo,ybo,190-xbo*2,290-ybo*2);
 			font.setColorMask(Black);
 			font.drawText(25, 12, "Emolex");
@@ -31,16 +30,16 @@ function main_menu()
 			font.drawText(25, 132, "Speichern");
 			font.drawText(25, 162, "Laden");
 			font.drawText(25, 192, "Exit");
-		}
+
 		ShowPicture2("menues/dreieck.png",(mode=="main")?6:5,yfinger,20,16);
 		//finger.blit((mode=="main")?6:5, yfinger);
 		FlipScreen();
-		
+
 		// defines the selection of the finger and changes the 'mode'
 		//	accordingly
-		if (AreKeysLeft())
-		{
-		switch (GetKey())
+		key=getTheFuckingKeys()
+
+		switch (key)
 		{
 			case KEY_DOWN:
 			{
@@ -72,40 +71,19 @@ function main_menu()
 					else if (yfinger == 103) { redraw = true; control(); yfinger2 = 108;}
 					else if (yfinger == 133) { Save_Game();}
 					else if (yfinger == 163) { Load_Game();}
-					else if (yfinger == 193) { Exit();}
+					else if (yfinger == 193) { key=key_cancel}
 					else;	//uh oh.
 				}
-				// handles different modes on main menu
-				/*
-				else if (mode=="equip")
-				{
-					equipmenu( (yfinger-15) / 58);	//char relative to pointer
-					mode = "main";
-					yfinger = 8;
-				}
-				else if (mode == "status")
-				{
-					statmenu( (yfinger-15) / 58);
-					mode = "main";
-					yfinger = 8;
-				}
-				break;
-				*/
+
 			}
 			case key_cancel:
 			{
-				if (mode != "main") {
-					mode = "main";
-					yfinger = 8;
-					if( (yfinger2-8)%15 == 0 )
-						yfinger = yfinger2;
-				}
-				else quit = true;
-				break;
-			}
+
+			}}
 		}
-		}
-	}while(!quit)
+		key=0;
+   return false;
+
 }
 //-----------------------------------------lyc
 
@@ -157,7 +135,8 @@ function soundMenu(song){
 
 //zeigt das spielmen? am anfang
 function showGameMenu(){
-	var song=instantSoundRepeat("MENUoverworld.wav"); 
+	var song=instantSoundRepeat("MENUoverworld.wav");
+    song.setVolume(volume*255)
 	var entry_highlighted=1;
 	var key=0;
 	var entrys=5;

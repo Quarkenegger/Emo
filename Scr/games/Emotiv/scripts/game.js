@@ -17,17 +17,20 @@ var bilder = [];
 var sound;
 var map_sound;
 var savegame2;
+var main=false;
 var w = GetScreenWidth();
 var h = GetScreenHeight();
 var oberwelt_karte_array= [1,1,1,0,0,0];
 //var key_map = KEY_SPACE;
+var time=0;
 var points=0;
 var key_talk = KEY_SPACE;
 var key_cancel = KEY_TAB;
 var key_menu = KEY_TAB;
 var persons_progress=[0];
 var trigger_progress=[0];
-var volume=1;
+var volume=0;
+var over=true;
 var maps=[1,2,3,5,6,7];
 var main_char = "Indiana Ford";
 var timeseconds=0;
@@ -78,10 +81,20 @@ function newGame(){
 
 function updation()
 {
+	if (time<1000){
+		time++;
+	}else
+	{
+		time=0;
+	}
+
 //timeCount();
  // THE KEYS 
- //if (IsKeyPressed(key_menu) && eventsareclean() && !talkmode && !textdraw) main_menu();
- if(IsKeyPressed(key_menu)) main_menu();
+ //if (IsKeyPressed(key_menu) && eventsareclean() && !talkmode && !textdraw) main_menu()
+ if((IsKeyPressed(key_menu))&&(!main)) {over=main_menu(); timeseconds=time;};
+ if ((Math.abs(timeseconds-time)>=50)&&(over==false)){
+	main=false;
+}
  //if(IsKeyPressed(key_map)) oberwelt_karte();
 }
 

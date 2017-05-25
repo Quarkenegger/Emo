@@ -230,7 +230,7 @@ function Dialog(dialog_ID){
 
 function MapSound(sound_path){
  map_sound = LoadSound(sound_path);
- map_sound.setVolume(75);
+ map_sound.setVolume(volume*255);
  map_sound.play(true);
 }
 
