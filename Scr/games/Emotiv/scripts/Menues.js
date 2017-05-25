@@ -27,9 +27,10 @@ function main_menu()
 			font.drawText(25, 42, "Items" );
 			font.drawText(25, 72, "Tagebuch ");
 			font.drawText(25, 102, "Steuerung ");
-			font.drawText(25, 132, "Speichern");
-			font.drawText(25, 162, "Laden");
-			font.drawText(25, 192, "Exit");
+			font.drawText(25, 132, "Karte ");
+			font.drawText(25, 162, "Speichern");
+			font.drawText(25, 192, "Laden");
+			font.drawText(25, 222, "Exit");
 
 		ShowPicture2("menues/dreieck.png",(mode=="main")?6:5,yfinger,20,16);
 		//finger.blit((mode=="main")?6:5, yfinger);
@@ -44,7 +45,7 @@ function main_menu()
 			{
 				if (mode=="main")
 				{
-					if (yfinger < 192) yfinger += 30;
+					if (yfinger < 222) yfinger += 30;
 					else yfinger = 13;
 				}
 				break;
@@ -54,7 +55,7 @@ function main_menu()
 				if (mode=="main")
 				{
 					if (yfinger > 18) yfinger -= 30;
-					else yfinger = 193;
+					else yfinger = 223;
 				}
 				break;
 			}
@@ -68,9 +69,10 @@ function main_menu()
 					else if (yfinger == 43) { redraw = true; showInventory();   yfinger2 = 48;}
 					else if (yfinger == 73) { redraw = true; questi(); yfinger2 = 78;}
 					else if (yfinger == 103) { redraw = true; control(); yfinger2 = 108;}
-					else if (yfinger == 133) { Save_Game();}
-					else if (yfinger == 163) { Load_Game();}
-					else if (yfinger == 193) { key=key_cancel}
+					else if (yfinger == 133) { redraw = true; map(); yfinger2 = 138;}
+					else if (yfinger == 163) { Save_Game();}
+					else if (yfinger == 193) { Load_Game();}
+					else if (yfinger == 223) { key=key_cancel}
 					else;	//uh oh.
 				}
 
@@ -95,6 +97,10 @@ function control(){
 		FlipScreen();
 		key=getTheFuckingKeys();
 	}	
+}
+
+function map(){
+	oberwelt_karte();
 }
 
 //-----------------------------------------klops
@@ -387,5 +393,154 @@ key=getTheFuckingKeys();
 }
 }
 
+
+
+
+/*
+Function that displays the overworld map (oberwelt karte), containing miniatures that represent
+the different worlds, and an icon of the detective, allowing the player to move among the different
+maps during the game.
+*/
+function oberwelt_karte(){
+	var ob_karte = LoadImage("menues/ob_karte.png");
+	var galerie_mini_colors = LoadImage("menues/galerie_mini_colors.png");
+	var galerie_mini_grayscale = LoadImage("menues/galerie_mini_grayscale.png");
+	var park_mini_colors = LoadImage("menues/park_mini_colors.png");
+	var park_mini_grayscale = LoadImage("menues/park_mini_grayscale.png");
+	var stadt_mini_colors = LoadImage("menues/stadt_mini_colors.png");
+	var stadt_mini_grayscale = LoadImage("menues/stadt_mini_grayscale.png");
+	var uni_mini_colors = LoadImage("menues/uni_mini_colors.png");
+	var uni_mini_grayscale = LoadImage("menues/uni_mini_grayscale.png");
+	var wohnviertel_mini_colors = LoadImage("menues/wohnviertel_mini_colors.png");
+	var wohnviertel_mini_grayscale = LoadImage("menues/wohnviertel_mini_grayscale.png");
+	var dorf_house_mini = LoadImage("menues/dorf_haus_mini.png");
+	var detective_icon = LoadImage("menues/detective_icon.png");
+	
+	var White		=CreateColor(255, 255, 255, 255);
+	var Some_blues = CreateColor(100,0,255,200);
+	var pointer_case= 0;
+
+	var quit = false;
+	pointer_case =  0;
+	while(quit==false)
+	{
+		ob_karte.blit(0,0);
+		// in any case, the house of the detective in the village must be set active
+		dorf_house_mini.blit(642,517);
+		font.setColorMask(Some_blues);
+		font.drawText(645,507,"Dorf");
+		// determine the display mode of the mini maps with the global variable:
+		// 	oberwelt_karte_array
+		if(oberwelt_karte_array[0] == 0){
+			stadt_mini_grayscale.blit(340,420);
+		}
+		else{
+			stadt_mini_colors.blit(340,420);
+			font.drawText(460, 550, "Stadt");
+		}
+		if(oberwelt_karte_array[1] == 0){
+			galerie_mini_grayscale.blit(30,420);
+		}
+		else{
+			galerie_mini_colors.blit(30,420);
+			font.drawText(110, 550, "Galerie/Einkaufzentrum");
+		}
+		if(oberwelt_karte_array[3] == 0){
+			uni_mini_grayscale.blit(30,150);
+		}
+		else{
+			uni_mini_colors.blit(30,150);
+			font.drawText(110, 126, "Universit�t");
+		}
+		if(oberwelt_karte_array[4] == 0){
+			wohnviertel_mini_grayscale.blit(580,60);
+		}
+		else{
+			wohnviertel_mini_colors.blit(580,60);
+			font.drawText(600, 230, "Wohngebiet");
+		}
+		if(oberwelt_karte_array[5] == 0){
+			park_mini_grayscale.blit(280,0);
+		}
+		else{
+			park_mini_colors.blit(280,0);
+			font.drawText(290, 146, "Park");
+		}
+		
+		setPointer(pointer_case);
+		FlipScreen();
+		
+		var key=getTheFuckingKeys();
+		if ((key==KEY_UP)&&(pointer_case<5)) pointer_case++;
+		if ((key==KEY_DOWN)&&(pointer_case>0)) pointer_case--;
+		if ((key==KEY_RIGHT)&&(pointer_case<5)) pointer_case++;
+		if ((key==KEY_LEFT)&&(pointer_case>0)) pointer_case--;
+
+				// picks the world where the player has to ve respawned, or dislplays
+				//	the "blocked message on screen"
+				if  (key==key_talk)
+				{
+					if	  ((pointer_case ==  0)&&(oberwelt_karte_array[0]==1)) {MapChange("Dorf.rmp",264,29,"MAPdorf.ogg");quit = true;break;}  // teleport to dorf
+					else if ((pointer_case == 1)&&(oberwelt_karte_array[1]==1)){ MapChange("Detektei_Polizei_B�ro.rmp",670,950,"MAPcity.wav");quit = true;break;} // teleport to city
+					else if ((pointer_case == 2)&&(oberwelt_karte_array[2]==1)){ MapChange("einkauf-kulturzentrum_strasse.rmp",1643,524,"MAPcity.wav");quit = true;break;} // teleport to gallery
+					else if ((pointer_case == 3)&&(oberwelt_karte_array[3]==1)){ MapChange("Uni.rmp",493,904,"MAPcampus.ogg");quit = true;break;} // teleport to uni
+					else if ((pointer_case == 4)&&(oberwelt_karte_array[4]==1)) {MapChange("Wohnviertel.rmp",429,996,"MAPwohngebiet.wav");quit = true;break;} // teleport to wohngebiet
+					else if ((pointer_case == 5)&&(oberwelt_karte_array[5]==1)) {MapChange("Park.rmp",871,1576,"MAPpark2.wav");quit = true;break;} // teleport to park
+					else debugText("Nicht freigeschaltet2!");
+				}
+				if (key== key_cancel)
+				{
+					quit = true;
+					break;
+				}
+
+	}
+}
+
+function unlockMap(map){
+oberwelt_karte_array[map]=1;
+}
+
+function setPointer(pointer_case){
+	var center_x = 0;
+	var center_y = 0;
+	switch (pointer_case)
+	{
+		case 0:
+		{
+			center_x= 710;
+			center_y= 490;
+			break;
+		}
+		case 1:
+		{
+			center_x= 430;
+			center_y= 480;
+			break;
+		}
+		case 2:
+		{
+			center_x= 160;
+			center_y= 480;
+			break;
+		}
+		case 3:
+		{
+			center_x= 180;
+			center_y= 200;
+			break;
+		}
+		case 4:
+		{
+			center_x= 680;
+			center_y= 130;
+			break;
+		}
+		case 5:
+			center_x= 400;
+			center_y= 90;
+	}
+		detective_icon.blit(center_x - 35, center_y - 35);
+}
 
 
