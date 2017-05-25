@@ -68,7 +68,7 @@ var dialog_003 = {
 
 var dialog_004 = {
   dialog:[
-	'Galerist Hubert: Gut, jetzt teste die Interaktion mit Objekten. Sieh dir das Bild an und dr�cke [Space].','Hubert.jpg'
+	'Galerist Hubert: Gut, jetzt teste die Interaktion mit Objekten. Sieh dir das Bild an und druecke [Space].','Hubert.jpg'
 	]
 }
 
@@ -80,7 +80,7 @@ var dialog_005 = {
 
 var dialog_006 = {
   dialog:[
-	'Polizeichef Rick Bury: Noch k�nnen wir uns diesen Vorfall nicht erklaeren, deshalb kommen sie bitte mit uns auf das Polizeirevier. Dort werde ich ihnen den Fall uebertragen. ','Rick_Bury.jpg'
+	'Polizeichef Rick Bury: Noch koennen wir uns diesen Vorfall nicht erklaeren, deshalb kommen sie bitte mit uns auf das Polizeirevier. Dort werde ich ihnen den Fall uebertragen. ','Rick_Bury.jpg'
 	]
 }
 

@@ -77,7 +77,7 @@ instantSound("save.mp3");
 lightning("white.png");
 showTilePicture(2,picture1,18,3,4,4);
 Dialog("dialog_003");
-trigger_progress[0]=trigger_progress[0]+1;
+trigger_progress[0]=trigger_progress[0]+1; //1
 }
 };
 
@@ -85,7 +85,7 @@ trigger_progress[0]=trigger_progress[0]+1;
 function trigger002_FrontBild (){
 if (trigger_progress[0]==1){
 Dialog("dialog_004");
-trigger_progress[0]=trigger_progress[0]+1;
+trigger_progress[0]=trigger_progress[0]+1; //2
 }
 };
 
@@ -93,7 +93,7 @@ trigger_progress[0]=trigger_progress[0]+1;
 function trigger003_InteractBild (){
 if (trigger_progress[0]==2){
 Dialog("dialog_005");
-trigger_progress[0]=trigger_progress[0]+1;
+trigger_progress[0]=trigger_progress[0]+1;  //3
 }
 };
 
@@ -102,7 +102,7 @@ function trigger004_Polizeichef (){
 if (trigger_progress[0]==3){
 Dialog("dialog_006");
 MapChange("PloizeiHaupt.rmp",133,86,"MAPcity.wav");
-trigger_progress[0]=trigger_progress[0]+1;
+trigger_progress[0]=trigger_progress[0]+1; //4
 }
 };
 
@@ -114,7 +114,7 @@ personAlign(main_char,GetPersonX(main_char),GetPersonY(main_char),GetPersonX(mai
 UpdateMapEngine();
 Dialog("dialog_007");
 getQuest(1);
-trigger_progress[0]=trigger_progress[0]+1;
+trigger_progress[0]=trigger_progress[0]+1; //5
 }
 };
 
@@ -139,7 +139,7 @@ SetPersonVisible("Max",false);
 function trigger008_EintrittDetektei (){
 if (trigger_progress[0]==5){
 Dialog("dialog_008");
-trigger_progress[0]=trigger_progress[0]+1;
+trigger_progress[0]=trigger_progress[0]+1; //6
 }
 };
 
@@ -149,7 +149,7 @@ MapChange("Detektei1OG.rmp",340,210,"MAPcity.wav");
 FlipScreen();
 if (trigger_progress[0]==7){
 Dialog("dialog_011");
-trigger_progress[0]=trigger_progress[0]+1;
+trigger_progress[0]=trigger_progress[0]+1; //8
 getQuest(2);
 }
 };
@@ -176,7 +176,7 @@ Dialog("dialog_012");
 miniGame("puzzle3");
 giveItem(3);
 getEmotion(18); //Gelangweilt
-trigger_progress[0]=trigger_progress[0]+1;
+trigger_progress[0]=trigger_progress[0]+1; //9
 }
 };
 
@@ -187,7 +187,7 @@ instantSound("SchrittStein.wav");
 Dialog("dialog_009");
 }
 if (trigger_progress[0]==9){
-trigger_progress[0]=trigger_progress[0]+1;
+trigger_progress[0]=trigger_progress[0]+1; //10
 closeQuest(2);
 CreatePerson("Max2","companion_2.rss",true);
 SetPersonX("Max2",324);
@@ -205,13 +205,13 @@ personAlign("Max2",GetPersonX("Max2"),GetPersonY("Max2"),GetPersonX("Max2"),GetP
 function trigger012_SaminDetektei (){
 if (trigger_progress[0]==6){
 Dialog("dialog_010");
-trigger_progress[0]=trigger_progress[0]+1;
+trigger_progress[0]=trigger_progress[0]+1; //7
 }
 if (trigger_progress[0]==10){
 Dialog("dialog_014");
 closeQuest(1);
 getQuest(3);
-trigger_progress[0]=trigger_progress[0]+1;
+trigger_progress[0]=trigger_progress[0]+1; //11
 }
 
 };
@@ -263,9 +263,9 @@ FlipScreen();
 
 //Port Dorf - Oberwelt
 function trigger018_InsDorf (){
-oberwelt_karte();
-//MapChange("Dorf.rmp",264,29,"MAPdorf.ogg");
-//FlipScreen();
+//oberwelt_karte();
+MapChange("Dorf.rmp",264,29,"MAPdorf.ogg");
+FlipScreen();
 };
 
 //Port B�ro
@@ -282,23 +282,23 @@ FlipScreen();
 
 //Port Dorf zu Stadt - Oberwelt
 function trigger020_DorfInStadt (){
-oberwelt_karte();
-//MapChange("Detektei_Polizei_Buero.rmp",1566,1146,"MAPcity.wav");
-//FlipScreen();
+//oberwelt_karte();
+MapChange("Detektei_Polizei_Buero.rmp",1566,1146,"MAPcity.wav");
+FlipScreen();
 };
 
 //Port Stadt zu Einkaufstrasse - Oberwelt
 function trigger021_StadtzuEinkaufsstrasse (){
-oberwelt_karte();
-//MapChange("einkauf-kulturzentrum_strasse.rmp",1643,524,"MAPcity.wav");
-//FlipScreen();
+//oberwelt_karte();
+MapChange("einkauf-kulturzentrum_strasse.rmp",1643,524,"MAPcity.wav");
+FlipScreen();
 };
 
 //Port Einkaufsstrasse in Stadt
 function trigger022_EinkaufsstrasseInStadt (){
-oberwelt_karte();
-//MapChange("Detektei_Polizei_Buero.rmp",35,1149,"MAPcity.wav");
-//FlipScreen();
+//oberwelt_karte();
+MapChange("Detektei_Polizei_Buero.rmp",35,1149,"MAPcity.wav");
+FlipScreen();
 };
 
 //Port in Kaufhaus
@@ -429,12 +429,12 @@ Dialog("dialog_024");
 function trigger033_StadtzuWohngebiet (){
 if (trigger_progress[0]>=1001){
 unlockMap(4);
-oberwelt_karte();
+//oberwelt_karte();
 
 
 
-//MapChange("Wohnviertel.rmp",429,996,"MAPwohngebiet.wav");
-//FlipScreen();
+MapChange("Wohnviertel.rmp",429,996,"MAPwohngebiet.wav");
+FlipScreen();
 }
 else{
 Dialog("dialog_027");
@@ -528,10 +528,10 @@ trigger_progress[0]=2001; //2001 Uni freigeschaltet
 function trigger1007_WohngebietZuUni (){
 if (trigger_progress[0]>=2001){
 unlockMap(3);
-oberwelt_karte();
+//oberwelt_karte();
 
-//MapChange("Uni.rmp",493,904,"MAPcampus.ogg");
-//FlipScreen();
+MapChange("Uni.rmp",493,904,"MAPcampus.ogg");
+FlipScreen();
 }
 else{
 Dialog("dialog_1009");
@@ -541,9 +541,9 @@ Dialog("dialog_1009");
 //--------------------------------------------Uni
 //Port Uni zu Wohnviertel  - Oberwelt
 function trigger2001_UnizuWohngebiet (){
-oberwelt_karte();
-//MapChange("Wohnviertel.rmp",39,566,"MAPwohngebiet.wav");
-//FlipScreen();
+//oberwelt_karte();
+MapChange("Wohnviertel.rmp",39,566,"MAPwohngebiet.wav");
+FlipScreen();
 };
 
 function cheatTrigger_Uni(){
@@ -555,9 +555,9 @@ debugText("gehe zum park!");
 //--------------------------------------------------------Park
 //Port Uni zu Park  - Oberwelt
 function trigger3001_UnizuPark (){
-oberwelt_karte();
-//MapChange("Park.rmp",868,1575,"MAPpark2.wav");
-//FlipScreen();
+//oberwelt_karte();
+MapChange("Park.rmp",868,1575,"MAPpark2.wav");
+FlipScreen();
 };
 
 /*//-------------------------------------------------------Tunnel
