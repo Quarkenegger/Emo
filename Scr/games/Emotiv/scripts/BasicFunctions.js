@@ -40,6 +40,7 @@ function TextBox_W(text,width)
 }
 
 //l?dt das Spiel und setzt globale Variablen aus der Datei ein
+// erst figur und musik töten
 function Load_Game(){
 	var list = GetFileList("save");
 	var filename1="1.js";
