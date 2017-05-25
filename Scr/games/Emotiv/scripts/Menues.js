@@ -35,8 +35,7 @@ function main_menu()
 		//finger.blit((mode=="main")?6:5, yfinger);
 		FlipScreen();
 
-		// defines the selection of the finger and changes the 'mode'
-		//	accordingly
+		// defines the selection of the finger and changes the 'mode' accordingly
 		key=getTheFuckingKeys()
 
 		switch (key)

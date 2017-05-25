@@ -88,8 +88,7 @@ function updation()
 		time=0;
 	}
 
-//timeCount();
- // THE KEYS 
+//timeCount()
  //if (IsKeyPressed(key_menu) && eventsareclean() && !talkmode && !textdraw) main_menu()
  if((IsKeyPressed(key_menu))&&(!main)) {over=main_menu(); timeseconds=time;};
  if ((Math.abs(timeseconds-time)>=50)&&(over==false)){
