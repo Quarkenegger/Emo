@@ -15,19 +15,24 @@ function main_menu()
 	mode="main";
 	var quit = false;
 	//var font = LoadFont("tahoma_22.rfn");
-	//var Cyan 		=CreateColor(0,   255, 255, 255);
+
+	var red 		=CreateColor(0,   80, 80, 80);
 	var Black 		=CreateColor(0,   0,   0,   255);
 	//var White		=CreateColor(255, 255, 255, 255);
+
 	key=0;
     while (key!=(key_cancel)){
         RenderMap();
 			window.drawWindow(xbo,ybo,190-xbo*2,290-ybo*2);
 			font.setColorMask(Black);
+			if (!emomap)
+                font.setColorMask(red);
+            font.drawText(25, 132, "Karte ");
 			font.drawText(25, 12, "Emolex");
+            font.setColorMask(Black);
 			font.drawText(25, 42, "Items" );
 			font.drawText(25, 72, "Tagebuch ");
 			font.drawText(25, 102, "Steuerung ");
-			font.drawText(25, 132, "Karte ");
 			font.drawText(25, 162, "Speichern");
 			font.drawText(25, 192, "Laden");
 			font.drawText(25, 222, "Exit");
@@ -65,11 +70,11 @@ function main_menu()
 			{
 				if (mode == "main")
 				{
-					if	  (yfinger ==  13)  {redraw = true; emolex(progress); yfinger2 = 18;}
+					if	  (yfinger ==  13)  {if (emomap){ redraw = true; emolex(progress); yfinger2 = 18;}}
 					else if (yfinger == 43) { redraw = true; showInventory();   yfinger2 = 48;}
 					else if (yfinger == 73) { redraw = true; questi(); yfinger2 = 78;}
 					else if (yfinger == 103) { redraw = true; control(); yfinger2 = 108;}
-					else if (yfinger == 133) { redraw = true; map(); yfinger2 = 138;}
+					else if (yfinger == 133) {if (emomap){ redraw = true; map(); yfinger2 = 138;}}
 					else if (yfinger == 163) { Save_Game();}
 					else if (yfinger == 193) { Load_Game();}
 					else if (yfinger == 223) { key=key_cancel}
