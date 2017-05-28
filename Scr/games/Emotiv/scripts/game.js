@@ -24,7 +24,7 @@ var h = GetScreenHeight();
 var oberwelt_karte_array= [1,1,1,0,0,0];
 var time=0;
 var points=0;
-
+var emomap=true;
 //key bindings
 var key_talk = KEY_SPACE;
 var key_cancel = KEY_TAB;
@@ -104,6 +104,10 @@ function updation()
  if((IsKeyPressed(key_menu))&&(!main)) {over=main_menu();main=true; timeseconds=time;};
  if((IsKeyPressed(key_help))&&(!main)) {over= control();main=true; timeseconds=time;};
  if((IsKeyPressed(key_inventory))&&(!main)) {over= showInventory();main=true; timeseconds=time;};
+ if (emomap){
+     if((IsKeyPressed(key_map))&&(!main)) {over= map();main=true; timeseconds=time;};
+     if((IsKeyPressed(key_emolex))&&(!main)) {over= emolex(progress);main=true; timeseconds=time;};
+ }
  if ((Math.abs(timeseconds-time)>=50)&&(over==false)){
 	main=false;
 
@@ -157,7 +161,7 @@ var entry_highlighted=1;
 	var font = GetSystemFont();
 	var entrys=eval("puzzles."+name+".answers").length;
 	var key=0;
-	while (key!=70){
+	while (key!=key_talk){
 		
 		if (key==77){
 		if (entry_highlighted>1) (entry_highlighted=(entry_highlighted-1));} 
@@ -183,7 +187,7 @@ function videoMinigame(name)//name des puzzles/videos-videoplayer muss noch sinn
 	VideoPlayer(name,name_sound,frames);
 	var key=0
 	
-	while (IsKeyPressed(KEY_ENTER)==false){
+	while (IsKeyPressed(key_talk)==false){
 		RenderMap();
 		if (key==77){
 		if (entry_highlighted>1) (entry_highlighted=(entry_highlighted-1));} 
