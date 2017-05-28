@@ -124,5 +124,4 @@ var quests={
 	quest305:{name:'Im Kino gibtes viele spezial Effekte',description:'Hinter der Kinoleinwand ist es viel interessanter. Was der Professor dort wohl verloren hat?',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest306:{name:'Der Tunnel',description:'Bring das Bild in die Gallerie. Rette mit dem Professor zusammen die Stadt!',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 quest500:{name:'test',description:'itemtest',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[1,2]}
-
 }

@@ -311,7 +311,6 @@ function showInventory()//zeigt ds inventar
 	}
     return false;
 }
-
 //-------------------------------------christian
 function questEntry(x,y,width,height,text, marked,picture,textbool)//soll einzelnen eintrag darstellen(f?r questbook)
 {

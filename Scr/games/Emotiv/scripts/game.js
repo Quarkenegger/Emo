@@ -83,7 +83,7 @@ function newGame(){
   SetUpdateScript("updation();");
   //SetRenderScript("updation();"):
 	MapEngine("firstmap.rmp", 60);
-	font.setColorMask( CreateColor(0, 0,0));
+
 }*/
 
 //---------------------------------------------manuel
