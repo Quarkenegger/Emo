@@ -18,6 +18,7 @@ var sound;
 var map_sound;
 var savegame2;
 var main=false;
+var witchMenu="null";
 var w = GetScreenWidth();
 var h = GetScreenHeight();
 var oberwelt_karte_array= [1,1,1,0,0,0];
@@ -100,10 +101,15 @@ function updation()
 	//tastenabfangen
     if(IsKeyPressed(key_sprint)) SetPersonSpeed(main_char,3); else SetPersonSpeed(main_char,1.5);
 
- if((IsKeyPressed(key_menu))&&(!main)) {over=main_menu(); timeseconds=time;};
+ if((IsKeyPressed(key_menu))&&(!main)) {over=main_menu();main=true; timeseconds=time;};
+ if((IsKeyPressed(key_help))&&(!main)) {over= control();main=true; timeseconds=time;};
+ if((IsKeyPressed(key_inventory))&&(!main)) {over= showInventory();main=true; timeseconds=time;};
  if ((Math.abs(timeseconds-time)>=50)&&(over==false)){
 	main=false;
+
+
 }
+
  //if(IsKeyPressed(key_map)) oberwelt_karte();
 }
 

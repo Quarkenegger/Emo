@@ -96,11 +96,13 @@ function control(){
 		ShowPicture(pic,130,130,300,300);
 		FlipScreen();
 		key=getTheFuckingKeys();
-	}	
+	}
+	return false;
 }
 
 function map(){
 	oberwelt_karte();
+    return false;
 }
 
 //-----------------------------------------klops
@@ -252,6 +254,7 @@ function emolex(progress)//zeigt emolex, progress sind die emotionen, die freige
 		key=getTheFuckingKeys();
 	}
 	FlipScreen();
+    return false;
 }
 
 function showInventory()//zeigt ds inventar
@@ -305,7 +308,8 @@ function showInventory()//zeigt ds inventar
 				}
 		FlipScreen();
 		key=getTheFuckingKeys();
-	}	
+	}
+    return false;
 }
 
 //-------------------------------------christian
