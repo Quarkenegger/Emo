@@ -48,15 +48,12 @@ emotion40:{name:'zweifelnd',description:'in Bezug auf einen Sachverhalt unsicher
 }
 
 var puzzles={
-puzzle1:{question:'noch so ein test?', answers:['du bist dumm','langweilig','schlechte implementierung'],correct:3,reward:0}, 
-puzzle2:{question:'was soll das hier?',answers:['schlechte implementierung','langweilig'],correct:2,reward:1} ,
-//---
 puzzle3:{question:'Wie fuehlt sich Hausmeister Billy?', answers:['Heiter','Traurig','Gelangweilt','Dankbar'],picture:'Billy_gelangweilt.jpg',correct:3,reward:0}, 
 puzzle4:{question:'Gisela ist traurig. Auf welchem Bild sieht sie traurig aus?', answers:['Gisela_traurig.jpg','Gisela_rnd1.jpg','Gisela_rnd2.jpg','Gisela_rnd3.jpg'],picture:'',correct:1,reward:0}, 
 puzzle5:{question:'Sieht man mir meinen Stress nicht an?', answers:['Jace_rnd1.jpg','Jace_rnd2.jpg','Jace_rnd3.jpg','Jace_frustriert.jpg'],picture:'',correct:4,reward:0}, 
 puzzle6:{question:'Ich soll neidisch sein? Niemals?!', answers:['Yuga_rnd1.jpg','Yuga_neid.jpg','Yuga_rnd2.jpg','Yuga_rnd3.jpg'],picture:'',correct:2,reward:0},
 puzzle7:{question:'Die arme Yuga. Ich fuehle mich ganz:', answers:['frustriert','vergebend','schuldig','eifersuechtig'],picture:'Hilda_vergebend.jpg',correct:2,reward:0},
-	puzzleRegisseur1:{question:'Neulich onboard in der Kombuese hatte sich das ereignet. Welchen Ausdruck hat der Mann gemacht?', answers:['zufrieden','melancholisch','angeekelt'],picture:'suppe/006',correct:3, reward:0},
+	/*puzzleRegisseur1:{question:'Neulich onboard in der Kombuese hatte sich das ereignet. Welchen Ausdruck hat der Mann gemacht?', answers:['zufrieden','melancholisch','angeekelt'],picture:'suppe/006',correct:3, reward:0},
 	puzzleRegisseur2:{question:'Wie hat sich die blonde Frau verhalten?', answers:['amuesiert','ueberrascht','heiter'],picture:'suppe/007',correct:1, reward:0},
 	puzzleRegisseur3:{question:'Der Mann war sehr emotionvoll, welche Emotion hat er gestikuliert?', answers:['wuetend', 'traurig','beleidigt'],picture:'suppe/008',correct:1, reward:0},
 	puzzleCowboy1:{question:'Im Duell ist es wichtig keine Emotionen zu zeigen. Kannst du eine Emotion bei mir erkennen?',answers:['Ja','Nein'],picture:'Cowboy/002.jpg',correct:2,reward:0},
@@ -74,7 +71,7 @@ puzzle7:{question:'Die arme Yuga. Ich fuehle mich ganz:', answers:['frustriert',
 	puzzleProf7:{question:'Welche Emotion sieht man auf dem Bild?',answers:['entsetzt','wehmuetig','mitleidig'],picture:'profquiz_entsetzt',correct:1,reward:0},
 	puzzleProf8:{question:'Welche Emotion sieht man auf dem Bild?',answers:['aergerlich','erleichtert','beleidigt'],picture:'profquiz_erleichtert',correct:2,reward:0},
 	puzzleProf9:{question:'Welche Emotion sieht man auf dem Bild?',answers:['mitleidig','schwaermerisch','vergebend'],picture:'profquiz_mitleidig',correct:1,reward:0},
-	puzzleProf10:{question:'Welche Emotion sieht man auf dem Bild?',answers:['neidisch','dankbar','frustriert'],picture:'profquiz_dankbar',correct:2,reward:0}
+	puzzleProf10:{question:'Welche Emotion sieht man auf dem Bild?',answers:['neidisch','dankbar','frustriert'],picture:'profquiz_dankbar',correct:2,reward:0} */
 }
 
 var items={
@@ -91,8 +88,6 @@ item10:{name:'Karotte',description:'Dient als Schutz. Hoffentlich.',picture:'Kar
 item11:{name:'Erste Hilfe',description:'Damit kann man verletzten Menschen helfen.',picture:'erste_hilfe.jpg'},
 item12:{name:'Bohrmaschine',description:'Bruuuuummmmmmm',picture:'bohrmaschine.png'},
 item301:{name:'Eintrittskarte', description: 'Damit kannst du den Filmpark besuchen.',picture:'eintrittskarte.png'},
-item302:{name:'Krone', description: 'Die Krone macht dich zum Koenig im Filmpark.',picture:'krone.png'},
-item303:{name:'Spielzeugwaffe', description: 'Damit erledigst du jeden Buerohengst.',picture:'nerfgun.png'}
 }
 
 var maparray={
@@ -116,12 +111,6 @@ var quests={
 	quest8:{name:'Schutz',description:'Finde etwas um dich in gefaehrlichen Situationen zu schuetzen, wie z.B. einne Waffe. Tipp: im Sued-Westen der Stadt treiben sich seltsame Leute herum.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[9]},
 	quest9:{name:'Die Kuenstlerin',description:'Suche im Wohnviertel nach der Kuenstlerin Yuga. Vielleicht hat sie Hinweise oder macht sich verdaechtig. Tipp: Yuga ist immer in der Naehe von Helena.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest10:{name:'Die bessere Kuenstlerin',description:'Yuga verdaechtigt Hilda, bestimmt aus Neid. Du solltest trotzdem mir ihr reden. Tipp: Hilda wohnt in einem schoenen Einfamilienhaus.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-  quest11:{name:'Der Ort des Wissens.',description:'Du hast den Hinweis bekommen, dass in der Uni viel untersucht wird. Gehe zur Uni und ermittel dort weiter. Tipp: Die Uni ist westlich vom Wohngebiet.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-	quest301:{name:'Betritt den Filmark.',description:'Versuche herauszufinden, ob du wirklich den Professor gesehen hast.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[301]},
-	quest302:{name:'Suche nach Informationen im Park',description:'Die Darsteller, Regisseure oder Techniker werden doch sicher was beobachtet haben.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-	quest303:{name:'Suche die Tochter den Regisseurs.',description:'Lars von Hier, hat gerne seine Tochter bei sich, waehrend er arbeitet.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-	quest304:{name:'Noerdlich des Labyrinths',description:'Dort befindet sich nur eine Strassen-Kulisse und die Westernstadt.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-	quest305:{name:'Im Kino gibtes viele spezial Effekte',description:'Hinter der Kinoleinwand ist es viel interessanter. Was der Professor dort wohl verloren hat?',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-	quest306:{name:'Der Tunnel',description:'Bring das Bild in die Gallerie. Rette mit dem Professor zusammen die Stadt!',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-quest500:{name:'test',description:'itemtest',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[1,2]}
+	quest11:{name:'Der Ort des Wissens.',description:'Du hast den Hinweis bekommen, dass in der Uni viel untersucht wird. Gehe zur Uni und ermittel dort weiter. Tipp: Die Uni ist westlich vom Wohngebiet.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+
 }
