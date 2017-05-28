@@ -1,5 +1,4 @@
 RequireScript('data.js');//datenbank
-RequireScript('oberwelt_karte.js');
 RequireScript('trigger.js');
 RequireScript('Dialoge.js');
 RequireScript('Movement.js');
@@ -24,7 +23,7 @@ var h = GetScreenHeight();
 var oberwelt_karte_array= [1,1,1,0,0,0];
 var time=0;
 var points=0;
-var emomap=true;
+var emomap=false;
 //key bindings
 var key_talk = KEY_SPACE;
 var key_cancel = KEY_TAB;
