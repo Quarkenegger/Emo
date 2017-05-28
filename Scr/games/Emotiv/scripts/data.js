@@ -97,12 +97,12 @@ item303:{name:'Spielzeugwaffe', description: 'Damit erledigst du jeden Bueroheng
 
 var maparray={
 
-map_1:{name:'Tunnel',description:'Ein misterioeser dunkler Tunnel, der soll zur Gallerie fuehren?'},
-map_2:{name:'Gallerie',description:'Hier standen schon so viele Meisterwerke. Die Kuenstler werden von Jahr zu Jahr besser.'},
-map_3:{name:'Park',description:'Im Filmpark triffst du viele Schauspieler, die ihr koennen unter Beweis stellen moechten. Sie sind Meister im Nachahmen von Emotionen. Viel Spass mit Ihnen und Ihren Kunststuecken. Auch Deine Mission steuert auf neue Erkenntisse zu. Es gibt dunkle Schaechte die so manches Geheimnis verbergen.'} ,
-map_5:{name:'Stadt',description:'Deine Reise beginnt in den Tiefen einer verwinkelten Metropole... Das Polizeihauptpraesidium ist Dein haeufigster Auftraggeber, deshalb hast Du Dein Buero in unmittelbarer Naehe. Aber auch fuer Kultur und Konsum ist gesorgt. Entdecke die Strassen dieser Stadt... keine Angst es ist zur Zeit kein Berufsverkehr.'},
-map_6:{name:'Wohnviertel',description:'Also der Schein truegt, hier gibt es so manche dunkle Ecke. Natuerlich kennst Du in Deiner Nachtbarschaft jeden schraegen Nerd, auch eine besondere Anwaeltin ist Dir leider nicht ganz unbekannt. Deine Ermittlungen fuehren Dich bestimmt in den einen oder anderen Hinterhof. Falls Du Dich erholen oder in Deinen persoenlichen Sachen stoebern moechtest, kannst Du ja Dein Privathaus aufsuchen. Komisch in letzter Zeit konntest Du kaum schlafen... da sind Bauarbeiten in der nahegelegen Kanalisation. Hoffentlich hat der Keller Deines Hauses keinen Schaden genommen.'},
-map_7:{name:'Dorf',description:'Ja, die gute Landluft... es geht doch nichts ueber eine ausgedehnte Wanderung, besonders wenn man dabei die Ermittlungen vorantreiben kann. Die Landbevoelkerung ist Dir gegenueber offen, wann sieht man schon mal einen Dedektiv bei der Arbeit.'},
+map_1:{name:'Tunnel',description:'Ein misterioeser dunkler Tunnel. Wo fuehrt er nur hin?'},
+map_2:{name:'Galerie',description:'Hier standen schon so viele Meisterwerke. Die Kuenstler werden von Jahr zu Jahr besser.'},
+map_3:{name:'Park',description:'Im Filmpark triffst du viele Schauspieler. Sie sind Meister im Nachahmen von Emotionen.'} ,
+map_5:{name:'Stadt',description:'Deine Reise beginnt in deiner Heimatstadt... Hier findest du viele schoene Orte und hilfreiche Personen'},
+map_6:{name:'Wohnviertel',description:'Im Wohnviertel wohnen die meisten Menschen dieser Stadt. Hier treffen sich alle Schichten'},
+map_7:{name:'Dorf',description:'Das Dorf am Rande der Stadt ist ein gemuetlicher Rueckzugsort. Hier findest du auch dein eigenes Haus.'},
  }
 
 var quests={
