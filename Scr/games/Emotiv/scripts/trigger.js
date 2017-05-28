@@ -245,6 +245,7 @@ moveTo("Prof",136,233);
 DestroyPerson("Prof");
 //schalte Dorf und Einkaufscenter
 //Todo: EMolex ins Menue
+    emomap(true);
 }
 };
 
