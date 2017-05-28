@@ -1,5 +1,4 @@
 RequireScript('data.js');//datenbank
-RequireScript('oberwelt_karte.js');
 RequireScript('trigger.js');
 RequireScript('Dialoge.js');
 RequireScript('Movement.js');
