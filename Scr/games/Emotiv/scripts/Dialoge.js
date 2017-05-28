@@ -89,7 +89,7 @@ var dialog_005 = {
 
 var dialog_006 = {
   dialog:[
-	'Polizeichef Rick Bury: Noch koennen wir uns diesen Vorfall nicht erklaeren, deshalb kommen sie bitte mit uns auf das Polizeirevier. Dort werde ich ihnen den Fall uebertragen. ','Rick_Bury.jpg'
+	'Polizeichef Rick Bury: Noch koennen wir uns diesen Vorfall nicht erklaeren, deshalb kommen sie bitte mit uns auf das Polizeirevier. Dort werde ich ihnen den Fall uebertragen. ','Rick_Bury.jpg',
       'Polizeichef Rick Bury: Und merken sie sich eins, wenn sie das Gebiet wechseln klicken sie den Gebietsnamen mit [Space] weg. ','Rick_Bury.jpg'
 
   ]
