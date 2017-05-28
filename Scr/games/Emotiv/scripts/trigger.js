@@ -23,7 +23,7 @@ fehlende Sachen sind mit "Todo:" markiert
 
 
 
-//-------------------------------------Trash Galerie
+//-------------------------------------------------------------------Trash Galerie
 function Trash_Tobi (){
 if (trigger_progress[0]>2){
 Dialog("Trash_001");
@@ -59,6 +59,14 @@ if (trigger_progress[0]>2){
 Dialog("Trash_006");
 }
 };
+
+
+//------------------------------------------Trash Lifefiller Stadt
+//Typ vor der Detektei
+function Trash_001_RandomEncounter (){
+    Dialog("Trash_007");
+};
+
 
 //------------------------------------Spielstart/Tutorial Quark
 
@@ -447,7 +455,9 @@ MapChange("Detektei_Polizei_Buero.rmp",982,40,"MAPcity.wav");
 FlipScreen();
 };
 
-//-------------------------------------------------------------------Wohngebiet Quark
+
+
+//----------------------------------------------------------------------------------------------------------------------Wohngebiet Quark
 
 //Quest Chandra
 function trigger1001_Chandra (){

@@ -1,4 +1,4 @@
-//trashdialoge
+//------------------------Lifefiller Galerie
 //Tobi
 var Trash_001 = {
   dialog:[
@@ -40,6 +40,15 @@ var Trash_006 = {
   dialog:[
 	'Galerist Hubert: Das ist ds Bild Emotionale Grande. Irgendwas stimmt damit nicht. Wie bei Vigo, ihm fehlt sein Kaetzchen.','Hubert.jpg',
 	]
+}
+
+
+//------------------------------------------Lifefiller Stadt
+//Typ vor Detektei
+var Trash_007 = {
+    dialog:[
+        'Mr. Randomium: Hallo Herr Ford, willkommen zurueck in ihrer Detektei.','Billy.jpg',
+    ]
 }
 
 
@@ -248,7 +257,10 @@ var dialog_027 = {
 		]
 }
 
-//------------------------------------------------------------------------------------------Wohngebiet Quark
+
+
+
+//--------------------------------------------------------------------------------------------------------------------------Wohngebiet Quark
 var dialog_1001 = { 
   dialog:[
 	'Chandra: Hallo Herr Detektiv.','Chandra.jpg',
