@@ -188,8 +188,9 @@ function videoMiniGame(video_path,sound_path,name)
 }
 
 //------------------------------lyc
-//�ndert die Map, setzt den Spieler an Position X,Y und spielt den neuen Mapsound ab 
+//aendert die Map, setzt den Spieler an Position X,Y und spielt den neuen Mapsound ab 
 function MapChange(map,x,y,sound_path){
+	
 	if (map_sound.isPlaying()){
 		map_sound.stop();
 	}
@@ -198,6 +199,15 @@ function MapChange(map,x,y,sound_path){
 	SetPersonY(main_char,y);
 	
 	MapSound(sound_path);
+
+//Anzeige des Mapnamens bei mapwechsel
+
+	var width = map.length*8;
+		
+	window.drawWindow(15,GetScreenHeight()-35,width,20);
+	font.drawText(15,GetScreenHeight()-35,map);
+	FlipScreen();
+	getTheFuckingKeys();
 }
 
 
