@@ -444,6 +444,15 @@ function debugText(text)// zum anzeigen von vars zwecks debug(+text)
 	GetKey();
 }
 
+function debugText2(text)// zum anzeigen von vars zwecks debug(+text)
+{
+    displayEntry(GetScreenWidth()/4+(1*((GetScreenWidth()/4)+5)),(GetScreenHeight()/4)+(Math.round((1)/2))*((GetScreenHeight()/6)+5),GetScreenWidth()/4-5,GetScreenHeight()/6-5,text.toString(), true,"test.png",false);
+    FlipScreen();
+    while (GetKey()!=key_talk)
+        displayEntry(GetScreenWidth()/4+(1*((GetScreenWidth()/4)+5)),(GetScreenHeight()/4)+(Math.round((1)/2))*((GetScreenHeight()/6)+5),GetScreenWidth()/4-5,GetScreenHeight()/6-5,text.toString(), true,"test.png",false);
+    FlipScreen();;
+}
+
 //verbindet 2 arrays zu einem, gibt das zur?ck(+1.array,+2.array)
 function concatArray(array1,array2)
 {

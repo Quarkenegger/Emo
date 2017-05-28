@@ -15,6 +15,9 @@ var window = GetSystemWindowStyle();
 var bilder = [];
 var sound;
 var map_sound;
+var mapname="";
+var maphaschanged=false;
+var mapcount=0;
 var savegame2;
 var main=false;
 var witchMenu="null";
@@ -23,7 +26,7 @@ var h = GetScreenHeight();
 var oberwelt_karte_array= [1,1,1,0,0,0];
 var time=0;
 var points=0;
-var emomap=false;
+var emomap=true;
 //key bindings
 var key_talk = KEY_SPACE;
 var key_cancel = KEY_TAB;
@@ -112,7 +115,11 @@ function updation()
 
 
 }
-
+if ((maphaschanged)&&(Math.abs(mapcount-time)>=50)){
+ 	mapcount=time;
+	debugText2(mapname);
+ 	maphaschanged=false;
+ }
  //if(IsKeyPressed(key_map)) oberwelt_karte();
 }
 

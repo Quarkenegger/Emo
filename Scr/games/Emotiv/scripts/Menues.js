@@ -510,6 +510,19 @@ oberwelt_karte_array[map]=1;
 }
 
 function setPointer(pointer_case){
+    var ob_karte = LoadImage("menues/ob_karte.png");
+    var galerie_mini_colors = LoadImage("menues/galerie_mini_colors.png");
+    var galerie_mini_grayscale = LoadImage("menues/galerie_mini_grayscale.png");
+    var park_mini_colors = LoadImage("menues/park_mini_colors.png");
+    var park_mini_grayscale = LoadImage("menues/park_mini_grayscale.png");
+    var stadt_mini_colors = LoadImage("menues/stadt_mini_colors.png");
+    var stadt_mini_grayscale = LoadImage("menues/stadt_mini_grayscale.png");
+    var uni_mini_colors = LoadImage("menues/uni_mini_colors.png");
+    var uni_mini_grayscale = LoadImage("menues/uni_mini_grayscale.png");
+    var wohnviertel_mini_colors = LoadImage("menues/wohnviertel_mini_colors.png");
+    var wohnviertel_mini_grayscale = LoadImage("menues/wohnviertel_mini_grayscale.png");
+    var dorf_house_mini = LoadImage("menues/dorf_haus_mini.png");
+    var detective_icon = LoadImage("menues/detective_icon.png");
 	var center_x = 0;
 	var center_y = 0;
 	switch (pointer_case)

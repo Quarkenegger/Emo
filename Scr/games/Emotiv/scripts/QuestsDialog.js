@@ -201,13 +201,16 @@ function MapChange(map,x,y,sound_path){
 	MapSound(sound_path);
 
 //Anzeige des Mapnamens bei mapwechsel
-
+/*
 	var width = map.length*8;
 		
 	window.drawWindow(15,GetScreenHeight()-35,width,20);
 	font.drawText(15,GetScreenHeight()-35,map);
 	FlipScreen();
-	getTheFuckingKeys();
+	getTheFuckingKeys();*/
+maphaschanged=true;
+mapname=map.toString();
+mapcount=time;
 }
 
 
