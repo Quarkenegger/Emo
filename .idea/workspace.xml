@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5425cd6b-b694-4876-a881-b2b3319e0117" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Park.rmp.old" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/cave.rmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/cave.rmp.old" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/cave_laby.rmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/cave_zerst.rmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/firstmap.rmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/kulturzentrum_eingang_cave.rmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/kulturzentrum_eingang_cave.rmp.old" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/x.rmp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Detektei.rmp" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Detektei.rmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Detektei1OG.rmp" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Detektei1OG.rmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Detektei_Polizei_Buero.rmp" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Detektei_Polizei_Buero.rmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Einkaufzentrum_1S.rmp" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Einkaufzentrum_1S.rmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Einkaufzentrum_2S.rmp" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Einkaufzentrum_2S.rmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Einkaufzentrum_EG.rmp" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Einkaufzentrum_EG.rmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/einkauf-kulturzentrum_strasse.rmp" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/maps/einkauf-kulturzentrum_strasse.rmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/kulturzentrum_eingang.rmp" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/maps/kulturzentrum_eingang.rmp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/editor.ini" afterPath="$PROJECT_DIR$/Scr/editor.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dialoge.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dialoge.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="99" column="77" lean-forward="false" selection-start-line="99" selection-start-column="77" selection-end-line="99" selection-end-column="77" />
+            <state relative-caret-position="1530">
+              <caret line="90" column="6" lean-forward="true" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -64,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5933">
-              <caret line="349" column="6" lean-forward="false" selection-start-line="349" selection-start-column="6" selection-end-line="349" selection-end-column="6" />
+              <caret line="354" column="6" lean-forward="false" selection-start-line="354" selection-start-column="6" selection-end-line="354" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -73,8 +54,8 @@
       <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="510">
+              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -100,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trigger.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="trigger.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1173">
-              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="817">
+              <caret line="562" column="21" lean-forward="false" selection-start-line="562" selection-start-column="21" selection-end-line="562" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -142,9 +123,9 @@
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js" />
-        <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js" />
+        <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js" />
       </list>
     </option>
   </component>
@@ -656,7 +637,7 @@
       <workItem from="1489506769881" duration="299000" />
       <workItem from="1495717717294" duration="9779000" />
       <workItem from="1495984536313" duration="281000" />
-      <workItem from="1495986344875" duration="1532000" />
+      <workItem from="1495986344875" duration="1895000" />
     </task>
     <task id="LOCAL-00001" summary="habs vergessen">
       <created>1495719292874</created>
@@ -707,11 +688,25 @@
       <option name="project" value="LOCAL" />
       <updated>1495986709170</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Triggernamechange on maps&#10;Tipps für Quests&#10;Cave und Park deleted&#10;Textanpassung">
+      <created>1495987949721</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1495987949721</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Triggernamechange on maps&#10;Tipps für Quests&#10;Cave und Park deleted&#10;Textanpassung">
+      <created>1495988045561</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1495988045561</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11891000" />
+    <option name="totallyTimeSpent" value="12254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -761,7 +756,8 @@
     <MESSAGE value="dialog ändereung (umlaute)" />
     <MESSAGE value="weltenübergang" />
     <MESSAGE value="textanpassung usw" />
-    <option name="LAST_COMMIT_MESSAGE" value="textanpassung usw" />
+    <MESSAGE value="Triggernamechange on maps&#10;Tipps für Quests&#10;Cave und Park deleted&#10;Textanpassung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Triggernamechange on maps&#10;Tipps für Quests&#10;Cave und Park deleted&#10;Textanpassung" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -895,7 +891,7 @@
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5933">
-          <caret line="349" column="6" lean-forward="false" selection-start-line="349" selection-start-column="6" selection-end-line="349" selection-end-column="6" />
+          <caret line="354" column="6" lean-forward="false" selection-start-line="354" selection-start-column="6" selection-end-line="354" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -903,8 +899,8 @@
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/main_menu.js" />
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -925,16 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="99" column="77" lean-forward="false" selection-start-line="99" selection-start-column="77" selection-end-line="99" selection-end-column="77" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
@@ -945,8 +931,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="817">
+          <caret line="562" column="21" lean-forward="false" selection-start-line="562" selection-start-column="21" selection-end-line="562" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="6" lean-forward="true" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
