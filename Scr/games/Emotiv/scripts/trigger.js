@@ -270,8 +270,8 @@ FlipScreen();
 
 //Port B�ro
 function trigger019_InsBuero (){
-MapChange("buero.rmp",24,137,"MAPdorf2.mp3");
-FlipScreen();
+    MapChange("buero.rmp",24,137,"MAPdorf2.mp3");
+    FlipScreen();
 };
 
 //Port aus B�ro
