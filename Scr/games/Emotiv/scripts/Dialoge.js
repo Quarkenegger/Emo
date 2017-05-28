@@ -89,8 +89,10 @@ var dialog_005 = {
 
 var dialog_006 = {
   dialog:[
-	'Polizeichef Rick Bury: Noch koennen wir uns diesen Vorfall nicht erklaeren, deshalb kommen sie bitte mit uns auf das Polizeirevier. Dort werde ich ihnen den Fall uebertragen. ','Rick_Bury.jpg'
-	]
+	'Polizeichef Rick Bury: Noch koennen wir uns diesen Vorfall nicht erklaeren, deshalb kommen sie bitte mit uns auf das Polizeirevier. Dort werde ich ihnen den Fall uebertragen. ','Rick_Bury.jpg',
+      'Polizeichef Rick Bury: Und merken sie sich eins, wenn sie das Gebiet wechseln klicken sie den Gebietsnamen mit [Space] weg. ','Rick_Bury.jpg'
+
+  ]
 }
 
 var dialog_007 ={
@@ -99,7 +101,7 @@ var dialog_007 ={
 	  'Polizeichef Rick Bury: Als Detektiv sind sie fuer diesen Fall besser geeignet als unsere Leute, deshalb uebertrage ich ihnen den Fall. Suchen sie nach Hinweisen um den Taeter ausfindig zu machen und helfen sie den Betroffenen. ','Rick_Bury.jpg',
       'Polizeichef Rick Bury: Dafuer sollten sie ihre 2 Gehilfen Sam und Max einbeziehen. Die beiden muessten sich in ihrer Detektei befinden. Um dort hin zu gelangen gehen sie von hier aus in den Sueden. Im Zentrum der Stadt befindet sich ihre Detektei, aber das wissen sie ja.','Rick_Bury.jpg',
 	'Polizeichef Rick Bury: ... ','Rick_Bury.jpg',
-	'Polizeichef Rick Bury: Um ihre Aufgaben und deren Fortschritt einsehen zu koennen, oeffnen sie das Menue mit [Tabulator] und lesen im Questbuch nach oder drücken sie im Spiel [Q]. Mit [Tabulator] werden die Menues wieder verlassen. ','Rick_Bury.jpg',
+	'Polizeichef Rick Bury: Um ihre Aufgaben und deren Fortschritt einsehen zu koennen, oeffnen sie das Menue mit [Tabulator] und lesen im Questbuch nach oder druecken sie im Spiel [Q]. Mit [Tabulator] werden die Menues wieder verlassen. ','Rick_Bury.jpg',
 	  'Polizeichef Rick Bury:  Viel Erfolg!!. ','Rick_Bury.jpg',
 
   ]

@@ -245,6 +245,7 @@ moveTo("Prof",136,233);
 DestroyPerson("Prof");
 //schalte Dorf und Einkaufscenter
 //Todo: EMolex ins Menue
+    emomap(true);
 }
 };
 
@@ -276,13 +277,13 @@ MapChange("Dorf.rmp",264,29,"MAPdorf.ogg");
 FlipScreen();
 };
 
-//Port B�ro
+//Port Buero
 function trigger019_InsBuero (){
     MapChange("buero.rmp",24,137,"MAPdorf2.mp3");
     FlipScreen();
 };
 
-//Port aus B�ro
+//Port aus Buero
 function trigger020_BueroInStadt (){
 MapChange("Detektei_Polizei_Buero.rmp",1159,654,"MAPcity.wav");
 FlipScreen();
