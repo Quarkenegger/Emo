@@ -115,8 +115,9 @@ function updation()
 
 
 }
-if ((maphaschanged)&&(Math.abs(mapcount-time)>=50)){
+if ((maphaschanged)&&(Math.abs(mapcount-time)>=5)){
  	mapcount=time;
+    mapname = mapname.substring(0, mapname.indexOf('.'));
 	debugText2(mapname);
  	maphaschanged=false;
  }
