@@ -27,6 +27,7 @@ var oberwelt_karte_array= [1,1,1,0,0,0];
 var time=0;
 var points=0;
 var emomap=true;
+
 //key bindings
 var key_talk = KEY_SPACE;
 var key_cancel = KEY_TAB;
@@ -118,7 +119,8 @@ function updation()
 if ((maphaschanged)&&(Math.abs(mapcount-time)>=5)){
  	mapcount=time;
     mapname = mapname.substring(0, mapname.indexOf('.'));
-	debugText2(mapname);
+	//debugText2(mapname);
+	mapChangeBox(mapname);
  	maphaschanged=false;
  }
  //if(IsKeyPressed(key_map)) oberwelt_karte();

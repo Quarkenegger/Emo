@@ -21,6 +21,99 @@ function TextBox(text)
   GetKey();
 }
 
+// Textbox bei Mapwechsel
+function mapChangeBox(text){
+		
+	var mapname = "";
+	
+		switch (text){
+		case "Detektei":
+		{
+			mapname = "Detektei";
+			break;
+		}
+		case "buero":
+		{
+			mapname = "Buero";
+			break;
+		}
+		case "Detektei_Polizei_Buero":
+		{
+			mapname = "Stadt";
+			break;
+		}
+		case "Detektei1OG":
+		{
+			mapname = "1. Obergeschoss, Detektei";
+			break;
+		}
+		case "Dorf":
+		{
+			mapname = "Dorf";
+			break;
+		}
+		case "einkauf-kulturzentrum_strasse":
+		{
+			mapname = "Einkaufs und Kultur Strasse";
+			break;
+		}
+		case "Einkaufzentrum_1S":
+		{
+			mapname = "1. Stock, Einkaufszentrum";
+			break;
+		}
+		case "Einkaufzentrum_2S":
+		{
+			mapname = "2. Stock, Einkaufszentrum";
+			break;
+		}
+		case "Einkaufzentrum_EG":
+		{
+			mapname = "Erdgeschoss, Einkaufszentrum";
+			break;
+		}
+		case "kulturzetrum_eingang":
+		{
+			mapname = "Museum";
+			break;
+		}
+		case "Park":
+		{
+			mapname = "Filmpark";
+			break;
+		}
+		case "PloizeiHaupt":
+		{
+			mapname = "Polizeistation";
+			break;
+		}
+		case "Uni":
+		{
+			mapname = "Universitaet";
+			break;
+		}
+		case "Wohnviertel":
+		{
+			mapname = "Wohngebiet";
+			break;
+		}
+		case "zimmer":
+		{
+			mapname = "eigene Wohnung";
+		}
+	}
+
+	window.drawWindow(GetScreenWidth()/4,GetScreenHeight()/4,GetScreenWidth()/2,GetScreenHeight()/2);
+	font.drawText((GetScreenWidth()/2)-((mapname.length*8)/2),GetScreenHeight()/2-5,mapname);
+	FlipScreen();
+
+	while (GetKey()!=key_talk){
+		window.drawWindow(GetScreenWidth()/4,GetScreenHeight()/4,GetScreenWidth()/2,GetScreenHeight()/2);
+		font.drawText((GetScreenWidth()/2)-((mapname.length*8)/2),GetScreenHeight()/2-5,mapname);
+	}
+	FlipScreen();
+}
+
 //checkt, ob member in array vorhanden ist. gibt true zur?ck, wenn das element nicht vorhanden ist. ansonsten false, falls es vorhanden ist
 function isMemberDouble(array,entry){
 if (array.length==0) {return true;}
