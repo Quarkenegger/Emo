@@ -152,6 +152,9 @@ function Load_Game(){
 	
 	//RequireScript(filename1);
 	if(IsMapEngineRunning() == false){
+		wassaved=true;
+        var persons=GetPersonList();
+        if (!isMemberDouble(persons,"Indiana Ford"))
         DestroyPerson("Indiana Ford"); //test
 		CreatePerson(main_char, "detective.rss", false);
 		SetPersonSpeed(main_char,GetPersonSpeedX(main_char)*1.5); 
@@ -160,11 +163,26 @@ function Load_Game(){
 		SetUpdateScript("updation();");
 		SetPersonX(main_char,savegame2.person_x);
 		SetPersonY(main_char,savegame2.person_y);
-		map_sound = LoadSound("MAPgallery.mp3");
+        map_sound = LoadSound("MAPgallery.mp3");
+		//map_sound = LoadSound(savegame2.map_sound);
+		wassaved=true;
+		savevariables=[savegame2.person_x,savegame2.person_y,savegame2.map]
 		map_sound.setVolume(volume*255)
 	//	MapChange(savegame2.map,savegame2.person_x,savegame2.person_y,"MAPdorf.ogg");
 		MapEngine(savegame2.map, 60);
+        //MapChange(savegame2.map,savegame2.person_x,savegame2.person_y,"MAPdorf.ogg");
 	}else{
+       /* CreatePerson(main_char, "detective.rss", false);
+        SetPersonSpeed(main_char,GetPersonSpeedX(main_char)*1.5);
+        AttachInput(main_char);
+        AttachCamera(main_char);
+        SetUpdateScript("updation();");
+        SetPersonX(main_char,savegame2.person_x);
+        SetPersonY(main_char,savegame2.person_y);
+        map_sound = LoadSound("MAPgallery.mp3");
+        map_sound.setVolume(volume*255);
+        MapEngine(savegame2.map, 60);*/
+       // DestroyPerson("Indiana Ford");
 	MapChange(savegame2.map,savegame2.person_x,savegame2.person_y,"MAPdorf.ogg");
 	}
 	
@@ -185,7 +203,7 @@ function Save_Game(){
   //var dir = loc.substring(0, loc.lastIndexOf('/'));
 	var save = OpenFile(filename1);
 	
-	var uuu= "{map:'"+map_name+"',person_x:"+person_x+",person_y:"+person_y+",direction:'"+person_d+"',inv:["+inventory+"],emo:["+progress+"],cquest:["+questlist[0]+"],squest:["+questlist[1]+"],trigger_pr:["+trigger_progress+"],map_pr:["+oberwelt_karte_array+"],volume:"+volume+"}";
+	var uuu= "{map:'"+map_name+"',person_x:"+person_x+",person_y:"+person_y+",direction:'"+person_d+"',inv:["+inventory+"],emo:["+progress+"],cquest:["+questlist[0]+"],squest:["+questlist[1]+"],trigger_pr:["+trigger_progress+"],map_pr:["+oberwelt_karte_array+"],volume:"+volume+",emomap:"+emomap+"}";
 //	var blaa2="{map:"+map_name+",person_x:"+person_x;
 	//var blaa='{map:'+map_name+',person_x:'+person_x+',person_y:'+person_y+',direction:'+person_d+',inv:'+inventory+',emo:'+progress+',cquest:'+questlist[0]+',squest:'+questlist[1]+',trigger_pr:'+trigger_progress+',map_pr:'+oberwelt_karte_array',volume:'+volume+'}';
 	//save.write("var save", eval("{map:"+map_name+",person_x:"+person_x+",person_y:"+person_y+",direction:"+person_d+",inv:"+inventory+",emo:"+progress+",cquest:"+questlist[0]+",squest:"+questlist[1]+",trigger_pr:"+trigger_progress+",map_pr:"+oberwelt_karte_array",volume:"+volume+"}"));
