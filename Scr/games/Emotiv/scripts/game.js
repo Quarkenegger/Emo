@@ -15,6 +15,7 @@ var window = GetSystemWindowStyle();
 var bilder = [];
 var sound;
 var map_sound;
+var map_sound2="";
 var mapname="";
 var maphaschanged=false;
 var mapcount=0;
@@ -44,7 +45,7 @@ var key_sprint = KEY_SHIFT;
 
 var persons_progress=[0];
 var trigger_progress=[0];
-var volume=0;
+var volume=0.2;
 var over=true;
 var maps=[1,2,3,5,6,7];
 var main_char = "Indiana Ford";
@@ -80,6 +81,7 @@ function newGame(){
 	AttachInput(main_char);
 	AttachCamera(main_char);
 	SetUpdateScript("updation();");
+    map_sound2="MAPgallery.mp3";
 	MapEngine("kulturzentrum_eingang.rmp", 60);
 	font.setColorMask( CreateColor(0, 0,0));
 }
@@ -98,8 +100,10 @@ function updation()
 {
 	if (wassaved){
         //SetPersonX(main_char,80);
-
-        MapChange(savevariables[2],savevariables[0],savevariables[1],"MAPgallery.mp3")
+		map_sound2=searchmaps(savevariables[2])[1];
+		//debugText(map_sound2);
+        MapChange(savevariables[2],savevariables[0],savevariables[1],map_sound2);
+        //MapSound("MAPcity.wav");
         //SetPersonX(main_char,savevariables[0]);
         //SetPersonY(main_char,savevariables[1]);
         wassaved=false;

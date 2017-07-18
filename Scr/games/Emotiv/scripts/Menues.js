@@ -497,7 +497,7 @@ function oberwelt_karte(){
 				if  (key==key_talk)
 				{
 					if	  ((pointer_case ==  0)&&(oberwelt_karte_array[0]==1)) {MapChange("Dorf.rmp",264,29,"MAPdorf.ogg");quit = true;break;}  // teleport to dorf
-					else if ((pointer_case == 1)&&(oberwelt_karte_array[1]==1)){ MapChange("Detektei_Polizei_B�ro.rmp",670,950,"MAPcity.wav");quit = true;break;} // teleport to city
+					else if ((pointer_case == 1)&&(oberwelt_karte_array[1]==1)){ MapChange("Detektei_Polizei_Buero.rmp",670,950,"MAPcity.wav");quit = true;break;} // teleport to city
 					else if ((pointer_case == 2)&&(oberwelt_karte_array[2]==1)){ MapChange("einkauf-kulturzentrum_strasse.rmp",1643,524,"MAPcity.wav");quit = true;break;} // teleport to gallery
 					else if ((pointer_case == 3)&&(oberwelt_karte_array[3]==1)){ MapChange("Uni.rmp",493,904,"MAPcampus.ogg");quit = true;break;} // teleport to uni
 					else if ((pointer_case == 4)&&(oberwelt_karte_array[4]==1)) {MapChange("Wohnviertel.rmp",429,996,"MAPwohngebiet.wav");quit = true;break;} // teleport to wohngebiet

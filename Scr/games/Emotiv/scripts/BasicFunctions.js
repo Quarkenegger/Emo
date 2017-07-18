@@ -25,8 +25,9 @@ function TextBox(text)
 function mapChangeBox(text){
 		
 	var mapname = "";
-	
-		switch (text){
+     var t=searchmaps(text);
+     mapname=t[0];
+		/*switch (text){
 		case "Detektei":
 		{
 			mapname = "Detektei";
@@ -74,7 +75,7 @@ function mapChangeBox(text){
 		}
 		case "kulturzetrum_eingang":
 		{
-			mapname = "Museum";
+			mapname = "Galerie";
 			break;
 		}
 		case "Park":
@@ -94,14 +95,14 @@ function mapChangeBox(text){
 		}
 		case "Wohnviertel":
 		{
-			mapname = "Wohngebiet";
+			mapname = "Wohnviertel";
 			break;
 		}
 		case "zimmer":
 		{
 			mapname = "eigene Wohnung";
-		}
-	}
+		}*/
+	//}
 
 	window.drawWindow(GetScreenWidth()/4,GetScreenHeight()/4,GetScreenWidth()/2,GetScreenHeight()/2);
 	font.drawText((GetScreenWidth()/2)-((mapname.length*8)/2),GetScreenHeight()/2-5,mapname);
@@ -166,8 +167,10 @@ function Load_Game(){
         map_sound = LoadSound("MAPgallery.mp3");
 		//map_sound = LoadSound(savegame2.map_sound);
 		wassaved=true;
-		savevariables=[savegame2.person_x,savegame2.person_y,savegame2.map]
-		map_sound.setVolume(volume*255)
+		savevariables=[savegame2.person_x,savegame2.person_y,savegame2.map];
+		map_sound.setVolume(volume*255);
+        TextBox_W("Spiel erfolgreich geladen.",200);
+
 	//	MapChange(savegame2.map,savegame2.person_x,savegame2.person_y,"MAPdorf.ogg");
 		MapEngine(savegame2.map, 60);
         //MapChange(savegame2.map,savegame2.person_x,savegame2.person_y,"MAPdorf.ogg");
@@ -183,6 +186,7 @@ function Load_Game(){
         map_sound.setVolume(volume*255);
         MapEngine(savegame2.map, 60);*/
        // DestroyPerson("Indiana Ford");
+        TextBox_W("Spiel erfolgreich geladen.",200);
 	MapChange(savegame2.map,savegame2.person_x,savegame2.person_y,"MAPdorf.ogg");
 	}
 	
@@ -439,7 +443,17 @@ function PlayVideo(x,y,width,height,frames,display_text_bottom){
 }
 
 //------------------------------------------------------klops
+function searchmaps(name){
+    for(var i = 0; i <eval("maparray.map_1.entrys");i=i+1)
+    {
+    	//if (i>0) return 10;
 
+            var text = eval("maparray.map_"+(i+2)+".realname");
+    if (text==name) {var uu=[eval("maparray.map_"+(i+2)+".name"),eval("maparray.map_"+(i+2)+".music")];return uu }
+    } return ["Detektei","MAPlabor.mp3"];
+
+
+}
 function checkresults(table,number,name)//?berpr?ft antworten, liefert bool(+varname in data,+gew?hlteantwortnummer,+fragenname)
 {
 	if (eval(table+"."+name+".correct")==number) 

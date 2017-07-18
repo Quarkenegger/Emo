@@ -3,6 +3,8 @@ var text = {
   line2: {name: 'bad'}, 
   line3: ['u','g','l','y']
 }
+
+
 var emotions={
 emotion1:{name:'amuesiert',description:'sich vergnuegen; sich auf angenehme Art die Zeit vertreiben, seinen Spass haben',picture:'amuesiert.png'},
 emotion2:{name:'angeekelt',description:'jemanden anwidern, jemandes Ekel, Abscheu, Widerwillen erregen',picture:'angeekelt.png'},
@@ -91,13 +93,22 @@ item301:{name:'Eintrittskarte', description: 'Damit kannst du den Filmpark besuc
 }
 
 var maparray={
-
-map_1:{name:'Tunnel',description:'Ein misterioeser dunkler Tunnel. Wo fuehrt er nur hin?'},
-map_2:{name:'Galerie',description:'Hier standen schon so viele Meisterwerke. Die Kuenstler werden von Jahr zu Jahr besser.'},
-map_3:{name:'Park',description:'Im Filmpark triffst du viele Schauspieler. Sie sind Meister im Nachahmen von Emotionen.'} ,
-map_5:{name:'Stadt',description:'Deine Reise beginnt in deiner Heimatstadt... Hier findest du viele schoene Orte und hilfreiche Personen'},
-map_6:{name:'Wohnviertel',description:'Im Wohnviertel wohnen die meisten Menschen dieser Stadt. Hier treffen sich alle Schichten'},
-map_7:{name:'Dorf',description:'Das Dorf am Rande der Stadt ist ein gemuetlicher Rueckzugsort. Hier findest du auch dein eigenes Haus.'},
+map_1:{entrys:15},
+map_2:{name:'Galerie',description:'Hier standen schon so viele Meisterwerke. Die Kuenstler werden von Jahr zu Jahr besser.', realname:'kulturzetrum_eingang',music:'MAPgallery.mp3'},
+map_3:{name:'Filmpark',description:'Im Filmpark triffst du viele Schauspieler. Sie sind Meister im Nachahmen von Emotionen.',realname:'Park',music:'MAPpark.ogg'} ,
+map_4:{name:'Stadt',description:'Deine Reise beginnt in deiner Heimatstadt... Hier findest du viele schoene Orte und hilfreiche Personen',realname:'Detektei_Polizei_Buero',music:'MAPcity.wav'},
+map_5:{name:'Wohnviertel',description:'Im Wohnviertel wohnen die meisten Menschen dieser Stadt. Hier treffen sich alle Schichten',realname:'Wohnviertel',music:'MAPwohngebiet.wav'},
+map_6:{name:'Dorf',description:'Das Dorf am Rande der Stadt ist ein gemuetlicher Rueckzugsort. Hier findest du auch dein eigenes Haus.',realname:'Dorf',music:'MAPdorf2.mp3'},
+map_7:{name:'Universitaet',description:'Die Uni ist ein ort des Lernens und der Lernvermeidung',realname:'Uni',music:'MAPcampus.ogg'},
+map_8:{name:'Buero',description:'nothing',realname:'buero',music:'MAPlabor.mp3'},
+map_9:{name:'1. Obergeschoss, Detektei',description:'nothing',realname:'Detektei1OG',music:''},
+map_10:{name:'Einkaufs und Kultur Strasse',description:'nothing',realname:'einkauf-kulturzentrum_strasse',music:'KaufhausmusicMiro.mp3'},
+map_11:{name:'1. Stock, Einkaufszentrum',description:'nothing',realname:'Einkaufzentrum_1S',music:'KaufhausmusicMiro.mp3'},
+map_12:{name:'2. Stock, Einkaufszentrum',description:'nothing',realname:'Einkaufzentrum_2S',music:'KaufhausmusicMiro.mp3'},
+map_13:{name:'Erdgeschoss, Einkaufszentrum',description:'nothing',realname:'Einkaufzentrum_EG',music:'KaufhausmusicMiro.mp3'},
+map_14:{name:'Polizeistation',description:'nothing',realname:'PloizeiHaupt',music:'MAPlabor.mp3'},
+map_15:{name:'Eigene Wohnung',description:'nothing',realname:'zimmer',music:'MAPlabor.mp3'},
+map_16:{name:'Detektei',description:'nothing',realname:'Detektei',music:'MAPlabor.mp3'}
  }
 
 var quests={
