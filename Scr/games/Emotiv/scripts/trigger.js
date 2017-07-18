@@ -642,10 +642,6 @@ function trigger3001_UnizuPark (){
     }
 };
 
-<<<<<<< HEAD
-=======
-
->>>>>>> b9af8719e995b1ce6229fb4e8a46ef1f883aceb5
 function trigger3002_Eingang(){
 	if(trigger_progress[0] < 2001){
 		Dialog("dialog_3000"); // kein eintritt in den Park wenn fortschritt och nicht da ist
@@ -661,7 +657,6 @@ function trigger3002_Eingang(){
 	}
 };
 
-<<<<<<< HEAD
 function trigger3003_Mittelalterstadt(){
     if(trigger_progress[0] == 3002) {
       Dialog("dialog_3004");
@@ -677,6 +672,42 @@ function trigger3003_Mittelalterstadt(){
 			Dialog("dialog_3007");
     }
 };
+
+function trigger3004_Kartbahn(){
+		if(trigger_progress[0] < 3003) {
+			Dialog("dialog_3008");
+		}else if(trigger_progress[0] == 3003) {
+      Dialog("dialog_3009");
+      getQuest(15);
+			trigger_progress[0]=trigger_progress[0]+1; //3004
+    }else if(trigger_progress[0] == 3004){
+			Dialog("dialog_3012");
+    }else if(trigger_progress[0] == 3005){
+			Dialog("dialog_3013");
+			closeQuest(15);
+			trigger_progress[0]=trigger_progress[0]+1; //3006
+		}else if(trigger_progress[0] > 3005){
+			Dialog("dialog_3014");
+		}
+};
+
+function trigger3005_Igor(){
+		if(trigger_progress[0] == 3004) {
+			Dialog("dialog_3010");
+		}else{
+			Dialog("dialog_3011");
+		}
+};
+
+function trigger3006_Winry(){
+		if(trigger_progress[0] == 3004) {
+			Dialog("dialog_3015");
+			miniGame("puzzle10");
+			Dialog("dialog_3016");
+			giveItem(3);
+			trigger_progress[0]=trigger_progress[0]+1 //3005
+		}else{
+			Dialog("dialog_3017");
+		}
+};
 //Ich will nur pushen
-=======
->>>>>>> b9af8719e995b1ce6229fb4e8a46ef1f883aceb5

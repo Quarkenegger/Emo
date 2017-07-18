@@ -464,7 +464,7 @@ var dialog_3004 = {
 var dialog_3005 = {
   dialog:[
 	'Koenig Johann: Ahhh Ihr habt mein Raetsel mit Bravur geloest.','Koenig_1.jpg',
-	'Koenig Johann: Nun gut, ich bin ein Mann der zu seinem Wort steht. Das letzte mal habe ich den Professor in Richtung der Kart-Bahn im Norden laufen sehen.','Koenig_1.jpg',
+	'Koenig Johann: Nun gut, ich bin ein Mann der zu seinem Wort steht. Das letzte mal habe ich den Professor in Richtung der Kartbahn im Norden laufen sehen.','Koenig_1.jpg',
 	  ]
 }
 
@@ -479,5 +479,80 @@ var dialog_3006 = {
 var dialog_3007 = {
   dialog:[
 	'Koenig Johann: Viel Spass in meinem Koenigreich, Untertan.','Koenig_1.jpg',
-	  ]
+	 ]
+}
+
+//Kartbahn - Trashtalk - 1
+var dialog_3008 = {
+  dialog:[
+	'Frank der Mechaniker: Hallo Kumpel, wenn du Kart fahren moechtest komme doch spaeter wieder, zur Zeit sind alle Karts belegt.','Tobias.png',]
+}
+
+//Kartbahn - Professorsuche - 1
+var dialog_3009 = {
+  dialog:[
+	'Frank der Mechaniker: Hallo Kumpel, Willkommen auf unserer Schoenen Kartbahn.','Tobias.png',
+	'Frank der Mechaniker: Du suchst den Professor? Ich wuerde dir gerne helfen, leider hat mir jemand meinen Schraubenschluessel entwendet.','Tobias.png',
+	'Frank der Mechaniker: Wenn du ihn mir wiederbeschaffst, kann ich dir helfen. Zuletzt habe ich meinen Schraubenschluessel oben bei den Reifen gesehen.','Tobias.png',
+	 ]
+}
+
+//Kartbahn - Trashtalk - 2
+var dialog_3010 = {
+  dialog:[
+	'Igor: Ich wuerde so gerne Kart fahren ...','Igor.jpg',
+	]
+}
+
+//Kartbahn - Professorsuche - 2
+var dialog_3011 = {
+  dialog:[
+	'Igor: Du suchst einen Schraubenschlüssel?','Igor.jpg',
+	'Igor: Gesehen habe ich keinen, aber vor einer weile ist hier ein seltsam aussehende Frau mit etwas glänzenden in der Hand gewesen und richtung Sued-Osten gelaufen','Igor.jpg',
+	 ]
+}
+
+//Kartbahn - Trashtalk - 3
+var dialog_3012 = {
+  dialog:[
+	'Frank der Mechaniker: Wenn du meinen Schraubenschluessel findest, kann ich dir helfen den Professor zu finden.','Tobias.png',
+	]
+}
+
+//Kartbahn - Professorsuche - 3
+var dialog_3013 = {
+  dialog:[
+	'Frank der Mechaniker: Du hast meinen Schraubenschluessel gefunden! Danke Kumpel!!','Tobias.png',
+	'Frank der Mechaniker: Ich habe mit ein paar besuchern geredet. Sie meinen den Professor in der Westernstadt, Oestlich von hier, gesehen zu haben.','Tobias.png',
+	]
+}
+
+//Kartbahn - Trashtalk - 4
+var dialog_3014 = {
+  dialog:[
+	'Frank der Mechaniker: Danke das du meinen Schraubenschluessel gefunden hast. Leider sind immernoch keine Karts fuer dich frei Kumpel.','Tobias.png',
+	]
+}
+
+//Schraubenschluessel - Winry - 1
+var dialog_3015 = {
+  dialog:[
+	'Winry Bockrell: Wer bist du was willst du?','Winry_ueberrascht.jpg',
+	'Winry Bockrell: Ihr wollte den Schraubenschluessel wieder?','Winry_ueberrascht.jpg',
+	]
+}
+
+//Schraubenschluessel - Winry - 2
+var dialog_3016 = {
+  dialog:[
+	'Winry Bockrell: Ich weiss er gehoert mir nicht ... ich habe ihn mir doch nur kurz geliehen um den Lautsprecher zu reparieren','Winry_schuldig.jpg',
+	'Winry Bockrell: Hier hast du Ihn wieder, aber erzähle Frank bitte nichts.','Winry_schuldig.jpg',
+	]
+}
+
+//Schraubenschluessel - Winry - Trashtalk
+var dialog_3016 = {
+  dialog:[
+	'Winry Bockrell: Lass mich inruhe, ich Arbeite!','Winry_wuetend.jpg',
+	]
 }
