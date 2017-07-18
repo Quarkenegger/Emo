@@ -657,6 +657,7 @@ function trigger3002_Eingang(){
 	}
 };
 
+<<<<<<< HEAD
 function trigger3002_2_Eingang(){
 	if(trigger_progress[0] < 2001){
 		Dialog("dialog_3000");
@@ -669,6 +670,8 @@ function trigger3002_2_Eingang(){
     getQuest(14);
 	}
 };
+=======
+>>>>>>> 95ec684bc6670b78347d492dce67d95ba21eed30
 
 function trigger3003_Mittelalterstadt(){
     if(trigger_progress[0] == 3002) {
@@ -681,6 +684,7 @@ function trigger3003_Mittelalterstadt(){
     }
 };
 
+<<<<<<< HEAD
 function trigger3004_Kartbahn(){
 		if(trigger_progress[0] < 3003) {
 			Dialog("dialog_3008");
@@ -719,3 +723,5 @@ function trigger3006_Winry(){
 		}
 };
 //Ich will nur pushen
+=======
+>>>>>>> 95ec684bc6670b78347d492dce67d95ba21eed30

@@ -197,7 +197,7 @@ function MapChange(map,x,y,sound_path){
 	ChangeMap(map);
 	SetPersonX(main_char,x);
 	SetPersonY(main_char,y);
-	
+
 	MapSound(sound_path);
 
 //Anzeige des Mapnamens bei mapwechsel
@@ -242,6 +242,7 @@ function Dialog(dialog_ID){
 }
 
 function MapSound(sound_path){
+    map_sound2=sound_path;
  map_sound = LoadSound(sound_path);
  map_sound.setVolume(volume*255);
  map_sound.play(true);
