@@ -341,7 +341,7 @@ function trigger027_BueroQuest (){
 if (trigger_progress[0]==12){
 trigger_progress[0]=trigger_progress[0]+1; //13
 Dialog("dialog_017");
-getEmotion(16);
+getEmotion(16); //frustriert
 miniGame("puzzle5");
 getQuest(5);
 }
@@ -378,13 +378,13 @@ if (trigger_progress[0]==13){
 trigger_progress[0]=trigger_progress[0]+1; //14
 Dialog("dialog_019");
 miniGame("puzzle4");
-getEmotion(28);
+getEmotion(28); //traurig
 getQuest(4);
 }
 	else {
 			if (	closeQuest(4)==true){
 			Dialog("dialog_020");
-			getEmotion(19);
+			getEmotion(19); //heiter
 			trigger_progress[0]=trigger_progress[0]+1; //15
 			}
 		else{
@@ -559,24 +559,59 @@ FlipScreen();
 
 
 function trigger2002_uniprof (){
-    if (trigger_progress[0]==200X){
-        Dialog("dialog_200");
-        getQuest(X);
-        giveItem(301);
-        unlockMap(5);
-        trigger_progress[0]=3001; //3001
+    if (trigger_progress[0] == 2001) {
+        Dialog("dialog_2001");
+        getQuest(12);
+        trigger_progress[0]=trigger_progress[0]+1; //2002
     }
-    else{
-        if (trigger_progress[0]==2001) {
-            Dialog("dialog_2001");
-            getQuest(12);
+    else {
+        if (trigger_progress[0]==2005){
+            Dialog("dialog_2003");
+            closeQuest(12);
+            getQuest(20);
+            giveItem(301);
+            unlockMap(5);
+            trigger_progress[0]=3001; //3001
+        }
+        else {
+            Dialog("dialog_2002");
         }
     }
-    else{
-        Dialog("dialog_2002");
-	}
 };
 
+
+function trigger2003_studentMensa (){
+    if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
+        Dialog("dialog_2005");
+        getEmotion(8); //dankbar
+        trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
+    }
+    else {
+        Dialog("dialog_2004");
+    }
+};
+
+function trigger2003_studentBibo (){
+    if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
+        Dialog("dialog_2006");
+        getEmotion(20); //interessiert
+        trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
+    }
+    else {
+        Dialog("dialog_2007");
+    }
+};
+
+function trigger2003_studentSportplatz (){
+    if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
+        Dialog("dialog_2008");
+        getEmotion(34); //verwirrt
+        trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
+    }
+    else {
+        Dialog("dialog_2009");
+    }
+};
 
 
 

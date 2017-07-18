@@ -113,6 +113,8 @@ var quests={
 	quest10:{name:'Die bessere Kuenstlerin',description:'Yuga verdaechtigt Hilda, bestimmt aus Neid. Du solltest trotzdem mir ihr reden. Tipp: Hilda wohnt in einem schoenen Einfamilienhaus.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest11:{name:'Der Ort des Wissens.',description:'Du hast den Hinweis bekommen, dass in der Uni viel untersucht wird. Gehe zur Uni und ermittel dort weiter. Tipp: Die Uni ist westlich vom Wohngebiet.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
     quest12:{name:'Studentenleben',description:'Hilf den Studenten. Wenn ihre Sorgen geklaert sind hat der Professor Zeit fuer eine Befragung.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+    quest20:{name:'Der große Filmpark.',description:'Gehe in den Filmpark. Dort musst du nach dem Taeter suchen. Alle Hinweise weisen auf den Professor hin, jedoch warum sollte er sowas getan haben?!.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+
 
 
 }

@@ -340,16 +340,62 @@ var dialog_1009 = {
 //-------------------------------------------------------------------------------------Uni (BILDER)
 var dialog_2001 = {
     dialog:[
-        'Ich habe gerade keine Zeit, reden sie doch bitte erst mit meine Studenten. Wenn ihre Probleme geklärt sind habe ich mehr Zeit. ','emo1.png',
+        'Universitaetsprofessor: Ich habe gerade keine Zeit, reden sie doch bitte erst mit meine Studenten. Wenn ihre Probleme geklaert sind habe ich mehr Zeit. ','emo1.png',
     ]
 }
 
 var dialog_2002 = {
     dialog:[
-        'Wie geht es mit meinen Studenten voran?. ','emo1.png',
+        'Universitaetsprofessor: Wie geht es mit meinen Studenten voran?. ','emo1.png',
     ]
 }
 
+var dialog_2003 = {
+    dialog:[
+        'Universitaetsprofessor: Danke dass du meinen Studenten geholfen hast, jetzt koennen wir zu ihren Ermittlungen uebergehen. ','emo1.png',
+        'Universitaetsprofessor: Ich verstehe, es geht um das Bild Emotionale Grande und die ploetzlichen Probleme der Menschen, die keine Emotionen mehr erkennen können. ','emo1.png',
+        'Universitaetsprofessor: Einer meiner Kollegen befasst sich mit Emotionsforschung, sein Name ist Kiefer Bauer. Ich habe ihn lange nicht gesehen ','emo1.png',
+        'Universitaetsprofessor: In letzter Zeit hat er sich seltsam Verhalten und zurueck gezogen. Eventuell war er der Taeter. ','emo1.png',
+        'Universitaetsprofessor: Geh in den Filmpark, dort sollte er sich aufhalten. Hier nimm das, das ist eine Eintrittskarte. ','emo1.png',
+
+    ]
+}
+
+
+var dialog_2004 = {
+    dialog:[
+        'Student: Ich habe so großen Hunger! ','emo1.png',
+    ]
+}
+
+var dialog_2005 = {
+    dialog:[
+        'Student: Du moechtest mir mein Mittag spendieren?! Ich bin dir so dankbar. ','emo1.png',
+    ]
+}
+
+var dialog_2006 = {
+    dialog:[
+        'Studentin: Hey, danke dass du mir das Buch besorgst, dass ich unbedingt brauche. Das Thema interessiert mich so sehr ','emo1.png',
+    ]
+}
+
+var dialog_2007 = {
+    dialog:[
+        'Studentin: Wo ist nur dieses Buch, ich brauche es unbedingt. ','emo1.png',
+    ]
+}
+
+var dialog_2008 = {
+    dialog:[
+        'Studentin: Die Mensa ist im Sueden?! Danke ich war total verwirrt wo ich gerade bin. ','emo1.png',
+    ]
+}
+var dialog_2009 = {
+    dialog:[
+        'Studentin: Wo bin ich hier? ','emo1.png',
+    ]
+}
 
 //######Danny###### Park 
 
