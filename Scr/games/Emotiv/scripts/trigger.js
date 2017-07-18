@@ -642,7 +642,7 @@ function trigger3001_UnizuPark (){
     }
 };
 
-<<<<<<< HEAD
+
 function trigger3002_Eingang(){
 	if(trigger_progress[0] < 2001){
 		Dialog("dialog_3000"); // kein eintritt in den Park wenn fortschritt och nicht da ist
@@ -657,6 +657,4 @@ function trigger3002_Eingang(){
 		Dialog("dialog_3002");
 	}
 };
-//Ich will nur pushen
-=======
->>>>>>> 085a005de3f1c0e65eb76fd7076d87597f775b9f
+
