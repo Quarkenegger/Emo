@@ -54,8 +54,8 @@ puzzle5:{question:'Sieht man mir meinen Stress nicht an?', answers:['Jace_rnd1.j
 puzzle6:{question:'Ich soll neidisch sein? Niemals?!', answers:['Yuga_rnd1.jpg','Yuga_neid.jpg','Yuga_rnd2.jpg','Yuga_rnd3.jpg'],picture:'',correct:2,reward:0},
 puzzle7:{question:'Die arme Yuga. Ich fuehle mich ganz:', answers:['frustriert','vergebend','schuldig','eifersuechtig'],picture:'Hilda_vergebend.jpg',correct:2,reward:0},
 puzzle8:{question:'Die arme Studentin weiss nicht wo er ist, wie fuehlt er sich wohl: ', answers:['frustriert','verwirrt','dumm','schlau'],picture:'studentin_verwirrt.png',correct:2,reward:0},
-puzzle9:{question:'Der arme Narr Cedric hat seine Muetze verloren, wie fuehlt er sich?', answers:['frustriert','traurig','gelangweilt','enttaeuscht'],picture:'Narr_enttaeuscht.jpg',correct:4,reward:0},
-puzzle10:{question:'Wie fuehlt sich Winry, nachdem du sie auf frischer Tat ertappt hast?', answers:['entsetzt','betroffen','schuldig','wuetend'],picture:'Winry_schuldig.jpg',correct:3,reward:0},
+puzzle9:{question:'Der arme Narr Cedric hat seine Muetze verloren, wie fuehlt er sich?', answers:['frustriert','traurig','gelangweilt','enttaeuscht'],picture:'Narr_enttaeuscht.png',correct:4,reward:0},
+puzzle10:{question:'Wie fuehlt sich Winry, nachdem du sie auf frischer Tat ertappt hast?', answers:['entsetzt','betroffen','schuldig','wuetend'],picture:'Winry_schuldig.png',correct:3,reward:0},
 }
 
 var items={

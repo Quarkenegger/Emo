@@ -305,8 +305,7 @@ var dialog_1003 = {
 	'Helena Graf: Sie wollen mir ein paar Fragen stellen, was?','Helena.jpg',
 	'Helena Graf: Hier ist es aber ziemlich gefaehrlich. Holen sie sich erstmal etwas ums sich zu schuetzen.','Helena.jpg',
 	'Helena Graf: Ich bezweifel sonst, dass sie es hier lange machen werden.','Helena.jpg',
-	
-		]
+	]
 }
 
 var dialog_1004 = {
@@ -500,15 +499,15 @@ var dialog_3009 = {
 //Kartbahn - Trashtalk - 2
 var dialog_3010 = {
   dialog:[
-	'Igor: Ich wuerde so gerne Kart fahren ...','Igor.jpg',
+	'Igor: Ich wuerde so gerne Kart fahren ...','Igor.png',
 	]
 }
 
 //Kartbahn - Professorsuche - 2
 var dialog_3011 = {
   dialog:[
-	'Igor: Du suchst einen Schraubenschlüssel?','Igor.jpg',
-	'Igor: Gesehen habe ich keinen, aber vor einer weile ist hier ein seltsam aussehende Frau mit etwas glänzenden in der Hand gewesen und richtung Sued-Osten gelaufen','Igor.jpg',
+	'Igor: Du suchst einen Schraubenschlüssel?','Igor.png',
+	'Igor: Gesehen habe ich keinen, aber vor einer weile ist hier ein seltsam aussehende Frau mit etwas glänzenden in der Hand gewesen und richtung Sued-Osten gelaufen','Igor.png',
 	 ]
 }
 
@@ -537,22 +536,22 @@ var dialog_3014 = {
 //Schraubenschluessel - Winry - 1
 var dialog_3015 = {
   dialog:[
-	'Winry Bockrell: Wer bist du was willst du?','Winry_ueberrascht.jpg',
-	'Winry Bockrell: Ihr wollte den Schraubenschluessel wieder?','Winry_ueberrascht.jpg',
+	'Winry Bockrell: Wer bist du was willst du?','Winry_ueberrascht.png',
+	'Winry Bockrell: Ihr wollte den Schraubenschluessel wieder?','Winry_ueberrascht.png',
 	]
 }
 
 //Schraubenschluessel - Winry - 2
 var dialog_3016 = {
   dialog:[
-	'Winry Bockrell: Ich weiss er gehoert mir nicht ... ich habe ihn mir doch nur kurz geliehen um den Lautsprecher zu reparieren','Winry_schuldig.jpg',
-	'Winry Bockrell: Hier hast du Ihn wieder, aber erzähle Frank bitte nichts.','Winry_schuldig.jpg',
+	'Winry Bockrell: Ich weiss er gehoert mir nicht ... ich habe ihn mir doch nur kurz geliehen um den Lautsprecher zu reparieren','Winry_schuldig.png',
+	'Winry Bockrell: Hier hast du Ihn wieder, aber erzähle Frank bitte nichts.','Winry_schuldig.png',
 	]
 }
 
 //Schraubenschluessel - Winry - Trashtalk
-var dialog_3016 = {
+var dialog_3017 = {
   dialog:[
-	'Winry Bockrell: Lass mich inruhe, ich Arbeite!','Winry_wuetend.jpg',
+	'Winry Bockrell: Lass mich inruhe, ich Arbeite!','Winry_wuetend.png',
 	]
 }

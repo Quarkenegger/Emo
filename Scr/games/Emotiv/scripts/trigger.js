@@ -644,7 +644,7 @@ function trigger3001_UnizuPark (){
 
 function trigger3002_Eingang(){
 	if(trigger_progress[0] < 2001){
-		Dialog("dialog_3000"); // kein eintritt in den Park wenn fortschritt och nicht da ist
+		Dialog("dialog_3000");
 	}else if(trigger_progress[0] < 3001){
 		Dialog("dialog_3001");
 	}else if(trigger_progress[0] == 3001){
@@ -657,17 +657,25 @@ function trigger3002_Eingang(){
 	}
 };
 
+function trigger3002_2_Eingang(){
+	if(trigger_progress[0] < 2001){
+		Dialog("dialog_3000");
+	}else if(trigger_progress[0] < 3001){
+		Dialog("dialog_3001");
+	}else if(trigger_progress[0] == 3001){
+		Dialog("dialog_3003");
+		trigger_progress[0]=trigger_progress[0]+1; //3002
+		closeQuest(13);
+    getQuest(14);
+	}
+};
+
 function trigger3003_Mittelalterstadt(){
     if(trigger_progress[0] == 3002) {
       Dialog("dialog_3004");
-      if(miniGame("puzzle9")){
-				Dialog("dialog_3005");
-				trigger_progress[0]=trigger_progress[0]+1; //3003
-			}else{
-				Dialog("dialog_3006");
-				miniGame("puzzle9");
-				trigger_progress[0]=trigger_progress[0]+1; //3003
-			}
+      miniGame("puzzle9");
+			Dialog("dialog_3005");
+			trigger_progress[0]=trigger_progress[0]+1; //3003
     }else{
 			Dialog("dialog_3007");
     }
@@ -693,9 +701,9 @@ function trigger3004_Kartbahn(){
 
 function trigger3005_Igor(){
 		if(trigger_progress[0] == 3004) {
-			Dialog("dialog_3010");
-		}else{
 			Dialog("dialog_3011");
+		}else{
+			Dialog("dialog_3010");
 		}
 };
 
