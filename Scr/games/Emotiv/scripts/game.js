@@ -44,7 +44,7 @@ var key_sprint = KEY_SHIFT;
 
 var persons_progress=[0];
 var trigger_progress=[0];
-var volume=0;
+var volume=0.3;
 var over=true;
 var maps=[1,2,3,5,6,7];
 var main_char = "Indiana Ford";
