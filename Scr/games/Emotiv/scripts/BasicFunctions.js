@@ -150,13 +150,16 @@ function Load_Game(){
 		trigger_progress[0]=savegame2.trigger_pr[0];
 		oberwelt_map_array=savegame2.map_pr;
 		volume=savegame2.volume;
-	
+
 	//RequireScript(filename1);
 	if(IsMapEngineRunning() == false){
+
 		wassaved=true;
         var persons=GetPersonList();
-        if (!isMemberDouble(persons,"Indiana Ford"))
-        DestroyPerson("Indiana Ford"); //test
+        if (!isMemberDouble(persons,"Indiana Ford")){
+        DestroyPerson("Indiana Ford"); if (map_sound.isPlaying()){
+            map_sound.stop();
+        }} //test}
 		CreatePerson(main_char, "detective.rss", false);
 		SetPersonSpeed(main_char,GetPersonSpeedX(main_char)*1.5); 
 		AttachInput(main_char); 
@@ -175,6 +178,9 @@ function Load_Game(){
 		MapEngine(savegame2.map, 60);
         //MapChange(savegame2.map,savegame2.person_x,savegame2.person_y,"MAPdorf.ogg");
 	}else{
+            if (map_sound.isPlaying()){
+                map_sound.stop();
+            }
        /* CreatePerson(main_char, "detective.rss", false);
         SetPersonSpeed(main_char,GetPersonSpeedX(main_char)*1.5);
         AttachInput(main_char);
