@@ -416,13 +416,13 @@ var dialog_2009 = {
     ]
 }
 
-<<<<<<< HEAD
-//######Danny###### Park 
+
+//-------------------------------------------------------------------------------- Park
 
 //trigger@entry
 var dialog_3000 = {
   dialog:[
-	'Einlass-Dame: Leider ist der Filmpark noch nicht eröffnet, bitte kommen Sie zu einem Späteren Zeitpunkt wieder.','Einlass_1.jpg',
+	'Einlass-Dame: Leider ist der Filmpark noch nicht eroeffnet, bitte kommen Sie zu einem spaeteren Zeitpunkt wieder.','Einlass_1.jpg',
 		]
 }
 
@@ -432,7 +432,7 @@ var dialog_3001 = {
 	'Einlass-Dame: Willkommen im Filmpark. ','Einlass_1.jpg',
 	'Einlass-Dame: Darf ich bitte Ihre Eintrittskarte sehen? ','Einlass_1.jpg',
 	'Einlass-Dame: Wie es scheint haben Sie keine Eintrittskarte, leider sind unsere alle ausverkauft... ','Einlass_1.jpg',
-	'Einlass-Dame: Vielleicht fragen Sie einmal in der Universität herum, der Professor soll viele Karten gekauft haben und sie an Studenten verschenken. ','Einlass_1.jpg',
+	'Einlass-Dame: Vielleicht fragen Sie einmal in der Universitaet herum, der Professor soll viele Karten gekauft haben und sie an Studenten verschenken. ','Einlass_1.jpg',
 	  ]
 }
 
@@ -451,9 +451,32 @@ var dialog_3003 = {
 	'Einlass-Dame: Ich glaube ich habe Ihn in Richtung Mittlalterstadt gehen sehen. Hier vorne gleich links. ','Einlass_1.jpg',
 	  ]
 }
-=======
 
+//Mittelalterstadt - Professorsuche - 1
+var dialog_3004 = {
+  dialog:[
+	'Koenig Johann: Hallo Untertan, wie kann euer Koenig euch helfen? ','Koenig_1.jpg',
+	'Koenig Johann: Ihr sucht den Professor? Ich weiß wo er ist, wenn Ihr mein Raetsel loest...','Koenig_1.jpg',
+	  ]
+}
 
-//-------------------------------------------------------------------------------- Park
->>>>>>> 085a005de3f1c0e65eb76fd7076d87597f775b9f
+//Mittelalterstadt - Professorsuche - 2
+var dialog_3005 = {
+  dialog:[
+	'Koenig Johann: Ahhh Ihr habt mein Raetsel mit Bravur geloest.','Koenig_1.jpg',
+	'Koenig Johann: Nun gut, ich bin ein Mann der zu seinem Wort steht. Das letzte mal habe ich den Professor in Richtung der Kart-Bahn im Norden laufen sehen.','Koenig_1.jpg',
+	  ]
+}
 
+//Mittelalterstadt - Professorsuche - 3
+var dialog_3006 = {
+  dialog:[
+	'Koenig Johann: Ihr konntet mein Raetsel leider nicht loesen. Versucht es erneut.','Koenig_1.jpg',
+}
+
+//Mittelalterstadt - trashtalk
+var dialog_3007 = {
+  dialog:[
+	'Koenig Johann: Viel Spass in meinem Koenigreich, Untertan.','Koenig_1.jpg',
+	  ]
+}
