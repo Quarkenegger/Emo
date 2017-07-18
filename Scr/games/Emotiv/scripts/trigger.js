@@ -578,7 +578,7 @@ function trigger2002_uniprof (){
         if (trigger_progress[0]==2005){
             Dialog("dialog_2003");
             closeQuest(12);
-            getQuest(20);
+            getQuest(13);
             giveItem(301);
             unlockMap(5);
             trigger_progress[0]=3001; //3001
@@ -615,6 +615,7 @@ function trigger2003_studentBibo (){
 function trigger2003_studentSportplatz (){
     if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
         Dialog("dialog_2008");
+        miniGame("puzzle8");
         getEmotion(34); //verwirrt
         trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
     }

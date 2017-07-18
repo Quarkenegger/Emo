@@ -401,12 +401,12 @@ var dialog_2007 = {
 
 var dialog_2008 = {
     dialog:[
-        'Studentin: Die Mensa ist im Sueden?! Danke ich war total verwirrt wo ich gerade bin. ','emo1.png',
+        'Studentin: Die Mensa ist im Sueden?! Danke ich war total verwirrt wo ich gerade bin. ','studentin_verwirrt.png',
     ]
 }
 var dialog_2009 = {
     dialog:[
-        'Studentin: Wo bin ich hier? ','emo1.png',
+        'Studentin: Wo bin ich hier? ','studentin_verwirrt.png',
     ]
 }
 

@@ -53,7 +53,7 @@ puzzle4:{question:'Gisela ist traurig. Auf welchem Bild sieht sie traurig aus?',
 puzzle5:{question:'Sieht man mir meinen Stress nicht an?', answers:['Jace_rnd1.jpg','Jace_rnd2.jpg','Jace_rnd3.jpg','Jace_frustriert.jpg'],picture:'',correct:4,reward:0}, 
 puzzle6:{question:'Ich soll neidisch sein? Niemals?!', answers:['Yuga_rnd1.jpg','Yuga_neid.jpg','Yuga_rnd2.jpg','Yuga_rnd3.jpg'],picture:'',correct:2,reward:0},
 puzzle7:{question:'Die arme Yuga. Ich fuehle mich ganz:', answers:['frustriert','vergebend','schuldig','eifersuechtig'],picture:'Hilda_vergebend.jpg',correct:2,reward:0},
-
+puzzle8:{question:'Die arme Studentin weiß nicht wo er ist, wie fueht er sich wohl::', answers:['frustriert','verwirrt','dumm','schlau'],picture:'studentin_verwirrt.png',correct:2,reward:0},
 }
 
 var items={
@@ -95,7 +95,7 @@ var quests={
 	quest10:{name:'Die bessere Kuenstlerin',description:'Yuga verdaechtigt Hilda, bestimmt aus Neid. Du solltest trotzdem mir ihr reden. Tipp: Hilda wohnt in einem schoenen Einfamilienhaus.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest11:{name:'Der Ort des Wissens.',description:'Du hast den Hinweis bekommen, dass in der Uni viel untersucht wird. Gehe zur Uni und ermittel dort weiter. Tipp: Die Uni ist westlich vom Wohngebiet.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
     quest12:{name:'Studentenleben',description:'Hilf den Studenten. Wenn ihre Sorgen geklaert sind hat der Professor Zeit fuer eine Befragung.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-    quest20:{name:'Der große Filmpark.',description:'Gehe in den Filmpark. Dort musst du nach dem Taeter suchen. Alle Hinweise weisen auf den Professor hin, jedoch warum sollte er sowas getan haben?!.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+    quest13:{name:'Der große Filmpark.',description:'Gehe in den Filmpark. Dort musst du nach dem Taeter suchen. Alle Hinweise weisen auf den Professor hin, jedoch warum sollte er sowas getan haben?!.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 
 
 
