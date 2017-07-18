@@ -422,7 +422,7 @@ var dialog_2009 = {
 //trigger@entry
 var dialog_3000 = {
   dialog:[
-	'Einlass-Dame: Leider ist der Filmpark noch nicht er�ffnet, bitte kommen Sie zu einem Sp�teren Zeitpunkt wieder.','Einlass_1.jpg',
+	'Einlass-Dame: Leider ist der Filmpark noch nicht eroeffnet, bitte kommen Sie zu einem Spaeteren Zeitpunkt wieder.','Einlass_1.jpg',
 		]
 }
 
@@ -432,7 +432,7 @@ var dialog_3001 = {
 	'Einlass-Dame: Willkommen im Filmpark. ','Einlass_1.jpg',
 	'Einlass-Dame: Darf ich bitte Ihre Eintrittskarte sehen? ','Einlass_1.jpg',
 	'Einlass-Dame: Wie es scheint haben Sie keine Eintrittskarte, leider sind unsere alle ausverkauft... ','Einlass_1.jpg',
-	'Einlass-Dame: Vielleicht fragen Sie einmal in der Universit�t herum, der Professor soll viele Karten gekauft haben und sie an Studenten verschenken. ','Einlass_1.jpg',
+	'Einlass-Dame: Vielleicht fragen Sie einmal in der Universitaet herum, der Professor soll viele Karten gekauft haben und sie an Studenten verschenken. ','Einlass_1.jpg',
 	  ]
 }
 
