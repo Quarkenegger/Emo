@@ -642,6 +642,10 @@ function trigger3001_UnizuPark (){
     }
 };
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b9af8719e995b1ce6229fb4e8a46ef1f883aceb5
 function trigger3002_Eingang(){
 	if(trigger_progress[0] < 2001){
 		Dialog("dialog_3000"); // kein eintritt in den Park wenn fortschritt och nicht da ist
@@ -657,6 +661,7 @@ function trigger3002_Eingang(){
 	}
 };
 
+<<<<<<< HEAD
 function trigger3003_Mittelalterstadt(){
     if(trigger_progress[0] == 3002) {
       Dialog("dialog_3004");
@@ -673,3 +678,5 @@ function trigger3003_Mittelalterstadt(){
     }
 };
 //Ich will nur pushen
+=======
+>>>>>>> b9af8719e995b1ce6229fb4e8a46ef1f883aceb5
