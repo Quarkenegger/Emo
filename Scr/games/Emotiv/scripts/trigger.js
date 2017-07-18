@@ -631,9 +631,10 @@ function trigger2003_studentSportplatz (){
 //--------------------------------------------------------Park
 //Port Uni zu Park  - Oberwelt
 function trigger3001_UnizuPark (){
-//oberwelt_karte();
-MapChange("Park.rmp",868,1575,"MAPpark2.wav");
-FlipScreen();
+    if (trigger_progress[0] == 3001) {
+        MapChange("Park.rmp", 868, 1575, "MAPpark2.wav");
+        FlipScreen();
+    }
 };
 
 //Ich will nur pushen
