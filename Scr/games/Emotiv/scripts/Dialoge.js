@@ -402,48 +402,34 @@ var dialog_2009 = {
 //trigger@entry
 var dialog_3000 = {
   dialog:[
-	'Das sieht aus wie der Professor! Was macht der denn hier?','',
+	'Einlass-Dame: Leider ist der Filmpark noch nicht eröffnet, bitte kommen Sie zu einem Späteren Zeitpunkt wieder.','Einlass_1.jpg',
 		]
 }
 
 //Einlass
 var dialog_3001 = {
   dialog:[
-	'Einlass-Dame: Willkommen im Filmpark, hier werden tolle Vorstellungen gezeigt. Heute wird geprobt, wenn du willst schau dich nur um. ','Einlass_1.jpg',
-		' Bevor du den Park betreten kannst brauchst du noch eine Eintrittskarte. Fuer 1â‚¬ bekommst du eine Eintrittskarte. ','Einlass_1.jpg',
-				]
+	'Einlass-Dame: Willkommen im Filmpark. ','Einlass_1.jpg',
+	'Einlass-Dame: Darf ich bitte Ihre Eintrittskarte sehen? ','Einlass_1.jpg',
+	'Einlass-Dame: Wie es scheint haben Sie keine Eintrittskarte, leider sind unsere alle ausverkauft... ','Einlass_1.jpg',
+	'Einlass-Dame: Vielleicht fragen Sie einmal in der Universität herum, der Professor soll viele Karten gekauft haben und sie an Studenten verschenken. ','Einlass_1.jpg',
+	  ]
 }
 
 //Einlass
 var dialog_3002 = {
   dialog:[
-	' Einlass-Dame: Ohne Eintrittskarte duerfen sie hier nicht rein. Schade, besuchen sie uns bald wieder! ','Einlass_1.jpg', 	//(check bad)
-		]
+	'Einlass-Dame: Willkommen im Filmpark. ','Einlass_1.jpg',
+	  ]
 }
 
 //Einlass
 var dialog_3003 = {
   dialog:[
-	' Einlass-Dame: Viel Spass im Park! ','Einlass/001.jpg',	//(check ok)
-		' Einlass-Dame: Ob ich Informationen vom Professor bekommen habe? Nein, er ist hier nur so durch gepest. Die Leute im Filmpark haben moeglicherweise mehr gesehen. Unsere Filmcrew freut sich sicher ueber ihren Besuch.','Einlass_1.jpg'
-		]
-}
-
-//Einlass
-var dialog_3004 = {
-  dialog:[
-	' Einlass-Dame: Sie wollen uns schon verlassen? Schade, besuchen sie uns bald wieder! ','Einlass_1.jpg',	//(check ok)
-		]
-}
-
-//Einlass
-var dialog_3005 = {
-  dialog:[
-  'Einlass-Dame: Willkommen im Filmpark, hier werden tolle Vorstellungen gezeigt. Heute wird geprobt, wenn du willst schau dich nur um. ','Einlass_1.jpg',
-		' Bevor du den Park betreten kannst brauchst du noch eine Eintrittskarte. Fuer 1â‚¬ bekommst du eine Eintrittskarte. ','Einlass_1.jpg',
-		' Oh, du hast schon eine Eintrittskarte. Dann mal herein spaziert! ','Einlass_1.jpg',
-	' Einlass-Dame: Viel Spass im Park! ','Einlass_1.jpg',	//(check ok)
-		]
+	'Einlass-Dame: Willkommen im Filmpark, hier werden tolle Vorstellungen gezeigt. Heute wird geprobt, wenn du willst schau dich nur um. ','Einlass_1.jpg',
+	'Einlass-Dame: Du suchst den Professor? ','Einlass_1.jpg',
+	'Einlass-Dame: Ich glaube ich habe Ihn in Richtung Mittlalterstadt gehen sehen. Hier vorne gleich links. ','Einlass_1.jpg',
+	  ]
 }
 
 //Regisseur

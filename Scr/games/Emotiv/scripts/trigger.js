@@ -625,4 +625,18 @@ MapChange("Park.rmp",868,1575,"MAPpark2.wav");
 FlipScreen();
 };
 
+function trigger3002_Eingang(){
+	if(trigger_progress[0] < 2001){
+		Dialog("dialog_3000"); // kein eintritt in den Park wenn fortschritt och nicht da ist
+	}else if(trigger_progress[0] < 3001){
+		Dialog("dialog_3001");
+	}else if(trigger_progress[0] == 3001){
+		Dialog("dialog_3003");
+		trigger_progress[0]=trigger_progress[0]+1;
+		closeQuest(13);
+    getQuest(14);
+	}else if(trigger_progress[0] >= 3001){
+		Dialog("dialog_3002");
+	}
+};
 //Ich will nur pushen
