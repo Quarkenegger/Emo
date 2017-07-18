@@ -55,25 +55,8 @@ puzzle4:{question:'Gisela ist traurig. Auf welchem Bild sieht sie traurig aus?',
 puzzle5:{question:'Sieht man mir meinen Stress nicht an?', answers:['Jace_rnd1.jpg','Jace_rnd2.jpg','Jace_rnd3.jpg','Jace_frustriert.jpg'],picture:'',correct:4,reward:0}, 
 puzzle6:{question:'Ich soll neidisch sein? Niemals?!', answers:['Yuga_rnd1.jpg','Yuga_neid.jpg','Yuga_rnd2.jpg','Yuga_rnd3.jpg'],picture:'',correct:2,reward:0},
 puzzle7:{question:'Die arme Yuga. Ich fuehle mich ganz:', answers:['frustriert','vergebend','schuldig','eifersuechtig'],picture:'Hilda_vergebend.jpg',correct:2,reward:0},
-	/*puzzleRegisseur1:{question:'Neulich onboard in der Kombuese hatte sich das ereignet. Welchen Ausdruck hat der Mann gemacht?', answers:['zufrieden','melancholisch','angeekelt'],picture:'suppe/006',correct:3, reward:0},
-	puzzleRegisseur2:{question:'Wie hat sich die blonde Frau verhalten?', answers:['amuesiert','ueberrascht','heiter'],picture:'suppe/007',correct:1, reward:0},
-	puzzleRegisseur3:{question:'Der Mann war sehr emotionvoll, welche Emotion hat er gestikuliert?', answers:['wuetend', 'traurig','beleidigt'],picture:'suppe/008',correct:1, reward:0},
-	puzzleCowboy1:{question:'Im Duell ist es wichtig keine Emotionen zu zeigen. Kannst du eine Emotion bei mir erkennen?',answers:['Ja','Nein'],picture:'Cowboy/002.jpg',correct:2,reward:0},
-	puzzleCowboy2:{question:'Ok, welchen Gesichtsausdruck habe ich jetzt?',answers:['wehmuetig','enttaeuscht','keinen'],picture:'Cowboy/002.jpg',correct:3,reward:0},
-	puzzleCowboy3:{question:'Jetzt zeige ich dir wie ein Cowboy aussieht, der ein Duell gewonnen hat. Welche Emotion ist das?',answers:['wuetend','neutral','angeekelt'],picture:'Cowboy/002',correct:2,reward:0},
-	puzzleKoenig1:{question:'Welche Emotion spielt der Koenig?',answers:['gekraenkt','angeekelt','verlegen'],picture:'Koenig',correct:1,reward:0},
-	puzzleKoenig2:{question:'Welche Emotion spielt der Koenig?',answers:['aergerlich','gekraenkt','verachtend'],picture:'Koenig',correct:2,reward:0},
-	puzzleKoenig3:{question:'Welche Emotion spielt der Koenig?',answers:['melancholisch','gekraenkt','verwirrt'],picture:'Koenig',correct:2,reward:0},
-	puzzleProf1:{question:'Welche Emotion sieht man auf dem Bild?',answers:['stolz','zuversichtlich','wuetend'],picture:'profquiz_zuversichtlich',correct:2,reward:0},
-	puzzleProf2:{question:'Welche Emotion sieht man auf dem Bild?',answers:['verliebt','interessiert','beunruhigt'],picture:'profquiz_verliebt',correct:1,reward:0},
-	puzzleProf3:{question:'Welche Emotion sieht man auf dem Bild?',answers:['betroffen','amuesiert','ueberrascht'],picture:'profquiz_ueberrascht',correct:3,reward:0},
-	puzzleProf4:{question:'Welche Emotion sieht man auf dem Bild?',answers:['neugierig','traurig','zweifelnd'],picture:'profquiz_traurig',correct:2,reward:0},
-	puzzleProf5:{question:'Welche Emotion sieht man auf dem Bild?',answers:['gekraenkt','angstvoll', 'schuldig' ],picture:'profquiz_angstvoll',correct:2,reward:0},
-	puzzleProf6:{question:'Welche Emotion sieht man auf dem Bild?',answers:['enthusiastisch','erleichtert','heiter'],picture:'profquiz_heiter',correct:3,reward:0},
-	puzzleProf7:{question:'Welche Emotion sieht man auf dem Bild?',answers:['entsetzt','wehmuetig','mitleidig'],picture:'profquiz_entsetzt',correct:1,reward:0},
-	puzzleProf8:{question:'Welche Emotion sieht man auf dem Bild?',answers:['aergerlich','erleichtert','beleidigt'],picture:'profquiz_erleichtert',correct:2,reward:0},
-	puzzleProf9:{question:'Welche Emotion sieht man auf dem Bild?',answers:['mitleidig','schwaermerisch','vergebend'],picture:'profquiz_mitleidig',correct:1,reward:0},
-	puzzleProf10:{question:'Welche Emotion sieht man auf dem Bild?',answers:['neidisch','dankbar','frustriert'],picture:'profquiz_dankbar',correct:2,reward:0} */
+puzzle8:{question:'Die arme Studentin weiss nicht wo er ist, wie fuehlt er sich wohl: ', answers:['frustriert','verwirrt','dumm','schlau'],picture:'studentin_verwirrt.png',correct:2,reward:0},
+puzzle9:{question:'Der arme Narr Cedric hat seine Muetze verloren, wie fuehlt er sich?', answers:['frustriert','traurig','gelangweilt','enttaeuscht'],picture:'Narr_enttaeuscht.jpg',correct:4,reward:0},
 }
 
 var items={
@@ -123,5 +106,10 @@ var quests={
 	quest9:{name:'Die Kuenstlerin',description:'Suche im Wohnviertel nach der Kuenstlerin Yuga. Vielleicht hat sie Hinweise oder macht sich verdaechtig. Tipp: Yuga ist immer in der Naehe von Helena.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest10:{name:'Die bessere Kuenstlerin',description:'Yuga verdaechtigt Hilda, bestimmt aus Neid. Du solltest trotzdem mir ihr reden. Tipp: Hilda wohnt in einem schoenen Einfamilienhaus.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest11:{name:'Der Ort des Wissens.',description:'Du hast den Hinweis bekommen, dass in der Uni viel untersucht wird. Gehe zur Uni und ermittel dort weiter. Tipp: Die Uni ist westlich vom Wohngebiet.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+  quest12:{name:'Studentenleben',description:'Hilf den Studenten. Wenn ihre Sorgen geklaert sind hat der Professor Zeit fuer eine Befragung.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+  quest13:{name:'Der gro√üe Filmpark.',description:'Gehe in den Filmpark. Dort musst du nach dem Taeter suchen. Alle Hinweise weisen auf den Professor hin, jedoch warum sollte er sowas getan haben?!.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+	quest14:{name:'Suche den Professor.',description:'Der Professor soll hier irgendwo im Filmpark befinden. Suche ihn mit hilfe der anderen G‰ste und Angesellten',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+
+
 
 }

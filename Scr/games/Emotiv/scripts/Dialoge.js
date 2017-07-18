@@ -51,6 +51,25 @@ var Trash_007 = {
     ]
 }
 
+//------------------------------------------Lifefiller Uni
+//Typ vor Uni
+var Trash_008 = {
+    dialog:[
+        'Hausmeister Filly: Das Universitaetsleben nervt.','Billy.jpg',
+    ]
+}
+
+var Trash_009 = {
+    dialog:[
+        'Student: Das beste an der Uni ist der Eisladen','Cowboy_2.jpg',
+    ]
+}
+
+var Trash_010 = {
+    dialog:[
+        'Student: Ich bin sprachlos. Das Mensaessen koennte uns toeten.','Student.jpg',
+    ]
+}
 
 
 
@@ -337,255 +356,128 @@ var dialog_1009 = {
 		]
 }
 
-
-//---------------------------------Tunnel
-var dialog_401 = {
-  dialog:[
-	'Vorarbeiter: Verdammt! Ich habe den Sprengmechanismus ausgeloesst','emo1.png',
-	'Vorarbeiter: Alarm! Alle Evakuieren! Sprengung in 3','emo1.png',
-	'Vorarbeiter: 2','emo1.png',
-	
-		]
-}
-var dialog_402 = {
-  dialog:[
-	'Vorarbeiter: Ich bin Schuld!','emo1.png',
-	'Vorarbeiter: Hoffentlich sind alle unverletzt','emo1.png',
-	
-	
-		]
-}
-var dialog_403 = {
-  dialog:[
-	'Arbeiter: Alles wurde zerstoert','emo1.png',
-	'Arbeiter: Ich bin O.K. aber kann noch nichts hoeren','emo1.png',
-	'Arbeiter: Bitte schau nach meinem Kumpel: Quirin','emo1.png',
-	
-		]
-}
-var dialog_404 = {
-  dialog:[
-	'Arbeiter Quirin: Hilfe! Ich bin verletzt','emo1.png',
-	'Arbeiter: Kannst Du meine Wunde verbinden?','emo1.png',
-	'Arbeiter: Du hast doch einen Erste Hilfekasten','emo1.png',
-	
-		]
-}
-var dialog_405 = {
-	dialog:[
-	'Arbeiter Quirin: Danke fuer die Hilfe','emo1.png',
-	'Arbeiter: Die Wunde ist verbunden...','emo1.png',
-	'Arbeiter: Hier hast Du meine Bohrmaschine ich suche mir nen neuen Job','emo1.png',
-	]
+//-------------------------------------------------------------------------------------Uni (BILDER)
+var dialog_2001 = {
+    dialog:[
+        'Universitaetsprofessor: Ich habe gerade keine Zeit, reden sie doch bitte erst mit meine Studenten. Wenn ihre Probleme geklaert sind habe ich mehr Zeit. ','emo1.png',
+    ]
 }
 
-//######Danny###### Park 
+var dialog_2002 = {
+    dialog:[
+        'Universitaetsprofessor: Wie geht es mit meinen Studenten voran?. ','emo1.png',
+    ]
+}
+
+var dialog_2003 = {
+    dialog:[
+        'Universitaetsprofessor: Danke dass du meinen Studenten geholfen hast, jetzt koennen wir zu ihren Ermittlungen uebergehen. ','Hubert.jpg',
+        'Universitaetsprofessor: Ich verstehe, es geht um das Bild Emotionale Grande und die ploetzlichen Probleme der Menschen, die keine Emotionen mehr erkennen können. ','Hubert.jpg',
+        'Universitaetsprofessor: Einer meiner Kollegen befasst sich mit Emotionsforschung, sein Name ist Kiefer Bauer. Ich habe ihn lange nicht gesehen ','Hubert.jpg',
+        'Universitaetsprofessor: In letzter Zeit hat er sich seltsam Verhalten und zurueck gezogen. Eventuell war er der Taeter. ','Hubert.jpg',
+        'Universitaetsprofessor: Geh in den Filmpark, dort sollte er sich aufhalten. Gehe dazu zum Parkplatz und benutze mein Auto. Hier nimm das, das ist eine Eintrittskarte. ','Hubert.jpg',
+
+    ]
+}
+
+
+var dialog_2004 = {
+    dialog:[
+        'Student: Ich habe so großen Hunger! ','Cowboy_1.jpg',
+    ]
+}
+
+var dialog_2005 = {
+    dialog:[
+        'Student: Du moechtest mir mein Mittag spendieren?! Ich bin dir so dankbar. ','Cowboy_1.jpg',
+    ]
+}
+
+var dialog_2006 = {
+    dialog:[
+        'Studentin: Hey, danke dass du mir das Buch besorgst, dass ich unbedingt brauche. Das Thema interessiert mich so sehr ','Marchesa.jpg',
+    ]
+}
+
+var dialog_2007 = {
+    dialog:[
+        'Studentin: Wo ist nur dieses Buch, ich brauche es unbedingt. ','Marchesa.jpg',
+    ]
+}
+
+var dialog_2008 = {
+    dialog:[
+        'Studentin: Die Mensa ist im Sueden?! Danke ich war total verwirrt wo ich gerade bin. ','studentin_verwirrt.png',
+    ]
+}
+var dialog_2009 = {
+    dialog:[
+        'Studentin: Wo bin ich hier? ','studentin_verwirrt.png',
+    ]
+}
+
+
+//-------------------------------------------------------------------------------- Park
 
 //trigger@entry
 var dialog_3000 = {
   dialog:[
-	'Das sieht aus wie der Professor! Was macht der denn hier?','',
+	'Einlass-Dame: Leider ist der Filmpark noch nicht eroeffnet, bitte kommen Sie zu einem spaeteren Zeitpunkt wieder.','Einlass_1.jpg',
 		]
 }
 
 //Einlass
 var dialog_3001 = {
   dialog:[
-	'Einlass-Dame: Willkommen im Filmpark, hier werden tolle Vorstellungen gezeigt. Heute wird geprobt, wenn du willst schau dich nur um. ','Einlass_1.jpg',
-		' Bevor du den Park betreten kannst brauchst du noch eine Eintrittskarte. Fuer 1€ bekommst du eine Eintrittskarte. ','Einlass_1.jpg',
-				]
+	'Einlass-Dame: Willkommen im Filmpark. ','Einlass_1.jpg',
+	'Einlass-Dame: Darf ich bitte Ihre Eintrittskarte sehen? ','Einlass_1.jpg',
+	'Einlass-Dame: Wie es scheint haben Sie keine Eintrittskarte, leider sind unsere alle ausverkauft... ','Einlass_1.jpg',
+	'Einlass-Dame: Vielleicht fragen Sie einmal in der Universitaet herum, der Professor soll viele Karten gekauft haben und sie an Studenten verschenken. ','Einlass_1.jpg',
+	  ]
 }
 
 //Einlass
 var dialog_3002 = {
   dialog:[
-	' Einlass-Dame: Ohne Eintrittskarte duerfen sie hier nicht rein. Schade, besuchen sie uns bald wieder! ','Einlass_1.jpg', 	//(check bad)
-		]
+	'Einlass-Dame: Willkommen im Filmpark. ','Einlass_1.jpg',
+	  ]
 }
 
 //Einlass
 var dialog_3003 = {
   dialog:[
-	' Einlass-Dame: Viel Spass im Park! ','Einlass/001.jpg',	//(check ok)
-		' Einlass-Dame: Ob ich Informationen vom Professor bekommen habe? Nein, er ist hier nur so durch gepest. Die Leute im Filmpark haben moeglicherweise mehr gesehen. Unsere Filmcrew freut sich sicher ueber ihren Besuch.','Einlass_1.jpg'
-		]
+	'Einlass-Dame: Willkommen im Filmpark, hier werden tolle Vorstellungen gezeigt. Heute wird geprobt, wenn du willst schau dich nur um. ','Einlass_1.jpg',
+	'Einlass-Dame: Du suchst den Professor? ','Einlass_1.jpg',
+	'Einlass-Dame: Ich glaube ich habe Ihn in Richtung Mittlalterstadt gehen sehen. Hier vorne gleich links. ','Einlass_1.jpg',
+	  ]
 }
 
-//Einlass
+//Mittelalterstadt - Professorsuche - 1
 var dialog_3004 = {
   dialog:[
-	' Einlass-Dame: Sie wollen uns schon verlassen? Schade, besuchen sie uns bald wieder! ','Einlass_1.jpg',	//(check ok)
-		]
+	'Koenig Johann: Hallo Untertan, wie kann euer Koenig euch helfen? ','Koenig_1.jpg',
+	'Koenig Johann: Ihr sucht den Professor? Ich wei� wo er ist, wenn Ihr mein Raetsel loest...','Koenig_1.jpg',
+	  ]
 }
 
-//Einlass
+//Mittelalterstadt - Professorsuche - 2
 var dialog_3005 = {
   dialog:[
-  'Einlass-Dame: Willkommen im Filmpark, hier werden tolle Vorstellungen gezeigt. Heute wird geprobt, wenn du willst schau dich nur um. ','Einlass_1.jpg',
-		' Bevor du den Park betreten kannst brauchst du noch eine Eintrittskarte. Fuer 1€ bekommst du eine Eintrittskarte. ','Einlass_1.jpg',
-		' Oh, du hast schon eine Eintrittskarte. Dann mal herein spaziert! ','Einlass_1.jpg',
-	' Einlass-Dame: Viel Spass im Park! ','Einlass_1.jpg',	//(check ok)
-		]
+	'Koenig Johann: Ahhh Ihr habt mein Raetsel mit Bravur geloest.','Koenig_1.jpg',
+	'Koenig Johann: Nun gut, ich bin ein Mann der zu seinem Wort steht. Das letzte mal habe ich den Professor in Richtung der Kart-Bahn im Norden laufen sehen.','Koenig_1.jpg',
+	  ]
 }
 
-//Regisseur
+//Mittelalterstadt - Professorsuche - 3
 var dialog_3006 = {
   dialog:[
-  ' Regisseur: Oh, Nein! Es sieht fuer mich immer gleich aus, wenn ihr das Stueck spielt. Ich kann keine Emotionen erkennen. Spielt die Szene nocheinmal! Hey Detektiv! Was haben sie denn hier Verloren? Ich habe sie hier noch nie gesehen. ','Regisseur_verzweifelt',
-		' Regisseur: Bestimmt moechten sie hier einiges ueber Emotionen lernen. Da sind sie hier genau richtig!Ausserdem haben die Schauspieler eine Tolle Aussicht von den Schiffen aus, vielleicht konnten die Beiden da oben etwas verruecktes beobachten. ','Regisseur_1.jpg',
-		'Regisseur: Der Professor ist ihnen ueber den Weg gelaufen? Ich kann ihnen nicht noch bei der Suche nach dem Professor helfen.','Regisseur_1.jpg',
-		'...','Regisseur_1.jpg',
-		'Regisseur:...Doch! Wenn du mir sagst wie gut sie die Szene spielen, kommen sie danach runter und koennen dir vielleicht mehr darueber verraten, wo sich der Professor aufhoelt.','Regisseur_1.jpg', //Videoraetsel
-		]
+	'Koenig Johann: Ihr konntet mein Raetsel leider nicht loesen. Versucht es erneut.','Koenig_1.jpg',
+	]
 }
 
-//Regisseur
-//Gut gel�oest
+//Mittelalterstadt - trashtalk
 var dialog_3007 = {
   dialog:[
-  ' Regisseur: Wenn du das auch so siehst, dann haben wir uns eine Pause verdient. ','Regisseur_1.jpg', 	
-  ]
+	'Koenig Johann: Viel Spass in meinem Koenigreich, Untertan.','Koenig_1.jpg',
+	  ]
 }
-
-//Regisseur
-//Schlecht geloest
-var dialog_3008 = {
-  dialog:[
-  ' Regisseur: Hmmm, ok ich glaube, dann muessen wir noch anstaendig ueben. ','Regisseur_1.jpg',
-  ]
-}
-//Regisseur
-var dialog_3009 = {
-  dialog:[
-    ' Lenard Cabrio: Hallo Herr Detektiv! Sie sind sicher wegen der Arbeit hier?! ','Regisseur_2.jpg', //Darsteller kommen an Land
-    ' Regesseur: Habt ihr von dort Oben den Professor gesehen?','Regisseur_1.jpg',
-		' Lenard Cabrio: Nein, ich habe nichts entdeckt. Emil , hast den Prof. gesehen? ','Regisseur_2.jpg',
-		' Emil M.: Freut mich ihre Bekanntschaft zu machen. Mir ist eine Person mit weissem Kittel aufgefallen, hinter dem Labyrinth in Richtung Cowboy-City. Mehr kann ich ihn leider nicht sagen, Herr Detektiv. ','Regisseur_3.jpg',
-  ]
-}
-
-//NQ: Finde das Maedchen im Labyrinth
-var dialog_3010 = {
-  dialog:[
-  '  ','',
-  'Regesseur: Meine Tochter ist auch hier im Park. Sie haelt sich oft im Labyrinth auf und findet dann nicht wieder hinaus. Vielleicht kannst du sie fuer mich herbringen. Sie ist mir das aller Wichtigste. Mit ihr kann ich viel besser arbeiten!','Regisseur_1.jpg'
-  ]
-}
-
-//Regisseur
-var dialog_3011 = {
-  dialog:[
-  ' Regesseur: Hey, hast du meine Tochter schon gefunden? Sie haelt sich oft im Labyrinth auf.','Regisseur_1.jpg',
-  ]
-}
-
-//Cowboys: Lukas Lack, Steven Walker 
-var dialog_3012 =  {
-	dialog:[
-		' Steven Walker: Howdy! Detektiv, wie geht\'s? hab gehoert bei ihnen ist einiges Los. Bestimmt suchen sie den Professor...	Ich kann ihnen sagen wo er ist. Gucken sie sich erst unser neu erprobtes Stueck an.','Cowboy_1.jpg',
-		' Steven Walker: Fabelhaft, oder? Allerdings muessen wir noch ein wenig ueben. Das ist gar nicht so leicht in diesem Kostuem. Hast du auf unsere Emotionen geachtet? Sieh jetzt genau hin. ','Cowboy_1.jpg',
-	]
-}
-
-//Cowboy left
-var dialog_3013 =  {
-	dialog:[
-		' Steven Walker: Gut erkannt, Adlerauge. Als Detektiv brauchen sie dafuer auch ein Gespuehr. Ich kann sehr gut emotionslose Gesichter erkennen. ','nE',
-		' Steven Walker: Der Professor hat sich hinter der Leinwand ein ruhiges Plaetzchen gesucht, dort findest du ihn bestimmt. Er hatte sogar eine Leinwand dabei. Viel Glueck auf der Suche.','Cowboy_1.jpg',
-		' Steven Walker: Als Andenken bekommst du eine lustige Waffe.','Cowboy_1.jpg', 
-		' Steven Walker: Hey, Lukas! Komm doch mal rueber!','Cowboy_1.jpg', //moveTo('Lukas Lack' GetPersonX('Steven Walker'), GetPersonY('Steven Walker'))
-	]
-}
-
-//Cowboy right
-var dialog_3014 = {
-	dialog: [
-		' Lukas Lack: Hier, bitteschoen meine Spasspistole.','Cowboy_2.jpg',
-		' Lukas Lack: Gehe damit lieber nicht in das Buerogebaeude, die B�rostuhlfahrer werden dann aengstlich und aergerlich. ','Cowboy_2.jpg',
-	]
-}
-//Professor final
-var dialog_3015 = {
-	dialog: [
-		'Professor: Stoere mich nicht! Ich moechte mein Meisterwerk vollenden und somit alles zum guten wenden und die Stadt retten. Ich habe mit dem letzten Bild einen grossen Fehler gemacht.','Professor.jpg',
-		'Professor: Meine Recherchen waren nicht gruendlich genug, deswegen bin ich in den Filmpark gekommen. Schauspieler, Regisseure, und Buehnenbildner wissen eine Menge ueber Emotionen.','Professor.jpg',
-		'Professor: Leider ist das Bild noch nicht Fertig, aber du kannst es gleich sehen. Ich brauche nur noch einige Pinselstriche...','Professor.jpg',
-		'Professor: ...','Professor.jpg',
-		'Professor: ...','Professor.jpg',
-	]
-}
-//Professor		
-var dialog_3016 = {
-	dialog: [		
-		'Professor: Ich habe jetzt alle Information, die ich hatte, in dem Bild vereinigt.','Professor.jpg',
-		'Professor: Sieh! Es ist fertig!','Professor.jpg'//Blitz
-	]
-}
-
-//Professor nach dem Biltz
-var dialog_3017 = {
-	dialog: [
-		'Professor: Wow! Was war das?','Professor.jpg', 
-		'Professor: In der Gallerie ist euch auch so etwas wiederfahren.','Professor.jpg',
-		'Professor: Versuch doch mal die Emotionen auf dem Bild zu erkennen.','Professor.jpg'
-	]
-}
-
-//Professor
-var dialog_3018 = {
-	dialog: [
-		'Professor: Siehst du, das klappt doch viel besser als direkt nach dem Vorfall. ','Professor.jpg', 
-		'Professor: Wir sollten das Bild in die Gallerie bringen und allen Leuten ihre Gabe zurueck geben. Jeder soll wieder Emotionen erkennen koennen, sonst wuerde ich mich so Schuldig fuehlen.','Professor.jpg',
-		'Professor: Komm mit hier gibt es ganz zufuellig einen geheimen Tunnel der direkt zur Gallerie fuehrt.','Professor.jpg'
-	]
-}
-
-//Professor
-var dialog_3019 = {
-	dialog: [
-		'Professor: Wir sind da! Geh schon! Ich folge dir.','Professor.jpg', 
-		'Professor: ...','Professor.jpg',
-		'Professor: Worauf wartest du?','Professor.jpg'
-	]
-}
-
-//NQ Kind
-var dialog_3020 = {
-	dialog: [
-		'Kind: Bringst du mich zu meinem Vater? Er ist fuehrt Regie am See und sieht dort immer die Schiffe. ','',
-		'Kind: Ich kenne mich hier nicht aus. Ich folge dir. ','',	
-	]
-}
-
-//Regisseur
-var dialog_3021 = {
-	dialog: [
-		' Regisseur: Vielen Dank das du meine Tocher hergebracht hast. Jetzt macht die Arbeit schon viel mehr Spass!','Regisseur_1.jpg',
-	]
-}
-
-//Koenig
-var dialog_3022 = {
-	dialog:[
-		' Koenig Johann: "Hallo fremder, ich bin Johann, Koenig Johann, man hat mich hintergangen!... Das war eine kleine Einlage, denn ich habe uebungen fuer den Ausdruck gemacht. Mimik und Gestik ist das wichtigste beim Schauspielern. ','Koenig_1.jpg',
-		' Koenig Johann: Leider kann ich mich nicht alleine einschaetzen. Wenn du mir Hilfst bekommst du meine Krone.  ','Koenig_1.jpg',
-		' Koenig Johann: Passt meine Stimme mit der Mimik ueberein? ','Koenig_1.jpg', //Raetsel Mimik passend zur Stimm
-	]
-}
-
-//Koenig
-var dialog_3023 = {
-	dialog:[
-			' Koenig Johann: Das hat mir geholfen, danke! Jetzt bin ich wieder etwas besser geworden. ','Koenig_1.jpg' //#korrekt #getItem(Krone)
-	]
-}
-
-//Koenig
-var dialog_3024 = {
-	dialog:[
-			' Professor: Ich habe meine Missetat wieder gut gemacht. Ich habe das alles nicht alleine gemacht. Ich habe das alles dir zu verdanken. Ich....ich... ','Professor.jpg',
-			' Professor: Ausserdem haben mir Alex, Johannes, Johannes, Tim, Christian, Sara, Miriam und Danny geholfen, weil sie von Dietmar und Tobias dazu gebeten wurden.', 'Professor.jpg',
-			
-	]
-}
-/*##################*/

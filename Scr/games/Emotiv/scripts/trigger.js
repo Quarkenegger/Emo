@@ -67,6 +67,20 @@ function Trash_001_RandomEncounter (){
     Dialog("Trash_007");
 };
 
+//----------------------------------------------Trash Lifefiller Uni
+
+function Trash_001_hausmeister (){
+    Dialog("Trash_008");
+};
+
+
+function Trash_002_student (){
+    Dialog("Trash_009");
+};
+
+function Trash_002_student003 (){
+    Dialog("Trash_010");
+};
 
 //------------------------------------Spielstart/Tutorial Quark
 
@@ -341,7 +355,7 @@ function trigger027_BueroQuest (){
 if (trigger_progress[0]==12){
 trigger_progress[0]=trigger_progress[0]+1; //13
 Dialog("dialog_017");
-getEmotion(16);
+getEmotion(16); //frustriert
 miniGame("puzzle5");
 getQuest(5);
 }
@@ -378,13 +392,13 @@ if (trigger_progress[0]==13){
 trigger_progress[0]=trigger_progress[0]+1; //14
 Dialog("dialog_019");
 miniGame("puzzle4");
-getEmotion(28);
+getEmotion(28); //traurig
 getQuest(4);
 }
 	else {
 			if (	closeQuest(4)==true){
 			Dialog("dialog_020");
-			getEmotion(19);
+			getEmotion(19); //heiter
 			trigger_progress[0]=trigger_progress[0]+1; //15
 			}
 		else{
@@ -557,18 +571,106 @@ MapChange("Wohnviertel.rmp",39,566,"MAPwohngebiet.wav");
 FlipScreen();
 };
 
-function cheatTrigger_Uni(){
-trigger_progress[0]=0;
-giveItem(301);
-unlockMap(5);
-debugText("gehe zum park!");
-}
+
+function trigger2002_uniprof (){
+    if (trigger_progress[0] == 2001) {
+        Dialog("dialog_2001");
+        getQuest(12);
+        trigger_progress[0]=trigger_progress[0]+1; //2002
+    }
+    else {
+        if (trigger_progress[0]==2005){
+            Dialog("dialog_2003");
+            closeQuest(12);
+            getQuest(13);
+            giveItem(301);
+            unlockMap(5);
+            trigger_progress[0]=3001; //3001
+        }
+        else {
+            Dialog("dialog_2002");
+        }
+    }
+};
+
+
+function trigger2003_studentMensa (){
+    if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
+        Dialog("dialog_2005");
+        getEmotion(8); //dankbar
+        trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
+    }
+    else {
+        Dialog("dialog_2004");
+    }
+};
+
+function trigger2003_studentBibo (){
+    if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
+        Dialog("dialog_2006");
+        getEmotion(20); //interessiert
+        trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
+    }
+    else {
+        Dialog("dialog_2007");
+    }
+};
+
+function trigger2003_studentSportplatz (){
+    if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
+        Dialog("dialog_2008");
+        miniGame("puzzle8");
+        getEmotion(34); //verwirrt
+        trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
+    }
+    else {
+        Dialog("dialog_2009");
+    }
+};
+
+
+
+
+
+
 //--------------------------------------------------------Park
 //Port Uni zu Park  - Oberwelt
 function trigger3001_UnizuPark (){
-//oberwelt_karte();
-MapChange("Park.rmp",868,1575,"MAPpark2.wav");
-FlipScreen();
+    if (trigger_progress[0] == 3001) {
+        MapChange("Park.rmp", 868, 1575, "MAPpark2.wav");
+        FlipScreen();
+    }
 };
 
-//Ich will nur pushen
+function trigger3002_Eingang(){
+	if(trigger_progress[0] < 2001){
+		Dialog("dialog_3000"); // kein eintritt in den Park wenn fortschritt och nicht da ist
+	}else if(trigger_progress[0] < 3001){
+		Dialog("dialog_3001");
+	}else if(trigger_progress[0] == 3001){
+		Dialog("dialog_3003");
+		trigger_progress[0]=trigger_progress[0]+1; //3002
+		closeQuest(13);
+    getQuest(14);
+	}else if(trigger_progress[0] >= 3001){
+		Dialog("dialog_3002");
+	}
+};
+
+
+function trigger3003_Mittelalterstadt(){
+    if(trigger_progress[0] == 3002) {
+      Dialog("dialog_3004");
+      if(miniGame("puzzle9")){
+				Dialog("dialog_3005");
+				trigger_progress[0]=trigger_progress[0]+1; //3003
+			}else{
+				Dialog("dialog_3006");
+				miniGame("puzzle9");
+				trigger_progress[0]=trigger_progress[0]+1; //3003
+			}
+    }else{
+			Dialog("dialog_3007");
+    }
+};
+
