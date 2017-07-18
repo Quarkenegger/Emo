@@ -389,13 +389,13 @@ var dialog_2005 = {
 
 var dialog_2006 = {
     dialog:[
-        'Studentin: Hey, danke dass du mir das Buch besorgst, dass ich unbedingt brauche. Das Thema interessiert mich so sehr ','Marchesa.png',
+        'Studentin: Hey, danke dass du mir das Buch besorgst, dass ich unbedingt brauche. Das Thema interessiert mich so sehr ','Marchesa.jpg',
     ]
 }
 
 var dialog_2007 = {
     dialog:[
-        'Studentin: Wo ist nur dieses Buch, ich brauche es unbedingt. ','Marchesa.png',
+        'Studentin: Wo ist nur dieses Buch, ich brauche es unbedingt. ','Marchesa.jpg',
     ]
 }
 
