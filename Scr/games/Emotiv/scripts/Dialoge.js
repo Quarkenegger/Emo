@@ -337,47 +337,19 @@ var dialog_1009 = {
 		]
 }
 
+//-------------------------------------------------------------------------------------Uni (BILDER)
+var dialog_2001 = {
+    dialog:[
+        'Ich habe gerade keine Zeit, reden sie doch bitte erst mit meine Studenten. Wenn ihre Probleme geklärt sind habe ich mehr Zeit. ','emo1.png',
+    ]
+}
 
-//---------------------------------Tunnel
-var dialog_401 = {
-  dialog:[
-	'Vorarbeiter: Verdammt! Ich habe den Sprengmechanismus ausgeloesst','emo1.png',
-	'Vorarbeiter: Alarm! Alle Evakuieren! Sprengung in 3','emo1.png',
-	'Vorarbeiter: 2','emo1.png',
-	
-		]
+var dialog_2002 = {
+    dialog:[
+        'Wie geht es mit meinen Studenten voran?. ','emo1.png',
+    ]
 }
-var dialog_402 = {
-  dialog:[
-	'Vorarbeiter: Ich bin Schuld!','emo1.png',
-	'Vorarbeiter: Hoffentlich sind alle unverletzt','emo1.png',
-	
-	
-		]
-}
-var dialog_403 = {
-  dialog:[
-	'Arbeiter: Alles wurde zerstoert','emo1.png',
-	'Arbeiter: Ich bin O.K. aber kann noch nichts hoeren','emo1.png',
-	'Arbeiter: Bitte schau nach meinem Kumpel: Quirin','emo1.png',
-	
-		]
-}
-var dialog_404 = {
-  dialog:[
-	'Arbeiter Quirin: Hilfe! Ich bin verletzt','emo1.png',
-	'Arbeiter: Kannst Du meine Wunde verbinden?','emo1.png',
-	'Arbeiter: Du hast doch einen Erste Hilfekasten','emo1.png',
-	
-		]
-}
-var dialog_405 = {
-	dialog:[
-	'Arbeiter Quirin: Danke fuer die Hilfe','emo1.png',
-	'Arbeiter: Die Wunde ist verbunden...','emo1.png',
-	'Arbeiter: Hier hast Du meine Bohrmaschine ich suche mir nen neuen Job','emo1.png',
-	]
-}
+
 
 //######Danny###### Park 
 

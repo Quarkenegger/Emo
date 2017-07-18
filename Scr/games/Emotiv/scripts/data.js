@@ -112,5 +112,7 @@ var quests={
 	quest9:{name:'Die Kuenstlerin',description:'Suche im Wohnviertel nach der Kuenstlerin Yuga. Vielleicht hat sie Hinweise oder macht sich verdaechtig. Tipp: Yuga ist immer in der Naehe von Helena.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest10:{name:'Die bessere Kuenstlerin',description:'Yuga verdaechtigt Hilda, bestimmt aus Neid. Du solltest trotzdem mir ihr reden. Tipp: Hilda wohnt in einem schoenen Einfamilienhaus.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest11:{name:'Der Ort des Wissens.',description:'Du hast den Hinweis bekommen, dass in der Uni viel untersucht wird. Gehe zur Uni und ermittel dort weiter. Tipp: Die Uni ist westlich vom Wohngebiet.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+    quest12:{name:'Studentenleben',description:'Hilf den Studenten. Wenn ihre Sorgen geklaert sind hat der Professor Zeit fuer eine Befragung.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+
 
 }

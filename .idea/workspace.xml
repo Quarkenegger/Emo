@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5425cd6b-b694-4876-a881-b2b3319e0117" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/PloizeiHaupt.rmp" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/maps/PloizeiHaupt.rmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Uni.rmp" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/maps/Uni.rmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/kulturzentrum_eingang.rmp" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/maps/kulturzentrum_eingang.rmp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/save/Savegame_1.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/save/Savegame_1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,60 +24,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuestsDialog.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="191" column="9" lean-forward="true" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Menues.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1755">
-              <caret line="169" column="52" lean-forward="false" selection-start-line="169" selection-start-column="52" selection-end-line="169" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2753">
-              <caret line="104" column="15" lean-forward="true" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Movement.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Movement.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-857">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicFunctions.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="153" column="38" lean-forward="true" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
+            <state relative-caret-position="885">
               <caret line="73" column="161" lean-forward="false" selection-start-line="73" selection-start-column="161" selection-end-line="73" selection-end-column="161" />
               <folding />
             </state>
@@ -85,21 +37,21 @@
       <file leaf-file-name="trigger.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="17">
+              <caret line="247" column="17" lean-forward="false" selection-start-line="247" selection-start-column="17" selection-end-line="247" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dialoge.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dialoge.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
+            <state relative-caret-position="-3766">
               <caret line="91" column="198" lean-forward="false" selection-start-line="91" selection-start-column="198" selection-end-line="91" selection-end-column="198" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,36 +60,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>buchm</find>
+      <find>questp</find>
       <find>QUestp</find>
       <find>ä</find>
       <find>mapc</find>
       <find>sound</find>
-      <find>contr</find>
-      <find>ober</find>
-      <find>map</find>
-      <find>map()</find>
-      <find>setPointer</find>
-      <find>main2</find>
-      <find>ques</find>
-      <find>inventory</find>
-      <find>emolex</find>
-      <find>main</find>
-      <find>save</find>
-      <find>new_</find>
-      <find>newg</find>
-      <find>change</find>
-      <find>map_sound</find>
       <find>mapchange</find>
-      <find>save_g</find>
-      <find>MapEngine</find>
-      <find>new</find>
-      <find>mapcha</find>
-      <find>load</find>
-      <find>changem</find>
-      <find>mapch</find>
-      <find>load_</find>
-      <find>MapChange</find>
-      <find>Load_Game()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,13 +83,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js" />
+        <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js" />
+        <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js" />
-        <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js" />
-        <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js" />
-        <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js" />
-        <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js" />
       </list>
     </option>
   </component>
@@ -267,8 +195,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -276,119 +204,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scr/games/Emotiv/maps/Detektei_Polizei_Buero.rmp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -786,9 +601,7 @@
       <workItem from="1495717717294" duration="9779000" />
       <workItem from="1495984536313" duration="281000" />
       <workItem from="1495986344875" duration="4161000" />
-      <workItem from="1496005347434" duration="1580000" />
-      <workItem from="1496022049654" duration="567000" />
-      <workItem from="1500306528008" duration="11674000" />
+      <workItem from="1500387212308" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="habs vergessen">
       <created>1495719292874</created>
@@ -888,25 +701,11 @@
       <option name="project" value="LOCAL" />
       <updated>1495989861157</updated>
     </task>
-    <task id="LOCAL-00015" summary="overworldmap gefixt, mapanzeige jetzt korrekt nach weltwechsel">
-      <created>1496006318249</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1496006318249</updated>
-    </task>
-    <task id="LOCAL-00016" summary="mapanzeige verbessert">
-      <created>1496022482258</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1496022482258</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28341000" />
+    <option name="totallyTimeSpent" value="14550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -928,7 +727,6 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1594509" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -940,6 +738,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -962,10 +761,7 @@
     <MESSAGE value="Cavereste" />
     <MESSAGE value="mapchange tutorial" />
     <MESSAGE value="emo" />
-    <MESSAGE value="overworldmap gefixt, mapanzeige jetzt korrekt nach weltwechsel" />
-    <MESSAGE value="mapanzeige verbessert" />
-    <MESSAGE value="speichern gefixt(eventuell)&#10;hotkeys konsistent gemacht" />
-    <option name="LAST_COMMIT_MESSAGE" value="speichern gefixt(eventuell)&#10;hotkeys konsistent gemacht" />
+    <option name="LAST_COMMIT_MESSAGE" value="emo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -978,122 +774,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3604">
-          <caret line="212" column="14" lean-forward="false" selection-start-line="212" selection-start-column="14" selection-end-line="212" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8908">
-          <caret line="524" column="64" lean-forward="false" selection-start-line="524" selection-start-column="64" selection-end-line="524" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7922">
-          <caret line="466" column="1" lean-forward="true" selection-start-line="466" selection-start-column="1" selection-end-line="466" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="161" lean-forward="false" selection-start-line="73" selection-start-column="161" selection-end-line="73" selection-end-column="161" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="91" column="198" lean-forward="false" selection-start-line="91" selection-start-column="198" selection-end-line="91" selection-end-column="198" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3604">
-          <caret line="212" column="14" lean-forward="false" selection-start-line="212" selection-start-column="14" selection-end-line="212" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8908">
-          <caret line="524" column="64" lean-forward="false" selection-start-line="524" selection-start-column="64" selection-end-line="524" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="119" column="4" lean-forward="true" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="161" lean-forward="false" selection-start-line="73" selection-start-column="161" selection-end-line="73" selection-end-column="161" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="91" column="198" lean-forward="false" selection-start-line="91" selection-start-column="198" selection-end-line="91" selection-end-column="198" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3315">
           <caret line="195" column="5" lean-forward="false" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
           <folding />
@@ -1103,7 +783,7 @@
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6018">
-          <caret line="354" column="6" lean-forward="false" selection-start-line="354" selection-start-column="6" selection-end-line="354" selection-end-column="6" />
+          <caret line="354" column="3" lean-forward="true" selection-start-line="354" selection-start-column="3" selection-end-line="354" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1134,9 +814,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="4199">
+          <caret line="247" column="17" lean-forward="true" selection-start-line="247" selection-start-column="17" selection-end-line="247" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1144,9 +826,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,9 +842,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,7 +882,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
           <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1220,9 +900,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,73 +940,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
           <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/main_menu.js" />
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="161" lean-forward="false" selection-start-line="73" selection-start-column="161" selection-end-line="73" selection-end-column="161" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="91" column="198" lean-forward="false" selection-start-line="91" selection-start-column="198" selection-end-line="91" selection-end-column="198" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Movement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-857">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/main_menu.js" />
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="191" column="9" lean-forward="true" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2753">
-          <caret line="104" column="15" lean-forward="true" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+        <state relative-caret-position="885">
+          <caret line="195" column="5" lean-forward="false" selection-start-line="195" selection-start-column="5" selection-end-line="195" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1755">
-          <caret line="169" column="52" lean-forward="false" selection-start-line="169" selection-start-column="52" selection-end-line="169" selection-end-column="52" />
+        <state relative-caret-position="885">
+          <caret line="354" column="3" lean-forward="false" selection-start-line="354" selection-start-column="3" selection-end-line="354" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="153" column="38" lean-forward="true" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
+        <state relative-caret-position="885">
+          <caret line="61" column="45" lean-forward="false" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="73" column="161" lean-forward="false" selection-start-line="73" selection-start-column="161" selection-end-line="73" selection-end-column="161" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="247" column="17" lean-forward="false" selection-start-line="247" selection-start-column="17" selection-end-line="247" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3766">
+          <caret line="91" column="198" lean-forward="false" selection-start-line="91" selection-start-column="198" selection-end-line="91" selection-end-column="198" />
           <folding />
         </state>
       </provider>

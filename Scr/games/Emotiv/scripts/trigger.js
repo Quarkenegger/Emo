@@ -557,12 +557,31 @@ MapChange("Wohnviertel.rmp",39,566,"MAPwohngebiet.wav");
 FlipScreen();
 };
 
-function cheatTrigger_Uni(){
-trigger_progress[0]=0;
-giveItem(301);
-unlockMap(5);
-debugText("gehe zum park!");
-}
+
+function trigger2002_uniprof (){
+    if (trigger_progress[0]==200X){
+        Dialog("dialog_200");
+        getQuest(X);
+        giveItem(301);
+        unlockMap(5);
+        trigger_progress[0]=3001; //3001
+    }
+    else{
+        if (trigger_progress[0]==2001) {
+            Dialog("dialog_2001");
+            getQuest(12);
+        }
+    }
+    else{
+        Dialog("dialog_2002");
+	}
+};
+
+
+
+
+
+
 //--------------------------------------------------------Park
 //Port Uni zu Park  - Oberwelt
 function trigger3001_UnizuPark (){
