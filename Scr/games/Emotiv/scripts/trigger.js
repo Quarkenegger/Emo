@@ -67,6 +67,20 @@ function Trash_001_RandomEncounter (){
     Dialog("Trash_007");
 };
 
+//----------------------------------------------Trash Lifefiller Uni
+
+function Trash_001_hausmeister (){
+    Dialog("Trash_008");
+};
+
+
+function Trash_002_student (){
+    Dialog("Trash_009");
+};
+
+function Trash_002_student003 (){
+    Dialog("Trash_010");
+};
 
 //------------------------------------Spielstart/Tutorial Quark
 
@@ -568,7 +582,7 @@ function trigger2002_uniprof (){
         if (trigger_progress[0]==2005){
             Dialog("dialog_2003");
             closeQuest(12);
-            getQuest(20);
+            getQuest(13);
             giveItem(301);
             unlockMap(5);
             trigger_progress[0]=3001; //3001
@@ -605,6 +619,7 @@ function trigger2003_studentBibo (){
 function trigger2003_studentSportplatz (){
     if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
         Dialog("dialog_2008");
+        miniGame("puzzle8");
         getEmotion(34); //verwirrt
         trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
     }
@@ -617,14 +632,17 @@ function trigger2003_studentSportplatz (){
 
 
 
+
 //--------------------------------------------------------Park
 //Port Uni zu Park  - Oberwelt
 function trigger3001_UnizuPark (){
-//oberwelt_karte();
-MapChange("Park.rmp",868,1575,"MAPpark2.wav");
-FlipScreen();
+    if (trigger_progress[0] == 3001) {
+        MapChange("Park.rmp", 868, 1575, "MAPpark2.wav");
+        FlipScreen();
+    }
 };
 
+<<<<<<< HEAD
 function trigger3002_Eingang(){
 	if(trigger_progress[0] < 2001){
 		Dialog("dialog_3000"); // kein eintritt in den Park wenn fortschritt och nicht da ist
@@ -640,3 +658,5 @@ function trigger3002_Eingang(){
 	}
 };
 //Ich will nur pushen
+=======
+>>>>>>> 085a005de3f1c0e65eb76fd7076d87597f775b9f
