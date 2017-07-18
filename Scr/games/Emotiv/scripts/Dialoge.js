@@ -422,11 +422,7 @@ var dialog_2009 = {
 //trigger@entry
 var dialog_3000 = {
   dialog:[
-<<<<<<< HEAD
 	'Einlass-Dame: Leider ist der Filmpark noch nicht eroeffnet, bitte kommen Sie zu einem spaeteren Zeitpunkt wieder.','Einlass_1.jpg',
-=======
-	'Einlass-Dame: Leider ist der Filmpark noch nicht eroeffnet, bitte kommen Sie zu einem Spaeteren Zeitpunkt wieder.','Einlass_1.jpg',
->>>>>>> b9af8719e995b1ce6229fb4e8a46ef1f883aceb5
 		]
 }
 
@@ -464,7 +460,6 @@ var dialog_3004 = {
 	  ]
 }
 
-<<<<<<< HEAD
 //Mittelalterstadt - Professorsuche - 2
 var dialog_3005 = {
   dialog:[
@@ -477,12 +472,8 @@ var dialog_3005 = {
 var dialog_3006 = {
   dialog:[
 	'Koenig Johann: Ihr konntet mein Raetsel leider nicht loesen. Versucht es erneut.','Koenig_1.jpg',
+	]
 }
-=======
-
-
-
->>>>>>> b9af8719e995b1ce6229fb4e8a46ef1f883aceb5
 
 //Mittelalterstadt - trashtalk
 var dialog_3007 = {
