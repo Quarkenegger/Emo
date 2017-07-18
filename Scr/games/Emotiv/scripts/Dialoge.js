@@ -51,6 +51,19 @@ var Trash_007 = {
     ]
 }
 
+//------------------------------------------Lifefiller Uni
+//Typ vor Uni
+var Trash_008 = {
+    dialog:[
+        'Hausmeister Filly: Das Universitaetsleben nervt.','Billy.jpg',
+    ]
+}
+
+var Trash_009 = {
+    dialog:[
+        'Student: Das beste an der Uni ist der Eisladen','Cowboy_2.jpg',
+    ]
+}
 
 
 
@@ -364,25 +377,25 @@ var dialog_2003 = {
 
 var dialog_2004 = {
     dialog:[
-        'Student: Ich habe so großen Hunger! ','emo1.png',
+        'Student: Ich habe so großen Hunger! ','Cowboy_1.jpg',
     ]
 }
 
 var dialog_2005 = {
     dialog:[
-        'Student: Du moechtest mir mein Mittag spendieren?! Ich bin dir so dankbar. ','emo1.png',
+        'Student: Du moechtest mir mein Mittag spendieren?! Ich bin dir so dankbar. ','Cowboy_1.jpg',
     ]
 }
 
 var dialog_2006 = {
     dialog:[
-        'Studentin: Hey, danke dass du mir das Buch besorgst, dass ich unbedingt brauche. Das Thema interessiert mich so sehr ','emo1.png',
+        'Studentin: Hey, danke dass du mir das Buch besorgst, dass ich unbedingt brauche. Das Thema interessiert mich so sehr ','Marchesa.png',
     ]
 }
 
 var dialog_2007 = {
     dialog:[
-        'Studentin: Wo ist nur dieses Buch, ich brauche es unbedingt. ','emo1.png',
+        'Studentin: Wo ist nur dieses Buch, ich brauche es unbedingt. ','Marchesa.png',
     ]
 }
 
@@ -396,6 +409,8 @@ var dialog_2009 = {
         'Studentin: Wo bin ich hier? ','emo1.png',
     ]
 }
+
+
 
 //######Danny###### Park 
 

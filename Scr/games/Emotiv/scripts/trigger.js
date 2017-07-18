@@ -67,6 +67,16 @@ function Trash_001_RandomEncounter (){
     Dialog("Trash_007");
 };
 
+//----------------------------------------------Trash Lifefiller Uni
+
+function Trash_001_hausmeister (){
+    Dialog("Trash_008");
+};
+
+
+function Trash_002_student (){
+    Dialog("Trash_009");
+};
 
 //------------------------------------Spielstart/Tutorial Quark
 
@@ -612,6 +622,7 @@ function trigger2003_studentSportplatz (){
         Dialog("dialog_2009");
     }
 };
+
 
 
 
