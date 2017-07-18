@@ -93,7 +93,7 @@ function newGame(){
 	MapEngine("firstmap.rmp", 60);
 
 }*/
-
+//ichwillpushen
 //---------------------------------------------manuel
 
 function updation()
