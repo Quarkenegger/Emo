@@ -19,6 +19,7 @@ var mapname="";
 var maphaschanged=false;
 var mapcount=0;
 var savegame2;
+var main2=0;
 var main=false;
 var witchMenu="null";
 var w = GetScreenWidth();
@@ -27,6 +28,8 @@ var oberwelt_karte_array= [1,1,1,0,0,0];
 var time=0;
 var points=0;
 var emomap=true;
+var wassaved=false;
+var savevariables=[0,0,"null"]
 
 //key bindings
 var key_talk = KEY_SPACE;
@@ -93,6 +96,14 @@ function newGame(){
 
 function updation()
 {
+	if (wassaved){
+        //SetPersonX(main_char,80);
+
+        MapChange(savevariables[2],savevariables[0],savevariables[1],"MAPgallery.mp3")
+        //SetPersonX(main_char,savevariables[0]);
+        //SetPersonY(main_char,savevariables[1]);
+        wassaved=false;
+	}
 	//timecount
 	if (time<1000){
 		time++;
@@ -104,15 +115,17 @@ function updation()
 	//tastenabfangen
     if(IsKeyPressed(key_sprint)) SetPersonSpeed(main_char,3); else SetPersonSpeed(main_char,1.5);
 
- if((IsKeyPressed(key_menu))&&(!main)) {over=main_menu();main=true; timeseconds=time;};
- if((IsKeyPressed(key_help))&&(!main)) {over= control();main=true; timeseconds=time;};
- if((IsKeyPressed(key_inventory))&&(!main)) {over= showInventory();main=true; timeseconds=time;};
+ if((IsKeyPressed(key_menu))&&(main2==0)) {main2=1; over=main_menu(); timeseconds=time;};
+
+ if((IsKeyPressed(key_help))&&((main2==0))) {main2=2;over= control(); timeseconds=time;};
+ if((IsKeyPressed(key_inventory))&&((main2==0))) {main2=3;over= showInventory(); timeseconds=time;};
  if (emomap){
-     if((IsKeyPressed(key_map))&&(!main)) {over= map();main=true; timeseconds=time;};
-     if((IsKeyPressed(key_emolex))&&(!main)) {over= emolex(progress);main=true; timeseconds=time;};
+     if((IsKeyPressed(key_map))&&((main2==0))) {main2=4;over= oberwelt_karte(); timeseconds=time;};
+     if((IsKeyPressed(key_emolex))&&((main2==0))) {main2=5;over= emolex(progress); timeseconds=time;};
+     if((IsKeyPressed(key_quest))&&((main2==0))) {main2=6;over= questi(); timeseconds=time;};
  }
  if ((Math.abs(timeseconds-time)>=50)&&(over==false)){
-	main=false;
+	main2=0;
 
 
 }

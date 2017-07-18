@@ -11,7 +11,7 @@ function main_menu()
 	// in the previous menu window
 	var yfinger = 18-5, yfinger2 = 18;
 	var redraw = true;
-	main=true;
+	//main=true;
 	mode="main";
 	var quit = false;
 	//var font = LoadFont("tahoma_22.rfn");
@@ -46,6 +46,8 @@ function main_menu()
 
 		switch (key)
 		{
+            case key_menu:
+            	if (main2==1) {return false; };
 			case KEY_DOWN:
 			{
 				if (mode=="main")
@@ -101,6 +103,7 @@ function control(){
 		ShowPicture(pic,130,130,300,300);
 		FlipScreen();
 		key=getTheFuckingKeys();
+        if((key==key_help)&&(main2==2)) {return false;};
 	}
 	return false;
 }
@@ -232,7 +235,8 @@ function emolex(progress)//zeigt emolex, progress sind die emotionen, die freige
 	var entrys=progress.length;
 	var key=0;
 	while (key!=key_cancel)
-	{	
+	{
+        if ((key==key_emolex)&&(main2==5)) return false;
 		if (key==77)
 		{
 			if (entry_highlighted>1) (entry_highlighted=(entry_highlighted-1));
@@ -271,6 +275,7 @@ function showInventory()//zeigt ds inventar
 	while (key!=key_cancel)
 	{
 		RenderMap();
+        if ((key==key_inventory)&&(main2==3)) return false;
 		if (key==77)
 		{
 			if (entry_highlighted>2) (entry_highlighted=(entry_highlighted-3));
@@ -374,6 +379,7 @@ var key=0;
 
 var isquest=true;
 while (key!=key_cancel){
+	if ((key==key_quest)&&(main2==6)) return false;
 if (key==77){
 if (entry_highlighted>1) (entry_highlighted=(entry_highlighted-1));} 
 if (key==79){
@@ -430,7 +436,8 @@ function oberwelt_karte(){
 
 	var quit = false;
 	pointer_case =  0;
-	while(quit==false)
+	key=0;
+	while(!quit)
 	{
 		ob_karte.blit(0,0);
 		// in any case, the house of the detective in the village must be set active
@@ -479,6 +486,7 @@ function oberwelt_karte(){
 		FlipScreen();
 		
 		var key=getTheFuckingKeys();
+       if((key==key_map)&&(main2==4)) {quit = true;};
 		if ((key==KEY_UP)&&(pointer_case<5)) pointer_case++;
 		if ((key==KEY_DOWN)&&(pointer_case>0)) pointer_case--;
 		if ((key==KEY_RIGHT)&&(pointer_case<5)) pointer_case++;
@@ -499,10 +507,11 @@ function oberwelt_karte(){
 				if (key== key_cancel)
 				{
 					quit = true;
-					break;
+
 				}
 
 	}
+    return false;
 }
 
 function unlockMap(map){
