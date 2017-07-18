@@ -54,7 +54,7 @@ puzzle5:{question:'Sieht man mir meinen Stress nicht an?', answers:['Jace_rnd1.j
 puzzle6:{question:'Ich soll neidisch sein? Niemals?!', answers:['Yuga_rnd1.jpg','Yuga_neid.jpg','Yuga_rnd2.jpg','Yuga_rnd3.jpg'],picture:'',correct:2,reward:0},
 puzzle7:{question:'Die arme Yuga. Ich fuehle mich ganz:', answers:['frustriert','vergebend','schuldig','eifersuechtig'],picture:'Hilda_vergebend.jpg',correct:2,reward:0},
 puzzle8:{question:'Die arme Studentin weiÃŸ nicht wo er ist, wie fuehlt er sich wohl: ', answers:['frustriert','verwirrt','dumm','schlau'],picture:'studentin_verwirrt.png',correct:2,reward:0},
-puzzle9:{question:'Der Arme Narr Cedric hat seine Mütze verloren, wie fuehlt er sich?', answers:['frustriert','traurig','gelangweilt','empoert'],picture:'FOERSTER28 18.jpg',correct:2,reward:0},
+puzzle9:{question:'Der arme Narr Cedric hat seine Muetze verloren, wie fuehlt er sich?', answers:['frustriert','traurig','gelangweilt','empoert'],picture:'Narr_traurig.jpg',correct:2,reward:0},
 }
 
 var items={
