@@ -65,6 +65,12 @@ var Trash_009 = {
     ]
 }
 
+var Trash_010 = {
+    dialog:[
+        'Student: Ich bin sprachlos. Das Mensaessen koennte uns toeten.','Student.jpg',
+    ]
+}
+
 
 
 //----------------------------------Stadt Quark

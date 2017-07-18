@@ -78,6 +78,10 @@ function Trash_002_student (){
     Dialog("Trash_009");
 };
 
+function Trash_002_student003 (){
+    Dialog("Trash_010");
+};
+
 //------------------------------------Spielstart/Tutorial Quark
 
 function trigger001_GameStart (){
