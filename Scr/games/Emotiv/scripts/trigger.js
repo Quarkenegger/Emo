@@ -728,7 +728,7 @@ function trigger3007_Jonathan(){
 		}else if(trigger_progress[0] == 3006) {
 			Dialog("dialog_3019");
 			miniGame("puzzle11");
-			giveItem(3);
+			giveItem(302);
 			getEmotion(26); //schwaermerisch
 			getQuest(16);
 			trigger_progress[0]=trigger_progress[0]+1 //3007

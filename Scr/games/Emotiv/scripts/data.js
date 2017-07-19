@@ -60,7 +60,7 @@ puzzle9:{question:'Der arme Narr Cedric hat seine Muetze verloren, wie fuehlt er
 puzzle10:{question:'Wie fuehlt sich Winry, nachdem du sie auf frischer Tat ertappt hast?', answers:['entsetzt','betroffen','schuldig','wuetend'],picture:'Winry_schuldig.png',correct:3,reward:0},
 puzzle11:{question:'Wie sieht Jonathan aus als er ueber Rosalina spricht?', answers:['schwaermerisch','heiter','verliebt','verlegen'],picture:'Jonathan_schwaermerisch.png',correct:1,reward:0},
 puzzle12:{question:'Wie sieht Roaslina aus als sie den Brief liest?', answers:['verliebt','verlegen','neugierig','schwaermerisch'],picture:'Roaslina_verlegen.jpg',correct:2,reward:0},
-puzzle13:{question:'Wie reagierte Roaslina nachdem sie den Brief gelesen hat?', answers:['verliebt','heiter','frustriert','ueberrascht'],picture:'Roaslina_verliebt.jpg',correct:1,reward:0},
+puzzle13:{question:'Wie reagierte Roaslina nachdem sie den Brief gelesen hat?', answers:['verliebt','heiter','frustriert','ueberrascht'],picture:'Rosalina_verliebt.jpg',correct:1,reward:0},
 }
 
 var items={
