@@ -738,7 +738,6 @@ function trigger3007_Jonathan(){
 			Dialog("dialog_3021");
 			miniGame("puzzle13");
 			Dialog("dialog_3022");
-			closeQuest(16);
 			getEmotion(33); //verliebt
 			trigger_progress[0]=trigger_progress[0]+1 //3009
 		}else if(trigger_progress[0] > 3008) {
@@ -754,6 +753,7 @@ function trigger3008_Rosalina(){
 			miniGame("puzzle12");
 			Dialog("dialog_3026");
 			getEmotion(32); //verlegen
+			closeQuest(16);
 			trigger_progress[0]=trigger_progress[0]+1 //3008
 		}else if(trigger_progress[0] > 3007) {
 			Dialog("dialog_3027");

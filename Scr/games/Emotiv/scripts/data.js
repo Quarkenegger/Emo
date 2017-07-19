@@ -59,7 +59,7 @@ puzzle8:{question:'Die arme Studentin weiss nicht wo er ist, wie fuehlt er sich 
 puzzle9:{question:'Der arme Narr Cedric hat seine Muetze verloren, wie fuehlt er sich?', answers:['frustriert','traurig','gelangweilt','enttaeuscht'],picture:'Narr_enttaeuscht.png',correct:4,reward:0},
 puzzle10:{question:'Wie fuehlt sich Winry, nachdem du sie auf frischer Tat ertappt hast?', answers:['entsetzt','betroffen','schuldig','wuetend'],picture:'Winry_schuldig.png',correct:3,reward:0},
 puzzle11:{question:'Wie sieht Jonathan aus als er ueber Rosalina spricht?', answers:['schwaermerisch','heiter','verliebt','verlegen'],picture:'Jonathan_schwaermerisch.png',correct:1,reward:0},
-puzzle12:{question:'Wie sieht Roaslina aus als sie den Brief liest?', answers:['verliebt','verlegen','neugierig','schwaermerisch'],picture:'Roaslina_verlegen.jpg',correct:2,reward:0},
+puzzle12:{question:'Wie sieht Roaslina aus als sie den Brief liest?', answers:['verliebt','verlegen','neugierig','schwaermerisch'],picture:'Rosalina_verlegen.jpg',correct:2,reward:0},
 puzzle13:{question:'Wie reagierte Roaslina nachdem sie den Brief gelesen hat?', answers:['verliebt','heiter','frustriert','ueberrascht'],picture:'Rosalina_verliebt.jpg',correct:1,reward:0},
 }
 
@@ -115,7 +115,7 @@ var quests={
   quest13:{name:'Der grosse Filmpark.',description:'Gehe in den Filmpark. Dort musst du nach dem Taeter suchen. Alle Hinweise weisen auf den Professor hin, jedoch warum sollte er sowas getan haben?!.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest14:{name:'Suche den Professor.',description:'Der Professor soll hier irgendwo im Filmpark befinden. Suche ihn mit hilfe der anderen Gäste und Angesellten.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest15:{name:'Beschaffe den Schraubenschluessel wieder.',description:'Tobias der Mechaniker sucht seinen Schraubenschluessel. Wenn du ihn findest, hilft er dir den Professor zu finden.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[3]},
-	quest16:{name:'Bringe den Liebesbrief zu Rosalina.',description:'Der arme Jonathan traut sich nicht Rosalina einen Liebesbrief zu uebergeben. Wenn du das fuehr ihn machst, gibt er dir einen weiteren Hinweis darauf wo sich der Professor aufhalten koennte.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[302]},
+	quest16:{name:'Bringe den Liebesbrief zu Rosalina.',description:'Der arme Jonathan traut sich nicht Rosalina einen Liebesbrief zu uebergeben. Wenn du das fuehr ihn machst, gibt er dir einen weiteren Hinweis darauf wo sich der Professor aufhalten koennte.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 
 
 }
