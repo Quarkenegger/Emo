@@ -484,15 +484,15 @@ var dialog_3007 = {
 //Kartbahn - Trashtalk - 1
 var dialog_3008 = {
   dialog:[
-	'Frank der Mechaniker: Hallo Kumpel, wenn du Kart fahren moechtest komme doch spaeter wieder, zur Zeit sind alle Karts belegt.','Tobias.png',]
+	'Tobias der Mechaniker: Hallo Kumpel, wenn du Kart fahren moechtest komme doch spaeter wieder, zur Zeit sind alle Karts belegt.','Tobias.png',]
 }
 
 //Kartbahn - Professorsuche - 1
 var dialog_3009 = {
   dialog:[
-	'Frank der Mechaniker: Hallo Kumpel, Willkommen auf unserer Schoenen Kartbahn.','Tobias.png',
-	'Frank der Mechaniker: Du suchst den Professor? Ich wuerde dir gerne helfen, leider hat mir jemand meinen Schraubenschluessel entwendet.','Tobias.png',
-	'Frank der Mechaniker: Wenn du ihn mir wiederbeschaffst, kann ich dir helfen. Zuletzt habe ich meinen Schraubenschluessel oben bei den Reifen gesehen.','Tobias.png',
+	'Tobias der Mechaniker: Hallo Kumpel, Willkommen auf unserer Schoenen Kartbahn.','Tobias.png',
+	'Tobias der Mechaniker: Du suchst den Professor? Ich wuerde dir gerne helfen, leider hat mir jemand meinen Schraubenschluessel entwendet.','Tobias.png',
+	'Tobias der Mechaniker: Wenn du ihn mir wiederbeschaffst, kann ich dir helfen. Zuletzt habe ich meinen Schraubenschluessel oben bei den Reifen gesehen.','Tobias.png',
 	 ]
 }
 
@@ -514,22 +514,22 @@ var dialog_3011 = {
 //Kartbahn - Trashtalk - 3
 var dialog_3012 = {
   dialog:[
-	'Frank der Mechaniker: Wenn du meinen Schraubenschluessel findest, kann ich dir helfen den Professor zu finden.','Tobias.png',
+	'Tobias der Mechaniker: Wenn du meinen Schraubenschluessel findest, kann ich dir helfen den Professor zu finden.','Tobias.png',
 	]
 }
 
 //Kartbahn - Professorsuche - 3
 var dialog_3013 = {
   dialog:[
-	'Frank der Mechaniker: Du hast meinen Schraubenschluessel gefunden! Danke Kumpel!!','Tobias.png',
-	'Frank der Mechaniker: Ich habe mit ein paar besuchern geredet. Sie meinen den Professor in der Westernstadt, Oestlich von hier, gesehen zu haben.','Tobias.png',
+	'Tobias der Mechaniker: Du hast meinen Schraubenschluessel gefunden! Danke Kumpel!!','Tobias.png',
+	'Tobias der Mechaniker: Ich habe mit ein paar besuchern geredet. Sie meinen den Professor in der Westernstadt, Oestlich von hier, gesehen zu haben.','Tobias.png',
 	]
 }
 
 //Kartbahn - Trashtalk - 4
 var dialog_3014 = {
   dialog:[
-	'Frank der Mechaniker: Danke das du meinen Schraubenschluessel gefunden hast. Leider sind immernoch keine Karts fuer dich frei Kumpel.','Tobias.png',
+	'Tobias der Mechaniker: Danke das du meinen Schraubenschluessel gefunden hast. Leider sind immernoch keine Karts fuer dich frei Kumpel.','Tobias.png',
 	]
 }
 
@@ -545,7 +545,7 @@ var dialog_3015 = {
 var dialog_3016 = {
   dialog:[
 	'Winry Bockrell: Ich weiss er gehoert mir nicht ... ich habe ihn mir doch nur kurz geliehen um den Lautsprecher zu reparieren','Winry_schuldig.png',
-	'Winry Bockrell: Hier hast du Ihn wieder, aber erzähle Frank bitte nichts.','Winry_schuldig.png',
+	'Winry Bockrell: Hier hast du Ihn wieder, aber erzähle Tobias bitte nichts.','Winry_schuldig.png',
 	]
 }
 
@@ -553,5 +553,85 @@ var dialog_3016 = {
 var dialog_3017 = {
   dialog:[
 	'Winry Bockrell: Lass mich inruhe, ich Arbeite!','Winry_wuetend.png',
+	]
+}
+
+//Verliebte - Jonathan - Trashtalk - 1
+var dialog_3018 = {
+  dialog:[
+	'Jonathan: Ist Rosalina nicht wunderbar?','Jonathan_schwaermerisch.png',
+	]
+}
+
+//Verliebte - Jonathan - 1
+var dialog_3019 = {
+  dialog:[
+	'Jonathan: Ist Rosalina nicht wunderbar?','Jonathan_schwaermerisch.png',
+	'Jonathan: Oh, du suchst den Professor?','Jonathan_schwaermerisch.png',
+	'Jonathan: Er war gerade noch hier, ist dann aber weggegangen.','Jonathan_schwaermerisch.png',
+	'Jonathan: Wenn du mir einen Gefallen tust, sage ich dir wo er hingegangen ist.','Jonathan_schwaermerisch.png',
+	'Jonathan: Siehst du Rosalina dahinten am Piano? Ich habe einen Liebesbrief für, traue mich aber nicht ihn ihr zu geben.','Jonathan_schwaermerisch.png',
+	'Jonathan: Wenn du ihn ihr bringst und mir sagst ob sie verliebt aussieht, sage ich dir was du wissen willst.','Jonathan_schwaermerisch.png',
+	]
+}
+
+//Verliebte - Jonathan - Trashtalk - 2
+var dialog_3020 = {
+  dialog:[
+	'Jonathan: Bitte uebergib Rosalina meinen Brief.','Jonathan_schwaermerisch.png',
+	]
+}
+
+//Verliebte - Jonathan - 2
+var dialog_3021 = {
+  dialog:[
+	'Jonathan: Danke das du meinen Brief uebergeben hast. Wie hat Rosalina reagiert?','Jonathan_schwaermerisch.png',
+	]
+}
+
+//Verliebte - Jonathan - 3
+var dialog_3022 = {
+  dialog:[
+	'Jonathan: Ohhh Sie sah verliebt aus, das Freut mich.','Jonathan_verliebt.png',
+	'Jonathan: Vielen Dank fuer das ueberbringen meines Briefes.','Jonathan_verliebt.png',
+	'Jonathan: Ich stehe zu meinem Wort, der Professor wollte zum 3D Kino im sueden.','Jonathan_heiter.jpg',
+	]
+}
+
+//Verliebte - Jonathan - Trashtalk - 3
+var dialog_3023 = {
+  dialog:[
+	'Jonathan: Vielen Dank fuer das ueberbringen meines Briefes. Ich frage sie spaeter, ob sie mit mir ausgeht.','Jonathan_verliebt.png',
+	]
+}
+
+//Verliebte - Rosalina - Trashtalk - 1
+var dialog_3024 = {
+  dialog:[
+	'Rosalina: Ich habe gerade leider keine Zeit um mit dir zu reden, ich muss noch fuer das Stueck proben.','Rosalina_heiter.jpg',
+	]
+}
+
+//Verliebte - Rosalina -  1
+var dialog_3025 = {
+  dialog:[
+	'Rosalina: Hallo werter Besucher, wie kann ich euch helfen?','Rosalina_heiter.jpg',
+	'Rosalina: Oh... du hast einen Brief fuer mich von Jonathan?','Rosalina_verlegen.jpg',
+	'Rosalina: ... ... ...','Rosalina_verlegen.jpg',
+	]
+}
+
+//Verliebte - Rosalina -  2
+var dialog_3026 = {
+  dialog:[
+	'Rosalina: Er ist in mich verliebt! Ich habe so lange auf eine Reaktion von ihm gewartet.','Rosalina_verliebt.jpg',
+	'Rosalina: Danke das du mir diesen Brief gebracht hast. Ich hoffe er bittet mich bald mit ihm auszugehen.','Rosalina_verliebt.jpg',
+	]
+}
+
+//Verliebte - Rosalina - Trashtalk - 2
+var dialog_3027 = {
+  dialog:[
+	'Rosalina: Danke das du mir diesen Brief gebracht hast. Ich hoffe er bittet mich bald mit ihm auszugehen.','Rosalina_verliebt.jpg',
 	]
 }

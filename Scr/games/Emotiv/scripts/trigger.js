@@ -657,7 +657,6 @@ function trigger3002_Eingang(){
 	}
 };
 
-<<<<<<< HEAD
 function trigger3002_2_Eingang(){
 	if(trigger_progress[0] < 2001){
 		Dialog("dialog_3000");
@@ -670,21 +669,19 @@ function trigger3002_2_Eingang(){
     getQuest(14);
 	}
 };
-=======
->>>>>>> 95ec684bc6670b78347d492dce67d95ba21eed30
 
 function trigger3003_Mittelalterstadt(){
     if(trigger_progress[0] == 3002) {
       Dialog("dialog_3004");
       miniGame("puzzle9");
 			Dialog("dialog_3005");
+			getEmotion(13); //enttaeuscht
 			trigger_progress[0]=trigger_progress[0]+1; //3003
     }else{
 			Dialog("dialog_3007");
     }
 };
 
-<<<<<<< HEAD
 function trigger3004_Kartbahn(){
 		if(trigger_progress[0] < 3003) {
 			Dialog("dialog_3008");
@@ -717,11 +714,48 @@ function trigger3006_Winry(){
 			miniGame("puzzle10");
 			Dialog("dialog_3016");
 			giveItem(3);
+			getEmotion(25); //schuldig
 			trigger_progress[0]=trigger_progress[0]+1 //3005
 		}else{
 			Dialog("dialog_3017");
 		}
 };
-//Ich will nur pushen
-=======
->>>>>>> 95ec684bc6670b78347d492dce67d95ba21eed30
+
+
+function trigger3007_Jonathan(){
+		if(trigger_progress[0] < 3006){
+			Dialog("dialog_3018");
+		}else if(trigger_progress[0] == 3006) {
+			Dialog("dialog_3019");
+			miniGame("puzzle11");
+			giveItem(3);
+			getEmotion(26); //schwaermerisch
+			getQuest(16);
+			trigger_progress[0]=trigger_progress[0]+1 //3007
+		}else if(trigger_progress[0] == 3007) {
+			Dialog("dialog_3020");
+		}else if(trigger_progress[0] == 3008) {
+			Dialog("dialog_3021");
+			miniGame("puzzle13");
+			Dialog("dialog_3022");
+			closeQuest(16);
+			getEmotion(33); //verliebt
+			trigger_progress[0]=trigger_progress[0]+1 //3009
+		}else if(trigger_progress[0] > 3008) {
+			Dialog("dialog_3023");
+		}
+};
+
+function trigger3008_Rosalina(){
+		if(trigger_progress[0] < 3007){
+			Dialog("dialog_3024");
+		}else if(trigger_progress[0] == 3007) {
+			Dialog("dialog_3025");
+			miniGame("puzzle12");
+			Dialog("dialog_3026");
+			getEmotion(32); //verlegen
+			trigger_progress[0]=trigger_progress[0]+1 //3008
+		}else if(trigger_progress[0] > 3007) {
+			Dialog("dialog_3027");
+		}
+};
