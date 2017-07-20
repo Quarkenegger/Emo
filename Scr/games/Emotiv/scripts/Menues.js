@@ -77,8 +77,8 @@ function main_menu()
 					else if (yfinger == 73) { redraw = true; questi(); yfinger2 = 78;}
 					else if (yfinger == 103) { redraw = true; control(); yfinger2 = 108;}
 					else if (yfinger == 133) {if (emomap){ redraw = true; map(); yfinger2 = 138;}}
-					else if (yfinger == 163) { Save_Game();}
-					else if (yfinger == 193) { Load_Game();}
+					else if (yfinger == 163) { Save_Game(); return false;}
+					else if (yfinger == 193) { Load_Game();return false;}
 					else if (yfinger == 223) { key=key_cancel}
 					else;	//uh oh.
 				}
