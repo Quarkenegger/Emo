@@ -644,7 +644,7 @@ function trigger3001_UnizuPark (){
 
 function trigger3002_Eingang(){
 	if(trigger_progress[0] < 2001){
-		Dialog("dialog_3000"); // kein eintritt in den Park wenn fortschritt och nicht da ist
+		Dialog("dialog_3000");
 	}else if(trigger_progress[0] < 3001){
 		Dialog("dialog_3001");
 	}else if(trigger_progress[0] == 3001){
@@ -657,20 +657,129 @@ function trigger3002_Eingang(){
 	}
 };
 
+function trigger3002_2_Eingang(){
+	if(trigger_progress[0] < 2001){
+		Dialog("dialog_3000");
+	}else if(trigger_progress[0] < 3001){
+		Dialog("dialog_3001");
+	}else if(trigger_progress[0] == 3001){
+		Dialog("dialog_3003");
+		trigger_progress[0]=trigger_progress[0]+1; //3002
+		closeQuest(13);
+    getQuest(14);
+	}
+};
 
 function trigger3003_Mittelalterstadt(){
     if(trigger_progress[0] == 3002) {
       Dialog("dialog_3004");
-      if(miniGame("puzzle9")){
-				Dialog("dialog_3005");
-				trigger_progress[0]=trigger_progress[0]+1; //3003
-			}else{
-				Dialog("dialog_3006");
-				miniGame("puzzle9");
-				trigger_progress[0]=trigger_progress[0]+1; //3003
-			}
+      miniGame("puzzle9");
+			Dialog("dialog_3005");
+			getEmotion(13); //enttaeuscht
+			trigger_progress[0]=trigger_progress[0]+1; //3003
     }else{
 			Dialog("dialog_3007");
     }
 };
 
+function trigger3004_Kartbahn(){
+		if(trigger_progress[0] < 3003) {
+			Dialog("dialog_3008");
+		}else if(trigger_progress[0] == 3003) {
+      Dialog("dialog_3009");
+      getQuest(15);
+			trigger_progress[0]=trigger_progress[0]+1; //3004
+    }else if(trigger_progress[0] == 3004){
+			Dialog("dialog_3012");
+    }else if(trigger_progress[0] == 3005){
+			Dialog("dialog_3013");
+			closeQuest(15);
+			trigger_progress[0]=trigger_progress[0]+1; //3006
+		}else if(trigger_progress[0] > 3005){
+			Dialog("dialog_3014");
+		}
+};
+
+function trigger3005_Igor(){
+		if(trigger_progress[0] == 3004) {
+			Dialog("dialog_3011");
+		}else{
+			Dialog("dialog_3010");
+		}
+};
+
+function trigger3006_Winry(){
+		if(trigger_progress[0] == 3004) {
+			Dialog("dialog_3015");
+			miniGame("puzzle10");
+			Dialog("dialog_3016");
+			giveItem(3);
+			getEmotion(25); //schuldig
+			trigger_progress[0]=trigger_progress[0]+1 //3005
+		}else{
+			Dialog("dialog_3017");
+		}
+};
+
+
+function trigger3007_Jonathan(){
+		if(trigger_progress[0] < 3006){
+			Dialog("dialog_3018");
+		}else if(trigger_progress[0] == 3006) {
+			Dialog("dialog_3019");
+			miniGame("puzzle11");
+			giveItem(302);
+			getEmotion(26); //schwaermerisch
+			getQuest(16);
+			trigger_progress[0]=trigger_progress[0]+1 //3007
+		}else if(trigger_progress[0] == 3007) {
+			Dialog("dialog_3020");
+		}else if(trigger_progress[0] == 3008) {
+			Dialog("dialog_3021");
+			miniGame("puzzle13");
+			Dialog("dialog_3022");
+			getEmotion(33); //verliebt
+			trigger_progress[0]=trigger_progress[0]+1 //3009
+			
+			// Professor erzeugen
+			CreatePerson("Professor", "professor.rss", false);
+			SetPersonX("Professor", 1464);
+      SetPersonY("Professor", 1305);
+      SetPersonLayer("Professor", 1);
+      SetPersonScript("Professor", SCRIPT_ON_CREATE, QueuePersonCommand("Professor", COMMAND_FACE_EAST, true));
+      SetPersonScript("Professor", SCRIPT_ON_ACTIVATE_TALK, trigger3009_Professor());
+			
+		}else if(trigger_progress[0] > 3008) {
+			Dialog("dialog_3023");
+		}
+};
+
+function trigger3008_Rosalina(){
+		if(trigger_progress[0] < 3007){
+			Dialog("dialog_3024");
+		}else if(trigger_progress[0] == 3007) {
+			Dialog("dialog_3025");
+			miniGame("puzzle12");
+			Dialog("dialog_3026");
+			getEmotion(32); //verlegen
+			closeQuest(16);
+			trigger_progress[0]=trigger_progress[0]+1; //3008
+		}else if(trigger_progress[0] > 3007) {
+			Dialog("dialog_3027");
+		}
+};
+
+function trigger3009_Professor(){
+		if(trigger_progress[0] == 3009){
+			Dialog("dialog_3028");
+			Dialog("dialog_3029");
+			if(progress.length = 40){
+				dialog_3030;
+			}else if(progress.length >= 25){
+				dialog_3031;
+			}else{
+				dialog_3032;
+			}
+			trigger_progress[0]=trigger_progress[0]+1; //3010
+		}
+};
