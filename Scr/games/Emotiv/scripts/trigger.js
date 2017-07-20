@@ -747,7 +747,7 @@ function trigger3007_Jonathan(){
       SetPersonY("Professor", 1305);
       SetPersonLayer("Professor", 1);
       SetPersonScript("Professor", SCRIPT_ON_CREATE, QueuePersonCommand("Professor", COMMAND_FACE_EAST, true));
-      SetPersonScript("Professor", SCRIPT_ON_ACTIVATE_TALK), trigger3009_Professor();
+      SetPersonScript("Professor", SCRIPT_ON_ACTIVATE_TALK, trigger3009_Professor());
 			
 		}else if(trigger_progress[0] > 3008) {
 			Dialog("dialog_3023");
