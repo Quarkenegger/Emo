@@ -635,3 +635,52 @@ var dialog_3027 = {
 	'Rosalina: Danke das du mir diesen Brief gebracht hast. Ich hoffe er bittet mich bald mit ihm auszugehen.','Rosalina_verliebt.jpg',
 	]
 }
+
+//Professor - Ende - 1
+var dialog_3028 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Hallo Indiana Ford, schoen euch zu sehen. Wie weit bist du mit deinen Ermittlungen?','Professor.jpg',
+	'Prof. Kiefer Bauer: WAS!? Die Leute behaupten ich sei fuer das ganze verantwortlich?','Professor.jpg',
+	'Prof. Kiefer Bauer: ... ... ','Professor.jpg',
+	'Prof. Kiefer Bauer: Also ... naja. Vielleicht haben die Leute nicht ganz unrecht ...','Professor.jpg',
+	'Prof. Kiefer Bauer: Ich habe letztens ein Experiment in der Galerie durchgefuehrt.','Professor.jpg',
+	'Prof. Kiefer Bauer: Dabei scheinen viele anwesende ihr Faehigkeit zum erkennen von Emotionen verloren zu haben.','Professor.jpg',
+	'Prof. Kiefer Bauer: Um zu Untersuchen was schiefgeangen ist, wollte ich mit dem Emolex die Emotionen untersuchen.','Professor.jpg',
+	'Prof. Kiefer Bauer: Aber da du ja die Untersuchung uebernommen hast, wollte ich dir nicht dazwischen funken.','Professor.jpg',
+	'Prof. Kiefer Bauer: Wenn du mir kurz den Emolex mit seinen gesammelten Daten zeigen koenntest, kann ich eine Loesung entwickeln.','Professor.jpg',
+	]
+}
+
+//Professor - Ende - 2
+var dialog_3029 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Wie ich sehe hast du '+ 'XYZ' +' Emotionen gesammelt.','Professor.jpg',
+	]
+}
+
+//Professor - Ende - 3 - Emotionsanzahl == 40
+var dialog_3030 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Das sind alle die man hier finden kann. Gut gemacht!','Professor.jpg',
+	'Prof. Kiefer Bauer: Damit sollte ich in der Lage sein ein Geraet zu entwickeln, dass den Effekt umkehrt.','Professor.jpg',
+	'Prof. Kiefer Bauer: Besuche mich doch spaeter im meinem Labor im Dorf.','Professor.jpg',
+	]
+}
+
+//Professor - Ende - 4 - Emotionsanzahl >= 25
+var dialog_3031 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Das sind alle schon ziemlich viele. Nicht schlecht.','Professor.jpg',
+	'Prof. Kiefer Bauer: Damit sollte ich in der Lage sein ein Geraet zu entwickeln, dass den Effekt umkehrt.','Professor.jpg',
+	'Prof. Kiefer Bauer: Besuche mich doch spaeter im meinem Labor im Dorf.','Professor.jpg',
+	]
+}
+
+//Professor - Ende - 5 - Emotionsanzahl < 25
+var dialog_3032 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Das sind schon einige.','Professor.jpg',
+	'Prof. Kiefer Bauer: Das sollte dennoch reichen, um ein Geraet zu entwickeln, dass den Effekt umkehrt.','Professor.jpg',
+	'Prof. Kiefer Bauer: Besuche mich doch spaeter im meinem Labor im Dorf.','Professor.jpg',
+	]
+}
