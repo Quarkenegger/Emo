@@ -76,7 +76,6 @@ item9:{name:'Pistole',description:'Dient als Schutz. Hoffentlich.',picture:'pist
 item10:{name:'Karotte',description:'Dient als Schutz. Hoffentlich.',picture:'Karotte.png'},
 item11:{name:'Erste Hilfe',description:'Damit kann man verletzten Menschen helfen.',picture:'erste_hilfe.jpg'},
 item12:{name:'Bohrmaschine',description:'Bruuuuummmmmmm',picture:'bohrmaschine.png'},
-item12:{name:'Bohrmaschine',description:'Bruuuuummmmmmm',picture:'bohrmaschine.png'},
 item201:{name:'Buch',description:'Das sieht nach einem sehr interessanten Buch aus.',picture:'buch.jpg'},
 item301:{name:'Eintrittskarte', description: 'Damit kannst du den Filmpark besuchen.',picture:'eintrittskarte.png'},
 item302:{name:'Liebesbrief', description: 'Ein Liebesbrief von Jonathan an Rosalina.',picture:'liebesbrief.jpg'},
@@ -113,11 +112,16 @@ var quests={
 	quest9:{name:'Die Kuenstlerin',description:'Suche im Wohnviertel nach der Kuenstlerin Yuga. Vielleicht hat sie Hinweise oder macht sich verdaechtig. Tipp: Yuga ist immer in der Naehe von Helena.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest10:{name:'Die bessere Kuenstlerin',description:'Yuga verdaechtigt Hilda, bestimmt aus Neid. Du solltest trotzdem mir ihr reden. Tipp: Hilda wohnt in einem schoenen Einfamilienhaus.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest11:{name:'Der Ort des Wissens.',description:'Du hast den Hinweis bekommen, dass in der Uni viel untersucht wird. Gehe zur Uni und ermittel dort weiter. Tipp: Die Uni ist westlich vom Wohngebiet.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-  quest12:{name:'Studentenleben',description:'Hilf den Studenten. Wenn ihre Sorgen geklaert sind hat der Professor Zeit fuer eine Befragung.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-  quest13:{name:'Der grosse Filmpark.',description:'Gehe in den Filmpark. Dort musst du nach dem Taeter suchen. Alle Hinweise weisen auf den Professor hin, jedoch warum sollte er sowas getan haben?!.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+    quest12:{name:'Studentenleben',description:'Hilf den drei Studenten. Wenn ihre Sorgen geklaert sind hat der Professor Zeit fuer eine Befragung.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+    quest13:{name:'Der grosse Filmpark.',description:'Gehe in den Filmpark. Dort musst du nach dem Taeter suchen. Alle Hinweise weisen auf den Professor hin, jedoch warum sollte er sowas getan haben?!.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest14:{name:'Suche den Professor.',description:'Der Professor soll hier irgendwo im Filmpark befinden. Suche ihn mit hilfe der anderen G�ste und Angesellten.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest15:{name:'Beschaffe den Schraubenschluessel wieder.',description:'Tobias der Mechaniker sucht seinen Schraubenschluessel. Wenn du ihn findest, hilft er dir den Professor zu finden.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[3]},
 	quest16:{name:'Bringe den Liebesbrief zu Rosalina.',description:'Der arme Jonathan traut sich nicht Rosalina einen Liebesbrief zu uebergeben. Wenn du das fuehr ihn machst, gibt er dir einen weiteren Hinweis darauf wo sich der Professor aufhalten koennte.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+	        quest17:{name:'Studentenleben - Mensa',description:'Besorge dem hungrigen Studenten ein Mensaessen.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+	  	    quest18:{name:'Studentenleben - Bibliothek',description:'Bringe der Studentin das Buch zurueck.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[201]},
+	        quest19:{name:'Studentenleben - Sportplatz',description:'Zeige der Studentin am Sportplatz den Weg zur Mensa.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+
+
 
 
 }

@@ -585,6 +585,9 @@ function trigger2002_uniprof (){
             closeQuest(12);
             getQuest(13);
             giveItem(301);
+            getQuest(17);
+            getQuest(18);
+            getQuest(19);
             unlockMap(5);
             trigger_progress[0]=3001; //3001
         }
@@ -599,6 +602,7 @@ function trigger2003_studentMensa (){
     if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
         Dialog("dialog_2005");
         getEmotion(8); //dankbar
+        closeQuest(17);
         trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
     }
     else {
@@ -610,6 +614,7 @@ function trigger2003_studentBibo (){
     if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
         Dialog("dialog_2006");
         getEmotion(20); //interessiert
+        closeQuest(18);
         trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
     }
     else {
@@ -621,7 +626,9 @@ function trigger2003_studentSportplatz (){
     if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
         Dialog("dialog_2008");
         miniGame("puzzle8");
+        Dialog("dialog_2010");
         getEmotion(34); //verwirrt
+        closeQuest(19);
         trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
     }
     else {
