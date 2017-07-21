@@ -455,13 +455,22 @@ function PlayVideo(x,y,width,height,frames,display_text_bottom){
 
 //------------------------------------------------------klops
 function searchmaps(name){
-    for(var i = 0; i <eval("maparray.map_1.entrys");i=i+1)
-    {
+	//debugText("hallo");
+    var c=eval("maparray.map_1.entrys")
+	var all=eval("maparray");
+	var right;
+	var text;
+	var rimap;
+    for(var i = 0; i <c;i=i+1){
     	//if (i>0) return 10;
+		rimap="map_"+(i+2);
+		text=eval("all."+rimap+".realname");
+            //text = eval("maparray.map_"+(i+2)+".realname");
+        //if (text==name) //debugText((eval("maparray.map_"+(i+2)+".music"))+"jetzt");
 
-            var text = eval("maparray.map_"+(i+2)+".realname");
-    if (text==name) {var uu=[eval("maparray.map_"+(i+2)+".name"),eval("maparray.map_"+(i+2)+".music")];return uu }
-    } return ["Detektei","MAPlabor.mp3"];
+
+    if (text==name) {right=i+2;return [eval("maparray.map_"+(right)+".name"),eval("maparray.map_"+(right)+".music")]}  //var uu=[eval("maparray.map_"+(i+2)+".name"),eval("maparray.map_"+(i+2)+".music")];return uu }
+    } return [eval("maparray.map_"+(right)+".name"),eval("maparray.map_"+(right)+".music")];
 
 
 }

@@ -100,8 +100,11 @@ function updation()
 {
 	if (wassaved){
         //SetPersonX(main_char,80);
+		//debugText(savevariables[2]);
 		map_sound2=searchmaps(savevariables[2])[1];
 		//debugText(map_sound2);
+		savevariables[2]=savevariables[2].substring(0,savevariables[2].length);
+		//debugText(savevariables[2]);
         MapChange(savevariables[2],savevariables[0],savevariables[1],map_sound2);
         //MapSound("MAPcity.wav");
         //SetPersonX(main_char,savevariables[0]);
@@ -137,7 +140,7 @@ if ((maphaschanged)&&(Math.abs(mapcount-time)>=5)){
  	mapcount=time;
     mapname = mapname.substring(0, mapname.indexOf('.'));
 	//debugText2(mapname);
-	mapChangeBox(mapname);
+	mapChangeBox(mapname+".rmp");
  	maphaschanged=false;
  }
  //if(IsKeyPressed(key_map)) oberwelt_karte();
