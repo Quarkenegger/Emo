@@ -575,6 +575,7 @@ FlipScreen();
 function trigger2002_uniprof (){
     if (trigger_progress[0] == 2001) {
         Dialog("dialog_2001");
+        giveItem(201);
         getQuest(12);
         trigger_progress[0]=trigger_progress[0]+1; //2002
     }

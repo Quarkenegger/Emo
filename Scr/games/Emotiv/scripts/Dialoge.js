@@ -358,13 +358,14 @@ var dialog_1009 = {
 //-------------------------------------------------------------------------------------Uni (BILDER)
 var dialog_2001 = {
     dialog:[
-        'Universitaetsprofessor: Ich habe gerade keine Zeit, reden sie doch bitte erst mit meine Studenten. Wenn ihre Probleme geklaert sind habe ich mehr Zeit. ','emo1.png',
+        'Universitaetsprofessor: Ich habe gerade keine Zeit, reden sie doch bitte erst mit meine Studenten. Wenn ihre Probleme geklaert sind habe ich mehr Zeit. ','Hubert.jpg',
+         'Universitaetsprofessor: Achja nehmen sie bitte dieses Buch mit, das hat eine Studentin hier vergessen. ','Hubert.jpg',
     ]
 }
 
 var dialog_2002 = {
     dialog:[
-        'Universitaetsprofessor: Wie geht es mit meinen Studenten voran?. ','emo1.png',
+        'Universitaetsprofessor: Wie geht es mit meinen Studenten voran?. ','Hubert.jpg',
     ]
 }
 
@@ -394,13 +395,13 @@ var dialog_2005 = {
 
 var dialog_2006 = {
     dialog:[
-        'Studentin: Hey, danke dass du mir das Buch besorgst, dass ich unbedingt brauche. Das Thema interessiert mich so sehr ','Marchesa.jpg',
+        'Studentin: Hey, danke dass du mir mein Buch gebracht hast. Das Thema dieses Buches interessiert mich so sehr ','Marchesa.jpg',
     ]
 }
 
 var dialog_2007 = {
     dialog:[
-        'Studentin: Wo ist nur dieses Buch, ich brauche es unbedingt. ','Marchesa.jpg',
+        'Studentin: Wo ist mein Buch, ich brauche es unbedingt. ','Marchesa.jpg',
     ]
 }
 
@@ -455,7 +456,7 @@ var dialog_3003 = {
 var dialog_3004 = {
   dialog:[
 	'Koenig Johann: Hallo Untertan, wie kann euer Koenig euch helfen? ','Koenig_1.jpg',
-	'Koenig Johann: Ihr sucht den Professor? Ich weiß wo er ist, wenn Ihr mein Raetsel loest...','Koenig_1.jpg',
+	'Koenig Johann: Ihr sucht den Professor? Ich weiï¿½ wo er ist, wenn Ihr mein Raetsel loest...','Koenig_1.jpg',
 	  ]
 }
 
@@ -506,8 +507,8 @@ var dialog_3010 = {
 //Kartbahn - Professorsuche - 2
 var dialog_3011 = {
   dialog:[
-	'Igor: Du suchst einen Schraubenschlüssel?','Igor.png',
-	'Igor: Gesehen habe ich keinen, aber vor einer weile ist hier ein seltsam aussehende Frau mit etwas glänzenden in der Hand gewesen und richtung Sued-Osten gelaufen','Igor.png',
+	'Igor: Du suchst einen Schraubenschlï¿½ssel?','Igor.png',
+	'Igor: Gesehen habe ich keinen, aber vor einer weile ist hier ein seltsam aussehende Frau mit etwas glï¿½nzenden in der Hand gewesen und richtung Sued-Osten gelaufen','Igor.png',
 	 ]
 }
 
@@ -545,7 +546,7 @@ var dialog_3015 = {
 var dialog_3016 = {
   dialog:[
 	'Winry Bockrell: Ich weiss er gehoert mir nicht ... ich habe ihn mir doch nur kurz geliehen um den Lautsprecher zu reparieren','Winry_schuldig.png',
-	'Winry Bockrell: Hier hast du Ihn wieder, aber erzähle Tobias bitte nichts.','Winry_schuldig.png',
+	'Winry Bockrell: Hier hast du Ihn wieder, aber erzï¿½hle Tobias bitte nichts.','Winry_schuldig.png',
 	]
 }
 
@@ -570,7 +571,7 @@ var dialog_3019 = {
 	'Jonathan: Oh, du suchst den Professor?','Jonathan_schwaermerisch.png',
 	'Jonathan: Er war gerade noch hier, ist dann aber weggegangen.','Jonathan_schwaermerisch.png',
 	'Jonathan: Wenn du mir einen Gefallen tust, sage ich dir wo er hingegangen ist.','Jonathan_schwaermerisch.png',
-	'Jonathan: Siehst du Rosalina dahinten am Piano? Ich habe einen Liebesbrief für, traue mich aber nicht ihn ihr zu geben.','Jonathan_schwaermerisch.png',
+	'Jonathan: Siehst du Rosalina dahinten am Piano? Ich habe einen Liebesbrief fï¿½r, traue mich aber nicht ihn ihr zu geben.','Jonathan_schwaermerisch.png',
 	'Jonathan: Wenn du ihn ihr bringst und mir sagst ob sie verliebt aussieht, sage ich dir was du wissen willst.','Jonathan_schwaermerisch.png',
 	]
 }
