@@ -61,6 +61,8 @@ puzzle10:{question:'Wie fuehlt sich Winry, nachdem du sie auf frischer Tat ertap
 puzzle11:{question:'Wie sieht Jonathan aus als er ueber Rosalina spricht?', answers:['schwaermerisch','heiter','verliebt','verlegen'],picture:'Jonathan_schwaermerisch.png',correct:1,reward:0},
 puzzle12:{question:'Wie sieht Roaslina aus als sie den Brief liest?', answers:['verliebt','verlegen','neugierig','schwaermerisch'],picture:'Rosalina_verlegen.jpg',correct:2,reward:0},
 puzzle13:{question:'Wie reagierte Roaslina nachdem sie den Brief gelesen hat?', answers:['verliebt','heiter','frustriert','ueberrascht'],picture:'Rosalina_verliebt.jpg',correct:1,reward:0},
+puzzle14:{question:'Das Buch scheint ihr wichtig zu sein, aber was empfindet sie dabei?', answers:['enttaeuscht','heiter','interessiert','ueberrascht'],picture:'studentin_interessiert.png',correct:3,reward:0},
+
 }
 
 var items={

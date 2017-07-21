@@ -614,6 +614,7 @@ function trigger2003_studentMensa (){
 function trigger2003_studentBibo (){
     if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
         Dialog("dialog_2006");
+        miniGame("puzzle14");
         getEmotion(20); //interessiert
         closeQuest(18);
         giveItem(202);
@@ -639,6 +640,13 @@ function trigger2003_studentSportplatz (){
     }
 };
 
+function trigger2999_UnizuParkmitAuto (){
+    if (trigger_progress[0] == 3001) {
+        lightning("car.png");
+        MapChange("Park.rmp", 868, 1575, "MAPpark2.wav");
+        FlipScreen();
+    }
+};
 
 
 //--------------------------------------------------------Park
