@@ -603,6 +603,7 @@ function trigger2003_studentMensa (){
         Dialog("dialog_2005");
         getEmotion(8); //dankbar
         closeQuest(17);
+        giveItem(203);
         trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
     }
     else {
@@ -615,6 +616,7 @@ function trigger2003_studentBibo (){
         Dialog("dialog_2006");
         getEmotion(20); //interessiert
         closeQuest(18);
+        giveItem(202);
         trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
     }
     else {
@@ -629,6 +631,7 @@ function trigger2003_studentSportplatz (){
         Dialog("dialog_2010");
         getEmotion(34); //verwirrt
         closeQuest(19);
+        giveItem(204);
         trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
     }
     else {
