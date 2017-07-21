@@ -137,7 +137,7 @@ function choiceDialog(question,choicearray,dialogarray)
 var entry_highlighted=1;
 	var entrys=choicearray.length;
 	var key=0;
-	while (key!=70){
+	while (key!=key_talk){
 		
 		if (key==77){
 		if (entry_highlighted>1) (entry_highlighted=(entry_highlighted-1));} 
@@ -317,7 +317,7 @@ function miniGame(pname){
 
  var key=0
  
- while (key!=70){
+ while (key!=key_talk){
   RenderMap();
   
   window.drawWindow(15,h*0.75,w-30,h*0.25-15);
