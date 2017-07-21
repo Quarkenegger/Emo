@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5425cd6b-b694-4876-a881-b2b3319e0117" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/maps/kulturzentrum_eingang.rmp" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/maps/kulturzentrum_eingang.rmp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/editor.ini" afterPath="$PROJECT_DIR$/Scr/editor.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/engine.ini" afterPath="$PROJECT_DIR$/Scr/engine.ini" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -780,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500401063925</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="triggerfixes">
+      <created>1500626158833</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1500626158833</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
