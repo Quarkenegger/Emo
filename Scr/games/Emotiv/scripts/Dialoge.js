@@ -61,7 +61,7 @@ var Trash_008 = {
 
 var Trash_009 = {
     dialog:[
-        'Student: Das beste an der Uni ist der Eisladen','Cowboy_2.jpg',
+        'Student: Das beste an der Uni ist der Eisladen','student02.png',
     ]
 }
 
@@ -358,23 +358,24 @@ var dialog_1009 = {
 //-------------------------------------------------------------------------------------Uni (BILDER)
 var dialog_2001 = {
     dialog:[
-        'Universitaetsprofessor: Ich habe gerade keine Zeit, reden sie doch bitte erst mit meine Studenten. Wenn ihre Probleme geklaert sind habe ich mehr Zeit. ','emo1.png',
+        'Universitaetsprofessor: Ich habe gerade keine Zeit, reden sie doch bitte erst mit meine Studenten. Wenn ihre Probleme geklaert sind habe ich mehr Zeit. ','uniprof.png',
+         'Universitaetsprofessor: Achja nehmen sie bitte dieses Buch mit, das hat eine Studentin hier vergessen. ','uniprof.png',
     ]
 }
 
 var dialog_2002 = {
     dialog:[
-        'Universitaetsprofessor: Wie geht es mit meinen Studenten voran?. ','emo1.png',
+        'Universitaetsprofessor: Wie geht es mit meinen Studenten voran?. ','uniprof.png',
     ]
 }
 
 var dialog_2003 = {
     dialog:[
-        'Universitaetsprofessor: Danke dass du meinen Studenten geholfen hast, jetzt koennen wir zu ihren Ermittlungen uebergehen. ','Hubert.jpg',
-        'Universitaetsprofessor: Ich verstehe, es geht um das Bild Emotionale Grande und die ploetzlichen Probleme der Menschen, die keine Emotionen mehr erkennen kÃ¶nnen. ','Hubert.jpg',
-        'Universitaetsprofessor: Einer meiner Kollegen befasst sich mit Emotionsforschung, sein Name ist Kiefer Bauer. Ich habe ihn lange nicht gesehen ','Hubert.jpg',
-        'Universitaetsprofessor: In letzter Zeit hat er sich seltsam Verhalten und zurueck gezogen. Eventuell war er der Taeter. ','Hubert.jpg',
-        'Universitaetsprofessor: Geh in den Filmpark, dort sollte er sich aufhalten. Gehe dazu zum Parkplatz und benutze mein Auto. Hier nimm das, das ist eine Eintrittskarte. ','Hubert.jpg',
+        'Universitaetsprofessor: Danke dass du meinen Studenten geholfen hast, jetzt koennen wir zu ihren Ermittlungen uebergehen. ','uniprof.png',
+        'Universitaetsprofessor: Ich verstehe, es geht um das Bild Emotionale Grande und die ploetzlichen Probleme der Menschen, die keine Emotionen mehr erkennen kÃ¶nnen. ','uniprof.png',
+        'Universitaetsprofessor: Einer meiner Kollegen befasst sich mit Emotionsforschung, sein Name ist Kiefer Bauer. Ich habe ihn lange nicht gesehen ','uniprof.png',
+        'Universitaetsprofessor: In letzter Zeit hat er sich seltsam Verhalten und zurueck gezogen. Eventuell war er der Taeter. ','uniprof.png',
+        'Universitaetsprofessor: Geh in den Filmpark, dort sollte er sich aufhalten. Gehe dazu zum Parkplatz und benutze mein Auto. Hier nimm das, das ist eine Eintrittskarte. ','uniprof.png',
 
     ]
 }
@@ -382,36 +383,42 @@ var dialog_2003 = {
 
 var dialog_2004 = {
     dialog:[
-        'Student: Ich habe so groÃŸen Hunger! ','Cowboy_1.jpg',
+        'Student: Ich habe so groÃŸen Hunger! ','student01.png',
     ]
 }
 
 var dialog_2005 = {
     dialog:[
-        'Student: Du moechtest mir mein Mittag spendieren?! Ich bin dir so dankbar. ','Cowboy_1.jpg',
+        'Student: Du moechtest mir mein Mittag spendieren?! Ich bin dir so dankbar. ','student01.png',
     ]
 }
 
 var dialog_2006 = {
     dialog:[
-        'Studentin: Hey, danke dass du mir das Buch besorgst, dass ich unbedingt brauche. Das Thema interessiert mich so sehr ','Marchesa.jpg',
+        'Studentin: Hey, danke dass du mir mein Buch gebracht hast. Das Thema dieses Buches interessiert mich so sehr ','studentin.png',
     ]
 }
 
 var dialog_2007 = {
     dialog:[
-        'Studentin: Wo ist nur dieses Buch, ich brauche es unbedingt. ','Marchesa.jpg',
+        'Studentin: Wo ist mein Buch, ich brauche es unbedingt. ','studentin.png',
     ]
 }
 
 var dialog_2008 = {
     dialog:[
-        'Studentin: Die Mensa ist im Sueden?! Danke ich war total verwirrt wo ich gerade bin. ','studentin_verwirrt.png',
+        'Studentin: Die Mensa ist im Sueden?! ','studentin_verwirrt.png',
     ]
 }
 var dialog_2009 = {
     dialog:[
-        'Studentin: Wo bin ich hier? ','studentin_verwirrt.png',
+        'Studentin: Wo bin ich hier? Und wie komme ich zur Mensa? ','studentin_verwirrt.png',
+    ]
+}
+
+var dialog_2010 = {
+    dialog:[
+        'Studentin: Ich war total verwirrt, danke dass sie mir gesagt haben, dass die Mensa im Sueden liegt. ','studentin_verwirrt.png',
     ]
 }
 
@@ -455,7 +462,7 @@ var dialog_3003 = {
 var dialog_3004 = {
   dialog:[
 	'Koenig Johann: Hallo Untertan, wie kann euer Koenig euch helfen? ','Koenig_1.jpg',
-	'Koenig Johann: Ihr sucht den Professor? Ich weiß wo er ist, wenn Ihr mein Raetsel loest...','Koenig_1.jpg',
+	'Koenig Johann: Ihr sucht den Professor? Ich weiï¿½ wo er ist, wenn Ihr mein Raetsel loest...','Koenig_1.jpg',
 	  ]
 }
 
@@ -506,8 +513,8 @@ var dialog_3010 = {
 //Kartbahn - Professorsuche - 2
 var dialog_3011 = {
   dialog:[
-	'Igor: Du suchst einen Schraubenschlüssel?','Igor.png',
-	'Igor: Gesehen habe ich keinen, aber vor einer weile ist hier ein seltsam aussehende Frau mit etwas glänzenden in der Hand gewesen und richtung Sued-Osten gelaufen','Igor.png',
+	'Igor: Du suchst einen Schraubenschlï¿½ssel?','Igor.png',
+	'Igor: Gesehen habe ich keinen, aber vor einer weile ist hier ein seltsam aussehende Frau mit etwas glï¿½nzenden in der Hand gewesen und richtung Sued-Osten gelaufen','Igor.png',
 	 ]
 }
 
@@ -545,7 +552,7 @@ var dialog_3015 = {
 var dialog_3016 = {
   dialog:[
 	'Winry Bockrell: Ich weiss er gehoert mir nicht ... ich habe ihn mir doch nur kurz geliehen um den Lautsprecher zu reparieren','Winry_schuldig.png',
-	'Winry Bockrell: Hier hast du Ihn wieder, aber erzähle Tobias bitte nichts.','Winry_schuldig.png',
+	'Winry Bockrell: Hier hast du Ihn wieder, aber erzï¿½hle Tobias bitte nichts.','Winry_schuldig.png',
 	]
 }
 
@@ -570,7 +577,7 @@ var dialog_3019 = {
 	'Jonathan: Oh, du suchst den Professor?','Jonathan_schwaermerisch.png',
 	'Jonathan: Er war gerade noch hier, ist dann aber weggegangen.','Jonathan_schwaermerisch.png',
 	'Jonathan: Wenn du mir einen Gefallen tust, sage ich dir wo er hingegangen ist.','Jonathan_schwaermerisch.png',
-	'Jonathan: Siehst du Rosalina dahinten am Piano? Ich habe einen Liebesbrief für, traue mich aber nicht ihn ihr zu geben.','Jonathan_schwaermerisch.png',
+	'Jonathan: Siehst du Rosalina dahinten am Piano? Ich habe einen Liebesbrief fï¿½r, traue mich aber nicht ihn ihr zu geben.','Jonathan_schwaermerisch.png',
 	'Jonathan: Wenn du ihn ihr bringst und mir sagst ob sie verliebt aussieht, sage ich dir was du wissen willst.','Jonathan_schwaermerisch.png',
 	]
 }
