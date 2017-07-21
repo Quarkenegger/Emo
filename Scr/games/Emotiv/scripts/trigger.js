@@ -674,4 +674,3 @@ function trigger3003_Mittelalterstadt(){
     }
 };
 
-//push

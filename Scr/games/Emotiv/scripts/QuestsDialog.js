@@ -349,6 +349,6 @@ function miniGame(pname){
   debugText("Gut gemacht!");
   }else{
    RenderMap();
-  debugText("Schade, vielleicht beim n�chsten mal.");
+  debugText("Schade, vielleicht beim naechsten mal.");
   }
 }

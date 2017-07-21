@@ -56,7 +56,11 @@ puzzle5:{question:'Sieht man mir meinen Stress nicht an?', answers:['Jace_rnd1.j
 puzzle6:{question:'Ich soll neidisch sein? Niemals?!', answers:['Yuga_rnd1.jpg','Yuga_neid.jpg','Yuga_rnd2.jpg','Yuga_rnd3.jpg'],picture:'',correct:2,reward:0},
 puzzle7:{question:'Die arme Yuga. Ich fuehle mich ganz:', answers:['frustriert','vergebend','schuldig','eifersuechtig'],picture:'Hilda_vergebend.jpg',correct:2,reward:0},
 puzzle8:{question:'Die arme Studentin weiss nicht wo er ist, wie fuehlt er sich wohl: ', answers:['frustriert','verwirrt','dumm','schlau'],picture:'studentin_verwirrt.png',correct:2,reward:0},
-puzzle9:{question:'Der arme Narr Cedric hat seine Muetze verloren, wie fuehlt er sich?', answers:['frustriert','traurig','gelangweilt','enttaeuscht'],picture:'Narr_enttaeuscht.jpg',correct:4,reward:0},
+puzzle9:{question:'Der arme Narr Cedric hat seine Muetze verloren, wie fuehlt er sich?', answers:['frustriert','traurig','gelangweilt','enttaeuscht'],picture:'Narr_enttaeuscht.png',correct:4,reward:0},
+puzzle10:{question:'Wie fuehlt sich Winry, nachdem du sie auf frischer Tat ertappt hast?', answers:['entsetzt','betroffen','schuldig','wuetend'],picture:'Winry_schuldig.png',correct:3,reward:0},
+puzzle11:{question:'Wie sieht Jonathan aus als er ueber Rosalina spricht?', answers:['schwaermerisch','heiter','verliebt','verlegen'],picture:'Jonathan_schwaermerisch.png',correct:1,reward:0},
+puzzle12:{question:'Wie sieht Roaslina aus als sie den Brief liest?', answers:['verliebt','verlegen','neugierig','schwaermerisch'],picture:'Rosalina_verlegen.jpg',correct:2,reward:0},
+puzzle13:{question:'Wie reagierte Roaslina nachdem sie den Brief gelesen hat?', answers:['verliebt','heiter','frustriert','ueberrascht'],picture:'Rosalina_verliebt.jpg',correct:1,reward:0},
 }
 
 var items={
@@ -73,6 +77,7 @@ item10:{name:'Karotte',description:'Dient als Schutz. Hoffentlich.',picture:'Kar
 item11:{name:'Erste Hilfe',description:'Damit kann man verletzten Menschen helfen.',picture:'erste_hilfe.jpg'},
 item12:{name:'Bohrmaschine',description:'Bruuuuummmmmmm',picture:'bohrmaschine.png'},
 item301:{name:'Eintrittskarte', description: 'Damit kannst du den Filmpark besuchen.',picture:'eintrittskarte.png'},
+item302:{name:'Liebesbrief', description: 'Ein Liebesbrief von Jonathan an Rosalina.',picture:'liebesbrief.jpg'},
 }
 
 var maparray={
@@ -107,9 +112,10 @@ var quests={
 	quest10:{name:'Die bessere Kuenstlerin',description:'Yuga verdaechtigt Hilda, bestimmt aus Neid. Du solltest trotzdem mir ihr reden. Tipp: Hilda wohnt in einem schoenen Einfamilienhaus.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest11:{name:'Der Ort des Wissens.',description:'Du hast den Hinweis bekommen, dass in der Uni viel untersucht wird. Gehe zur Uni und ermittel dort weiter. Tipp: Die Uni ist westlich vom Wohngebiet.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
   quest12:{name:'Studentenleben',description:'Hilf den Studenten. Wenn ihre Sorgen geklaert sind hat der Professor Zeit fuer eine Befragung.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-  quest13:{name:'Der gro√üe Filmpark.',description:'Gehe in den Filmpark. Dort musst du nach dem Taeter suchen. Alle Hinweise weisen auf den Professor hin, jedoch warum sollte er sowas getan haben?!.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-	quest14:{name:'Suche den Professor.',description:'Der Professor soll hier irgendwo im Filmpark befinden. Suche ihn mit hilfe der anderen G‰ste und Angesellten',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-
+  quest13:{name:'Der grosse Filmpark.',description:'Gehe in den Filmpark. Dort musst du nach dem Taeter suchen. Alle Hinweise weisen auf den Professor hin, jedoch warum sollte er sowas getan haben?!.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+	quest14:{name:'Suche den Professor.',description:'Der Professor soll hier irgendwo im Filmpark befinden. Suche ihn mit hilfe der anderen G‰ste und Angesellten.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+	quest15:{name:'Beschaffe den Schraubenschluessel wieder.',description:'Tobias der Mechaniker sucht seinen Schraubenschluessel. Wenn du ihn findest, hilft er dir den Professor zu finden.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[3]},
+	quest16:{name:'Bringe den Liebesbrief zu Rosalina.',description:'Der arme Jonathan traut sich nicht Rosalina einen Liebesbrief zu uebergeben. Wenn du das fuehr ihn machst, gibt er dir einen weiteren Hinweis darauf wo sich der Professor aufhalten koennte.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 
 
 }

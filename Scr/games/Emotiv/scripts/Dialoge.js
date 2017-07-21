@@ -305,8 +305,7 @@ var dialog_1003 = {
 	'Helena Graf: Sie wollen mir ein paar Fragen stellen, was?','Helena.jpg',
 	'Helena Graf: Hier ist es aber ziemlich gefaehrlich. Holen sie sich erstmal etwas ums sich zu schuetzen.','Helena.jpg',
 	'Helena Graf: Ich bezweifel sonst, dass sie es hier lange machen werden.','Helena.jpg',
-	
-		]
+	]
 }
 
 var dialog_1004 = {
@@ -464,7 +463,7 @@ var dialog_3004 = {
 var dialog_3005 = {
   dialog:[
 	'Koenig Johann: Ahhh Ihr habt mein Raetsel mit Bravur geloest.','Koenig_1.jpg',
-	'Koenig Johann: Nun gut, ich bin ein Mann der zu seinem Wort steht. Das letzte mal habe ich den Professor in Richtung der Kart-Bahn im Norden laufen sehen.','Koenig_1.jpg',
+	'Koenig Johann: Nun gut, ich bin ein Mann der zu seinem Wort steht. Das letzte mal habe ich den Professor in Richtung der Kartbahn im Norden laufen sehen.','Koenig_1.jpg',
 	  ]
 }
 
@@ -479,5 +478,209 @@ var dialog_3006 = {
 var dialog_3007 = {
   dialog:[
 	'Koenig Johann: Viel Spass in meinem Koenigreich, Untertan.','Koenig_1.jpg',
-	  ]
+	 ]
+}
+
+//Kartbahn - Trashtalk - 1
+var dialog_3008 = {
+  dialog:[
+	'Tobias der Mechaniker: Hallo Kumpel, wenn du Kart fahren moechtest komme doch spaeter wieder, zur Zeit sind alle Karts belegt.','Tobias.png',]
+}
+
+//Kartbahn - Professorsuche - 1
+var dialog_3009 = {
+  dialog:[
+	'Tobias der Mechaniker: Hallo Kumpel, Willkommen auf unserer Schoenen Kartbahn.','Tobias.png',
+	'Tobias der Mechaniker: Du suchst den Professor? Ich wuerde dir gerne helfen, leider hat mir jemand meinen Schraubenschluessel entwendet.','Tobias.png',
+	'Tobias der Mechaniker: Wenn du ihn mir wiederbeschaffst, kann ich dir helfen. Zuletzt habe ich meinen Schraubenschluessel oben bei den Reifen gesehen.','Tobias.png',
+	 ]
+}
+
+//Kartbahn - Trashtalk - 2
+var dialog_3010 = {
+  dialog:[
+	'Igor: Ich wuerde so gerne Kart fahren ...','Igor.png',
+	]
+}
+
+//Kartbahn - Professorsuche - 2
+var dialog_3011 = {
+  dialog:[
+	'Igor: Du suchst einen Schraubenschlüssel?','Igor.png',
+	'Igor: Gesehen habe ich keinen, aber vor einer weile ist hier ein seltsam aussehende Frau mit etwas glänzenden in der Hand gewesen und richtung Sued-Osten gelaufen','Igor.png',
+	 ]
+}
+
+//Kartbahn - Trashtalk - 3
+var dialog_3012 = {
+  dialog:[
+	'Tobias der Mechaniker: Wenn du meinen Schraubenschluessel findest, kann ich dir helfen den Professor zu finden.','Tobias.png',
+	]
+}
+
+//Kartbahn - Professorsuche - 3
+var dialog_3013 = {
+  dialog:[
+	'Tobias der Mechaniker: Du hast meinen Schraubenschluessel gefunden! Danke Kumpel!!','Tobias.png',
+	'Tobias der Mechaniker: Ich habe mit ein paar besuchern geredet. Sie meinen den Professor in der Westernstadt, Oestlich von hier, gesehen zu haben.','Tobias.png',
+	]
+}
+
+//Kartbahn - Trashtalk - 4
+var dialog_3014 = {
+  dialog:[
+	'Tobias der Mechaniker: Danke das du meinen Schraubenschluessel gefunden hast. Leider sind immernoch keine Karts fuer dich frei Kumpel.','Tobias.png',
+	]
+}
+
+//Schraubenschluessel - Winry - 1
+var dialog_3015 = {
+  dialog:[
+	'Winry Bockrell: Wer bist du was willst du?','Winry_ueberrascht.png',
+	'Winry Bockrell: Ihr wollte den Schraubenschluessel wieder?','Winry_ueberrascht.png',
+	]
+}
+
+//Schraubenschluessel - Winry - 2
+var dialog_3016 = {
+  dialog:[
+	'Winry Bockrell: Ich weiss er gehoert mir nicht ... ich habe ihn mir doch nur kurz geliehen um den Lautsprecher zu reparieren','Winry_schuldig.png',
+	'Winry Bockrell: Hier hast du Ihn wieder, aber erzähle Tobias bitte nichts.','Winry_schuldig.png',
+	]
+}
+
+//Schraubenschluessel - Winry - Trashtalk
+var dialog_3017 = {
+  dialog:[
+	'Winry Bockrell: Lass mich inruhe, ich Arbeite!','Winry_wuetend.png',
+	]
+}
+
+//Verliebte - Jonathan - Trashtalk - 1
+var dialog_3018 = {
+  dialog:[
+	'Jonathan: Ist Rosalina nicht wunderbar?','Jonathan_schwaermerisch.png',
+	]
+}
+
+//Verliebte - Jonathan - 1
+var dialog_3019 = {
+  dialog:[
+	'Jonathan: Ist Rosalina nicht wunderbar?','Jonathan_schwaermerisch.png',
+	'Jonathan: Oh, du suchst den Professor?','Jonathan_schwaermerisch.png',
+	'Jonathan: Er war gerade noch hier, ist dann aber weggegangen.','Jonathan_schwaermerisch.png',
+	'Jonathan: Wenn du mir einen Gefallen tust, sage ich dir wo er hingegangen ist.','Jonathan_schwaermerisch.png',
+	'Jonathan: Siehst du Rosalina dahinten am Piano? Ich habe einen Liebesbrief für, traue mich aber nicht ihn ihr zu geben.','Jonathan_schwaermerisch.png',
+	'Jonathan: Wenn du ihn ihr bringst und mir sagst ob sie verliebt aussieht, sage ich dir was du wissen willst.','Jonathan_schwaermerisch.png',
+	]
+}
+
+//Verliebte - Jonathan - Trashtalk - 2
+var dialog_3020 = {
+  dialog:[
+	'Jonathan: Bitte uebergib Rosalina meinen Brief.','Jonathan_schwaermerisch.png',
+	]
+}
+
+//Verliebte - Jonathan - 2
+var dialog_3021 = {
+  dialog:[
+	'Jonathan: Danke das du meinen Brief uebergeben hast. Wie hat Rosalina reagiert?','Jonathan_schwaermerisch.png',
+	]
+}
+
+//Verliebte - Jonathan - 3
+var dialog_3022 = {
+  dialog:[
+	'Jonathan: Ohhh Sie sah verliebt aus, das Freut mich.','Jonathan_verliebt.png',
+	'Jonathan: Vielen Dank fuer das ueberbringen meines Briefes.','Jonathan_verliebt.png',
+	'Jonathan: Ich stehe zu meinem Wort, der Professor wollte zum 3D Kino im sueden.','Jonathan_heiter.jpg',
+	]
+}
+
+//Verliebte - Jonathan - Trashtalk - 3
+var dialog_3023 = {
+  dialog:[
+	'Jonathan: Vielen Dank fuer das ueberbringen meines Briefes. Ich frage sie spaeter, ob sie mit mir ausgeht.','Jonathan_verliebt.png',
+	]
+}
+
+//Verliebte - Rosalina - Trashtalk - 1
+var dialog_3024 = {
+  dialog:[
+	'Rosalina: Ich habe gerade leider keine Zeit um mit dir zu reden, ich muss noch fuer das Stueck proben.','Rosalina_heiter.jpg',
+	]
+}
+
+//Verliebte - Rosalina -  1
+var dialog_3025 = {
+  dialog:[
+	'Rosalina: Hallo werter Besucher, wie kann ich euch helfen?','Rosalina_heiter.jpg',
+	'Rosalina: Oh... du hast einen Brief fuer mich von Jonathan?','Rosalina_verlegen.jpg',
+	'Rosalina: ... ... ...','Rosalina_verlegen.jpg',
+	]
+}
+
+//Verliebte - Rosalina -  2
+var dialog_3026 = {
+  dialog:[
+	'Rosalina: Er ist in mich verliebt! Ich habe so lange auf eine Reaktion von ihm gewartet.','Rosalina_verliebt.jpg',
+	'Rosalina: Danke das du mir diesen Brief gebracht hast. Ich hoffe er bittet mich bald mit ihm auszugehen.','Rosalina_verliebt.jpg',
+	]
+}
+
+//Verliebte - Rosalina - Trashtalk - 2
+var dialog_3027 = {
+  dialog:[
+	'Rosalina: Danke das du mir diesen Brief gebracht hast. Ich hoffe er bittet mich bald mit ihm auszugehen.','Rosalina_verliebt.jpg',
+	]
+}
+
+//Professor - Ende - 1
+var dialog_3028 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Hallo Indiana Ford, schoen euch zu sehen. Wie weit bist du mit deinen Ermittlungen?','Professor.jpg',
+	'Prof. Kiefer Bauer: WAS!? Die Leute behaupten ich sei fuer das ganze verantwortlich?','Professor.jpg',
+	'Prof. Kiefer Bauer: ... ... ','Professor.jpg',
+	'Prof. Kiefer Bauer: Also ... naja. Vielleicht haben die Leute nicht ganz unrecht ...','Professor.jpg',
+	'Prof. Kiefer Bauer: Ich habe letztens ein Experiment in der Galerie durchgefuehrt.','Professor.jpg',
+	'Prof. Kiefer Bauer: Dabei scheinen viele anwesende ihr Faehigkeit zum erkennen von Emotionen verloren zu haben.','Professor.jpg',
+	'Prof. Kiefer Bauer: Um zu Untersuchen was schiefgeangen ist, wollte ich mit dem Emolex die Emotionen untersuchen.','Professor.jpg',
+	'Prof. Kiefer Bauer: Aber da du ja die Untersuchung uebernommen hast, wollte ich dir nicht dazwischen funken.','Professor.jpg',
+	'Prof. Kiefer Bauer: Wenn du mir kurz den Emolex mit seinen gesammelten Daten zeigen koenntest, kann ich eine Loesung entwickeln.','Professor.jpg',
+	]
+}
+
+//Professor - Ende - 2
+var dialog_3029 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Wie ich sehe hast du '+ 'XYZ' +' Emotionen gesammelt.','Professor.jpg',
+	]
+}
+
+//Professor - Ende - 3 - Emotionsanzahl == 40
+var dialog_3030 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Das sind alle die man hier finden kann. Gut gemacht!','Professor.jpg',
+	'Prof. Kiefer Bauer: Damit sollte ich in der Lage sein ein Geraet zu entwickeln, dass den Effekt umkehrt.','Professor.jpg',
+	'Prof. Kiefer Bauer: Besuche mich doch spaeter im meinem Labor im Dorf.','Professor.jpg',
+	]
+}
+
+//Professor - Ende - 4 - Emotionsanzahl >= 25
+var dialog_3031 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Das sind alle schon ziemlich viele. Nicht schlecht.','Professor.jpg',
+	'Prof. Kiefer Bauer: Damit sollte ich in der Lage sein ein Geraet zu entwickeln, dass den Effekt umkehrt.','Professor.jpg',
+	'Prof. Kiefer Bauer: Besuche mich doch spaeter im meinem Labor im Dorf.','Professor.jpg',
+	]
+}
+
+//Professor - Ende - 5 - Emotionsanzahl < 25
+var dialog_3032 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Das sind schon einige.','Professor.jpg',
+	'Prof. Kiefer Bauer: Das sollte dennoch reichen, um ein Geraet zu entwickeln, dass den Effekt umkehrt.','Professor.jpg',
+	'Prof. Kiefer Bauer: Besuche mich doch spaeter im meinem Labor im Dorf.','Professor.jpg',
+	]
 }
