@@ -577,6 +577,9 @@ function trigger2002_uniprof (){
         Dialog("dialog_2001");
         giveItem(201);
         getQuest(12);
+         getQuest(17);
+         getQuest(18);
+         getQuest(19);
         trigger_progress[0]=trigger_progress[0]+1; //2002
     }
     else {
@@ -585,9 +588,6 @@ function trigger2002_uniprof (){
             closeQuest(12);
             getQuest(13);
             giveItem(301);
-            getQuest(17);
-            getQuest(18);
-            getQuest(19);
             unlockMap(5);
             trigger_progress[0]=3001; //3001
         }
@@ -603,6 +603,7 @@ function trigger2003_studentMensa (){
         Dialog("dialog_2005");
         getEmotion(8); //dankbar
         closeQuest(17);
+        giveItem(203);
         trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
     }
     else {
@@ -613,8 +614,10 @@ function trigger2003_studentMensa (){
 function trigger2003_studentBibo (){
     if ((trigger_progress[0] == 2002) || (trigger_progress[0] == 2003) || (trigger_progress[0] == 2004)) {
         Dialog("dialog_2006");
+        miniGame("puzzle14");
         getEmotion(20); //interessiert
         closeQuest(18);
+        giveItem(202);
         trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
     }
     else {
@@ -629,6 +632,7 @@ function trigger2003_studentSportplatz (){
         Dialog("dialog_2010");
         getEmotion(34); //verwirrt
         closeQuest(19);
+        giveItem(204);
         trigger_progress[0]=trigger_progress[0]+1; //2003 || 2004 || 2005
     }
     else {
@@ -636,6 +640,13 @@ function trigger2003_studentSportplatz (){
     }
 };
 
+function trigger2999_UnizuParkmitAuto (){
+    if (trigger_progress[0] == 3001) {
+        lightning("car.png");
+        MapChange("Park.rmp", 868, 1575, "MAPpark2.wav");
+        FlipScreen();
+    }
+};
 
 
 //--------------------------------------------------------Park

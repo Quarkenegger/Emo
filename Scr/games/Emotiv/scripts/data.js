@@ -61,6 +61,8 @@ puzzle10:{question:'Wie fuehlt sich Winry, nachdem du sie auf frischer Tat ertap
 puzzle11:{question:'Wie sieht Jonathan aus als er ueber Rosalina spricht?', answers:['schwaermerisch','heiter','verliebt','verlegen'],picture:'Jonathan_schwaermerisch.png',correct:1,reward:0},
 puzzle12:{question:'Wie sieht Roaslina aus als sie den Brief liest?', answers:['verliebt','verlegen','neugierig','schwaermerisch'],picture:'Rosalina_verlegen.jpg',correct:2,reward:0},
 puzzle13:{question:'Wie reagierte Roaslina nachdem sie den Brief gelesen hat?', answers:['verliebt','heiter','frustriert','ueberrascht'],picture:'Rosalina_verliebt.jpg',correct:1,reward:0},
+puzzle14:{question:'Das Buch scheint ihr wichtig zu sein, aber was empfindet sie dabei?', answers:['enttaeuscht','heiter','interessiert','ueberrascht'],picture:'studentin_interessiert.png',correct:3,reward:0},
+
 }
 
 var items={
@@ -77,6 +79,9 @@ item10:{name:'Karotte',description:'Dient als Schutz. Hoffentlich.',picture:'Kar
 item11:{name:'Erste Hilfe',description:'Damit kann man verletzten Menschen helfen.',picture:'erste_hilfe.jpg'},
 item12:{name:'Bohrmaschine',description:'Bruuuuummmmmmm',picture:'bohrmaschine.png'},
 item201:{name:'Buch',description:'Das sieht nach einem sehr interessanten Buch aus.',picture:'buch.jpg'},
+item202:{name:'Notiz',description:'Das ist eine Notiz auf der steht, dass du der Studentin das Buch gebracht hast.',picture:'paper01.jpg'},
+item203:{name:'Notiz',description:'Das ist eine Notiz auf der steht, dass du dem Studenten ein Essen spendiert hast.',picture:'paper02.png'},
+item204:{name:'Notiz',description:'Das ist eine Notiz auf der steht, dass du der Studentin den Weg zur Mensa gezeigt hast.',picture:'paper03.jpg'},
 item301:{name:'Eintrittskarte', description: 'Damit kannst du den Filmpark besuchen.',picture:'eintrittskarte.png'},
 item302:{name:'Liebesbrief', description: 'Ein Liebesbrief von Jonathan an Rosalina.',picture:'liebesbrief.jpg'},
 }
@@ -112,9 +117,9 @@ var quests={
 	quest9:{name:'Die Kuenstlerin',description:'Suche im Wohnviertel nach der Kuenstlerin Yuga. Vielleicht hat sie Hinweise oder macht sich verdaechtig. Tipp: Yuga ist immer in der Naehe von Helena.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest10:{name:'Die bessere Kuenstlerin',description:'Yuga verdaechtigt Hilda, bestimmt aus Neid. Du solltest trotzdem mir ihr reden. Tipp: Hilda wohnt in einem schoenen Einfamilienhaus.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest11:{name:'Der Ort des Wissens.',description:'Du hast den Hinweis bekommen, dass in der Uni viel untersucht wird. Gehe zur Uni und ermittel dort weiter. Tipp: Die Uni ist westlich vom Wohngebiet.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-    quest12:{name:'Studentenleben',description:'Hilf den drei Studenten. Wenn ihre Sorgen geklaert sind hat der Professor Zeit fuer eine Befragung.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+    quest12:{name:'Studentenleben',description:'Hilf den drei Studenten. Wenn ihre Sorgen geklaert sind hat der Professor Zeit fuer eine Befragung.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[202,203,204]},
     quest13:{name:'Der grosse Filmpark.',description:'Gehe in den Filmpark. Dort musst du nach dem Taeter suchen. Alle Hinweise weisen auf den Professor hin, jedoch warum sollte er sowas getan haben?!.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
-	quest14:{name:'Suche den Professor.',description:'Der Professor soll hier irgendwo im Filmpark befinden. Suche ihn mit hilfe der anderen G�ste und Angesellten.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
+	quest14:{name:'Suche den Professor.',description:'Der Professor soll hier irgendwo im Filmpark befinden. Suche ihn mit hilfe der anderen Gaeste und Angesellten.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest15:{name:'Beschaffe den Schraubenschluessel wieder.',description:'Tobias der Mechaniker sucht seinen Schraubenschluessel. Wenn du ihn findest, hilft er dir den Professor zu finden.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[3]},
 	quest16:{name:'Bringe den Liebesbrief zu Rosalina.',description:'Der arme Jonathan traut sich nicht Rosalina einen Liebesbrief zu uebergeben. Wenn du das fuehr ihn machst, gibt er dir einen weiteren Hinweis darauf wo sich der Professor aufhalten koennte.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	        quest17:{name:'Studentenleben - Mensa',description:'Besorge dem hungrigen Studenten ein Mensaessen.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},

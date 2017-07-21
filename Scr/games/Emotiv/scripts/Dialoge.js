@@ -395,7 +395,7 @@ var dialog_2005 = {
 
 var dialog_2006 = {
     dialog:[
-        'Studentin: Hey, danke dass du mir mein Buch gebracht hast. Das Thema dieses Buches interessiert mich so sehr ','studentin.png',
+        'Studentin: Hey, danke dass du mir mein Buch gebracht hast. Das Thema dieses Buches interessiert mich so sehr ','studentin_interessiert.png',
     ]
 }
 
