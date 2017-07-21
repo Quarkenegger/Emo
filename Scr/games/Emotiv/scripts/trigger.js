@@ -577,6 +577,9 @@ function trigger2002_uniprof (){
         Dialog("dialog_2001");
         giveItem(201);
         getQuest(12);
+         getQuest(17);
+         getQuest(18);
+         getQuest(19);
         trigger_progress[0]=trigger_progress[0]+1; //2002
     }
     else {
@@ -585,9 +588,6 @@ function trigger2002_uniprof (){
             closeQuest(12);
             getQuest(13);
             giveItem(301);
-            getQuest(17);
-            getQuest(18);
-            getQuest(19);
             unlockMap(5);
             trigger_progress[0]=3001; //3001
         }
