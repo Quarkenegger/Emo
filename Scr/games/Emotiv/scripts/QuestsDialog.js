@@ -86,9 +86,14 @@ if (inventory[i]==number) return true;}
 return false;
 }
 
-//legt ein item mit nummer number in das inventar des spielers
+//legt ein item mit nummer "number" in das inventar des spielers
 function giveItem(number){
-inventory.push(number);
+	inventory.push(number);
+}
+
+//loescht das item mit nummer "number" im inventar des spielers
+function removeItem(number){
+	inventory = deleteFromArray(inventory,number);
 }
 
 //schaltet eine emotion im emolex frei(+emonummer)

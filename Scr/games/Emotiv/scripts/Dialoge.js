@@ -513,8 +513,8 @@ var dialog_3010 = {
 //Kartbahn - Professorsuche - 2
 var dialog_3011 = {
   dialog:[
-	'Igor: Du suchst einen Schraubenschl�ssel?','Igor.png',
-	'Igor: Gesehen habe ich keinen, aber vor einer weile ist hier ein seltsam aussehende Frau mit etwas gl�nzenden in der Hand gewesen und richtung Sued-Osten gelaufen','Igor.png',
+	'Igor: Du suchst einen Schraubenschluessel?','Igor.png',
+	'Igor: Gesehen habe ich keinen, aber vor einer weile ist hier eine seltsam aussehende Frau mit etwas glaenzenden in der Hand gewesen und richtung Sued-Osten gelaufen','Igor.png',
 	 ]
 }
 
@@ -551,8 +551,8 @@ var dialog_3015 = {
 //Schraubenschluessel - Winry - 2
 var dialog_3016 = {
   dialog:[
-	'Winry Bockrell: Ich weiss er gehoert mir nicht ... ich habe ihn mir doch nur kurz geliehen um den Lautsprecher zu reparieren','Winry_schuldig.png',
-	'Winry Bockrell: Hier hast du Ihn wieder, aber erz�hle Tobias bitte nichts.','Winry_schuldig.png',
+	'Winry Bockrell: Ich weiss er gehoert mir nicht ... ich habe ihn mir doch nur kurz geliehen um den Lautsprecher zu reparieren.','Winry_schuldig.png',
+	'Winry Bockrell: Hier hast du ihn wieder, aber erzaehle Tobias bitte nichts.','Winry_schuldig.png',
 	]
 }
 
@@ -658,15 +658,8 @@ var dialog_3028 = {
 	]
 }
 
-//Professor - Ende - 2
-var dialog_3029 = {
-  dialog:[
-	'Prof. Kiefer Bauer: Wie ich sehe hast du '+ 'XYZ' +' Emotionen gesammelt.','Professor.jpg',
-	]
-}
-
 //Professor - Ende - 3 - Emotionsanzahl == 40
-var dialog_3030 = {
+var dialog_3029 = {
   dialog:[
 	'Prof. Kiefer Bauer: Das sind alle die man hier finden kann. Gut gemacht!','Professor.jpg',
 	'Prof. Kiefer Bauer: Damit sollte ich in der Lage sein ein Geraet zu entwickeln, dass den Effekt umkehrt.','Professor.jpg',
@@ -675,7 +668,7 @@ var dialog_3030 = {
 }
 
 //Professor - Ende - 4 - Emotionsanzahl >= 25
-var dialog_3031 = {
+var dialog_3030 = {
   dialog:[
 	'Prof. Kiefer Bauer: Das sind alle schon ziemlich viele. Nicht schlecht.','Professor.jpg',
 	'Prof. Kiefer Bauer: Damit sollte ich in der Lage sein ein Geraet zu entwickeln, dass den Effekt umkehrt.','Professor.jpg',
@@ -684,7 +677,7 @@ var dialog_3031 = {
 }
 
 //Professor - Ende - 5 - Emotionsanzahl < 25
-var dialog_3032 = {
+var dialog_3031 = {
   dialog:[
 	'Prof. Kiefer Bauer: Das sind schon einige.','Professor.jpg',
 	'Prof. Kiefer Bauer: Das sollte dennoch reichen, um ein Geraet zu entwickeln, dass den Effekt umkehrt.','Professor.jpg',

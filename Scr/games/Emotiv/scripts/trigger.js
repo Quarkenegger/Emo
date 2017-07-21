@@ -755,15 +755,13 @@ function trigger3007_Jonathan(){
 			miniGame("puzzle13");
 			Dialog("dialog_3022");
 			getEmotion(33); //verliebt
+			closeQuest(16);
 			trigger_progress[0]=trigger_progress[0]+1 //3009
 			
-			// Professor erzeugen
-			CreatePerson("Professor", "professor.rss", false);
+			// Professor "erzeugen"
 			SetPersonX("Professor", 1464);
       SetPersonY("Professor", 1305);
-      SetPersonLayer("Professor", 1);
-      SetPersonScript("Professor", SCRIPT_ON_CREATE, QueuePersonCommand("Professor", COMMAND_FACE_EAST, true));
-      SetPersonScript("Professor", SCRIPT_ON_ACTIVATE_TALK, trigger3009_Professor());
+      SetPersonVisible("Professor", true);
 			
 		}else if(trigger_progress[0] > 3008) {
 			Dialog("dialog_3023");
@@ -778,7 +776,7 @@ function trigger3008_Rosalina(){
 			miniGame("puzzle12");
 			Dialog("dialog_3026");
 			getEmotion(32); //verlegen
-			closeQuest(16);
+			removeItem(302);
 			trigger_progress[0]=trigger_progress[0]+1; //3008
 		}else if(trigger_progress[0] > 3007) {
 			Dialog("dialog_3027");
@@ -788,14 +786,15 @@ function trigger3008_Rosalina(){
 function trigger3009_Professor(){
 		if(trigger_progress[0] == 3009){
 			Dialog("dialog_3028");
-			Dialog("dialog_3029");
-			if(progress.length = 40){
-				dialog_3030;
+			if(progress.length == 40){
+				Dialog("dialog_3029");
 			}else if(progress.length >= 25){
-				dialog_3031;
-			}else{
-				dialog_3032;
+				Dialog("dialog_3030");
+			}else if(progress.length < 25){
+				Dialog("dialog_3031");
 			}
 			trigger_progress[0]=trigger_progress[0]+1; //3010
+			IgnorePersonObstructions("Professor",true);
+			moveQueue("Professor",[1464,1337,1170,1337,1170,1290,855,1270,855,1590]);
 		}
 };

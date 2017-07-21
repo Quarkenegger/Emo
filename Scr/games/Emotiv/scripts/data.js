@@ -89,7 +89,7 @@ item302:{name:'Liebesbrief', description: 'Ein Liebesbrief von Jonathan an Rosal
 var maparray={
 map_1:{entrys:15},
 map_2:{name:'Galerie',description:'Hier standen schon so viele Meisterwerke. Die Kuenstler werden von Jahr zu Jahr besser.', realname:'kulturzetrum_eingang.rmp',music:'MAPgallery.mp3'},
-map_3:{name:'Filmpark',description:'Im Filmpark triffst du viele Schauspieler. Sie sind Meister im Nachahmen von Emotionen.',realname:'Park.rmp',music:'MAPpark2.ogg'} ,
+map_3:{name:'Filmpark',description:'Im Filmpark triffst du viele Schauspieler. Sie sind Meister im Nachahmen von Emotionen.',realname:'Park.rmp',music:'MAPpark2.wav'} ,
 map_4:{name:'Stadt',description:'Deine Reise beginnt in deiner Heimatstadt... Hier findest du viele schoene Orte und hilfreiche Personen',realname:'Detektei_Polizei_Buero.rmp',music:'MAPcity.wav'},
 map_5:{name:'Wohnviertel',description:'Im Wohnviertel wohnen die meisten Menschen dieser Stadt. Hier treffen sich alle Schichten',realname:'Wohnviertel.rmp',music:'MAPwohngebiet.wav'},
 map_6:{name:'Dorf',description:'Das Dorf am Rande der Stadt ist ein gemuetlicher Rueckzugsort. Hier findest du auch dein eigenes Haus.',realname:'Dorf.rmp',music:'MAPdorf2.mp3'},
