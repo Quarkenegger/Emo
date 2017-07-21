@@ -663,7 +663,6 @@ var dialog_3029 = {
   dialog:[
 	'Prof. Kiefer Bauer: Das sind alle die man hier finden kann. Gut gemacht!','Professor.jpg',
 	'Prof. Kiefer Bauer: Damit sollte ich in der Lage sein ein Geraet zu entwickeln, dass den Effekt umkehrt.','Professor.jpg',
-	'Prof. Kiefer Bauer: Besuche mich doch spaeter im meinem Labor im Dorf.','Professor.jpg',
 	]
 }
 
@@ -672,7 +671,6 @@ var dialog_3030 = {
   dialog:[
 	'Prof. Kiefer Bauer: Das sind alle schon ziemlich viele. Nicht schlecht.','Professor.jpg',
 	'Prof. Kiefer Bauer: Damit sollte ich in der Lage sein ein Geraet zu entwickeln, dass den Effekt umkehrt.','Professor.jpg',
-	'Prof. Kiefer Bauer: Besuche mich doch spaeter im meinem Labor im Dorf.','Professor.jpg',
 	]
 }
 
@@ -681,6 +679,24 @@ var dialog_3031 = {
   dialog:[
 	'Prof. Kiefer Bauer: Das sind schon einige.','Professor.jpg',
 	'Prof. Kiefer Bauer: Das sollte dennoch reichen, um ein Geraet zu entwickeln, dass den Effekt umkehrt.','Professor.jpg',
-	'Prof. Kiefer Bauer: Besuche mich doch spaeter im meinem Labor im Dorf.','Professor.jpg',
+	'Prof. Kiefer Bauer: Kannst du bitte noch kurz zu \"Tobias\" dem Mechaniker gehen und mir eine \"Linse\" besorgen?\
+Ich warte solange in meinem Labor im Dorf auf dich.','Professor.jpg',
+	]
+}
+
+//Professor - Ende - 6 - Linse
+var dialog_3032 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Kannst du bitte noch kurz zu \"Tobias\" dem Mechaniker gehen und mir eine \"Linse\" besorgen? \
+Ich warte solange in meinem Labor im Dorf auf dich.','Professor.jpg',
+	]
+}
+
+//Tobias der Mechaniker - Linse - 1
+var dialog_3033 = {
+  dialog:[
+	'Tobias der Mechaniker: Oh der Professor schickt dich und möchte eine \"Linse\"? Lass mich kurz suchen, ich habe hier irgendwo eine.','Tobias.png',
+	'Tobias der Mechaniker: ...','Tobias.png',
+	'Tobias der Mechaniker: Ahhh hier ist sie. Man sieht sich Kumpel.','Tobias.png',
 	]
 }

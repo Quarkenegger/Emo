@@ -172,7 +172,7 @@ function Load_Game(){
 		wassaved=true;
 		savevariables=[savegame2.person_x,savegame2.person_y,savegame2.map];
 		map_sound.setVolume(volume*255);
-        TextBox_W("Spiel erfolgreich geladen.Leer fuer weiter.",200);
+        TextBox_W("Spiel erfolgreich geladen.Leer fuer weiter.",400);
 
 	//	MapChange(savegame2.map,savegame2.person_x,savegame2.person_y,"MAPdorf.ogg");
 		MapEngine(savegame2.map, 60);
@@ -193,7 +193,7 @@ function Load_Game(){
         MapEngine(savegame2.map, 60);*/
        // DestroyPerson("Indiana Ford");
         RenderMap();
-		TextBox_W("Spiel erfolgreich geladen. Leer fuer weiter.",200);
+		TextBox_W("Spiel erfolgreich geladen. Leer fuer weiter.",400);
 
         wassaved=true;
         savevariables=[savegame2.person_x,savegame2.person_y,savegame2.map];

@@ -711,6 +711,11 @@ function trigger3004_Kartbahn(){
 			Dialog("dialog_3013");
 			closeQuest(15);
 			trigger_progress[0]=trigger_progress[0]+1; //3006
+		}else if(trigger_progress[0] == 3010){
+			Dialog("dialog_3033");
+			giveItem(303);
+			DestroyPerson("Professor");
+			trigger_progress[0]=trigger_progress[0]+1; //3011
 		}else if(trigger_progress[0] > 3005){
 			Dialog("dialog_3014");
 		}
@@ -793,8 +798,11 @@ function trigger3009_Professor(){
 			}else if(progress.length < 25){
 				Dialog("dialog_3031");
 			}
+			Dialog("dialog_3032");
+			closeQuest(14);
+			getQuest(20);
 			trigger_progress[0]=trigger_progress[0]+1; //3010
 			IgnorePersonObstructions("Professor",true);
-			moveQueue("Professor",[1464,1337,1170,1337,1170,1290,855,1270,855,1590]);
+			moveQueue("Professor",[1464,1337,1170,1337,1170,1290,855,1270,855,1690]);
 		}
 };

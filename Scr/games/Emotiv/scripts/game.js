@@ -93,8 +93,6 @@ function newGame(){
 	MapEngine("firstmap.rmp", 60);
 
 }*/
-//ichwillpushen
-//---------------------------------------------manuel
 
 function updation()
 {
@@ -144,11 +142,12 @@ if ((maphaschanged)&&(Math.abs(mapcount-time)>=5)){
  	maphaschanged=false;
  }
  //if(IsKeyPressed(key_map)) oberwelt_karte();
+ 
 }
 
 //-----------------------------------------------------------------------klops
 
-//funktion wird f?r time ausgef?hrt-gameengine l?uft weiter
+//funktion wird fuer time ausgefuehrt-gameengine laeuft weiter
 function activeWait(time)
 {
 	stop=timeseconds;
