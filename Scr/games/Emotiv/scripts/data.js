@@ -88,7 +88,7 @@ item303:{name:'Linse', description: 'Eine Linse zum fokussieren von Licht. Perfe
 }
 
 var maparray={
-map_1:{entrys:15},
+map_1:{entrys:16},
 map_2:{name:'Galerie',description:'Hier standen schon so viele Meisterwerke. Die Kuenstler werden von Jahr zu Jahr besser.', realname:'kulturzetrum_eingang.rmp',music:'MAPgallery.mp3'},
 map_3:{name:'Filmpark',description:'Im Filmpark triffst du viele Schauspieler. Sie sind Meister im Nachahmen von Emotionen.',realname:'Park.rmp',music:'MAPpark2.wav'} ,
 map_4:{name:'Stadt',description:'Deine Reise beginnt in deiner Heimatstadt... Hier findest du viele schoene Orte und hilfreiche Personen',realname:'Detektei_Polizei_Buero.rmp',music:'MAPcity.wav'},
@@ -103,7 +103,8 @@ map_12:{name:'2. Stock, Einkaufszentrum',description:'nothing',realname:'Einkauf
 map_13:{name:'Erdgeschoss, Einkaufszentrum',description:'nothing',realname:'Einkaufzentrum_EG.rmp',music:'KaufhausmusicMiro.mp3'},
 map_14:{name:'Polizeistation',description:'nothing',realname:'PloizeiHaupt.rmp',music:'MAPlabor.mp3'},
 map_15:{name:'Eigene Wohnung',description:'nothing',realname:'zimmer.rmp',music:'MAPlabor.mp3'},
-map_16:{name:'Detektei',description:'nothing',realname:'Detektei.rmp',music:'MAPlabor.mp3'}
+map_16:{name:'Detektei',description:'nothing',realname:'Detektei.rmp',music:'MAPlabor.mp3'},
+map_17:{name:'Labor',description:'nothing',realname:'Labor.rmp',music:'MAPlabor.mp3'}
  }
 
 var quests={

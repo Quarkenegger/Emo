@@ -700,3 +700,32 @@ var dialog_3033 = {
 	'Tobias der Mechaniker: Ahhh hier ist sie. Man sieht sich Kumpel.','Tobias.png',
 	]
 }
+
+
+//-------------------------------------------------------------------------------- Labor
+
+// Assistentin - trashtalk
+var dialog_4000 = {
+  dialog:[
+	'Assistentin: Guten Tag, wie kann ich Ihnen helfen?','Assistentin.jpg',
+	'Assistentin: Sie suchen den Professor? Der ist gerade unterwegs um dinge zu erforschen.','Assistentin.jpg',
+	'Assistentin: Ich wünsche Ihnen noch einen schönen Tag.','Assistentin.jpg',
+		]
+}
+
+// Assistentin
+var dialog_4001 = {
+  dialog:[
+	'Assistentin: Hallo Herr Ford, der Professor wartet bereits auf Sie.','Assistentin.jpg',
+		]
+}
+
+// Professor
+var dialog_4002 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Hallo Indiana, wie ich sehe hast du die \"Linse\". \
+	Gib mir bitte einen Moment um den \"Deneuralisator\" fertig zu bauen.','Professor.jpg',
+	'Prof. Kiefer Bauer: ~ bastel ... fuchtel ... löt ~','',
+	'Prof. Kiefer Bauer: So... der Deneuralisator ist fertig. Lass uns in die Galerie gehen und ihn testen.','Professor.jpg',
+	]
+}

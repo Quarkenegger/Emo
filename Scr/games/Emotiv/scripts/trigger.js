@@ -470,7 +470,17 @@ MapChange("Detektei_Polizei_Buero.rmp",982,40,"MAPcity.wav");
 FlipScreen();
 };
 
+//Port Dorf zu Labor
+function trigger035_DorfInLabor (){
+MapChange("Labor.rmp",56,135,"MAPlabor.mp3");
+FlipScreen();
+};
 
+//Port Labor zu Dorf
+function trigger036_LaborInDorf (){
+MapChange("Dorf.rmp",440,430,"MAPdorf.ogg");
+FlipScreen();
+};
 
 //----------------------------------------------------------------------------------------------------------------------Wohngebiet Quark
 
@@ -715,7 +725,7 @@ function trigger3004_Kartbahn(){
 			Dialog("dialog_3033");
 			giveItem(303);
 			DestroyPerson("Professor");
-			trigger_progress[0]=trigger_progress[0]+1; //3011
+			trigger_progress[0]=4000; //3011
 		}else if(trigger_progress[0] > 3005){
 			Dialog("dialog_3014");
 		}
@@ -804,5 +814,25 @@ function trigger3009_Professor(){
 			trigger_progress[0]=trigger_progress[0]+1; //3010
 			IgnorePersonObstructions("Professor",true);
 			moveQueue("Professor",[1464,1337,1170,1337,1170,1290,855,1270,855,1690]);
+		}
+};
+
+//--------------------------------------------------------Labor
+
+function trigger4000_Assistentin(){
+		if(trigger_progress[0] == 4000){
+			Dialog("dialog_4001");
+		}else{
+			Dialog("dialog_400");
+		}
+};
+
+function trigger4001_Professor(){
+		if(trigger_progress[0] == 4000){
+			Dialog("dialog_4002");
+			closeQuest(20);
+			lightning("test.png");
+			MapChange("kulturzentrum_eingang.rmp",133,86,"MAPgallery.mp3");
+			FlipScreen();
 		}
 };
