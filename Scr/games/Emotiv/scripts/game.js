@@ -44,7 +44,7 @@ var key_inventory = KEY_I;
 var key_sprint = KEY_SHIFT;
 
 var persons_progress=[0];
-var trigger_progress=[0];
+var trigger_progress=[0,0];
 var volume=0.2;
 var over=true;
 var maps=[1,2,3,5,6,7];

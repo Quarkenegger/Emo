@@ -66,7 +66,9 @@ function closeQuest(number)
 {
 var font2=LoadFont("tahoma12fett.rfn");
 
+if (!isMemberDouble(questlist[0],number)){
  var succ=rewards(number,false);
+
 	if (succ==true){
 	questlist[0]=deleteFromArray(questlist[0],number);
 	questlist[1].push(number);
@@ -76,7 +78,8 @@ var font2=LoadFont("tahoma12fett.rfn");
 	FlipScreen();
 	GetKey();
 	}
-	return succ;
+	return succ;}
+	else return false;
 }
 
 //pr�ft ob [number] item im inventar ist(+itemnummer)

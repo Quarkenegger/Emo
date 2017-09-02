@@ -265,10 +265,11 @@ DestroyPerson("Prof");
 
 //Get Tux
 function trigger015_GetTux (){
-if ((trigger_progress[0]==12) || (trigger_progress[0]==13) || (trigger_progress[0]==14)){
+if ((trigger_progress[1]==0)){
 giveItem(4);
 Dialog("dialog_016");
 IgnorePersonObstructions("MCTux",true);
+trigger_progress[1]=trigger_progress[1]+1;
 }
 };
 
@@ -344,15 +345,16 @@ FlipScreen();
 
 //Port in Galerie
 function trigger026_EinkaufsstrassezuGalerie (){
-MapChange("kulturzentrum_eingang.rmp",280,475,"MAPgallery.mp3");
+debugText("Die Galerie ist momentan geschlossen");
+/*MapChange("kulturzentrum_eingang.rmp",280,475,"MAPgallery.mp3");
 DestroyPerson("Polizeichef Rick Bury");
 personAlign("Galerist Hubert",GetPersonX("Galerist Hubert"),GetPersonY("Galerist Hubert"),GetPersonX("Galerist Hubert"),GetPersonY("Galerist Hubert")+10);
-FlipScreen();
+FlipScreen();*/
 };
 
 // Quest Buero
 function trigger027_BueroQuest (){
-if (trigger_progress[0]==12){
+if (((isMemberDouble(questlist[0],5)) && (isMemberDouble(questlist[1],5))&&trigger_progress[0]>=12)){
 trigger_progress[0]=trigger_progress[0]+1; //13
 Dialog("dialog_017");
 getEmotion(16); //frustriert
@@ -370,11 +372,11 @@ else{
 	}
 
 	else {
-		if ((trigger_progress[0]==13) || (trigger_progress[0]==14) || (trigger_progress[0]==15)){
+		if ((trigger_progress[1]==2)&&(trigger_progress[0]>=12)){
 		Dialog("dialog_018");
 		}
 			else {
-		if ((trigger_progress[0]==16)){
+		if ((trigger_progress[1]==3)&&(trigger_progress[0]>=12)){
 		Dialog("dialog_026");
 		}
 	}
@@ -384,12 +386,12 @@ else{
 
 // Quest Giesla Einkaufscenter
 function trigger028_QuestGisela (){
-if (trigger_progress[0]>=15){
+if (trigger_progress[1]>=2){
 MapChange("Einkaufzentrum_1S.rmp",413,195,"MAPshopping.mp3"); //port 1OG
 }
 else{
-if (trigger_progress[0]==13){
-trigger_progress[0]=trigger_progress[0]+1; //14
+if ((isMemberDouble(questlist[0],4)) && (isMemberDouble(questlist[1],4))&&(trigger_progress[0]>=12) ){
+//trigger_progress[0]=trigger_progress[0]+1; //14
 Dialog("dialog_019");
 miniGame("puzzle4");
 getEmotion(28); //traurig
@@ -399,10 +401,10 @@ getQuest(4);
 			if (	closeQuest(4)==true){
 			Dialog("dialog_020");
 			getEmotion(19); //heiter
-			trigger_progress[0]=trigger_progress[0]+1; //15
+			trigger_progress[1]=trigger_progress[1]+1//trigger_progress[0]+1; //2
 			}
 		else{
-			if (closeQuest(4)==false){
+			{
 			Dialog("dialog_019");
 		}
 		}
@@ -424,8 +426,8 @@ FlipScreen();
 
 //Einkauf Stift und Klammer
 function trigger031_Einkauf1 (){
-if (trigger_progress[0]==15){
-trigger_progress[0]=trigger_progress[0]+1; //16
+if ((!isMemberDouble(questlist[0],5))&&(isMemberDouble(inventory,8))){
+trigger_progress[1]=trigger_progress[1]+1; //3-4
 Dialog("dialog_022");
 giveItem(8);
 giveItem(6);
@@ -437,8 +439,8 @@ Dialog("dialog_025");
 
 //Einkauf Ordner und Tacker
 function trigger032_Einkauf2 (){
-if (trigger_progress[0]==16){
-trigger_progress[0]=trigger_progress[0]+1; //17
+if ((!isMemberDouble(questlist[0],5))&&(isMemberDouble(inventory,7))){
+trigger_progress[1]=trigger_progress[1]+1; //3-4
 Dialog("dialog_023");
 giveItem(7);
 giveItem(5);

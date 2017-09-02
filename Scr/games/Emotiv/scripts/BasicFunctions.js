@@ -148,6 +148,7 @@ function Load_Game(){
 		questlist[0]=savegame2.cquest;
 		questlist[1]=savegame2.squest;
 		trigger_progress[0]=savegame2.trigger_pr[0];
+    	trigger_progress[1]=savegame2.trigger_pr[1];
 		oberwelt_map_array=savegame2.map_pr;
 		volume=savegame2.volume;
 
@@ -584,9 +585,18 @@ function LoadVideo(list,video_path,sound_path,frames){
 
 function debugText(text)// zum anzeigen von vars zwecks debug(+text)
 {
+    window.drawWindow(GetScreenWidth()/4,GetScreenHeight()/4,GetScreenWidth()/2,GetScreenHeight()/2);
+    font.drawText((GetScreenWidth()/2)-((text.length*8)/2),GetScreenHeight()/2-5,text);
+    FlipScreen();
+
+    while (GetKey()!=key_talk){
+        window.drawWindow(GetScreenWidth()/4,GetScreenHeight()/4,GetScreenWidth()/2,GetScreenHeight()/2);
+        font.drawText((GetScreenWidth()/2)-((text.length*8)/2),GetScreenHeight()/2-5,text);
+    }
+   /* FlipScreen();
 	displayEntry(GetScreenWidth()/4+(1*((GetScreenWidth()/4)+5)),(GetScreenHeight()/4)+(Math.round((1)/2))*((GetScreenHeight()/6)+5),GetScreenWidth()/4-5,GetScreenHeight()/6-5,text.toString(), true,"test.png",false);
 	FlipScreen();
-	GetKey();
+	GetKey();*/
 }
 
 function debugText2(text)// zum anzeigen von vars zwecks debug(+text)
