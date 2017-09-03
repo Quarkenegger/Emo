@@ -105,7 +105,7 @@ map_14:{name:'Polizeistation',description:'nothing',realname:'PloizeiHaupt.rmp',
 map_15:{name:'Eigene Wohnung',description:'nothing',realname:'zimmer.rmp',music:'MAPlabor.mp3'},
 map_16:{name:'Detektei',description:'nothing',realname:'Detektei.rmp',music:'MAPlabor.mp3'},
 map_17:{name:'Labor',description:'nothing',realname:'Labor.rmp',music:'MAPlabor.mp3'},
-map_18:{name:'Galerie_2',description:'nothing', realname:'kulturzentrum_eingang_ende.rmp',music:'MAPgallery.mp3'},
+map_18:{name:'Galerie',description:'nothing', realname:'kulturzentrum_eingang_ende.rmp',music:'MAPgallery.mp3'},
  }
 
 var quests={
@@ -129,4 +129,6 @@ var quests={
 	quest18:{name:'Studentenleben - Bibliothek',description:'Bringe der Studentin das Buch zurueck.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[201]},
 	quest19:{name:'Studentenleben - Sportplatz',description:'Zeige der Studentin am Sportplatz den Weg zur Mensa.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[]},
 	quest20:{name:'Beschaffe die Linse',description:'Der Professor braucht eine \"Linse\" um das Geraet fertig zu stellen. Diese sollte sich bei \"Tobias\" dem Mechaniker finden lassen. Er befindet sich im noerdlichen Teil des Filmparks.',clues:[],rewardonbeginn:[],rewardonclose:[],neededitems:[303]},
-	}
+    quest21:{name:'cluetest',description:'testquest',clues:["hallo1","hallo2"],rewardonbeginn:[],rewardonclose:[],neededitems:[]}
+
+}

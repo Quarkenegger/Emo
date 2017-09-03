@@ -455,6 +455,23 @@ function PlayVideo(x,y,width,height,frames,display_text_bottom){
 }
 
 //------------------------------------------------------klops
+function getClue(qnumber,cnumber){
+    if (cluequest[0] != null){
+    	var g=true;
+        for (i2=0;i2<cluequest.length;i2++){
+            if (cluequest[i2][0]==qnumber){
+                if (isMemberDouble(cluequest[i2],cnumber)==true){cluequest[i2].push(cnumber);}
+
+                g=false;
+            }
+
+            }
+            if (g) cluequest.push([qnumber,cnumber]);
+        }else cluequest.push([qnumber,cnumber]);
+    }
+
+
+
 function searchmaps(name){
 	//debugText("hallo");
     var c=eval("maparray.map_1.entrys")

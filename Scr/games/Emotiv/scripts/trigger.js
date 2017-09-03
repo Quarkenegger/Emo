@@ -448,7 +448,7 @@ else{
 			else {
 		if ((trigger_progress[1]==3)&&(trigger_progress[0]>=12)){
 		Dialog("dialog_026");
-		}
+		}else {Dialog("dialog_028");}
 	}
 	}
 	}
@@ -844,7 +844,7 @@ function trigger3007_Jonathan(){
 			Dialog("dialog_3022");
 			getEmotion(33); //verliebt
 			closeQuest(16);
-			trigger_progress[0]=trigger_progress[0]+1 //3009
+			trigger_progress[0]=trigger_progress[0]+1; //3009
 			
 			// Professor "erzeugen"
 			SetPersonX("Professor", 1464);
@@ -904,6 +904,7 @@ function trigger4001_Professor(){
 		if(trigger_progress[0] == 4000){
 			Dialog("dialog_4002");
 			closeQuest(20);
+			trigger_progress[0]=trigger_progress[0]+1;//4001
 			MapChange("kulturzentrum_eingang_ende.rmp",265,165,"MAPgallery.mp3");
 		}else{
 			Dialog("dialog_4003");
@@ -911,7 +912,7 @@ function trigger4001_Professor(){
 };
 
 function trigger4002_Professor(){
-		if(trigger_progress[0] >= 4000){
+		if(trigger_progress[0] == 4001){
 			Dialog("dialog_4004");
 			lightning("white.png");
 			Dialog("dialog_4005");

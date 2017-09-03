@@ -10,6 +10,7 @@ RequireScript('Menues.js')
 var progress=[1];
 var inventory=[];
 var questlist=[[],[]];
+var cluequest=[];//clues fue quests in form[[questnummer,cluenummer1,cluenummer2],[questnummer2,cluenummer,...]
 var font=LoadFont("tahoma11.rfn");
 var window = GetSystemWindowStyle();
 var bilder = [];

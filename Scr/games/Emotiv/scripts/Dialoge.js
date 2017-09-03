@@ -125,7 +125,7 @@ var Trash_006 = {
 
 var Trash_021 = {
     dialog:[
-        'Lass mich in Ruhe, ich tue so als wuerde ich arbeiten.','Jace.jpg',
+        'Bueroarbieter: Lass mich in Ruhe, ich tue so als wuerde ich arbeiten.','Jace.jpg',
     ]
 }
 
@@ -380,7 +380,14 @@ var dialog_027 = {
 		]
 }
 
-
+var dialog_028 = {
+    dialog:[
+        'Jace starrt abwesend auf ein leres Blatt Papier....','Jace.jpg',
+        'Jace erwacht ruckartig aus seinem Koma.','Jace.jpg',
+        'Jace: Ugin hat mich dazu getrieben!','Jace.jpg',
+        'Jace: Ach so ihr seids, ich penne, aehm, arbeite dann mal weiter.','Jace.jpg',
+    ]
+}
 
 
 //--------------------------------------------------------------------------------------------------------------------------Wohngebiet Quark

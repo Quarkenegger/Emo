@@ -346,7 +346,26 @@ for(var i = 0; i < progress.length;i=i+1)
   if (i==mark-1){
   var text = eval("quests.quest"+questlist[0][0]+".name");
   questEntry(5,((i)*(y_entry+25))+5,x_entry,y_entry+20,eval("quests.quest"+questlist[0][i]+".name"),true,"",true);
-  questEntry(x_entry-10,5,x_entry,y_entry+195,eval("quests.quest"+questlist[0][i]+".description"),true,"",false);
+  var cluetext="";
+  var dataclues=eval("quests.quest"+questlist[0][i]+".clues");
+
+  if (cluequest[0] != null){
+  	//debugText(cluequest[0][0])
+  	for (i2=0;i2<cluequest.length;i2++){
+  		if (cluequest[i2][0]==questlist[0][i]){
+            //debugText(dataclues);
+            cluetext="Hinweise: ";
+  			for (i3=1;i3<cluequest[i2].length;i3++){
+                cluetext=cluetext+dataclues[cluequest[i2][i3]];
+			}
+
+		}
+	}
+  }
+  var questtext=eval("quests.quest"+questlist[0][i]+".description")+cluetext;
+  questEntry(x_entry-10,5,x_entry,y_entry+195,questtext,true,"",false);
+  //questEntry(x_entry-10,5,x_entry,y_entry+195,eval("quests.quest"+questlist[0][i]+".description"),true,"",false);
+
   }
   else
   questEntry(5,((i)*(y_entry+25))+5,x_entry,y_entry+20,eval("quests.quest"+questlist[0][i]+".name"),false,"",true);
