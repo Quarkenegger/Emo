@@ -483,6 +483,14 @@ function checkresults(table,number,name)//?berpr?ft antworten, liefert bool(+var
 		return false; 
 }
 
+function getRightAnswer(table,name)//?berpr?ft antworten, liefert bool(+varname in data,+gew?hlteantwortnummer,+fragenname)
+{
+    var right=eval(table+"."+name+".correct");
+    var field=eval(table+"."+name+".answers");
+    return field[right-1];
+
+}
+
 function displayAnswers(name, marked,answerfield)//anzeigen von verschiedenen antworten f?r puzzles mit markierung(+fragenname(wird in puzzles nachgeschaut),+istmarkiert(bool))
 {
 	var font = GetSystemFont();
@@ -585,6 +593,8 @@ function LoadVideo(list,video_path,sound_path,frames){
 
 function debugText(text)// zum anzeigen von vars zwecks debug(+text)
 {
+    var font2=LoadFont("tahoma12fett.rfn");
+
     displayEntry(GetScreenWidth()/3, GetScreenHeight()/3,GetScreenWidth()/3, GetScreenHeight()/3,"", true,"white.png",false);
     drawOffsetText(GetScreenWidth()/3+70,GetScreenHeight()/3+80,150,200,0,text,font2);
     FlipScreen();

@@ -417,8 +417,8 @@ FlipScreen();
 //Port in Galerie
 function trigger026_EinkaufsstrassezuGalerie (){
 debugText("Die Galerie ist momentan geschlossen");
-/*MapChange("kulturzentrum_eingang.rmp",280,475,"MAPgallery.mp3");
-DestroyPerson("Polizeichef Rick Bury");
+MapChange("kulturzentrum_eingang.rmp",280,475,"MAPgallery.mp3");
+/*DestroyPerson("Polizeichef Rick Bury");
 personAlign("Galerist Hubert",GetPersonX("Galerist Hubert"),GetPersonY("Galerist Hubert"),GetPersonX("Galerist Hubert"),GetPersonY("Galerist Hubert")+10);
 FlipScreen();*/
 };
@@ -896,7 +896,7 @@ function trigger4000_Assistentin(){
 		if(trigger_progress[0] == 4000){
 			Dialog("dialog_4001");
 		}else{
-			Dialog("dialog_400");
+			Dialog("dialog_4000");
 		}
 };
 
@@ -904,8 +904,16 @@ function trigger4001_Professor(){
 		if(trigger_progress[0] == 4000){
 			Dialog("dialog_4002");
 			closeQuest(20);
-			lightning("test.png");
-			MapChange("kulturzentrum_eingang.rmp",133,86,"MAPgallery.mp3");
-			FlipScreen();
+			MapChange("kulturzentrum_eingang_ende.rmp",265,165,"MAPgallery.mp3");
+		}else{
+			Dialog("dialog_4003");
+		}
+};
+
+function trigger4002_Professor(){
+		if(trigger_progress[0] >= 4000){
+			Dialog("dialog_4004");
+			lightning("white.png");
+			Dialog("dialog_4005");
 		}
 };

@@ -835,7 +835,7 @@ var dialog_4000 = {
   dialog:[
 	'Assistentin: Guten Tag, wie kann ich Ihnen helfen?','Assistentin.jpg',
 	'Assistentin: Sie suchen den Professor? Der ist gerade unterwegs um dinge zu erforschen.','Assistentin.jpg',
-	'Assistentin: Ich wï¿½nsche Ihnen noch einen schï¿½nen Tag.','Assistentin.jpg',
+	'Assistentin: Ich wuensche Ihnen noch einen schoenen Tag.','Assistentin.jpg',
 		]
 }
 
@@ -851,7 +851,80 @@ var dialog_4002 = {
   dialog:[
 	'Prof. Kiefer Bauer: Hallo Indiana, wie ich sehe hast du die \"Linse\". \
 	Gib mir bitte einen Moment um den \"Deneuralisator\" fertig zu bauen.','Professor.jpg',
-	'Prof. Kiefer Bauer: ~ bastel ... fuchtel ... lï¿½t ~','',
+	'Prof. Kiefer Bauer: ~ bastel ... fuchtel ... loet ~','',
 	'Prof. Kiefer Bauer: So... der Deneuralisator ist fertig. Lass uns in die Galerie gehen und ihn testen.','Professor.jpg',
+	]
+}
+
+// Professor - Trashtalk
+var dialog_4003 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Ich bin gerade beschaeftigt, bitte schau doch spaeter noch mal vorbei.','Professor.jpg',
+	]
+}
+
+// Professor - Ende
+var dialog_4004 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Schoen das sie sich hier alle versammelt haben. Mit Hilfe meines Freundes \"Indiana Ford\" konnte ich\
+	ein Geraet entwickeln mit dem sie ihre emotionen wieder erhalten. Bitte schauen sie in dieses Geraet und warten\
+	sie auf den Blitz.','Professor.jpg',
+	]
+}
+
+// Professor - Ende 2
+var dialog_4005 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Indiana, wenn du mich suchst, ich bin im Labor.','Professor.jpg',
+	]
+}
+
+// person_1 - Trashtalk
+var dialog_4006 = {
+  dialog:[
+	'Tobi: Danke das du uns geholfen hast.','Professor.jpg',
+	]
+}
+
+// person_2 - Trashtalk
+var dialog_4007 = {
+  dialog:[
+	'Didi: Ich danke dir Indiana,  jetzt weiß ich wieder wie man froehlich ist.','Professor.jpg',
+	]
+}
+
+// person_3 - Trashtalk
+var dialog_4008 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Indiana, wenn du mich suchst, ich bin im Labor.','Professor.jpg',
+	]
+}
+
+// person_4 - Trashtalk
+var dialog_4009 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Indiana, wenn du mich suchst, ich bin im Labor.','Professor.jpg',
+	]
+}
+
+// person_5 - Trashtalk
+var dialog_4010 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Indiana, wenn du mich suchst, ich bin im Labor.','Professor.jpg',
+	]
+}
+
+// person_6 - Trashtalk
+var dialog_4011 = {
+  dialog:[
+	'Prof. Kiefer Bauer: Indiana, wenn du mich suchst, ich bin im Labor.','Professor.jpg',
+	]
+}
+
+// person_7 - Trashtalk
+var dialog_4012 = {
+  dialog:[
+  'Prof. Kiefer Bauer: Indiana, du solltest durch die Gebiete laufen und anderen Menschen helfen die das gleiche Problem haben.','Professor.jpg',
+	'Prof. Kiefer Bauer: Ich bin derweil in meinem Labor und forsche weiter.','Professor.jpg',
 	]
 }
