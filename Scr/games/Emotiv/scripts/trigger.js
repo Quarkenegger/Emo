@@ -402,8 +402,8 @@ FlipScreen();
 //Port in Galerie
 function trigger026_EinkaufsstrassezuGalerie (){
 debugText("Die Galerie ist momentan geschlossen");
-/*MapChange("kulturzentrum_eingang.rmp",280,475,"MAPgallery.mp3");
-DestroyPerson("Polizeichef Rick Bury");
+MapChange("kulturzentrum_eingang.rmp",280,475,"MAPgallery.mp3");
+/*DestroyPerson("Polizeichef Rick Bury");
 personAlign("Galerist Hubert",GetPersonX("Galerist Hubert"),GetPersonY("Galerist Hubert"),GetPersonX("Galerist Hubert"),GetPersonY("Galerist Hubert")+10);
 FlipScreen();*/
 };
