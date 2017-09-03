@@ -585,6 +585,8 @@ function LoadVideo(list,video_path,sound_path,frames){
 
 function debugText(text)// zum anzeigen von vars zwecks debug(+text)
 {
+    var font2=LoadFont("tahoma12fett.rfn");
+
     displayEntry(GetScreenWidth()/3, GetScreenHeight()/3,GetScreenWidth()/3, GetScreenHeight()/3,"", true,"white.png",false);
     drawOffsetText(GetScreenWidth()/3+70,GetScreenHeight()/3+80,150,200,0,text,font2);
     FlipScreen();
