@@ -121,7 +121,7 @@ function Trash_001_RandomEncounterUte5(){
 //----------------------------------------------Trash Lifefiller Buero
 function Trash_001_RandomEncounterAlleJace(){
    Dialog("Trash_021");
-
+};
 
 //----------------------------------------------Trash Lifefiller Dorf
 
