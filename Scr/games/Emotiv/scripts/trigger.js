@@ -123,6 +123,7 @@ function Trash_001_RandomEncounterAlleJace(){
    Dialog("Trash_021");
 };
 
+
 //----------------------------------------------Trash Lifefiller Dorf
 
 function Trash_001_RandomEncounterUte6(){
