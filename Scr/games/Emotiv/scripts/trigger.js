@@ -120,9 +120,23 @@ function Trash_001_RandomEncounterUte5(){
 
 //----------------------------------------------Trash Lifefiller Buero
 function Trash_001_RandomEncounterAlleJace(){
-    Dialog("Trash_021");
+   Dialog("Trash_021");
 };
 
+
+//----------------------------------------------Trash Lifefiller Dorf
+
+function Trash_001_RandomEncounterUte6(){
+    Dialog("Trash_022");
+};
+
+function Trash_001_RandomEncounterUte7(){
+    Dialog("Trash_023");
+};
+
+function Trash_001_RandomEncounterHans6(){
+    Dialog("Trash_024");
+};
 //----------------------------------------------Trash Lifefiller Uni
 
 function Trash_001_hausmeister (){
@@ -882,7 +896,7 @@ function trigger4000_Assistentin(){
 		if(trigger_progress[0] == 4000){
 			Dialog("dialog_4001");
 		}else{
-			Dialog("dialog_400");
+			Dialog("dialog_4000");
 		}
 };
 
@@ -890,8 +904,16 @@ function trigger4001_Professor(){
 		if(trigger_progress[0] == 4000){
 			Dialog("dialog_4002");
 			closeQuest(20);
-			lightning("test.png");
-			MapChange("kulturzentrum_eingang.rmp",133,86,"MAPgallery.mp3");
-			FlipScreen();
+			MapChange("kulturzentrum_eingang_ende.rmp",265,165,"MAPgallery.mp3");
+		}else{
+			Dialog("dialog_4003");
+		}
+};
+
+function trigger4002_Professor(){
+		if(trigger_progress[0] >= 4000){
+			Dialog("dialog_4004");
+			lightning("white.png");
+			Dialog("dialog_4005");
 		}
 };
