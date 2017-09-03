@@ -402,7 +402,7 @@ FlipScreen();
 //Port in Galerie
 function trigger026_EinkaufsstrassezuGalerie (){
 debugText("Die Galerie ist momentan geschlossen");
-MapChange("kulturzentrum_eingang.rmp",280,475,"MAPgallery.mp3");
+//MapChange("kulturzentrum_eingang.rmp",10,10,"MAPgallery.mp3");
 /*DestroyPerson("Polizeichef Rick Bury");
 personAlign("Galerist Hubert",GetPersonX("Galerist Hubert"),GetPersonY("Galerist Hubert"),GetPersonX("Galerist Hubert"),GetPersonY("Galerist Hubert")+10);
 FlipScreen();*/
@@ -643,6 +643,7 @@ FlipScreen();
 function trigger2002_uniprof (){
     if (trigger_progress[0] == 2001) {
         Dialog("dialog_2001");
+		closeQuest(11);
         giveItem(201);
         getQuest(12);
          getQuest(17);

@@ -149,7 +149,7 @@ function Load_Game(){
 		questlist[1]=savegame2.squest;
 		trigger_progress[0]=savegame2.trigger_pr[0];
     	trigger_progress[1]=savegame2.trigger_pr[1];
-		oberwelt_map_array=savegame2.map_pr;
+    	oberwelt_karte_array=savegame2.map_pr;
 		volume=savegame2.volume;
 
 	//RequireScript(filename1);

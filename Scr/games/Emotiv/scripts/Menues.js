@@ -354,14 +354,15 @@ for(var i = 0; i < progress.length;i=i+1)
   }else
   {
   var progress=maps;
-  for(var i = 0; i < progress.length;i=i+1)
+  if (mark>=progress.length) mark=progress.length-1;
+  for(var i = 1; i < progress.length;i=i+1)
   { 
-  if (i==mark-1){
-  questEntry(5,((i)*(y_entry+5))+5,x_entry,y_entry,eval("maparray.map_"+maps[i]+".name"),true,"",true);
+  if (i==mark){
+  questEntry(5,((i-1)*(y_entry+5))+5,x_entry,y_entry,eval("maparray.map_"+maps[i]+".name"),true,"",true);
   questEntry(x_entry+10,5,x_entry,y_entry+195,eval("maparray.map_"+maps[i]+".description"),true,"",false);
   }
   else
-  questEntry(5,((i)*(y_entry+5))+5,x_entry,y_entry,eval("maparray.map_"+maps[i]+".name"),false,"",true);
+  questEntry(5,((i-1)*(y_entry+5))+5,x_entry,y_entry,eval("maparray.map_"+maps[i]+".name"),false,"",true);
   }
   } 
 }
@@ -395,7 +396,7 @@ if (key==78){
 //ShowPicture2("menues/buch1.png",0,0,GetScreenWidth(), GetScreenHeight());
 //ShowPicture("menues/beschreibung1finger.png",GetScreenWidth()-380, GetScreenHeight()-70,311,32);
 isquest=false;
-entrys=maps.length;
+entrys=maps.length-1;
 }
 RenderMap();
 ShowPicture2("menues/buch1.png",0,0,GetScreenWidth(), GetScreenHeight());
@@ -465,7 +466,7 @@ function oberwelt_karte(){
 		}
 		else{
 			uni_mini_colors.blit(30,150);
-			font.drawText(110, 126, "Universit�t");
+			font.drawText(110, 126, "Universitaet");
 		}
 		if(oberwelt_karte_array[4] == 0){
 			wohnviertel_mini_grayscale.blit(580,60);
@@ -507,7 +508,6 @@ function oberwelt_karte(){
 				if (key== key_cancel)
 				{
 					quit = true;
-
 				}
 
 	}
