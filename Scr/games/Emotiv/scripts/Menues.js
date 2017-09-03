@@ -142,7 +142,7 @@ function soundMenu(song){
 	font.drawTextBox(200,200,200,80,0,"Lautstaerke");
 	Rectangle(150,300,450,30,CreateColor(80,80,80));
 	Rectangle(150+((entry_highlighted-1)*1.6*30),300,30,30,CreateColor(0,0,0));
-	displayEntry(300,350,150,50,"Enter",false,"menues/wood_grain.gif",false)
+	displayEntry(300,350,150,50,"Leertaste",false,"menues/wood_grain.gif",false)
 	FlipScreen();	
 	key=getTheFuckingKeys();
 	}

@@ -349,12 +349,36 @@ var dialog_1008 = {
 		]
 }
 
-var dialog_1009 = { 
+var dialog_1010 = {
   dialog:[
-	'Beende erst deine Ermittlungen im Wohngebiet.','emo1.png',
+	'Helena Graf: Was guckst du? Ich habe viel zu tun. Wenn du nichts zu sagen hast, zisch ab.','Helena.jpg',
 		]
 }
 
+var dialog_1012 = {
+    dialog:[
+        'Kuenstelerin Hilda: Noch zwei Tupfer rot, ein Klecks Blau...','Hilda.jpg',
+		'Kuenstelerin Hilda bemerkt dich nicht','Hilda.jpg'
+
+    ]
+}
+var dialog_1013 = {
+    dialog:[
+        'Kuenstelerin Yuga spricht ins Telefon: Ja, mein Kunstprojekt mit dem Wischmop war superb. Dafuer habe ich einen Preis verdient. Mindestens einen.','Yuga.jpg',
+        'Kuenstelerin Yuga: Ist was? ich muss ein wichtiges Gespraech fÃ¼hren.','Yuga.jpg'
+    ]
+}
+var dialog_1014 = {
+    dialog:[
+        'Slim Cognito: Wolle Waffe kaufen?','erwartungsvoll.png',
+        'Slim Cognito: Dann eben nicht','erwartungsvoll.png'
+    ]
+}
+var dialog_1009 = {
+    dialog:[
+        'Beende erst deine Ermittlungen im Wohngebiet.','emo1.png',
+    ]
+}
 //-------------------------------------------------------------------------------------Uni (BILDER)
 var dialog_2001 = {
     dialog:[
@@ -695,7 +719,7 @@ Ich warte solange in meinem Labor im Dorf auf dich.','Professor.jpg',
 //Tobias der Mechaniker - Linse - 1
 var dialog_3033 = {
   dialog:[
-	'Tobias der Mechaniker: Oh der Professor schickt dich und möchte eine \"Linse\"? Lass mich kurz suchen, ich habe hier irgendwo eine.','Tobias.png',
+	'Tobias der Mechaniker: Oh der Professor schickt dich und mï¿½chte eine \"Linse\"? Lass mich kurz suchen, ich habe hier irgendwo eine.','Tobias.png',
 	'Tobias der Mechaniker: ...','Tobias.png',
 	'Tobias der Mechaniker: Ahhh hier ist sie. Man sieht sich Kumpel.','Tobias.png',
 	]
@@ -709,7 +733,7 @@ var dialog_4000 = {
   dialog:[
 	'Assistentin: Guten Tag, wie kann ich Ihnen helfen?','Assistentin.jpg',
 	'Assistentin: Sie suchen den Professor? Der ist gerade unterwegs um dinge zu erforschen.','Assistentin.jpg',
-	'Assistentin: Ich wünsche Ihnen noch einen schönen Tag.','Assistentin.jpg',
+	'Assistentin: Ich wï¿½nsche Ihnen noch einen schï¿½nen Tag.','Assistentin.jpg',
 		]
 }
 
@@ -725,7 +749,7 @@ var dialog_4002 = {
   dialog:[
 	'Prof. Kiefer Bauer: Hallo Indiana, wie ich sehe hast du die \"Linse\". \
 	Gib mir bitte einen Moment um den \"Deneuralisator\" fertig zu bauen.','Professor.jpg',
-	'Prof. Kiefer Bauer: ~ bastel ... fuchtel ... löt ~','',
+	'Prof. Kiefer Bauer: ~ bastel ... fuchtel ... lï¿½t ~','',
 	'Prof. Kiefer Bauer: So... der Deneuralisator ist fertig. Lass uns in die Galerie gehen und ihn testen.','Professor.jpg',
 	]
 }

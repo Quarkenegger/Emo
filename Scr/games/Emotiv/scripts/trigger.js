@@ -514,7 +514,7 @@ else{
 	closeQuest(7);
 	trigger_progress[0]=trigger_progress[0]+1; //1005
 	getQuest(9);
-	}
+	}else{Dialog("dialog_1010"); }
 }
 };
 
@@ -533,7 +533,7 @@ if (trigger_progress[0]==1003){
 Dialog("dialog_1005");
 giveItem(9);
 trigger_progress[0]=trigger_progress[0]+1; //1004
-}
+}else{Dialog("dialog_1014"); }
 };
 
 //Quest Yuga
@@ -545,7 +545,7 @@ miniGame("puzzle6");
 getEmotion(23); //neid 
 getQuest(10);
 trigger_progress[0]=trigger_progress[0]+1; //1006
-}
+}else{Dialog("dialog_1013"); }
 };
 
 //Quest Hilda
@@ -558,7 +558,7 @@ miniGame("puzzle7");
 getEmotion(31); //vergebend 
 getQuest(11);
 trigger_progress[0]=2001; //2001 Uni freigeschaltet
-}
+}else{Dialog("dialog_1012"); }
 };
 
 //Port Wohnviertel zu Uni

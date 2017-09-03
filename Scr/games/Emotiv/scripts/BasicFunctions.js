@@ -585,13 +585,13 @@ function LoadVideo(list,video_path,sound_path,frames){
 
 function debugText(text)// zum anzeigen von vars zwecks debug(+text)
 {
-    window.drawWindow(GetScreenWidth()/4,GetScreenHeight()/4,GetScreenWidth()/2,GetScreenHeight()/2);
-    font.drawText((GetScreenWidth()/2)-((text.length*8)/2),GetScreenHeight()/2-5,text);
+    displayEntry(GetScreenWidth()/3, GetScreenHeight()/3,GetScreenWidth()/3, GetScreenHeight()/3,"", true,"white.png",false);
+    drawOffsetText(GetScreenWidth()/3+70,GetScreenHeight()/3+80,150,200,0,text,font2);
     FlipScreen();
 
     while (GetKey()!=key_talk){
-        window.drawWindow(GetScreenWidth()/4,GetScreenHeight()/4,GetScreenWidth()/2,GetScreenHeight()/2);
-        font.drawText((GetScreenWidth()/2)-((text.length*8)/2),GetScreenHeight()/2-5,text);
+        displayEntry(GetScreenWidth()/3, GetScreenHeight()/3,GetScreenWidth()/3, GetScreenHeight()/3,"", true,"white.png",false);
+        drawOffsetText(GetScreenWidth()/3+70,GetScreenHeight()/3+80,150,200,0,text,font2);
     }
    /* FlipScreen();
 	displayEntry(GetScreenWidth()/4+(1*((GetScreenWidth()/4)+5)),(GetScreenHeight()/4)+(Math.round((1)/2))*((GetScreenHeight()/6)+5),GetScreenWidth()/4-5,GetScreenHeight()/6-5,text.toString(), true,"test.png",false);
