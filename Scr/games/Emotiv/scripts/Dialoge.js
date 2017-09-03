@@ -45,12 +45,47 @@ var Trash_006 = {
 
 //------------------------------------------Lifefiller Stadt
 //Typ vor Detektei
-var Trash_007 = {
-    dialog:[
-        'Mr. Randomium: Hallo Herr Ford, willkommen zurueck in ihrer Detektei.','Billy.jpg',
-    ]
-}
+   var Trash_007 = {
+       dialog:[
+           'Mr. Randomium: Hallo Herr Ford, willkommen zurueck in ihrer Detektei.','Billy.jpg',
+       ]
+   }
 
+   //Typ vor Detektei
+      var Trash_011 = {
+          dialog:[
+              'Weißt du wo die Detektei ist? Du musst nur Richtung Sued-Osten gehen und schon bist du dort..','Hans1.png',
+          ]
+      }
+
+   //Frau Richtung Dorf
+      var Trash_012 = {
+          dialog:[
+              'WHey, wenn du weiter Richtung Osten laeufst kommst du in ein Dorf. Dort gibt es schoene kleine Haeuser.','Ute11.png',
+          ]
+      }
+
+         //Typ vor Detektei2
+            var Trash_013 = {
+                dialog:[
+                    'Im Buero arbeiten die Leute hart. Es befindet sich im Nord-Osten der Stadt.','Hans2.png',
+                ]
+            }
+
+
+         //Typ zum Einkaufscenter
+            var Trash_014 = {
+                dialog:[
+                    'Das Einkaufscenter bietet unmengen an Artikeln. Du findest es wenn du dieser Strasse folgst.','Hans3.png',
+                ]
+            }
+
+  //Frau zum Wohnviertel
+            var Trash_015 = {
+                dialog:[
+                    'Im Norden liegt das Wohnviertel, es ist ein guter Ort wenn man viele Leute treffen will..','Ute2.png',
+                ]
+            }
 //------------------------------------------Lifefiller Uni
 //Typ vor Uni
 var Trash_008 = {

@@ -67,6 +67,30 @@ function Trash_001_RandomEncounter (){
     Dialog("Trash_007");
 };
 
+//Typ vor der Polizei
+function Trash_001_RandomEncounterHans1(){
+    Dialog("Trash_011");
+};
+
+//Frau Richtung Dorf
+function Trash_001_RandomEncounterUte1(){
+    Dialog("Trash_012");
+};
+
+//Typ vor der Detektei2
+function Trash_001_RandomEncounterHans2(){
+    Dialog("Trash_013");
+};
+
+//Typ zum Einkaufscenter
+function Trash_001_RandomEncounterHans3(){
+    Dialog("Trash_014");
+};
+
+//Frau zum Wohnviertel
+function Trash_001_RandomEncounterUte2(){
+    Dialog("Trash_015");
+};
 //----------------------------------------------Trash Lifefiller Uni
 
 function Trash_001_hausmeister (){
