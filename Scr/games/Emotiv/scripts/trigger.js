@@ -96,6 +96,27 @@ function Trash_001_RandomEncounterUte2(){
 function Trash_001_RandomEncounterUte3(){
     Dialog("Trash_016");
 };
+
+//Typ zur Detektei
+function Trash_001_RandomEncounterHans4(){
+    Dialog("Trash_017");
+};
+
+//Frau vorm Restaurant
+function Trash_001_RandomEncounterUte4(){
+    Dialog("Trash_018");
+};
+
+
+//Typ aufm Parkplatz
+function Trash_001_RandomEncounterHans5(){
+    Dialog("Trash_019");
+};
+
+//Frau
+function Trash_001_RandomEncounterUte5(){
+    Dialog("Trash_020");
+};
 //----------------------------------------------Trash Lifefiller Uni
 
 function Trash_001_hausmeister (){

@@ -54,14 +54,14 @@ var Trash_006 = {
    //Typ vor Detektei
       var Trash_011 = {
           dialog:[
-              'Weißt du wo die Detektei ist? Du musst nur Richtung Sued-Osten gehen und schon bist du dort..','Hans1.png',
+              'Weisst du wo die Detektei ist? Du musst nur Richtung Sued-Osten gehen und schon bist du dort..','Hans1.png',
           ]
       }
 
    //Frau Richtung Dorf
       var Trash_012 = {
           dialog:[
-              'WHey, wenn du weiter Richtung Osten laeufst kommst du in ein Dorf. Dort gibt es schoene kleine Haeuser.','Ute11.png',
+              'Hey, wenn du weiter Richtung Osten laeufst kommst du in ein Dorf. Dort gibt es schoene kleine Haeuser.','Ute11.png',
           ]
       }
 
@@ -88,11 +88,38 @@ var Trash_006 = {
             }
 
   //Frau vorm Park
-             var Trash_015 = {
+             var Trash_016 = {
                  dialog:[
                      'Hier kann man sich wunderbar entspannen und Eis essen.','Ute3.png',
                  ]
              }
+
+  //Typ zur Detektei
+             var Trash_017 = {
+                 dialog:[
+                     'Hallo Herr Detektiv, ist das Wetter heute nicht schoen?.','Hans4.png',
+                 ]
+             }
+
+               //Frau vorm Restaurant
+                          var Trash_018 = {
+                              dialog:[
+                                  'Ich hoffe dieses Restaurant oeffnet bald, es soll einen guten Koch haben..','Ute4.png',
+                              ]
+                          }
+
+  //Typ aufm Parkplatz
+             var Trash_019 = {
+                 dialog:[
+                     'Ey Man wo ist mein Auto?!','Hans5.png',
+                 ]
+             }
+    //Frau
+                          var Trash_020 = {
+                              dialog:[
+                                  'Hey geh mir aus dem Weg!','Ute5.png',
+                              ]
+                          }
 //------------------------------------------Lifefiller Uni
 //Typ vor Uni
 var Trash_008 = {
