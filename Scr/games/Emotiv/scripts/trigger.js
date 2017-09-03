@@ -117,6 +117,12 @@ function Trash_001_RandomEncounterHans5(){
 function Trash_001_RandomEncounterUte5(){
     Dialog("Trash_020");
 };
+
+//----------------------------------------------Trash Lifefiller Buero
+function Trash_001_RandomEncounterAlleJace(){
+    Dialog("Trash_021");
+};
+
 //----------------------------------------------Trash Lifefiller Uni
 
 function Trash_001_hausmeister (){

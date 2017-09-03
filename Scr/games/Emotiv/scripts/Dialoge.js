@@ -120,6 +120,15 @@ var Trash_006 = {
                                   'Hey geh mir aus dem Weg!','Ute5.png',
                               ]
                           }
+
+//------------------------Lifefiller Buero
+
+var Trash_021 = {
+    dialog:[
+        'Lass mich in Ruhe, ich tue so als wuerde ich arbeiten.','Jace.jpg',
+    ]
+}
+
 //------------------------------------------Lifefiller Uni
 //Typ vor Uni
 var Trash_008 = {
@@ -265,6 +274,7 @@ var dialog_016 = {
 
 var dialog_017 = {
   dialog:[
+    'Jace: Ist dir aufgefallen, dass hier alle gelich aussehen?!.','Jace.jpg',
 	'Jace: Was? Du willst uns Boeroarbeiter zu dem Galeriefall befragen?!.','Jace.jpg',
 	'Jace: Dafuer haben wir keine Zeit.','Jace.jpg',
 	'Jace: Du kannst uns natuerlich helfen indem du [Bueromaterial] einkaufen gehst.','Jace.jpg',
