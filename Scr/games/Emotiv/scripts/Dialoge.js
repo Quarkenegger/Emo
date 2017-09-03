@@ -61,7 +61,7 @@ var Trash_006 = {
    //Frau Richtung Dorf
       var Trash_012 = {
           dialog:[
-              'Hey, wenn du weiter Richtung Osten laeufst kommst du in ein Dorf. Dort gibt es schoene kleine Haeuser.','Ute11.png',
+              'Hey, wenn du weiter Richtung Osten laeufst kommst du in ein Dorf. Dort gibt es schoene kleine Haeuser.','Ute1.png',
           ]
       }
 
@@ -889,7 +889,7 @@ var dialog_4006 = {
 // person_2 - Trashtalk
 var dialog_4007 = {
   dialog:[
-	'Didi: Ich danke dir Indiana,  jetzt weiß ich wieder wie man froehlich ist.','Professor.jpg',
+	'Didi: Ich danke dir Indiana,  jetzt weiï¿½ ich wieder wie man froehlich ist.','Professor.jpg',
 	]
 }
 
