@@ -129,6 +129,29 @@ var Trash_021 = {
     ]
 }
 
+
+//------------------------------------------Lifefiller Dorf
+
+var Trash_022 = {
+    dialog:[
+        'Hier gibt es frisches Obst und Gemuese.','Ute6.jpg',
+    ]
+}
+
+
+var Trash_023 = {
+    dialog:[
+        'Wo habe ich nur meine Kuscheltiere? Man sollte sie sicher im Regal verstauen.','Ute7.jpg',
+    ]
+}
+
+
+var Trash_024 = {
+    dialog:[
+        'Hier ist das Labor des Professors. Ich fühle mich wie in Tolaria.','Hans6.jpg',
+    ]
+}
+
 //------------------------------------------Lifefiller Uni
 //Typ vor Uni
 var Trash_008 = {
