@@ -86,6 +86,13 @@ var Trash_006 = {
                     'Im Norden liegt das Wohnviertel, es ist ein guter Ort wenn man viele Leute treffen will..','Ute2.png',
                 ]
             }
+
+  //Frau vorm Park
+             var Trash_015 = {
+                 dialog:[
+                     'Hier kann man sich wunderbar entspannen und Eis essen.','Ute3.png',
+                 ]
+             }
 //------------------------------------------Lifefiller Uni
 //Typ vor Uni
 var Trash_008 = {

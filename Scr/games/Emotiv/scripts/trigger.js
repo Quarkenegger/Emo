@@ -91,6 +91,11 @@ function Trash_001_RandomEncounterHans3(){
 function Trash_001_RandomEncounterUte2(){
     Dialog("Trash_015");
 };
+
+//Frau vorm Park
+function Trash_001_RandomEncounterUte3(){
+    Dialog("Trash_016");
+};
 //----------------------------------------------Trash Lifefiller Uni
 
 function Trash_001_hausmeister (){
