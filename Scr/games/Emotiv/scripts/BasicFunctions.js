@@ -455,6 +455,7 @@ function PlayVideo(x,y,width,height,frames,display_text_bottom){
 }
 
 //------------------------------------------------------klops
+// schaltet einen Clue fuer die gegbene Quest frei eingabe, clues sind zuvor in data definiert worden(questnummer, cluenummer)
 function getClue(qnumber,cnumber){
     if (cluequest[0] != null){
     	var g=true;
@@ -469,7 +470,6 @@ function getClue(qnumber,cnumber){
             if (g) cluequest.push([qnumber,cnumber]);
         }else cluequest.push([qnumber,cnumber]);
     }
-
 
 
 function searchmaps(name){

@@ -148,10 +148,45 @@ function soundMenu(song){
 	}
 }
 
+function credits(song){
+    var entry_highlighted=(volume*10);
+    var key=0;
+    var entrys=10;
+    while (key!=key_talk)
+    {
+        if (key==80)
+        {
+            if (entry_highlighted>1) (entry_highlighted=(entry_highlighted-1));
+        }
+        if (key==78)
+        {
+            if (entry_highlighted<entrys) entry_highlighted=entry_highlighted+1;
+        }
+        if (key==key_talk)
+        {
+            volume=entry_highlighted/10;
+            var save = OpenFile("INI.ini");
+            save.write("volume", volume);
+            save.flush();
+            save.close();
+            song.stop();
+            showGameMenu();
+        }
+        ShowPicture2("menues/buchmenue.png",0,0,800,600);
+        font.drawTextBox(200,200,200,50,0,"Credits");
+        font.drawTextBox(150,250,500,200,0,"Dieses Spiel wurde von Alexander Ullrich, Manuel Tenoro Fenton, Johannes Wutzke und Johannes Zeisse programmiert. \n" +
+			"Die Artworks sowie Sounds stammen von Tim Malte Zaruba.  \n" +
+			"Weitere Ideen und Zuarbeiten stammen von Miriam Labrenz, Christian Hammer, Sara Aryanejad Kurumi und Danny Puhan.  \n");
+        displayEntry(300,450,150,50,"Zurueck",true,"menues/wood_grain.gif",true);
+        FlipScreen();
+        key=getTheFuckingKeys();
+    }
+}
+
 //zeigt das spielmen? am anfang
 function showGameMenu(){
 	var song=instantSoundRepeat("MENUoverworld.wav");
-    song.setVolume(volume*255)
+    song.setVolume(volume*255);
 	var entry_highlighted=1;
 	var key=0;
 	var entrys=5;
@@ -170,7 +205,7 @@ function showGameMenu(){
 			if (entry_highlighted===2) {song.stop();Load_Game();}
 			if (entry_highlighted===3) {soundMenu(song);}
 			if (entry_highlighted===4) {song.stop(); Exit();}
-			if (entry_highlighted===5) ;//credits();
+			if (entry_highlighted===5) {credits(song);}
 			}
 ShowPicture2("menues/buchmenue2.png",0,0,800,600);
 ShowPicture("menues/minik-mini-bleistift.png",300,160,400,400);
@@ -509,8 +544,11 @@ function oberwelt_karte(){
        if((key==key_map)&&(main2==4)) {quit = true;};
 		if ((key==KEY_UP)&&(pointer_case<5)) pointer_case++;
 		if ((key==KEY_DOWN)&&(pointer_case>0)) pointer_case--;
-		if ((key==KEY_RIGHT)&&(pointer_case<5)) pointer_case++;
-		if ((key==KEY_LEFT)&&(pointer_case>0)) pointer_case--;
+
+		//if ((key==KEY_RIGHT)&&(pointer_case<5)&&(pointer_case>3)) pointer_case++;
+        if ((key==KEY_RIGHT)&&(pointer_case>0)) pointer_case--;
+		if ((key==KEY_LEFT)&&(pointer_case<5)) pointer_case++;
+        //if ((key==KEY_LEFT)&&(pointer_case>4)) pointer_case--;
 
 				// picks the world where the player has to ve respawned, or dislplays
 				//	the "blocked message on screen"
