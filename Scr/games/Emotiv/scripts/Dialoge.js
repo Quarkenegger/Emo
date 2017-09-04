@@ -882,56 +882,56 @@ var dialog_4004 = {
 // Professor - Ende 2
 var dialog_4005 = {
   dialog:[
-	'Prof. Kiefer Bauer: Indiana, wenn du mich suchst, ich bin im Labor.','Professor.jpg',
+	'Prof. Kiefer Bauer: Damit ist unsere Aufgabe erldigt. Wenn du möchtest kannst du jetzt noch durch die Gebiete gehen und\
+	anderen Menschen helfen. Ich bin derweil im Labor und forsche weiter. Auf wiedersehen.','Professor.jpg',
 	]
 }
 
 // person_1 - Trashtalk
 var dialog_4006 = {
   dialog:[
-	'Tobi: Danke das du uns geholfen hast.','Professor.jpg',
+	'Tobi: Danke das du uns geholfen hast.','Tobias.png',
 	]
 }
 
 // person_2 - Trashtalk
 var dialog_4007 = {
   dialog:[
-	'Didi: Ich danke dir Indiana,  jetzt weiï¿½ ich wieder wie man froehlich ist.','Professor.jpg',
+	'Didi: Ich danke dir Indiana,  jetzt weiss ich wieder wie man froehlich ist.','didi.png',
 	]
 }
 
 // person_3 - Trashtalk
 var dialog_4008 = {
   dialog:[
-	'Prof. Kiefer Bauer: Indiana, wenn du mich suchst, ich bin im Labor.','Professor.jpg',
+	'Rosalina: Ich danke dir vielmals, hoffentlich kannst du auch anderen Menschen helfen.','Rosalina_heiter.jpg',
 	]
 }
 
 // person_4 - Trashtalk
 var dialog_4009 = {
   dialog:[
-	'Prof. Kiefer Bauer: Indiana, wenn du mich suchst, ich bin im Labor.','Professor.jpg',
+	'Lisa: ~ weint ~    Ich bin soooo gluecklich.','Person_ende_1.jpg',
 	]
 }
 
 // person_5 - Trashtalk
 var dialog_4010 = {
   dialog:[
-	'Prof. Kiefer Bauer: Indiana, wenn du mich suchst, ich bin im Labor.','Professor.jpg',
+	'Karola: ES IST VORBEI!!! ENDLICH VORBEI!!','Person_ende_2.jpg',
 	]
 }
 
 // person_6 - Trashtalk
 var dialog_4011 = {
   dialog:[
-	'Prof. Kiefer Bauer: Indiana, wenn du mich suchst, ich bin im Labor.','Professor.jpg',
+	'Igor: Danke für deine Hilfe.','Igor.png',
 	]
 }
 
 // person_7 - Trashtalk
 var dialog_4012 = {
   dialog:[
-  'Prof. Kiefer Bauer: Indiana, du solltest durch die Gebiete laufen und anderen Menschen helfen die das gleiche Problem haben.','Professor.jpg',
-	'Prof. Kiefer Bauer: Ich bin derweil in meinem Labor und forsche weiter.','Professor.jpg',
+  'Jonathan: Gott sei Dank, es ist endlich vorbei.','Jonathan_heiter.jpg',
 	]
 }

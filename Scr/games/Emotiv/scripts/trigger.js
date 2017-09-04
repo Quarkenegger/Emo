@@ -904,8 +904,11 @@ function trigger4001_Professor(){
 		if(trigger_progress[0] == 4000){
 			Dialog("dialog_4002");
 			closeQuest(20);
-			trigger_progress[0]=trigger_progress[0]+1;//4001
+			trigger_progress[0]=trigger_progress[0]+2;//4001
 			MapChange("kulturzentrum_eingang_ende.rmp",265,165,"MAPgallery.mp3");
+			Dialog("dialog_4004");
+			lightning("white.png");
+			Dialog("dialog_4005");
 		}else{
 			Dialog("dialog_4003");
 		}
@@ -917,4 +920,32 @@ function trigger4002_Professor(){
 			lightning("white.png");
 			Dialog("dialog_4005");
 		}
+};
+
+function trigger4003_Person_ende_1(){
+			Dialog("dialog_4006");
+};
+
+function trigger4003_Person_ende_2(){
+			Dialog("dialog_4007");
+};
+
+function trigger4003_Person_ende_3(){
+			Dialog("dialog_4008");
+};
+
+function trigger4003_Person_ende_4(){
+			Dialog("dialog_4009");
+};
+
+function trigger4003_Person_ende_5(){
+			Dialog("dialog_4010");
+};
+
+function trigger4003_Person_ende_6(){
+			Dialog("dialog_4011");
+};
+
+function trigger4003_Person_ende_7(){
+			Dialog("dialog_4012");
 };
