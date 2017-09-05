@@ -134,21 +134,21 @@ var Trash_021 = {
 
 var Trash_022 = {
     dialog:[
-        'Hier gibt es frisches Obst und Gemuese.','Ute6.jpg',
+        'Hier gibt es frisches Obst und Gemuese.','Ute6.png',
     ]
 }
 
 
 var Trash_023 = {
     dialog:[
-        'Wo habe ich nur meine Kuscheltiere? Man sollte sie sicher im Regal verstauen.','Ute7.jpg',
+        'Wo habe ich nur meine Kuscheltiere? Man sollte sie sicher im Regal verstauen.','Ute7.png',
     ]
 }
 
 
 var Trash_024 = {
     dialog:[
-        'Hier ist das Labor des Professors. Ich fühle mich wie in Tolaria.','Hans6.jpg',
+        'Hier ist das Labor des Professors. Ich fÃ¼hle mich wie in Tolaria.','Hans6.png',
     ]
 }
 
@@ -283,7 +283,7 @@ var dialog_014 = {
 var dialog_015 = {
 dialog:[
 	'Professor Kiefer Bauer: Guten Abend, ich habe gehoert du ermittelst im Galeriefall. Bei diesem Fall sollst du nicht nur den Taeter finden sondern auch den Leuten helfen.','Professor.jpg',
-	'Professor Kiefer Bauer: Deshalb bin ich zu dir gekommen um dir mit meiner neusten Erfindung bei dieser Aufgabe zu helfen: dem [Emolex]. In dem Emolex kannst du dir nochmal Emotionen ansehen, die du bereits erkannt hast. Das hilft dir diese beim n�chsten mal leichter zu erkennen und ich kann weitere Informationen sammeln.','Professor.jpg',
+	'Professor Kiefer Bauer: Deshalb bin ich zu dir gekommen um dir mit meiner neusten Erfindung bei dieser Aufgabe zu helfen: dem [Emolex]. In dem Emolex kannst du dir nochmal Emotionen ansehen, die du bereits erkannt hast. Das hilft dir diese beim nï¿½chsten mal leichter zu erkennen und ich kann weitere Informationen sammeln.','Professor.jpg',
 	'Professor Kiefer Bauer: Den Emolex findest du in deinem [Menue] wenn du [Tabulator] drueckst oder wenn du mitten im Spiel [E] druckst.','Professor.jpg',
     'Professor Kiefer Bauer: Falls du noch Fragen hast besuche mich im Labor oder druecke [H]','Professor.jpg',
 ]
@@ -474,7 +474,7 @@ var dialog_1012 = {
 var dialog_1013 = {
     dialog:[
         'Kuenstelerin Yuga spricht ins Telefon: Ja, mein Kunstprojekt mit dem Wischmop war superb. Dafuer habe ich einen Preis verdient. Mindestens einen.','Yuga.jpg',
-        'Kuenstelerin Yuga: Ist was? ich muss ein wichtiges Gespraech führen.','Yuga.jpg'
+        'Kuenstelerin Yuga: Ist was? ich muss ein wichtiges Gespraech fÃ¼hren.','Yuga.jpg'
     ]
 }
 var dialog_1014 = {
@@ -505,7 +505,7 @@ var dialog_2002 = {
 var dialog_2003 = {
     dialog:[
         'Universitaetsprofessor: Danke dass du meinen Studenten geholfen hast, jetzt koennen wir zu ihren Ermittlungen uebergehen. ','uniprof.png',
-        'Universitaetsprofessor: Ich verstehe, es geht um das Bild Emotionale Grande und die ploetzlichen Probleme der Menschen, die keine Emotionen mehr erkennen können. ','uniprof.png',
+        'Universitaetsprofessor: Ich verstehe, es geht um das Bild Emotionale Grande und die ploetzlichen Probleme der Menschen, die keine Emotionen mehr erkennen kÃ¶nnen. ','uniprof.png',
         'Universitaetsprofessor: Einer meiner Kollegen befasst sich mit Emotionsforschung, sein Name ist Kiefer Bauer. Ich habe ihn lange nicht gesehen ','uniprof.png',
         'Universitaetsprofessor: In letzter Zeit hat er sich seltsam Verhalten und zurueck gezogen. Eventuell war er der Taeter. ','uniprof.png',
         'Universitaetsprofessor: Geh in den Filmpark, dort sollte er sich aufhalten. Gehe dazu zum Parkplatz und benutze mein Auto. Hier nimm das, das ist eine Eintrittskarte. ','uniprof.png',
@@ -516,7 +516,7 @@ var dialog_2003 = {
 
 var dialog_2004 = {
     dialog:[
-        'Student: Ich habe so großen Hunger! ','student01.png',
+        'Student: Ich habe so groÃen Hunger! ','student01.png',
     ]
 }
 
@@ -595,7 +595,7 @@ var dialog_3003 = {
 var dialog_3004 = {
   dialog:[
 	'Koenig Johann: Hallo Untertan, wie kann euer Koenig euch helfen? ','Koenig_1.jpg',
-	'Koenig Johann: Ihr sucht den Professor? Ich wei� wo er ist, wenn Ihr mein Raetsel loest...','Koenig_1.jpg',
+	'Koenig Johann: Ihr sucht den Professor? Ich weiï¿½ wo er ist, wenn Ihr mein Raetsel loest...','Koenig_1.jpg',
 	  ]
 }
 
@@ -710,7 +710,7 @@ var dialog_3019 = {
 	'Jonathan: Oh, du suchst den Professor?','Jonathan_schwaermerisch.png',
 	'Jonathan: Er war gerade noch hier, ist dann aber weggegangen.','Jonathan_schwaermerisch.png',
 	'Jonathan: Wenn du mir einen Gefallen tust, sage ich dir wo er hingegangen ist.','Jonathan_schwaermerisch.png',
-	'Jonathan: Siehst du Rosalina dahinten am Piano? Ich habe einen Liebesbrief f�r, traue mich aber nicht ihn ihr zu geben.','Jonathan_schwaermerisch.png',
+	'Jonathan: Siehst du Rosalina dahinten am Piano? Ich habe einen Liebesbrief fï¿½r, traue mich aber nicht ihn ihr zu geben.','Jonathan_schwaermerisch.png',
 	'Jonathan: Wenn du ihn ihr bringst und mir sagst ob sie verliebt aussieht, sage ich dir was du wissen willst.','Jonathan_schwaermerisch.png',
 	]
 }
@@ -828,7 +828,7 @@ Ich warte solange in meinem Labor im Dorf auf dich.','Professor.jpg',
 //Tobias der Mechaniker - Linse - 1
 var dialog_3033 = {
   dialog:[
-	'Tobias der Mechaniker: Oh der Professor schickt dich und m�chte eine \"Linse\"? Lass mich kurz suchen, ich habe hier irgendwo eine.','Tobias.png',
+	'Tobias der Mechaniker: Oh der Professor schickt dich und mï¿½chte eine \"Linse\"? Lass mich kurz suchen, ich habe hier irgendwo eine.','Tobias.png',
 	'Tobias der Mechaniker: ...','Tobias.png',
 	'Tobias der Mechaniker: Ahhh hier ist sie. Man sieht sich Kumpel.','Tobias.png',
 	]
@@ -882,7 +882,7 @@ var dialog_4004 = {
 // Professor - Ende 2
 var dialog_4005 = {
   dialog:[
-	'Prof. Kiefer Bauer: Damit ist unsere Aufgabe erldigt. Wenn du m�chtest kannst du jetzt noch durch die Gebiete gehen und\
+	'Prof. Kiefer Bauer: Damit ist unsere Aufgabe erldigt. Wenn du möchtest kannst du jetzt noch durch die Gebiete gehen und\
 	anderen Menschen helfen. Ich bin derweil im Labor und forsche weiter. Auf wiedersehen.','Professor.jpg',
 	]
 }
@@ -925,7 +925,7 @@ var dialog_4010 = {
 // person_6 - Trashtalk
 var dialog_4011 = {
   dialog:[
-	'Igor: Danke f�r deine Hilfe.','Igor.png',
+	'Igor: Danke für deine Hilfe.','Igor.png',
 	]
 }
 
