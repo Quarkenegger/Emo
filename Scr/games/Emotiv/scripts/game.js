@@ -29,7 +29,7 @@ var h = GetScreenHeight();
 var oberwelt_karte_array= [1,1,1,0,0,0];
 var time=0;
 var points=0;
-var emomap=true;
+var emomap=false;
 var wassaved=false;
 var savevariables=[0,0,"null"]
 
