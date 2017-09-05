@@ -60,6 +60,11 @@ Dialog("Trash_006");
 }
 };
 
+function Trash_Hubert (){
+Dialog("Trash_006_1_hubert");
+};
+
+
 
 //------------------------------------------Trash Lifefiller Stadt
 //Typ vor der Detektei

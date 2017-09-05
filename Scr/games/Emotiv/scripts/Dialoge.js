@@ -42,6 +42,12 @@ var Trash_006 = {
 	]
 }
 
+var Trash_006_1_hubert = {
+  dialog:[
+	'Galerist Hubert: Was war das fuer ein helles Licht? Vielleicht sollte ich darauf zugehen.','Hubert.jpg',
+	]
+}
+
 
 //------------------------------------------Lifefiller Stadt
 //Typ vor Detektei
