@@ -560,7 +560,7 @@ function oberwelt_karte(){
 					else if ((pointer_case == 3)&&(oberwelt_karte_array[3]==1)){ MapChange("Uni.rmp",493,904,"MAPcampus.ogg");quit = true;break;} // teleport to uni
 					else if ((pointer_case == 4)&&(oberwelt_karte_array[4]==1)) {MapChange("Wohnviertel.rmp",429,996,"MAPwohngebiet.wav");quit = true;break;} // teleport to wohngebiet
 					else if ((pointer_case == 5)&&(oberwelt_karte_array[5]==1)) {MapChange("Park.rmp",871,1576,"MAPpark2.wav");quit = true;break;} // teleport to park
-					else debugText("Nicht freigeschaltet2!");
+					else debugText("Noch nicht freigeschaltet!");
 				}
 				if (key== key_cancel)
 				{

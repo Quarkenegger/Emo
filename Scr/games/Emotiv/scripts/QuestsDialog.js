@@ -358,6 +358,6 @@ function miniGame(pname){
   }else{
    RenderMap();
 
-  debugText("leider falsch. Die richtige Antwort war: "+getRightAnswer("puzzles",pname));
+  debugText("Leider falsch. \n Die richtige Antwort war: "+getRightAnswer("puzzles",pname));
   }
 }
