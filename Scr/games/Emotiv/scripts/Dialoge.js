@@ -148,7 +148,7 @@ var Trash_023 = {
 
 var Trash_024 = {
     dialog:[
-        'Hier ist das Labor des Professors. Ich fÃ¼hle mich wie in Tolaria.','Hans6.png',
+        'Hier ist das Labor des Professors. Ich fuehle mich wie in Tolaria.','Hans6.png',
     ]
 }
 
