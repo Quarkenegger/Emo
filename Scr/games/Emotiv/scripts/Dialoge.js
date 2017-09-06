@@ -183,7 +183,9 @@ var Trash_010 = {
 //----------------------------------Stadt Quark
 var dialog_001 = {
   dialog:[
-	'Galerist Hubert: Sehr geehrte Damen und Herren, ich moechte sie zu unserer neusten Ausstellung willkommen heissen. Sie traegt den Titel Fest der Emotionen. Ich freue mich ihnen nun unser Highlight enthuellen zu duerfen. Dieses Bild kommt von einem Anonymen Kuenstler und heisst Emotionale Grande.','Hubert.jpg',
+	'Galerist Hubert: Sehr geehrte Damen und Herren, ich moechte sie zu unserer neusten Ausstellung \
+	willkommen heissen. Sie traegt den Titel Fest der Emotionen. Ich freue mich ihnen nun unser Highlight \
+	enthuellen zu duerfen. Dieses Bild kommt von einem Anonymen Kuenstler und heisst Emotionale Grande.','Hubert.jpg',
   ]
 }
 
@@ -197,7 +199,8 @@ var dialog_003 = {
   dialog:[
 	'Tobias: Ah, was war das?!','Tobias.png',
 	'Didi: Mir ist ploetzlich ganz schwindelig.','didi.png',
-	'Galerist Hubert: Nach diesem seltsamen Vorfall solltest du ueberpruefen, ob alles in Ordnung ist. Bewege dich mit den [Pfeiltasten] zu dem Bild rechts unten auf dem die Hunde zu sehen sind.','Hubert.jpg'
+	'Galerist Hubert: Nach diesem seltsamen Vorfall solltest du ueberpruefen, ob alles in Ordnung ist. \
+	Bewege dich mit den [Pfeiltasten] zu dem Bild rechts unten auf dem die Hunde zu sehen sind.','Hubert.jpg'
 	]
 }
 
@@ -215,20 +218,25 @@ var dialog_005 = {
 
 var dialog_006 = {
   dialog:[
-	'Polizeichef Rick Bury: Noch koennen wir uns diesen Vorfall nicht erklaeren, deshalb kommen sie bitte mit uns auf das Polizeirevier. Dort werde ich ihnen den Fall uebertragen. ','Rick_Bury.jpg',
-      'Polizeichef Rick Bury: Und merken sie sich eins, wenn sie das Gebiet wechseln klicken sie den Gebietsnamen mit [Space] weg. ','Rick_Bury.jpg'
+	'Polizeichef Rick Bury: Noch koennen wir uns diesen Vorfall nicht erklaeren, deshalb kommen sie bitte mit uns auf das Polizeirevier. \
+	Dort werde ich ihnen den Fall uebertragen. ','Rick_Bury.jpg',
+  'Polizeichef Rick Bury: Und merken sie sich eins, wenn sie das Gebiet wechseln klicken sie den Gebietsnamen mit [Space] weg. ','Rick_Bury.jpg'
 
   ]
 }
 
 var dialog_007 ={
   dialog:[
-  'Polizeichef Rick Bury: Wie sie wissen, gab es heute Abend einen seltsamen Zwischenfall in der Galerie. Seitdem fuehlen sich alle Gaeste komisch und haben Probleme Emotionen anderer Leute zu erkennen. ','Rick_Bury.jpg',
-	  'Polizeichef Rick Bury: Als Detektiv sind sie fuer diesen Fall besser geeignet als unsere Leute, deshalb uebertrage ich ihnen den Fall. Suchen sie nach Hinweisen um den Taeter ausfindig zu machen und helfen sie den Betroffenen. ','Rick_Bury.jpg',
-      'Polizeichef Rick Bury: Dafuer sollten sie ihre 2 Gehilfen Sam und Max einbeziehen. Die beiden muessten sich in ihrer Detektei befinden. Um dort hin zu gelangen gehen sie von hier aus in den Sueden. Im Zentrum der Stadt befindet sich ihre Detektei, aber das wissen sie ja.','Rick_Bury.jpg',
+  'Polizeichef Rick Bury: Wie sie wissen, gab es heute Abend einen seltsamen Zwischenfall in der Galerie. \
+  Seitdem fuehlen sich alle Gaeste komisch und haben Probleme Emotionen anderer Leute zu erkennen. ','Rick_Bury.jpg',
+	'Polizeichef Rick Bury: Als Detektiv sind sie fuer diesen Fall besser geeignet als unsere Leute, deshalb uebertrage ich ihnen den Fall. \
+	Suchen sie nach Hinweisen um den Taeter ausfindig zu machen und helfen sie den Betroffenen. ','Rick_Bury.jpg',
+  'Polizeichef Rick Bury: Dafuer sollten sie ihre 2 Gehilfen Sam und Max einbeziehen. Die beiden muessten sich in ihrer Detektei befinden. \
+  Um dort hin zu gelangen gehen sie von hier aus in den Sueden. Im Zentrum der Stadt befindet sich ihre Detektei, aber das wissen sie ja.','Rick_Bury.jpg',
 	'Polizeichef Rick Bury: ... ','Rick_Bury.jpg',
-	'Polizeichef Rick Bury: Um ihre Aufgaben und deren Fortschritt einsehen zu koennen, oeffnen sie das Menue mit [Tabulator] und lesen im Questbuch nach oder druecken sie im Spiel [Q]. Mit [Tabulator] werden die Menues wieder verlassen. ','Rick_Bury.jpg',
-	  'Polizeichef Rick Bury:  Viel Erfolg!!. ','Rick_Bury.jpg',
+	'Polizeichef Rick Bury: Um ihre Aufgaben und deren Fortschritt einsehen zu koennen, oeffnen sie das Menue mit [Tabulator] und \
+	lesen im Questbuch nach oder druecken sie im Spiel [Q]. Mit [Tabulator] werden die Menues wieder verlassen. ','Rick_Bury.jpg',
+	'Polizeichef Rick Bury:  Viel Erfolg!!. ','Rick_Bury.jpg',
 
   ]
 }
@@ -249,7 +257,8 @@ var dialog_010 = {
   dialog:[
 	'Sam: Hallo Chef, du siehst mitgenommen aus.','Sam.jpg',
 	'Sam: ...','Sam.jpg',
-	'Sam: Du willst mit Max und mir ueber einen neuen Fall reden? Max ist vorhin nach oben gegangen um eine Akte zu suchen aber ist schon lange weg. Du solltest nach ihm sehen..','Sam.jpg',
+	'Sam: Du willst mit Max und mir ueber einen neuen Fall reden? Max ist vorhin nach oben gegangen um eine Akte zu suchen aber ist schon lange weg. \
+	Du solltest nach ihm sehen..','Sam.jpg',
 	]
 }
 
@@ -261,8 +270,10 @@ var dialog_011 = {
 
 var dialog_012 = {
   dialog:[
-	'Hausmeister Billy: Du denkst Max ist im Fahrstuhl eingesperrt? Also ich werden den nicht reparieren. Die Leute koennten ja auch die Treppen benutzen, aber das faellt niemandem ein.','Billy.jpg',
-	'Hausmeister Billy: Da ist eine Sicherung raus. Kein Wunder, in diesem Saftladen wird vor allem an der Technik gespart. ueberbrueckt die Sicherung. Saugefaehrlich, aber die Leute wollen vermutlich nicht warten, bis ich eine neue Sicherung gesucht habe.','Billy.jpg',
+	'Hausmeister Billy: Du denkst Max ist im Fahrstuhl eingesperrt? Also ich werden den nicht reparieren. \
+	Die Leute koennten ja auch die Treppen benutzen, aber das faellt niemandem ein.','Billy.jpg',
+	'Hausmeister Billy: Da ist eine Sicherung raus. Kein Wunder, in diesem Saftladen wird vor allem an der Technik gespart. \
+	Ueberbrueckt die Sicherung. Saugefaehrlich, aber die Leute wollen vermutlich nicht warten, bis ich eine neue Sicherung gesucht habe.','Billy.jpg',
 	'Hausmeister Billy: Hier ein Schraubenschluessel zur Reparatur. Fuer sowas werd ich zu schlecht bezahlt.','Billy.jpg',
 	'Hausmeister Billy: Du willst wiessen ob ich bei der Ausstellung war?! Doofe Frage, sieht man mir das nicht an?!','Billy.jpg',
 		]
@@ -280,18 +291,23 @@ var dialog_014 = {
 	'Sam: Ich war ganz beunruhigt Max....','Sam_beunruhigt',
 	'Sam: Erzaehl uns ueber den Fall Chef','Sam.jpg',
 	'Sam: ...','Sam.jpg',
-	'Sam: So ist das also. Wir sollen den Taeter finden und dabei den Leuten helfen. Wir werden dir mit unserer Faehigkeiten helfen. Wenn du fragen zu Quest oder Tipps hast frage mich. Bei Fragen zu Emotionen rede mit Max.','Sam.jpg',
-      'Sam: Wenn du weite Wege in der Stadt ueberbruecken willst oder eine Uebersicht haben willst, sieh dir die [Map] im [Menue] an oder oeffne sie mit [M] mitten im Spiel.','Sam.jpg',
+	'Sam: So ist das also. Wir sollen den Taeter finden und dabei den Leuten helfen. Wir werden dir mit unserer Faehigkeiten helfen. \
+	Wenn du fragen zu Quest oder Tipps hast frage mich. Bei Fragen zu Emotionen rede mit Max.','Sam.jpg',
+  'Sam: Wenn du weite Wege in der Stadt ueberbruecken willst oder eine Uebersicht haben willst, sieh dir die [Map] im [Menue] an oder \
+  oeffne sie mit [M] mitten im Spiel.','Sam.jpg',
 
   ]
 }
 
 var dialog_015 = {
 dialog:[
-	'Professor Kiefer Bauer: Guten Abend, ich habe gehoert du ermittelst im Galeriefall. Bei diesem Fall sollst du nicht nur den Taeter finden sondern auch den Leuten helfen.','Professor.jpg',
-	'Professor Kiefer Bauer: Deshalb bin ich zu dir gekommen um dir mit meiner neusten Erfindung bei dieser Aufgabe zu helfen: dem [Emolex]. In dem Emolex kannst du dir nochmal Emotionen ansehen, die du bereits erkannt hast. Das hilft dir diese beim nï¿½chsten mal leichter zu erkennen und ich kann weitere Informationen sammeln.','Professor.jpg',
+	'Professor Kiefer Bauer: Guten Abend, ich habe gehoert du ermittelst im Galeriefall. Bei diesem Fall sollst du nicht nur den Taeter \
+	finden sondern auch den Leuten helfen.','Professor.jpg',
+	'Professor Kiefer Bauer: Deshalb bin ich zu dir gekommen um dir mit meiner neusten Erfindung bei dieser Aufgabe zu helfen: dem [Emolex]. \
+	In dem Emolex kannst du dir nochmal Emotionen ansehen, die du bereits erkannt hast. Das hilft dir diese beim naechsten mal leichter zu \
+	erkennen und ich kann weitere Informationen sammeln.','Professor.jpg',
 	'Professor Kiefer Bauer: Den Emolex findest du in deinem [Menue] wenn du [Tabulator] drueckst oder wenn du mitten im Spiel [E] druckst.','Professor.jpg',
-    'Professor Kiefer Bauer: Falls du noch Fragen hast besuche mich im Labor oder druecke [H]','Professor.jpg',
+  'Professor Kiefer Bauer: Falls du noch Fragen hast besuche mich im Labor oder druecke [H]','Professor.jpg',
 ]
 }
 
@@ -303,12 +319,13 @@ var dialog_016 = {
 
 var dialog_017 = {
   dialog:[
-    'Jace: Ist dir aufgefallen, dass hier alle gelich aussehen?!.','Jace.jpg',
+  'Jace: Ist dir aufgefallen, dass hier alle gleich aussehen?!.','Jace.jpg',
 	'Jace: Was? Du willst uns Boeroarbeiter zu dem Galeriefall befragen?!.','Jace.jpg',
 	'Jace: Dafuer haben wir keine Zeit.','Jace.jpg',
 	'Jace: Du kannst uns natuerlich helfen indem du [Bueromaterial] einkaufen gehst.','Jace.jpg',
 	'Jace: Besorge [Tacker], [Bueroklammern], [Aktenordner] und [Stifte].','Jace.jpg',
-	'Jace: Wenn du alles hast, kann die Befragung starten. Deine Items werden uebrigens im Inventar angezeigt, welches du im [Menue] findest oder wenn du [I] im Spiel drueckst','Jace.jpg',
+	'Jace: Wenn du alles hast, kann die Befragung starten. Deine Items werden uebrigens im Inventar angezeigt, welches du im [Menue] \
+	findest oder wenn du [I] im Spiel drueckst','Jace.jpg',
 		]
 }
 
@@ -323,13 +340,13 @@ var dialog_019 = {
   dialog:[
 	'Gisela: SCHNIEF.','Gisela.jpg',
 	'Giesla: ...','Gisela.jpg',
-	'Giesla: Ich vermisse mein Liebnlingsplaeschtier. Es ist leider kaputt gegangen','Gisela.jpg',
+	'Giesla: Ich vermisse mein Lieblingsplueschtier. Es ist leider kaputt gegangen','Gisela.jpg',
 		]
 }
 
 var dialog_020 = {
   dialog:[
-	'Gisela: Das ist ja eine suesse Puppe. Vielen Dank. Das heitert mich sehr auf..','Gisela_heiter',
+	'Gisela: Das ist ja eine suesse Puppe. Vielen Dank. Das heitert mich sehr auf.','Gisela_heiter',
 		]
 }
 
@@ -382,13 +399,13 @@ var dialog_026 = {
 
 var dialog_027 = { 
   dialog:[
-	'Faehre die Ermittlungen erst in der Sadt zuende. ','Karotte.png',
+	'Fuehre die Ermittlungen erst in der Sadt zuende. ','Karotte.png',
 		]
 }
 
 var dialog_028 = {
     dialog:[
-        'Jace starrt abwesend auf ein leres Blatt Papier....','Jace.jpg',
+        'Jace starrt abwesend auf ein leeres Blatt Papier....','Jace.jpg',
         'Jace erwacht ruckartig aus seinem Koma.','Jace.jpg',
         'Jace: Ugin hat mich dazu getrieben!','Jace.jpg',
         'Jace: Ach so ihr seids, ich penne, aehm, arbeite dann mal weiter.','Jace.jpg',
@@ -479,8 +496,9 @@ var dialog_1012 = {
 }
 var dialog_1013 = {
     dialog:[
-        'Kuenstelerin Yuga spricht ins Telefon: Ja, mein Kunstprojekt mit dem Wischmop war superb. Dafuer habe ich einen Preis verdient. Mindestens einen.','Yuga.jpg',
-        'Kuenstelerin Yuga: Ist was? ich muss ein wichtiges Gespraech fÃ¼hren.','Yuga.jpg'
+        'Kuenstelerin Yuga spricht ins Telefon: Ja, mein Kunstprojekt mit dem Wischmop war superb. Dafuer habe ich einen Preis verdient. \
+        Mindestens einen.','Yuga.jpg',
+        'Kuenstelerin Yuga: Ist was? ich muss ein wichtiges Gespraech fuehren.','Yuga.jpg'
     ]
 }
 var dialog_1014 = {
@@ -497,7 +515,8 @@ var dialog_1009 = {
 //-------------------------------------------------------------------------------------Uni (BILDER)
 var dialog_2001 = {
     dialog:[
-        'Universitaetsprofessor: Ich habe gerade keine Zeit, reden sie doch bitte erst mit meine Studenten. Wenn ihre Probleme geklaert sind habe ich mehr Zeit. ','uniprof.png',
+        'Universitaetsprofessor: Ich habe gerade keine Zeit, reden sie doch bitte erst mit meine Studenten. Wenn ihre Probleme geklaert sind \
+        habe ich mehr Zeit. ','uniprof.png',
          'Universitaetsprofessor: Achja nehmen sie bitte dieses Buch mit, das hat eine Studentin hier vergessen. ','uniprof.png',
     ]
 }
@@ -512,9 +531,11 @@ var dialog_2003 = {
     dialog:[
         'Universitaetsprofessor: Danke dass du meinen Studenten geholfen hast, jetzt koennen wir zu ihren Ermittlungen uebergehen. ','uniprof.png',
         'Universitaetsprofessor: Ich verstehe, es geht um das Bild Emotionale Grande und die ploetzlichen Probleme der Menschen, die keine Emotionen mehr erkennen kÃ¶nnen. ','uniprof.png',
-        'Universitaetsprofessor: Einer meiner Kollegen befasst sich mit Emotionsforschung, sein Name ist Kiefer Bauer. Ich habe ihn lange nicht gesehen ','uniprof.png',
+        'Universitaetsprofessor: Einer meiner Kollegen befasst sich mit Emotionsforschung, sein Name ist Kiefer Bauer. \
+        Ich habe ihn lange nicht gesehen ','uniprof.png',
         'Universitaetsprofessor: In letzter Zeit hat er sich seltsam Verhalten und zurueck gezogen. Eventuell war er der Taeter. ','uniprof.png',
-        'Universitaetsprofessor: Geh in den Filmpark, dort sollte er sich aufhalten. Gehe dazu zum Parkplatz und benutze mein Auto. Hier nimm das, das ist eine Eintrittskarte. ','uniprof.png',
+        'Universitaetsprofessor: Geh in den Filmpark, dort sollte er sich aufhalten. Gehe dazu zum Parkplatz und benutze mein Auto. \
+        Hier nimm dies, das ist eine Eintrittskarte. ','uniprof.png',
 
     ]
 }
@@ -522,7 +543,7 @@ var dialog_2003 = {
 
 var dialog_2004 = {
     dialog:[
-        'Student: Ich habe so groÃen Hunger! ','student01.png',
+        'Student: Ich habe so grossen Hunger! ','student01.png',
     ]
 }
 
@@ -601,7 +622,7 @@ var dialog_3003 = {
 var dialog_3004 = {
   dialog:[
 	'Koenig Johann: Hallo Untertan, wie kann euer Koenig euch helfen? ','Koenig_1.jpg',
-	'Koenig Johann: Ihr sucht den Professor? Ich weiï¿½ wo er ist, wenn Ihr mein Raetsel loest...','Koenig_1.jpg',
+	'Koenig Johann: Ihr sucht den Professor? Ich weiss wo er ist, wenn Ihr mein Raetsel loest...','Koenig_1.jpg',
 	  ]
 }
 
@@ -609,7 +630,8 @@ var dialog_3004 = {
 var dialog_3005 = {
   dialog:[
 	'Koenig Johann: Ahhh Ihr habt mein Raetsel mit Bravur geloest.','Koenig_1.jpg',
-	'Koenig Johann: Nun gut, ich bin ein Mann der zu seinem Wort steht. Das letzte mal habe ich den Professor in Richtung der Kartbahn im Norden laufen sehen.','Koenig_1.jpg',
+	'Koenig Johann: Nun gut, ich bin ein Mann der zu seinem Wort steht. Das letzte mal habe ich den Professor in Richtung der Kartbahn \
+	im Norden laufen sehen.','Koenig_1.jpg',
 	  ]
 }
 
@@ -638,7 +660,8 @@ var dialog_3009 = {
   dialog:[
 	'Tobias der Mechaniker: Hallo Kumpel, Willkommen auf unserer Schoenen Kartbahn.','Tobias.png',
 	'Tobias der Mechaniker: Du suchst den Professor? Ich wuerde dir gerne helfen, leider hat mir jemand meinen Schraubenschluessel entwendet.','Tobias.png',
-	'Tobias der Mechaniker: Wenn du ihn mir wiederbeschaffst, kann ich dir helfen. Zuletzt habe ich meinen Schraubenschluessel oben bei den Reifen gesehen.','Tobias.png',
+	'Tobias der Mechaniker: Wenn du ihn mir wiederbeschaffst, kann ich dir helfen. Zuletzt habe ich meinen Schraubenschluessel oben bei den \
+	Reifen gesehen.','Tobias.png',
 	 ]
 }
 
@@ -653,7 +676,8 @@ var dialog_3010 = {
 var dialog_3011 = {
   dialog:[
 	'Igor: Du suchst einen Schraubenschluessel?','Igor.png',
-	'Igor: Gesehen habe ich keinen, aber vor einer weile ist hier eine seltsam aussehende Frau mit etwas glaenzenden in der Hand gewesen und richtung Sued-Osten gelaufen','Igor.png',
+	'Igor: Gesehen habe ich keinen, aber vor einer weile ist hier eine seltsam aussehende Frau mit etwas glaenzenden in der Hand gewesen \
+	und richtung Sued-Osten gelaufen','Igor.png',
 	 ]
 }
 
@@ -716,7 +740,7 @@ var dialog_3019 = {
 	'Jonathan: Oh, du suchst den Professor?','Jonathan_schwaermerisch.png',
 	'Jonathan: Er war gerade noch hier, ist dann aber weggegangen.','Jonathan_schwaermerisch.png',
 	'Jonathan: Wenn du mir einen Gefallen tust, sage ich dir wo er hingegangen ist.','Jonathan_schwaermerisch.png',
-	'Jonathan: Siehst du Rosalina dahinten am Piano? Ich habe einen Liebesbrief fï¿½r, traue mich aber nicht ihn ihr zu geben.','Jonathan_schwaermerisch.png',
+	'Jonathan: Siehst du Rosalina dahinten am Piano? Ich habe einen Liebesbrief fuer sie, traue mich aber nicht ihn ihr zu geben.','Jonathan_schwaermerisch.png',
 	'Jonathan: Wenn du ihn ihr bringst und mir sagst ob sie verliebt aussieht, sage ich dir was du wissen willst.','Jonathan_schwaermerisch.png',
 	]
 }
@@ -740,7 +764,7 @@ var dialog_3022 = {
   dialog:[
 	'Jonathan: Ohhh Sie sah verliebt aus, das Freut mich.','Jonathan_verliebt.png',
 	'Jonathan: Vielen Dank fuer das ueberbringen meines Briefes.','Jonathan_verliebt.png',
-	'Jonathan: Ich stehe zu meinem Wort, der Professor wollte zum 3D Kino im sueden.','Jonathan_heiter.jpg',
+	'Jonathan: Ich stehe zu meinem Wort, der Professor wollte zum 3D Kino im Sueden.','Jonathan_heiter.jpg',
 	]
 }
 
@@ -834,7 +858,7 @@ Ich warte solange in meinem Labor im Dorf auf dich.','Professor.jpg',
 //Tobias der Mechaniker - Linse - 1
 var dialog_3033 = {
   dialog:[
-	'Tobias der Mechaniker: Oh der Professor schickt dich und mï¿½chte eine \"Linse\"? Lass mich kurz suchen, ich habe hier irgendwo eine.','Tobias.png',
+	'Tobias der Mechaniker: Oh der Professor schickt dich und moechte eine \"Linse\"? Lass mich kurz suchen, ich habe hier irgendwo eine.','Tobias.png',
 	'Tobias der Mechaniker: ...','Tobias.png',
 	'Tobias der Mechaniker: Ahhh hier ist sie. Man sieht sich Kumpel.','Tobias.png',
 	]
@@ -888,7 +912,7 @@ var dialog_4004 = {
 // Professor - Ende 2
 var dialog_4005 = {
   dialog:[
-	'Prof. Kiefer Bauer: Damit ist unsere Aufgabe erldigt. Wenn du möchtest kannst du jetzt noch durch die Gebiete gehen und\
+	'Prof. Kiefer Bauer: Damit ist unsere Aufgabe erldigt. Wenn du moechtest kannst du jetzt noch durch die Gebiete gehen und\
 	anderen Menschen helfen. Ich bin derweil im Labor und forsche weiter. Auf wiedersehen.','Professor.jpg',
 	]
 }
@@ -931,7 +955,7 @@ var dialog_4010 = {
 // person_6 - Trashtalk
 var dialog_4011 = {
   dialog:[
-	'Igor: Danke für deine Hilfe.','Igor.png',
+	'Igor: Danke fuer deine Hilfe.','Igor.png',
 	]
 }
 
