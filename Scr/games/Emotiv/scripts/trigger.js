@@ -849,6 +849,7 @@ function trigger3007_Jonathan(){
 			Dialog("dialog_3022");
 			getEmotion(33); //verliebt
 			closeQuest(16);
+			getClue(14,0);
 			trigger_progress[0]=trigger_progress[0]+1; //3009
 			
 			// Professor "erzeugen"
