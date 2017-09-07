@@ -389,9 +389,9 @@ for(var i = 0; i < progress.length;i=i+1)
   	for (i2=0;i2<cluequest.length;i2++){
   		if (cluequest[i2][0]==questlist[0][i]){
             //debugText(dataclues);
-            cluetext="Hinweise: ";
+            cluetext="\n Hinweise: ";
   			for (i3=1;i3<cluequest[i2].length;i3++){
-                cluetext=cluetext+dataclues[cluequest[i2][i3]];
+                cluetext=cluetext+dataclues[cluequest[i2][i3]]+'\n';
 			}
 
 		}

@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5425cd6b-b694-4876-a881-b2b3319e0117" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/editor.ini" afterPath="$PROJECT_DIR$/Scr/editor.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/save/Savegame_1.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/save/Savegame_1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +25,8 @@
       <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1819">
-              <caret line="107" column="21" lean-forward="false" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+            <state relative-caret-position="952">
+              <caret line="56" column="101" lean-forward="false" selection-start-line="56" selection-start-column="101" selection-end-line="56" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -34,8 +35,8 @@
       <file leaf-file-name="Dialoge.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9146">
-              <caret line="539" column="0" lean-forward="false" selection-start-line="539" selection-start-column="0" selection-end-line="539" selection-end-column="0" />
+            <state relative-caret-position="9605">
+              <caret line="566" column="0" lean-forward="false" selection-start-line="566" selection-start-column="0" selection-end-line="566" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,8 +45,8 @@
       <file leaf-file-name="Menues.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="179" column="81" lean-forward="false" selection-start-line="179" selection-start-column="81" selection-end-line="179" selection-end-column="81" />
+            <state relative-caret-position="17">
+              <caret line="393" column="68" lean-forward="false" selection-start-line="393" selection-start-column="68" selection-end-line="393" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -54,8 +55,8 @@
       <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="107" lean-forward="false" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+            <state relative-caret-position="459">
+              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -64,8 +65,8 @@
       <file leaf-file-name="BasicFunctions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="457" column="65" lean-forward="true" selection-start-line="457" selection-start-column="65" selection-end-line="457" selection-end-column="65" />
+            <state relative-caret-position="10880">
+              <caret line="640" column="101" lean-forward="false" selection-start-line="640" selection-start-column="101" selection-end-line="640" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -74,8 +75,8 @@
       <file leaf-file-name="QuestsDialog.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="1156">
+              <caret line="68" column="14" lean-forward="false" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -85,9 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get</find>
-      <find>rewardonc</find>
-      <find>searchmaps</find>
       <find>dialo</find>
       <find>conversa</find>
       <find>inventor</find>
@@ -101,7 +99,6 @@
       <find>isMemberDouble</find>
       <find>closequest</find>
       <find>is</find>
-      <find>save</find>
       <find>mapChangeBox</find>
       <find>closeques</find>
       <find>debug</find>
@@ -115,6 +112,10 @@
       <find>ismem</find>
       <find>questi</find>
       <find>getqu</find>
+      <find>oberwelt</find>
+      <find>minigame</find>
+      <find>save</find>
+      <find>miniga</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,11 +132,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js" />
+        <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js" />
         <option value="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js" />
       </list>
@@ -168,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,9 +246,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -256,123 +257,6 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scr/games/Emotiv/maps/Detektei_Polizei_Buero.rmp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scr/games/Emotiv/maps/Park.rmp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scr/games/Emotiv/maps/Uni.rmp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scr/games/Emotiv/maps/kulturzentrum_eingang_ende.rmp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scr/games/Emotiv/scripts/trigger.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scr/games/Emotiv/images/characters/Person_ende_1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Scr/games/Emotiv/images/characters/Person_ende_2.jpg</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -796,7 +680,10 @@
       <workItem from="1504455276292" duration="6532000" />
       <workItem from="1504470461445" duration="7951000" />
       <workItem from="1504531361489" duration="1347000" />
-      <workItem from="1504548122692" duration="4766000" />
+      <workItem from="1504548122692" duration="6592000" />
+      <workItem from="1504602907340" duration="710000" />
+      <workItem from="1504778435010" duration="5556000" />
+      <workItem from="1504798944814" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="habs vergessen">
       <created>1495719292874</created>
@@ -1029,15 +916,29 @@
       <option name="project" value="LOCAL" />
       <updated>1504480111359</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="credits hinzugefügt, oberweltkartensteueruung verbessert">
+      <created>1504554419160</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1504554419160</updated>
+    </task>
+    <task id="LOCAL-00035" summary="credits hinzugefügt, oberweltkartensteueruung verbessert">
+      <created>1504604004793</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1504604004793</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62414000" />
+    <option name="totallyTimeSpent" value="71111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1077,8 +978,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Musik added" />
-    <MESSAGE value="trigger umlaut delete" />
     <MESSAGE value="trigger umlaut delete + mapnameaenderung" />
     <MESSAGE value="dialog ändereung (umlaute)" />
     <MESSAGE value="weltenübergang" />
@@ -1102,7 +1001,9 @@
     <MESSAGE value="emolexbeschreibungen gefixt, feedback bei emotionsrätseln verbessert(mit richtiger antwort bei falsch)" />
     <MESSAGE value="Fix" />
     <MESSAGE value="clues hinzugefügt, über getClue(questnummer,Cluenummer) kann dem spieler ein Clue freigeschaltet werden(muss in den quests definiert sein), dieser clue taucht dann im Tagebuch auf, todo-in speichern/laden einbauen" />
-    <option name="LAST_COMMIT_MESSAGE" value="clues hinzugefügt, über getClue(questnummer,Cluenummer) kann dem spieler ein Clue freigeschaltet werden(muss in den quests definiert sein), dieser clue taucht dann im Tagebuch auf, todo-in speichern/laden einbauen" />
+    <MESSAGE value="credits hinzugefügt, oberweltkartensteueruung verbessert" />
+    <MESSAGE value="fix der bilder, fedback für bildrätsel verbessert, cluedarstellung leicht verbessert, emomap wird jetzt korrekt gespeichert" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix der bilder, fedback für bildrätsel verbessert, cluedarstellung leicht verbessert, emomap wird jetzt korrekt gespeichert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1435,48 +1336,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Dialoge.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9146">
-          <caret line="539" column="0" lean-forward="false" selection-start-line="539" selection-start-column="0" selection-end-line="539" selection-end-column="0" />
+        <state relative-caret-position="9605">
+          <caret line="566" column="0" lean-forward="false" selection-start-line="566" selection-start-column="0" selection-end-line="566" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="107" lean-forward="false" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="459">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="107" column="21" lean-forward="false" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+        <state relative-caret-position="952">
+          <caret line="56" column="101" lean-forward="false" selection-start-line="56" selection-start-column="101" selection-end-line="56" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="457" column="65" lean-forward="true" selection-start-line="457" selection-start-column="65" selection-end-line="457" selection-end-column="65" />
+        <state relative-caret-position="10880">
+          <caret line="640" column="101" lean-forward="false" selection-start-line="640" selection-start-column="101" selection-end-line="640" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="14" lean-forward="false" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="179" column="81" lean-forward="false" selection-start-line="179" selection-start-column="81" selection-end-line="179" selection-end-column="81" />
+        <state relative-caret-position="17">
+          <caret line="393" column="68" lean-forward="false" selection-start-line="393" selection-start-column="68" selection-end-line="393" selection-end-column="68" />
           <folding />
         </state>
       </provider>

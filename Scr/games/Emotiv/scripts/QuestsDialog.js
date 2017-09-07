@@ -339,7 +339,7 @@ function miniGame(pname){
    
 	 displayAnswers(pname,entry_highlighted,eval("puzzles."+pname+".answers"));
    window.drawWindow((w/2)-(picture.width/2)*factor,h*0.4,picture.width*factor,picture.height*factor);
-   picture.transformBlit((w/2)-(picture.width/2)*factor-8, h*0.4-8, (w/2)-(picture.width/2)+(picture.width)-48, h*0.4-8, (w/2)-(picture.width/2)+picture.width-48, (h*0.4)+(picture.height*factor)+7, (w/2)-(picture.width/2)*factor-8, (h*0.4)+(picture.height*factor)+7);
+   picture.transformBlit((w/2)-(picture.width/2)*factor-8, h*0.4-8, (w/2)-(picture.width/2)+(picture.width)-78, h*0.4-8, (w/2)-(picture.width/2)+picture.width-78, (h*0.4)+(picture.height*factor)+7, (w/2)-(picture.width/2)*factor-8, (h*0.4)+(picture.height*factor)+7);
   }else{
    if (key==80){
     if (entry_highlighted>1) (entry_highlighted=(entry_highlighted-1));} 
@@ -357,7 +357,24 @@ function miniGame(pname){
   debugText("Gut gemacht!");
   }else{
    RenderMap();
+   FlipScreen();
+   var isbild=   getRightAnswer("puzzles",pname);
+   var regex=new RegExp('.jpg', 'i');
+   if (isbild.toString().match(regex)){
+       RenderMap();
+   	//while (getTheFuckingKeys()!=key_talk) {
+        debugText3("Leider falsch. \n Die richtige Antwort war: ");
+        var picture = LoadImage("puzzles/" + isbild.toString());
+        //picture.transformBlit(200, 200, 400, 200, 200, 400, 400,400);
 
-  debugText("Leider falsch. \n Die richtige Antwort war: "+getRightAnswer("puzzles",pname));
+       picture.transformBlit((w / 2) - (picture.width / 2) * factor - 8, h * 0.6 - 8, (w / 2) - (picture.width / 2) + (picture.width) - 78, h * 0.6 - 8, (w / 2) - (picture.width / 2) + picture.width - 78, (h * 0.6) + (picture.height * factor) + 7, (w / 2) - (picture.width / 2) * factor - 8, (h * 0.6) + (picture.height * factor) + 7);
+       FlipScreen();
+       while (getTheFuckingKeys()!=key_talk){
+
+	   };
+    //}
+   }else{
+       RenderMap();
+  debugText("Leider falsch. \n Die richtige Antwort war: "+getRightAnswer("puzzles",pname));}
   }
 }

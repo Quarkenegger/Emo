@@ -150,6 +150,7 @@ function Load_Game(){
 		trigger_progress[0]=savegame2.trigger_pr[0];
     	trigger_progress[1]=savegame2.trigger_pr[1];
     	oberwelt_karte_array=savegame2.map_pr;
+    	emomap=savegame2.emomap;
 		volume=savegame2.volume;
 
 	//RequireScript(filename1);
@@ -238,6 +239,7 @@ function Save_Game(){
 	save.write("trigger_pr",  trigger_progress);
 	save.write("map_pr", oberwelt_karte_array);
 	save.write("volume",volume);
+
 			*/
 	save.flush();
 	save.close();
@@ -620,10 +622,7 @@ function debugText(text)// zum anzeigen von vars zwecks debug(+text)
         displayEntry(GetScreenWidth()/3, GetScreenHeight()/3,GetScreenWidth()/3, GetScreenHeight()/3,"", true,"white.png",false);
         drawOffsetText(GetScreenWidth()/3+70,GetScreenHeight()/3+80,150,200,0,text,font2);
     }
-   /* FlipScreen();
-	displayEntry(GetScreenWidth()/4+(1*((GetScreenWidth()/4)+5)),(GetScreenHeight()/4)+(Math.round((1)/2))*((GetScreenHeight()/6)+5),GetScreenWidth()/4-5,GetScreenHeight()/6-5,text.toString(), true,"test.png",false);
-	FlipScreen();
-	GetKey();*/
+
 }
 
 function debugText2(text)// zum anzeigen von vars zwecks debug(+text)
@@ -633,6 +632,17 @@ function debugText2(text)// zum anzeigen von vars zwecks debug(+text)
     while (GetKey()!=key_talk)
         displayEntry(GetScreenWidth()/4+(1*((GetScreenWidth()/4)+5)),(GetScreenHeight()/4)+(Math.round((1)/2))*((GetScreenHeight()/6)+5),GetScreenWidth()/4-5,GetScreenHeight()/6-5,text.toString(), true,"test.png",false);
     FlipScreen();;
+}
+
+function debugText3(text)// zum anzeigen von vars zwecks debug(+text), wartet nicht auf eingaben am ende
+{
+    var font2=LoadFont("tahoma12fett.rfn");
+
+    displayEntry(GetScreenWidth()/3, GetScreenHeight()/3,GetScreenWidth()/3, GetScreenHeight()/3*2-20,"", true,"white.png",false);
+    drawOffsetText(GetScreenWidth()/3+70,GetScreenHeight()/3+80,150,200,0,text,font2);
+
+
+
 }
 
 //verbindet 2 arrays zu einem, gibt das zur?ck(+1.array,+2.array)
