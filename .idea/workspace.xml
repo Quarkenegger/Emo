@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5425cd6b-b694-4876-a881-b2b3319e0117" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/save/Savegame_1.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/save/Savegame_1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/BasicFunctions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js" afterPath="$PROJECT_DIR$/Scr/games/Emotiv/scripts/QuestsDialog.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="393" column="68" lean-forward="false" selection-start-line="393" selection-start-column="68" selection-end-line="393" selection-end-column="68" />
+              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -151,7 +148,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -170,6 +167,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,7 +245,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -683,7 +680,8 @@
       <workItem from="1504548122692" duration="6592000" />
       <workItem from="1504602907340" duration="710000" />
       <workItem from="1504778435010" duration="5556000" />
-      <workItem from="1504798944814" duration="605000" />
+      <workItem from="1504798944814" duration="902000" />
+      <workItem from="1504830029004" duration="170000" />
     </task>
     <task id="LOCAL-00001" summary="habs vergessen">
       <created>1495719292874</created>
@@ -930,15 +928,22 @@
       <option name="project" value="LOCAL" />
       <updated>1504604004793</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="fix der bilder, fedback für bildrätsel verbessert, cluedarstellung leicht verbessert, emomap wird jetzt korrekt gespeichert">
+      <created>1504799553980</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1504799553980</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71111000" />
+    <option name="totallyTimeSpent" value="71578000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1377,7 +1382,7 @@
     <entry file="file://$PROJECT_DIR$/Scr/games/Emotiv/scripts/Menues.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="393" column="68" lean-forward="false" selection-start-line="393" selection-start-column="68" selection-end-line="393" selection-end-column="68" />
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding />
         </state>
       </provider>

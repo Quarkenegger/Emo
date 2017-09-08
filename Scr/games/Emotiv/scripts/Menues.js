@@ -27,16 +27,16 @@ function main_menu()
 			font.setColorMask(Black);
 			if (!emomap)
                 font.setColorMask(red);
-            font.drawText(25, 132, "Karte ");
-			font.drawText(25, 12, "Emolex");
+            font.drawText(25, 132, "Karte(m)");
+			font.drawText(25, 12, "Emolex(e)");
             font.setColorMask(Black);
-			font.drawText(25, 42, "Items" );
-			font.drawText(25, 72, "Tagebuch ");
-			font.drawText(25, 102, "Steuerung ");
+			font.drawText(25, 42, "Items(i)" );
+			font.drawText(25, 72, "Tagebuch(q)");
+			font.drawText(25, 102, "Steuerung(h)");
 			font.drawText(25, 162, "Speichern");
 			font.drawText(25, 192, "Laden");
 			font.drawText(25, 222, "Exit");
-
+	
 		ShowPicture2("menues/dreieck.png",(mode=="main")?6:5,yfinger,20,16);
 		//finger.blit((mode=="main")?6:5, yfinger);
 		FlipScreen();
