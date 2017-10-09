@@ -1,0 +1,49 @@
+Changelog Emotiv
+
+Quests:
+Questgebiet Uni hinzugefügt
+Questgebiet Labor hinzugefügt
+Filmpark Quests abgeändert
+Finale angepasst
+Tutorial implementiert
+Questtexte angepasst
+
+Spielfunktionen:
+Shortcuts hinzugefügt
+Sprinten hinzugefügt
+Hinweise im Tagebuch hinzugefügt
+Hilfebildschirm angepasst
+Feedback hinzugefügt für Emotionsquiz
+Minimap und Emolex werden erst im Verlauf der Story freigeschaltet
+
+Maps und Charaktere:
+Labor hinzugefügt
+Hitboxen verbessert
+Texturen verbessert
+Randomcharaktere hinzugefügt
+Randomtexte hinzugefügt
+Hinweise auf Maps eingefügt(z.b. schilder)
+offene nicht begehbare Türen geschlossen
+Triggerpositionen verschoben
+
+gefixte Bugs:
+Speicher/ladebug
+diverse Questbugs
+Laustärke wird nun korrekt gespeichert
+Oberweltkarte funktioniert nun korrekt
+Anzeige von Laden/Speicherfunktionen eingefügt
+Item-deletebug gefixt
+Questbuchbug gefixt
+Feedback-bug gefixt 
+Laden/Speicherfunktion gefixt
+
+sonstiges:
+Anzeige vom Mapnamen bei Mapwechsel
+Kontrollen komplett überarbeitet/vereinheitlicht
+Anzeige des Emolexes an die neuen Kontrollen angepasst
+Gitunterstützung
+Codestruktur überarbeitet
+schönere Anzeigen für Infopanel
+Vereinheitlichung von Menüstilen
+Rechtschreibung verbessert
+Credits hinzugefügt
