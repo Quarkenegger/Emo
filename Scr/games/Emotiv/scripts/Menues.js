@@ -35,8 +35,8 @@ function main_menu()
 			font.drawText(25, 102, "Steuerung(h)");
 			font.drawText(25, 162, "Speichern");
 			font.drawText(25, 192, "Laden");
-			font.drawText(25, 222, "Exit");
-	
+			font.drawText(25, 222, "Menue verlassen");
+
 		ShowPicture2("menues/dreieck.png",(mode=="main")?6:5,yfinger,20,16);
 		//finger.blit((mode=="main")?6:5, yfinger);
 		FlipScreen();

@@ -235,7 +235,7 @@ var dialog_007 ={
   Um dort hin zu gelangen gehen sie von hier aus in den Sueden. Im Zentrum der Stadt befindet sich ihre Detektei, aber das wissen sie ja.','Rick_Bury.jpg',
 	'Polizeichef Rick Bury: ... ','Rick_Bury.jpg',
 	'Polizeichef Rick Bury: Um ihre Aufgaben und deren Fortschritt einsehen zu koennen, oeffnen sie das Menue mit [Tabulator] und \
-	lesen im Questbuch nach oder druecken sie im Spiel [Q]. Mit [Tabulator] werden die Menues wieder verlassen. ','Rick_Bury.jpg',
+	lesen im Questbuch nach oder druecken sie im Spiel [Q]. Mit [Tabulator] werden die Menues wieder verlassen und mit Esc kann zum Hauptmenue zuruekgekehrt werden','Rick_Bury.jpg',
 	'Polizeichef Rick Bury:  Viel Erfolg!!. ','Rick_Bury.jpg',
 
   ]
