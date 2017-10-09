@@ -530,7 +530,7 @@ var dialog_2002 = {
 var dialog_2003 = {
     dialog:[
         'Universitaetsprofessor: Danke dass du meinen Studenten geholfen hast, jetzt koennen wir zu ihren Ermittlungen uebergehen. ','uniprof.png',
-        'Universitaetsprofessor: Ich verstehe, es geht um das Bild Emotionale Grande und die ploetzlichen Probleme der Menschen, die keine Emotionen mehr erkennen kÃ¶nnen. ','uniprof.png',
+        'Universitaetsprofessor: Ich verstehe, es geht um das Bild Emotionale Grande und die ploetzlichen Probleme der Menschen, die keine Emotionen mehr erkennen koennen. ','uniprof.png',
         'Universitaetsprofessor: Einer meiner Kollegen befasst sich mit Emotionsforschung, sein Name ist Kiefer Bauer. \
         Ich habe ihn lange nicht gesehen ','uniprof.png',
         'Universitaetsprofessor: In letzter Zeit hat er sich seltsam Verhalten und zurueck gezogen. Eventuell war er der Taeter. ','uniprof.png',
@@ -964,4 +964,9 @@ var dialog_4012 = {
   dialog:[
   'Jonathan: Gott sei Dank, es ist endlich vorbei.','Jonathan_heiter.jpg',
 	]
+}
+var dialog_4013 = {
+    dialog:[
+        'Koenig Johann: Ihr konntet mein Raetsel leider nicht loesen. Versucht es erneut.','Koenig_1.jpg',
+    ]
 }

@@ -354,7 +354,7 @@ function miniGame(pname){
 
   if (checkresults("puzzles",entry_highlighted,pname)){
   RenderMap();
-  debugText("Gut gemacht!");
+  debugText("Gut gemacht!"); return true;
   }else{
    RenderMap();
    FlipScreen();
@@ -373,8 +373,8 @@ function miniGame(pname){
 
 	   };
     //}
-   }else{
+   return false;}else{
        RenderMap();
-  debugText("Leider falsch. \n Die richtige Antwort war: "+getRightAnswer("puzzles",pname));}
+  debugText("Leider falsch. \n Die richtige Antwort war: "+getRightAnswer("puzzles",pname));return false;}
   }
 }

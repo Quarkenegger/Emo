@@ -777,7 +777,10 @@ function trigger3002_2_Eingang(){
 function trigger3003_Mittelalterstadt(){
     if(trigger_progress[0] == 3002) {
       Dialog("dialog_3004");
-      miniGame("puzzle9");
+	  var hans=miniGame("puzzle9");
+      while (!(hans)){
+			Dialog("dialog_3006");
+			var hans=miniGame("puzzle9");}
 			Dialog("dialog_3005");
 			getEmotion(13); //enttaeuscht
 			trigger_progress[0]=trigger_progress[0]+1; //3003
