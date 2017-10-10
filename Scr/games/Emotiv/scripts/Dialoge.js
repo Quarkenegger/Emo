@@ -622,18 +622,19 @@ var dialog_3003 = {
 var dialog_3004 = {
   dialog:[
 	'Koenig Johann: Hallo Untertan, wie kann euer Koenig euch helfen? ','Koenig_1.jpg',
-	'Koenig Johann: Ihr sucht den Professor? Ich weiss wo er ist, wenn Ihr mein Raetsel loest...','Koenig_1.jpg',
+	'Koenig Johann: Ihr sucht den Professor? Ich weiss wo er ist, wenn Ihr bei meinem Raetsel helft...','Koenig_1.jpg',
 	  ]
 }
 
 //Mittelalterstadt - Professorsuche - 2
 var dialog_3005 = {
   dialog:[
-	'Koenig Johann: Ahhh Ihr habt mein Raetsel mit Bravur geloest.','Koenig_1.jpg',
+	'Koenig Johann: Ich bin von eurem engagement beeindruckt.','Koenig_1.jpg',
 	'Koenig Johann: Nun gut, ich bin ein Mann der zu seinem Wort steht. Das letzte mal habe ich den Professor in Richtung der Kartbahn \
 	im Norden laufen sehen.','Koenig_1.jpg',
 	  ]
 }
+
 
 //Mittelalterstadt - Professorsuche - 3
 var dialog_3006 = {
