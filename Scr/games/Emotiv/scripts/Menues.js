@@ -459,7 +459,7 @@ else { ShowPicture("menues/dreieck2.png",GetScreenWidth()-380, GetScreenHeight()
 questEntrys(y_entry,x_entry,entry_highlighted,isquest);
 FlipScreen();
 key=getTheFuckingKeys();
-}
+}return false;
 }
 
 
